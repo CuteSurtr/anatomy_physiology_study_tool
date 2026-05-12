@@ -1,0 +1,287 @@
+---
+title: Ventilation Mechanics & Lung Volumes
+system: respiratory
+related:
+  - lungs-and-airways
+  - gas-exchange
+figures: []
+sources:
+  - West's Respiratory Physiology 11e
+  - Hall & Guyton - Chapters 38–39
+  - First Aid USMLE 2024
+level: undergrad
+---
+
+Breathing is a **mechanical pump** problem: pressure gradients move air in and out, and elastic properties of the lung + chest wall determine resistance + recoil. Lung volumes, compliance, surface tension, and airway resistance form the core of pulmonary mechanics - and underlie every restrictive vs obstructive distinction on PFTs.
+
+<Figure name="respiratory/lung-volumes" caption="Spirogram showing the four lung volumes (TV, IRV, ERV, RV) and the capacities they combine into (IC, FRC, VC, TLC). RV cannot be measured by spirometry - needs helium dilution or plethysmography." />
+
+<Figure name="respiratory/o2-co2-curve" caption="O2 dissociation curve - how alveolar gas exchange translates to arterial oxygenation." />
+
+## The basic mechanics
+
+### Boyle's law in action
+- Inspiratory muscles contract → thoracic volume ↑ → intrapleural pressure becomes more negative → transpulmonary pressure increases → alveolar pressure drops below atmospheric → **air flows in**.
+- Expiration: passive at rest (elastic recoil); active during exercise / forced expiration (abdominals + internal intercostals).
+
+### Pressures during quiet breathing (cmH₂O)
+| Phase | Atmospheric | Alveolar | Intrapleural | Transpulmonary (A – IP) |
+|---|---|---|---|---|
+| **End-expiration** | 0 | 0 | –5 | +5 |
+| **Mid-inspiration** | 0 | –1 | –7 | +6 |
+| **End-inspiration** | 0 | 0 | –8 | +8 |
+| **Mid-expiration** | 0 | +1 | –6 | +5 |
+
+The pleural space is **always negative** (sub-atmospheric) - keeps the lung expanded against the chest wall. Loss of negativity = pneumothorax.
+
+## Inspiratory muscles
+
+| Muscle | Innervation | Role |
+|---|---|---|
+| **Diaphragm** | Phrenic (C3–C5) | Primary; 75% of tidal volume |
+| **External intercostals** | Intercostal nn. | Bucket-handle rib elevation |
+| **Scalenes** | C3–C8 | Elevate ribs 1–2; accessory at rest |
+| **Sternocleidomastoid + serratus anterior + pec minor** | - | Accessory; only during forced inspiration (asthma, exercise) |
+
+**Expiration** is passive at rest. Active expiration uses **internal intercostals** + **abdominals** (rectus abdominis, internal/external obliques, transversus).
+
+## Lung volumes + capacities
+
+```
+      Inspiratory reserve volume (IRV)
+      ─────────────────────────────────
+              Tidal volume (TV)              ← Normal breath
+      ─────────────────────────────────
+      Expiratory reserve volume (ERV)
+      ─────────────────────────────────
+      Residual volume (RV)                   ← Can't be measured spirometrically
+```
+
+| Volume / capacity | Definition | Typical (70 kg adult) |
+|---|---|---|
+| **Tidal volume (TV)** | Normal breath | 500 mL |
+| **Inspiratory reserve (IRV)** | Max additional inhale from end-inspiration | 3000 mL |
+| **Expiratory reserve (ERV)** | Max additional exhale from end-expiration | 1000 mL |
+| **Residual volume (RV)** | Air left after max exhale | 1200 mL |
+| **Inspiratory capacity (IC)** | TV + IRV | 3500 mL |
+| **Functional residual capacity (FRC)** | ERV + RV - at the **resting equilibrium** between lung recoil + chest wall recoil | 2200 mL |
+| **Vital capacity (VC)** | IRV + TV + ERV | 4500 mL |
+| **Total lung capacity (TLC)** | All four volumes | 5700 mL |
+
+**RV and any capacity that includes it (FRC, TLC) cannot be measured by spirometry** - need **helium dilution** or **body plethysmography**.
+
+### Anatomic vs physiologic dead space
+- **Anatomic dead space** - volume of conducting airways (no gas exchange). ~150 mL (~1 mL per pound).
+- **Physiologic dead space** - anatomic + alveolar (ventilated but not perfused). Equal to anatomic in healthy lungs; ↑ in disease (PE, ARDS).
+- **Bohr equation**: V_D/V_T = (PaCO₂ – PECO₂) / PaCO₂.
+
+### Minute ventilation vs alveolar ventilation
+- **Minute ventilation** = RR × TV (e.g., 12 × 500 = 6 L/min).
+- **Alveolar ventilation** = RR × (TV – V_D) (e.g., 12 × (500 – 150) = 4.2 L/min). **The metric that matters** for gas exchange.
+
+This is why **rapid shallow breathing** can be inefficient - most of each breath fills dead space.
+
+## Compliance - how easily lungs distend
+
+```
+Compliance = ΔV / ΔP
+```
+
+- **High compliance** = lungs distend easily (think floppy balloon). Emphysema, aging - lose elastin.
+- **Low compliance** = stiff lungs. Pulmonary fibrosis, pneumonia, ARDS, pulmonary edema, infant RDS.
+
+### Pressure-volume (P-V) curve
+- Plots lung volume vs transpulmonary pressure.
+- **Hysteresis**: inflation curve differs from deflation (surface tension drops at inflation).
+- Emphysema shifts curve up + left (high compliance).
+- Fibrosis shifts curve down + right (low compliance).
+
+## Surface tension + surfactant
+
+- **Surface tension** at the air-alveolar interface tends to collapse alveoli (Laplace: P = 2T/r → smaller alveoli have higher collapsing pressure).
+- **Surfactant** (dipalmitoylphosphatidylcholine - DPPC) from **type II pneumocytes** lowers surface tension proportionally more as alveoli shrink → equalizes pressures → prevents collapse.
+- Synthesized after ~24 weeks gestation; mature levels at ~35 weeks.
+
+<Figure name="respiratory/alveolus" caption="Alveolar structure matters for mechanics too: the air-fluid interface creates surface tension, while type II pneumocytes secrete surfactant to keep small alveoli from collapsing into larger ones." />
+
+### Neonatal respiratory distress syndrome (NRDS)
+- Premature infants (&lt;32 weeks) lack surfactant → diffuse atelectasis → hypoxemia + ↓ compliance.
+- L/S (lecithin/sphingomyelin) ratio >2 in amniotic fluid = mature lungs.
+- Treat: **exogenous surfactant** (poractant, beractant) + maternal antenatal steroids.
+
+## Airway resistance - Poiseuille's law
+
+```
+R = 8ηL / πr⁴
+```
+
+The **4th-power radius** dominates. Halve the airway radius → resistance jumps 16×.
+
+- Total airway resistance is greatest in **medium-sized bronchi** - not the smallest. Total cross-sectional area is enormous at the bronchiolar/alveolar level (many tubes in parallel), so resistance per unit length is low.
+- The **bronchioles** are the major site of resistance change in disease (constriction in asthma, mucus plugging in COPD).
+
+### Modifiers
+| ↑ Resistance | ↓ Resistance |
+|---|---|
+| Parasympathetic (M3 → contraction) | Sympathetic (β2 → relaxation) |
+| Histamine (asthma) | NO + circulating epi |
+| Cold + dry air | Warm + humid air |
+| Low lung volumes (small airways collapse) | High lung volumes (radial traction holds airways open) |
+
+## Obstructive vs restrictive disease - the PFT signature
+
+| Feature | Obstructive (asthma, COPD) | Restrictive (fibrosis, NMD) |
+|---|---|---|
+| **FEV1** | ↓↓ | ↓ |
+| **FVC** | ↓ | ↓↓ |
+| **FEV1/FVC** | **↓ (&lt;0.7)** | **Normal or ↑** |
+| **TLC** | ↑ (hyperinflation) | ↓ |
+| **RV** | ↑↑ | ↓ |
+| **FRC** | ↑ (air trapping) | ↓ |
+| **DLCO** | ↓ in emphysema; normal in asthma; normal/↓ in chronic bronchitis | ↓ in interstitial lung disease; normal in chest wall/NMD |
+| **Compliance** | ↑ in emphysema | ↓↓ |
+
+### Obstructive - types
+| Disease | Mechanism | Hallmark |
+|---|---|---|
+| **Asthma** | Reversible bronchoconstriction; eosinophilic inflammation | Wheeze, ↑ DLCO; reversible with bronchodilator on PFT (>12% + 200 mL) |
+| **COPD chronic bronchitis** | Goblet cell hyperplasia + mucus hypersecretion; "blue bloater" | Productive cough ≥3 mo for 2 consecutive years; hypoxia + hypercapnia early |
+| **COPD emphysema** | Loss of elastin → permanent enlargement of distal airspaces; "pink puffer" | ↓ DLCO; bullae; barrel chest; α1-AT deficiency in young |
+| **Bronchiectasis** | Permanent airway dilation from chronic inflammation/infection | Copious purulent sputum; CF, post-TB |
+
+### Restrictive - types
+| Type | Examples | DLCO |
+|---|---|---|
+| **Interstitial lung disease** (parenchymal) | IPF, sarcoidosis, hypersensitivity pneumonitis, pneumoconioses, drug-induced (bleomycin, amiodarone, methotrexate) | ↓ |
+| **Chest wall** | Kyphoscoliosis, obesity, ankylosing spondylitis | Normal |
+| **Neuromuscular** | ALS, Guillain-Barré, myasthenia, muscular dystrophy | Normal |
+
+## Control of ventilation
+
+### Central control (medulla + pons)
+- **Dorsal respiratory group** (NTS) - sets inspiratory rhythm
+- **Ventral respiratory group** - expiratory + accessory inspiratory drive in heavy breathing
+- **Pneumotaxic center** (pons) - limits inspiration; ↑ rate
+- **Apneustic center** (pons) - prolongs inspiration if disinhibited
+
+### Chemoreceptors
+| Type | Location | Senses | Response |
+|---|---|---|---|
+| **Central** | Medulla | ↑ CO₂ (via ↓ CSF pH) - most powerful drive at sea level | ↑ ventilation |
+| **Peripheral** | Carotid + aortic bodies | ↓ PaO₂ (especially &lt;60), ↑ PaCO₂, ↓ pH | ↑ ventilation; carotid via CN IX, aortic via CN X |
+
+In chronic CO₂ retainers (COPD), central chemoreceptors reset → **hypoxic drive** (peripheral chemoreceptors) becomes the primary stimulus. **Caution**: excess supplemental O₂ can blunt drive → CO₂ narcosis.
+
+## Function reference - every key player
+
+| Component | Function | Why it matters |
+|---|---|---|
+| **Diaphragm** | Primary inspiratory muscle | Phrenic injury (CN cervical or thoracic surgery) → paradoxical movement on sniff; paralysis halves vital capacity |
+| **Pleural fluid + pressure** | Couples lung to chest wall; allows sliding | Pneumothorax = loss of negative pressure → lung collapse |
+| **Surfactant** | Reduces surface tension | NRDS in premature; ARDS damages type II pneumocytes |
+| **Type II pneumocytes** | Surfactant production + stem cells of alveolar epithelium | Proliferate after type I damage; source of repair |
+| **Type I pneumocytes** | 97% of alveolar surface area; gas exchange | Squamous, very thin; killed in ARDS, viral pneumonia |
+| **Pores of Kohn** | Inter-alveolar pores | Allow collateral ventilation; spread of pus/infection |
+| **Clara (club) cells** | Bronchioles; surfactant components + xenobiotic metabolism (CYP) | Targets of paraquat toxicity; source of bronchiolar epithelial stem cells |
+| **Goblet cells** | Mucus secretion in conducting airways | Hyperplastic in chronic bronchitis |
+| **Cilia** | Mucociliary escalator | Disabled by smoking; Kartagener (immotile cilia) |
+| **Hering-Breuer reflex** | Stretch receptors prevent overinflation | Active in infants + extreme inflation in adults |
+| **Pneumotaxic + apneustic centers** | Modulate brainstem rhythm | Brainstem strokes can produce ataxic or apneustic breathing |
+
+## Why this matters
+
+<HighYield variant="boards">
+- **Pneumothorax**: spontaneous (tall thin males, Marfan, ruptured bleb); tension (one-way valve from injury) - tracheal deviation away, distended neck veins, hypotension. **Needle decompression** at 2nd ICS midclavicular line → chest tube.
+- **PFT bedside read**: FEV1/FVC &lt;0.7 = obstructive. Then check reversibility (asthma vs COPD).
+- **A-a gradient**: A – a O₂ tension. Normal = (age/4) + 4. ↑ A-a gradient = V/Q mismatch, shunt, or diffusion abnormality. Normal A-a gradient with hypoxia = hypoventilation or low FiO₂.
+- **Shunt vs V/Q mismatch**: shunt won't correct with 100% O₂ (no ventilation to that area). V/Q mismatch will (more O₂ at remaining ventilated alveoli compensates). PE = high V/Q (dead space). Pneumonia/atelectasis = low V/Q (shunt physiology).
+- **CO₂ narcosis**: in COPD chronic CO₂ retainers, give O₂ to keep SpO₂ 88–92%. Higher targets risk eliminating hypoxic drive.
+- **CPAP + BiPAP**: CPAP = continuous (one pressure, useful in OSA + cardiogenic pulmonary edema). BiPAP = inspiratory + expiratory (different pressures, useful in COPD exacerbation + neuromuscular weakness).
+- **Cheyne-Stokes** breathing (crescendo-decrescendo with apneas): CHF, brainstem injury, high altitude.
+- **Kussmaul respirations**: deep + rapid + regular (metabolic acidosis compensation, classically DKA).
+</HighYield>
+
+## Histology
+
+<Figure name="histology/alveoli" caption="Alveolar histology - the destination of every inspired tidal volume." />
+
+## Clinical case
+
+<ClinicalCase
+  vignette="A 26-year-old woman presents with progressive dyspnea. PFTs: FEV1 60% predicted, FVC 78% predicted, FEV1/FVC 0.55, TLC 130% predicted, RV 180% predicted, DLCO 50% predicted. She has a 5 pack-year smoking history and a brother with liver cirrhosis at age 35."
+  questions={[
+    { q: "What is the pattern + likely diagnosis?", a: "Obstructive pattern with low DLCO - α1-antitrypsin deficiency", choices: [
+      "Restrictive pattern - idiopathic pulmonary fibrosis",
+      "Obstructive pattern with low DLCO - α1-antitrypsin deficiency",
+      "Obstructive pattern with normal DLCO - asthma",
+      "Mixed pattern - sarcoidosis"
+    ], explanation: "FEV1/FVC 0.55 < 0.7 = obstructive. Hyperinflation (↑ TLC, ↑ RV) + ↓ DLCO = emphysema. Young patient + family history of liver disease = **α1-antitrypsin deficiency**. α1-AT inhibits neutrophil elastase; loss → unopposed elastase → panacinar (lower lobe) emphysema. Liver disease in family from misfolded α1-AT in hepatocytes." },
+    { q: "Why does DLCO drop in emphysema but not in asthma?", a: "Emphysema destroys alveolar capillary surface area; asthma is airway disease without parenchymal loss", choices: [
+      "Asthma reduces hemoglobin",
+      "Emphysema destroys alveolar capillary surface area; asthma is airway disease without parenchymal loss",
+      "Asthma increases pulmonary blood flow",
+      "Emphysema thickens alveolar walls"
+    ], explanation: "DLCO (diffusing capacity for CO) measures alveolar-capillary membrane gas transfer. Emphysema destroys alveolar walls + capillary beds → less surface area → ↓ DLCO. Asthma is reversible airway constriction → alveoli + capillaries intact → DLCO normal or even ↑ during attacks (hyperinflation traps more gas)." },
+    { q: "What is the most important intervention?", a: "Smoking cessation - accelerates α1-AT-deficient lung destruction", choices: [
+      "Long-acting β-agonist alone",
+      "Smoking cessation - accelerates α1-AT-deficient lung destruction",
+      "Lung transplant immediately",
+      "Inhaled corticosteroid"
+    ], explanation: "Smoking dramatically accelerates emphysema in α1-AT deficiency (smoke deactivates whatever α1-AT remains). Smoking cessation is the single intervention that changes prognosis. Augmentation therapy (IV α1-AT) may slow decline in severe disease. Lung transplant for end-stage." }
+  ]}
+/>
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Primary inspiratory muscle is the…", a: "Diaphragm", choices: ["External intercostals", "Diaphragm", "Scalenes", "Sternocleidomastoid"] },
+  { q: "Diaphragm is innervated by…", a: "Phrenic nerve (C3–C5)", choices: [
+    "Vagus nerve",
+    "Intercostal nerves",
+    "Phrenic nerve (C3–C5)",
+    "Long thoracic nerve"
+  ]},
+  { q: "Surfactant is produced by…", a: "Type II pneumocytes", choices: [
+    "Type I pneumocytes",
+    "Type II pneumocytes",
+    "Goblet cells",
+    "Club (Clara) cells"
+  ]},
+  { q: "FRC is the equilibrium volume between…", a: "Inward lung recoil + outward chest wall recoil", choices: [
+    "Inspiratory + expiratory muscle activity",
+    "Inward lung recoil + outward chest wall recoil",
+    "Surface tension + surfactant",
+    "Atmospheric + intrapleural pressure"
+  ]},
+  { q: "FEV1/FVC &lt;0.7 indicates…", a: "Obstructive lung disease", choices: [
+    "Restrictive lung disease",
+    "Obstructive lung disease",
+    "Mixed pattern",
+    "Normal"
+  ]},
+  { q: "Most powerful normal stimulus to ventilate is…", a: "Increased PaCO₂ (sensed by central chemoreceptors)", choices: [
+    "Decreased PaO₂",
+    "Increased PaCO₂ (sensed by central chemoreceptors)",
+    "Decreased pH",
+    "Pulmonary stretch"
+  ]},
+  { q: "α1-antitrypsin deficiency primarily damages which structure?", a: "Alveolar walls (panacinar emphysema, lower lobes)", choices: [
+    "Bronchial smooth muscle",
+    "Alveolar walls (panacinar emphysema, lower lobes)",
+    "Upper airway cartilage",
+    "Pleural surface"
+  ]},
+  { q: "Greatest airway resistance in healthy lungs is in the…", a: "Medium-sized bronchi", choices: [
+    "Trachea",
+    "Medium-sized bronchi",
+    "Terminal bronchioles",
+    "Alveolar ducts"
+  ]},
+  { q: "DLCO is decreased in all EXCEPT…", a: "Asthma", choices: ["Emphysema", "Pulmonary fibrosis", "Pulmonary hypertension", "Asthma"] },
+  { q: "Residual volume can be measured by all EXCEPT…", a: "Spirometry", choices: [
+    "Helium dilution",
+    "Body plethysmography",
+    "Nitrogen washout",
+    "Spirometry"
+  ]}
+]} />

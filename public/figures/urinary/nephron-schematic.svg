@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 800" width="700" height="800">
+  <rect width="700" height="800" fill="#fefefe"/>
+
+  <!-- Cortex / Medulla boundary -->
+  <line x1="50" y1="380" x2="650" y2="380" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="60" y="370" font-family="ui-sans-serif" font-size="13" fill="#71717a">Cortex</text>
+  <text x="60" y="402" font-family="ui-sans-serif" font-size="13" fill="#71717a">Medulla</text>
+
+  <!-- Bowman's capsule with glomerulus (top left) -->
+  <circle cx="130" cy="120" r="55" fill="#fee2e2" stroke="#7f1d1d" stroke-width="3"/>
+  <!-- Glomerulus tuft (squiggle inside) -->
+  <path d="M 100 110 Q 110 90, 130 100 Q 150 110, 160 95 Q 170 115, 155 130 Q 140 145, 125 135 Q 110 145, 100 130 Q 95 120, 100 110 Z"
+        fill="#fca5a5" stroke="#7f1d1d" stroke-width="2"/>
+  <!-- Afferent/efferent arterioles -->
+  <line x1="75" y1="85" x2="100" y2="105" stroke="#b91c1c" stroke-width="5"/>
+  <line x1="75" y1="155" x2="100" y2="135" stroke="#dc2626" stroke-width="4"/>
+
+  <!-- PCT - coiled tube exiting Bowman -->
+  <path d="M 185 130
+           C 220 100, 260 160, 285 120
+           C 310 80, 335 145, 290 175
+           C 245 200, 220 165, 250 140
+           C 270 125, 290 160, 310 145
+           C 330 130, 320 170, 305 195
+           L 305 220"
+        fill="none" stroke="#0ea5e9" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 185 130
+           C 220 100, 260 160, 285 120
+           C 310 80, 335 145, 290 175
+           C 245 200, 220 165, 250 140
+           C 270 125, 290 160, 310 145
+           C 330 130, 320 170, 305 195
+           L 305 220"
+        fill="none" stroke="#0369a1" stroke-width="14" stroke-linecap="round" opacity="0"/>
+
+  <!-- Descending limb -->
+  <line x1="305" y1="220" x2="305" y2="560" stroke="#fbbf24" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Loop hairpin -->
+  <path d="M 305 560 Q 305 620, 360 620 Q 415 620, 415 560" fill="none" stroke="#fbbf24" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Thin ascending (lower) -->
+  <line x1="415" y1="560" x2="415" y2="500" stroke="#fbbf24" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Thick ascending limb -->
+  <line x1="415" y1="500" x2="415" y2="220" stroke="#a3e635" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- DCT - coiled at top right -->
+  <path d="M 415 220
+           C 440 200, 460 180, 480 200
+           C 500 220, 470 240, 490 250
+           C 510 260, 535 230, 555 245
+           C 575 260, 560 280, 575 290
+           L 595 290"
+        fill="none" stroke="#22c55e" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Collecting duct -->
+  <line x1="595" y1="290" x2="595" y2="720" stroke="#a855f7" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Urine arrow at bottom -->
+  <path d="M 595 730 L 580 720 L 595 760 L 610 720 Z" fill="#7c3aed"/>
+  <text x="595" y="785" text-anchor="middle" font-family="ui-sans-serif" font-size="13" fill="#52525b">→ urine</text>
+</svg>

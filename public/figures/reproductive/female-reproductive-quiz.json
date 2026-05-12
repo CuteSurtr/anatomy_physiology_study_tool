@@ -1,0 +1,19 @@
+{
+  "src": "/figures/reproductive/female-reproductive.svg",
+  "alt": "Female reproductive system sagittal for fill-in-blank practice",
+  "viewBox": [0, 0, 600, 600],
+  "license": {
+    "type": "Public Domain",
+    "attribution": "CDC, vectorized by Mysid - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Scheme_female_reproductive_system-en.svg"
+  },
+  "labels": [
+    { "id": "ovary", "x": 230, "y": 290, "label": "Ovary" },
+    { "id": "fallopian-tube", "x": 200, "y": 245, "label": "Fallopian tube", "synonyms": ["uterine tube", "oviduct"] },
+    { "id": "uterus", "x": 270, "y": 330, "label": "Uterus" },
+    { "id": "cervix", "x": 290, "y": 400, "label": "Cervix" },
+    { "id": "vagina", "x": 310, "y": 460, "label": "Vagina" },
+    { "id": "fimbriae", "x": 175, "y": 275, "label": "Fimbriae", "synonyms": ["fimbria"] },
+    { "id": "endometrium", "x": 265, "y": 320, "label": "Endometrium" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "src": "/figures/nervous/neuron-schematic.svg",
+  "alt": "Schematic of a myelinated neuron showing dendrites, soma, axon, myelin, and terminals",
+  "viewBox": [0, 0, 1000, 400],
+  "license": {
+    "type": "CC BY",
+    "attribution": "Anatomy + Physio - original schematic"
+  },
+  "labels": [
+    { "id": "dendrites", "x": 50, "y": 90, "label": "Dendrites", "synonyms": ["dendrite"] },
+    { "id": "soma", "x": 150, "y": 200, "label": "Soma", "synonyms": ["cell body", "perikaryon"] },
+    { "id": "nucleus", "x": 165, "y": 200, "label": "Nucleus" },
+    { "id": "axon-hillock", "x": 230, "y": 200, "label": "Axon hillock" },
+    { "id": "myelin", "x": 440, "y": 200, "label": "Myelin sheath", "synonyms": ["myelin"] },
+    { "id": "node", "x": 380, "y": 200, "label": "Node of Ranvier", "synonyms": ["nodes of Ranvier"] },
+    { "id": "axon", "x": 620, "y": 200, "label": "Axon" },
+    { "id": "terminals", "x": 935, "y": 200, "label": "Axon terminals", "synonyms": ["axon terminal", "synaptic terminal", "synaptic terminals", "presynaptic terminal"] }
+  ]
+}

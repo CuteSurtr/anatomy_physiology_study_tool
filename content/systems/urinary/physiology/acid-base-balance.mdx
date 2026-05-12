@@ -1,0 +1,277 @@
+---
+title: Acid-Base Balance
+system: urinary
+related:
+  - nephron-function
+  - gas-exchange
+figures: []
+sources:
+  - Hall & Guyton - Chapter 30
+  - Berne & Levy Physiology - Section V
+  - First Aid USMLE 2024
+level: undergrad
+---
+
+Plasma pH is maintained at **7.35–7.45** through a coordinated buffer + respiratory + renal response. Three lines of defense, with three different speeds:
+
+1. **Chemical buffers** (instant) - bicarbonate, phosphate, hemoglobin, proteins
+2. **Respiratory compensation** (minutes) - change ventilation to alter PaCO₂
+3. **Renal compensation** (hours to days) - change H⁺ secretion + HCO₃⁻ reabsorption + new HCO₃⁻ generation
+
+Understanding the **Henderson-Hasselbalch** equation and the **anion gap** lets you read any blood gas.
+
+<Figure name="urinary/nephron-schematic" caption="Nephron - site of HCO3⁻ reabsorption, H⁺ secretion, and NH4⁺ excretion that regulates plasma pH." />
+
+<Figure name="urinary/nephron" caption="Detailed schematic of nephron segments and the role of each in acid-base handling." />
+
+## The fundamental equation
+
+```
+pH = 6.1 + log([HCO₃⁻] / (0.03 × PaCO₂))
+```
+
+For a quick bedside check:
+```
+pH ↑ when HCO₃⁻ ↑ or PaCO₂ ↓
+pH ↓ when HCO₃⁻ ↓ or PaCO₂ ↑
+```
+
+Normal values:
+| Parameter | Range |
+|---|---|
+| pH | 7.35–7.45 |
+| PaCO₂ | 35–45 mmHg |
+| HCO₃⁻ | 22–26 mEq/L |
+| Anion gap | 8–12 mEq/L |
+| PaO₂ | 75–100 mmHg (room air) |
+
+## Four primary disorders
+
+| Disorder | Primary problem | pH | PaCO₂ | HCO₃⁻ | Compensation |
+|---|---|---|---|---|---|
+| **Metabolic acidosis** | ↓ HCO₃⁻ (loss or consumption) | ↓ | ↓ (Kussmaul) | ↓↓ | Hyperventilation → drives PaCO₂ down |
+| **Metabolic alkalosis** | ↑ HCO₃⁻ (loss of H⁺ or HCO₃⁻ gain) | ↑ | ↑ | ↑↑ | Hypoventilation → drives PaCO₂ up |
+| **Respiratory acidosis** | ↑ PaCO₂ (hypoventilation) | ↓ | ↑↑ | ↑ (renal) | Kidney makes new HCO₃⁻ over 3–5 days |
+| **Respiratory alkalosis** | ↓ PaCO₂ (hyperventilation) | ↑ | ↓↓ | ↓ (renal) | Kidney dumps HCO₃⁻ over 3–5 days |
+
+**Acute respiratory disturbances** have minimal renal compensation. **Chronic** ones show a much bigger HCO₃⁻ shift - that's how you tell duration on a gas.
+
+## Compensation formulas (Winter's rules)
+
+| Disorder | Expected compensation |
+|---|---|
+| **Metabolic acidosis** | PaCO₂ = 1.5 × HCO₃⁻ + 8 (± 2) - Winter's formula |
+| **Metabolic alkalosis** | PaCO₂ = 0.7 × HCO₃⁻ + 20 |
+| **Acute resp acidosis** | HCO₃⁻ ↑ 1 for every 10 ↑ in PaCO₂ |
+| **Chronic resp acidosis** | HCO₃⁻ ↑ 3.5 for every 10 ↑ in PaCO₂ |
+| **Acute resp alkalosis** | HCO₃⁻ ↓ 2 for every 10 ↓ in PaCO₂ |
+| **Chronic resp alkalosis** | HCO₃⁻ ↓ 5 for every 10 ↓ in PaCO₂ |
+
+If the measured value deviates from expected → a **second** disorder is present (mixed disturbance).
+
+## Anion gap
+
+```
+AG = Na⁺ – (Cl⁻ + HCO₃⁻)
+```
+
+Normal 8–12 (or 3–10 with newer assays). Albumin contributes ~3 to the gap - adjust:
+```
+Adjusted AG = AG + 2.5 × (4 – albumin)
+```
+
+### Anion-gap metabolic acidosis - **MUDPILES**
+| Letter | Cause |
+|---|---|
+| **M** | Methanol (→ formic acid) |
+| **U** | Uremia (sulfates, phosphates) |
+| **D** | DKA (ketoacids) - also alcoholic + starvation ketoacidosis |
+| **P** | Propylene glycol (lorazepam infusions) |
+| **I** | Iron / Isoniazid (lactic acidosis) |
+| **L** | Lactate (shock, sepsis, metformin in renal failure) |
+| **E** | Ethylene glycol (→ oxalic + glycolic acids) |
+| **S** | Salicylates (mixed AG metabolic acidosis + resp alkalosis) |
+
+### Non-anion-gap metabolic acidosis - **HARDASS**
+| Letter | Cause |
+|---|---|
+| **H** | Hyperalimentation / Hyperchloremia |
+| **A** | Addison disease (mineralocorticoid deficiency) |
+| **R** | Renal tubular acidosis (RTA) |
+| **D** | Diarrhea (loss of HCO₃⁻) |
+| **A** | Acetazolamide (CA inhibitor → renal HCO₃⁻ wasting) |
+| **S** | Spironolactone (mineralocorticoid antagonism) |
+| **S** | Saline infusion (dilutional / hyperchloremic) |
+
+## Renal tubular acidosis (RTA) - the three types
+
+| Type | Defect | Urine pH | Serum K⁺ | Classic associations |
+|---|---|---|---|---|
+| **Type 1 (distal)** | Distal H⁺ secretion fails | >5.5 | ↓↓ (severe hypokalemia) | Stones (calcium phosphate), Sjögren, lithium, amphotericin |
+| **Type 2 (proximal)** | HCO₃⁻ reabsorption defective | &lt;5.5 (eventually) | ↓ | Fanconi syndrome, multiple myeloma, acetazolamide |
+| **Type 4 (hyperaldosteronism-mimic)** | ↓ aldosterone or resistance → hyperkalemia → ↓ NH₃ synthesis | &lt;5.5 | **↑** (hyperkalemia!) | Diabetic neuropathy, ACE inhibitors, K-sparing diuretics, NSAIDs |
+
+Type 4 is the only RTA with hyperkalemia - high K⁺ inhibits proximal tubule NH₃ synthesis → ↓ NH₄⁺ excretion → can't excrete H⁺.
+
+## Metabolic alkalosis
+
+### Causes
+- **Vomiting / NG suction** - loss of HCl from stomach → ↑ HCO₃⁻ generation
+- **Loop or thiazide diuretics** - volume depletion + ↑ aldosterone + H⁺/K⁺ loss
+- **Mineralocorticoid excess** - Conn, Cushing, Liddle, licorice
+- **Bartter, Gitelman syndromes** - congenital tubular defects mimicking diuretic effect
+- **Milk-alkali syndrome** - calcium carbonate excess
+
+### Saline-responsive vs saline-resistant
+| Type | Mechanism | Urine Cl⁻ | Treatment |
+|---|---|---|---|
+| **Saline-responsive** (volume contraction maintains alkalosis) | Vomiting, diuretics | &lt;20 mEq/L | Volume resuscitation with NaCl |
+| **Saline-resistant** | Mineralocorticoid excess | >20 mEq/L | Treat underlying cause (spironolactone for Conn) |
+
+## Respiratory acidosis (hypoventilation)
+
+| Acute (mins) | Chronic (days–weeks) |
+|---|---|
+| Opioid overdose | COPD |
+| Brainstem injury | Obesity hypoventilation |
+| Acute neuromuscular (Guillain-Barré, MG crisis) | Chronic neuromuscular (ALS, muscular dystrophy) |
+| Pneumothorax / large effusion | Severe kyphoscoliosis |
+| Severe asthma exacerbation | OSA |
+
+## Respiratory alkalosis (hyperventilation)
+
+- **Anxiety / panic attack** (classic)
+- **Salicylate toxicity** - early; followed by metabolic acidosis (AG)
+- **Pulmonary embolism**, pneumonia, ARDS (hypoxic drive)
+- **High altitude** (chronic)
+- **Pregnancy** (progesterone → respiratory drive)
+- **Cirrhosis** (↑ ammonia)
+- **Sepsis** (early)
+
+## Renal handling of acid
+
+### Bicarbonate reabsorption (PCT)
+Filtered HCO₃⁻ is reabsorbed indirectly: tubular H⁺ + HCO₃⁻ → H₂CO₃ → H₂O + CO₂ (via apical CA) → CO₂ diffuses into cell → reverses to HCO₃⁻ (intracellular CA) → basolateral exit via Na/3HCO₃⁻ cotransporter. **80–90% in PCT**.
+
+### New bicarbonate generation
+The kidney is the **only** organ that can excrete acid. Two mechanisms:
+
+1. **Titratable acid** - H⁺ secretion into tubule combines with HPO₄²⁻ → H₂PO₄⁻. Limited by filtered phosphate; ~30 mEq/day.
+2. **NH₄⁺ excretion** (the major mechanism) - proximal tubule cells deaminate glutamine → α-ketoglutarate + 2 NH₄⁺. NH₄⁺ trapped in tubule + α-KG metabolized to HCO₃⁻ (new alkali). Up-regulated in chronic acidosis. **Limit: ~300 mEq/day**.
+
+### α-intercalated cells (collecting duct)
+- Apical **H⁺-ATPase** + **H⁺/K⁺-ATPase** secrete H⁺
+- Basolateral Cl⁻/HCO₃⁻ exchanger (band 3) delivers new HCO₃⁻ to blood
+- Aldosterone stimulates → metabolic alkalosis in primary hyperaldosteronism
+
+## Function reference - every regulator
+
+| Component | Function | Why it matters |
+|---|---|---|
+| **HCO₃⁻ / CO₂ buffer pair** | Major extracellular buffer (open system - CO₂ blown off) | Bedside ABG variables |
+| **Phosphate buffer** | Tubular fluid + intracellular | Source of titratable acid |
+| **Hemoglobin** | Major intracellular buffer in RBCs | Haldane effect - deoxy-Hb is a better buffer |
+| **Plasma proteins** | Intravascular buffer | Albumin contributes ~3 to anion gap |
+| **Bone** | Calcium phosphate buffers chronic acidosis | Chronic acidosis → bone loss (CKD, RTA) |
+| **PCT brush border CA IV** | Catalyzes luminal H₂CO₃ ↔ H₂O + CO₂ | Acetazolamide inhibits → proximal RTA-like effect |
+| **Cytosolic CA II** | Generates HCO₃⁻ inside tubule cells | Inhibition → can't generate HCO₃⁻ |
+| **α-intercalated cells** | H⁺ secretion via H+-ATPase | Failure = type 1 RTA |
+| **β-intercalated cells** | HCO₃⁻ secretion in alkalosis (reverse polarity) | Symmetric mirror of α cells |
+| **Principal cells** | Aldosterone-regulated Na/K exchange | Indirectly affects H⁺ excretion via ENaC-driven electrical gradient |
+| **Macula densa / RAAS** | Volume sensing → aldosterone | "Contraction alkalosis" mechanism - volume depletion drives alkalosis |
+| **Glutamine metabolism (PCT)** | Source of NH₄⁺ for acid excretion | Up-regulated in chronic acidosis; suppressed by hyperkalemia (Type 4 RTA) |
+
+## Stepwise reading of an ABG (the 5-step method)
+
+1. **Look at pH** - acidemic (&lt;7.35) or alkalemic (>7.45)?
+2. **Look at PaCO₂ + HCO₃⁻** - which is moving with the pH (= primary disorder)?
+3. **Calculate anion gap** if metabolic acidosis is in the differential.
+4. **Compute expected compensation** - if measured ≠ expected, second disorder.
+5. **Delta-delta** (in AG metabolic acidosis): Δ AG / Δ HCO₃⁻. If &lt;1, there's also a non-AG acidosis. If >2, there's also a metabolic alkalosis.
+
+## Why this matters
+
+<HighYield variant="boards">
+- **Salicylate overdose**: early respiratory alkalosis (direct medullary stimulation) → later AG metabolic acidosis (uncouples oxidative phosphorylation + lactate). Treatment: urinary alkalinization with HCO₃⁻ (ion-trap salicylate in urine).
+- **Methanol vs ethylene glycol**: both AG acidosis. Methanol → blindness (formate damages optic nerve). EG → calcium oxalate crystals in urine + renal failure. Both: **fomepizole** (blocks alcohol dehydrogenase) ± hemodialysis.
+- **DKA** treatment: fluids → insulin → K⁺ (insulin shifts K intracellularly). Don't give HCO₃⁻ unless pH &lt;6.9.
+- **Loop diuretic alkalosis**: hypokalemic, hypochloremic, hyperaldosteronemic. Replete K⁺ and Cl⁻.
+- **Acetazolamide** - CA inhibitor → ↓ HCO₃⁻ reabsorption → metabolic acidosis. Used for altitude sickness, glaucoma, pseudotumor cerebri.
+- **Chronic compensation maxes out** - pH still abnormal. Normal pH with abnormal PaCO₂ + HCO₃⁻ = mixed disorder, not "fully compensated."
+- **Permissive hypercapnia** in ventilated ARDS: accept ↑ PaCO₂ to avoid volutrauma; renal compensation handles HCO₃⁻.
+</HighYield>
+
+## Histology
+
+<Figure name="histology/kidney-cortex" caption="Kidney cortex - site of bicarbonate reabsorption + H+/NH4+ excretion." />
+
+## Clinical case
+
+<ClinicalCase
+  vignette="A 22-year-old college student is brought to ED 4 h after a suicide attempt with aspirin. T 38.4, RR 32, P 110. ABG: pH 7.45, PaCO₂ 18, HCO₃⁻ 12. Na 142, Cl 102, K 3.2, glucose 110."
+  questions={[
+    { q: "Identify the acid-base disorder.", a: "Mixed respiratory alkalosis + AG metabolic acidosis", choices: [
+      "Pure respiratory alkalosis",
+      "Pure AG metabolic acidosis",
+      "Mixed respiratory alkalosis + AG metabolic acidosis",
+      "Metabolic alkalosis"
+    ], explanation: "pH 7.45 with low PaCO₂ AND low HCO₃⁻ - both move in same direction = can't be a single disorder. AG = 142 – (102 + 12) = 28 (elevated). Salicylates uncouple oxidative phosphorylation → lactic + ketoacidosis (AG component); they also directly stimulate the medullary respiratory center → hyperventilation (alkalosis component). Classic mixed picture." },
+    { q: "What is the first-line treatment to enhance salicylate elimination?", a: "Urinary alkalinization with IV sodium bicarbonate (target urine pH 7.5–8)", choices: [
+      "N-acetylcysteine",
+      "Urinary alkalinization with IV sodium bicarbonate (target urine pH 7.5–8)",
+      "Fomepizole",
+      "Activated charcoal alone"
+    ], explanation: "Alkalinizing urine traps salicylate (weak acid) in its ionized form → can't reabsorb → renal elimination ↑. Charcoal helps if recent ingestion. Hemodialysis for severe (level >100, AMS, renal failure, pulmonary edema, refractory acidosis). NAC is for acetaminophen. Fomepizole is for methanol/EG." },
+    { q: "Why is severe salicylate-induced acidosis particularly dangerous?", a: "Acidemia ↑ non-ionized salicylate → crosses BBB → CNS toxicity (seizures, coma)", choices: [
+      "It causes hyperkalemia",
+      "Acidemia ↑ non-ionized salicylate → crosses BBB → CNS toxicity (seizures, coma)",
+      "It causes hypocalcemia",
+      "It triggers DIC"
+    ], explanation: "At lower pH, more salicylate is in the un-ionized form that crosses the blood-brain barrier. CNS toxicity (cerebral edema, seizures) drives mortality. Avoid drugs that ↓ pH (acidosis worsens shift); avoid intubation (transient apnea → ↑ PaCO₂ → fall in pH → catastrophic CNS deterioration)." }
+  ]}
+/>
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Henderson-Hasselbalch equation relates pH to…", a: "HCO₃⁻ / PaCO₂ ratio", choices: ["Na⁺ / K⁺ ratio", "HCO₃⁻ / PaCO₂ ratio", "Anion gap", "Albumin"] },
+  { q: "Anion gap formula =", a: "Na – (Cl + HCO₃)", choices: [
+    "(Na + K) – (Cl + HCO₃)",
+    "Na – (Cl + HCO₃)",
+    "Na – Cl",
+    "K – HCO₃"
+  ]},
+  { q: "Which is NOT in the MUDPILES anion-gap acidosis list?", a: "Diarrhea", choices: ["Methanol", "Salicylates", "Diarrhea", "Lactate"] },
+  { q: "Winter's formula for expected PaCO₂ in metabolic acidosis is…", a: "1.5 × HCO₃ + 8 (±2)", choices: [
+    "1.0 × HCO₃ + 10",
+    "1.5 × HCO₃ + 8 (±2)",
+    "0.7 × HCO₃ + 20",
+    "2.0 × HCO₃ – 5"
+  ]},
+  { q: "Type 1 (distal) RTA serum potassium is…", a: "Low", choices: ["High", "Normal", "Low", "Variable"] },
+  { q: "Type 4 RTA is associated with…", a: "Hyperkalemia + hypoaldosteronism", choices: [
+    "Severe hypokalemia",
+    "Hyperkalemia + hypoaldosteronism",
+    "Hypercalcemia",
+    "Hypomagnesemia only"
+  ]},
+  { q: "Vomiting produces what acid-base disturbance?", a: "Hypochloremic metabolic alkalosis", choices: [
+    "Metabolic acidosis",
+    "Hypochloremic metabolic alkalosis",
+    "Respiratory alkalosis",
+    "Mixed acidosis"
+  ]},
+  { q: "Major mechanism of renal acid excretion is…", a: "NH₄⁺ excretion via glutamine metabolism in PCT", choices: [
+    "Free H⁺ excretion",
+    "NH₄⁺ excretion via glutamine metabolism in PCT",
+    "Titratable acid (phosphate buffer)",
+    "Direct CO₂ excretion"
+  ]},
+  { q: "Acute respiratory acidosis: HCO₃ rises how much per 10 mmHg PaCO₂ ↑?", a: "1 mEq/L", choices: ["0.5", "1 mEq/L", "3.5", "5"] },
+  { q: "Salicylate toxicity acid-base picture =", a: "Respiratory alkalosis + AG metabolic acidosis (mixed)", choices: [
+    "Pure AG metabolic acidosis",
+    "Pure respiratory alkalosis",
+    "Respiratory alkalosis + AG metabolic acidosis (mixed)",
+    "Metabolic alkalosis"
+  ]}
+]} />

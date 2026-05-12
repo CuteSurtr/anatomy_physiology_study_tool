@@ -1,0 +1,24 @@
+{
+  "src": "/figures/digestive/digestive-overview.svg",
+  "alt": "Digestive system for fill-in-blank practice",
+  "viewBox": [0, 0, 700, 1000],
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Mariana Ruiz Villarreal (LadyofHats) & Jmarchn - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Digestive_system_diagram_en.svg"
+  },
+  "labels": [
+    { "id": "mouth", "x": 350, "y": 110, "label": "Mouth", "synonyms": ["oral cavity"] },
+    { "id": "esophagus", "x": 350, "y": 280, "label": "Esophagus", "synonyms": ["oesophagus"] },
+    { "id": "stomach", "x": 280, "y": 460, "label": "Stomach" },
+    { "id": "liver", "x": 200, "y": 420, "label": "Liver" },
+    { "id": "gallbladder", "x": 235, "y": 475, "label": "Gallbladder", "synonyms": ["gall bladder"] },
+    { "id": "pancreas", "x": 340, "y": 510, "label": "Pancreas" },
+    { "id": "duodenum", "x": 330, "y": 560, "label": "Duodenum" },
+    { "id": "small-intestine", "x": 330, "y": 660, "label": "Small intestine", "synonyms": ["jejunum-ileum", "small bowel"] },
+    { "id": "large-intestine", "x": 200, "y": 670, "label": "Large intestine (colon)", "synonyms": ["colon", "large bowel"] },
+    { "id": "rectum", "x": 350, "y": 850, "label": "Rectum" },
+    { "id": "anus", "x": 350, "y": 920, "label": "Anus" },
+    { "id": "appendix", "x": 215, "y": 780, "label": "Appendix", "synonyms": ["vermiform appendix"] }
+  ]
+}

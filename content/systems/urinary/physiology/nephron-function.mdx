@@ -1,0 +1,191 @@
+---
+title: Nephron Function
+system: urinary
+related:
+  - kidney
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 25.5
+level: undergrad
+---
+
+Urine formation = **filtration + reabsorption + secretion + excretion**. Of ~180 L of plasma filtered daily, only ~1.5 L leaves as urine.
+
+<Figure name="urinary/filtrate-flow-slide" caption="Lecture-slide path of filtrate through Bowmans cup, proximal tubule, loop of Henle, distal tubule, and collecting duct." />
+
+<Figure name="urinary/nephron" caption="Functional anatomy of a nephron showing transport in each segment." />
+
+## Glomerular filtration
+
+Filtration is driven by **net filtration pressure (NFP)**:
+
+NFP ≈ P_GC − (P_BC + π_GC) ≈ 55 − (15 + 30) = **~10 mmHg**
+
+Three layers form the **filtration barrier**: fenestrated endothelium → glomerular basement membrane (negatively charged) → podocyte slit diaphragms. Normally **freely filtered**: water, glucose, urea, amino acids, ions. **Not filtered**: cells, large proteins (albumin).
+
+**GFR ≈ 120 mL/min** in a healthy adult. **Autoregulated** across MAP 80–180 mmHg via:
+
+- **Myogenic response** (afferent arteriole constricts when stretched)
+- **Tubuloglomerular feedback** (macula densa senses NaCl in DCT → adenosine → afferent constriction)
+
+## Tubular handling, by segment
+
+| Segment | Reabsorbs | Secretes |
+|---|---|---|
+| PCT | ~65% Na⁺, water, all glucose & AAs, ~85% HCO₃⁻ | H⁺, organic acids/bases (e.g., creatinine) |
+| Thin descending limb | Water (passively, into hyperosmotic medulla) | - |
+| Thick ascending limb | Na⁺/K⁺/2Cl⁻ (NKCC2; loop diuretic target). Impermeable to water. | - |
+| DCT | Na⁺/Cl⁻ (NCC; thiazide target); Ca²⁺ (PTH-regulated) | - |
+| Collecting duct | Na⁺ (ENaC; aldosterone ↑); water (aquaporin-2; ADH ↑) | K⁺ (aldosterone ↑); H⁺ |
+
+## Hormonal control of volume and osmolarity
+
+- **ADH (vasopressin)** ↑ aquaporin-2 in collecting duct → concentrated urine.
+- **Aldosterone** ↑ ENaC + Na⁺/K⁺ ATPase in late DCT/collecting duct → Na⁺ retention, K⁺ wasting.
+- **ANP** (from atrial myocytes when stretched) → ↑ Na⁺ excretion → ↓ blood volume.
+- **PTH** ↑ Ca²⁺ reabsorption in DCT; ↓ phosphate reabsorption in PCT.
+- **Angiotensin II** → constricts efferent > afferent arteriole (maintains GFR), ↑ aldosterone, ↑ ADH, ↑ thirst.
+
+<Clinical>
+**Diuretic classes & sites**:
+- **Loop** (furosemide) → thick ascending limb (NKCC2)
+- **Thiazide** (HCTZ) → DCT (NCC)
+- **K⁺-sparing** (spironolactone) → collecting duct aldosterone receptor; (amiloride) → ENaC
+- **Carbonic anhydrase inhibitor** (acetazolamide) → PCT
+- **Osmotic** (mannitol) → throughout
+</Clinical>
+
+## Histology
+
+<Figure name="histology/kidney-medulla" caption="Renal medulla - loops of Henle + collecting ducts running in parallel arrays." />
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Furosemide acts at the…", a: "Thick ascending limb", choices: ["Proximal tubule", "Thick ascending limb", "Distal convoluted tubule", "Collecting duct"] },
+  { q: "ADH increases water reabsorption by inserting…", a: "Aquaporin-2 in the collecting duct", choices: ["ENaC in the DCT", "Aquaporin-2 in the collecting duct", "NKCC2 in the thick ascending limb", "Na⁺/K⁺ ATPase in the PCT"] },
+  { q: "Spironolactone is K⁺-sparing because it…", a: "Blocks the aldosterone receptor in the collecting duct", choices: [
+    "Blocks the Na⁺/K⁺ ATPase",
+    "Blocks the aldosterone receptor in the collecting duct",
+    "Inhibits carbonic anhydrase",
+    "Stimulates ADH release"
+  ]}
+]} />
+
+## More practice
+
+<Quiz questions={[
+  { q: "Normal GFR is approximately…", a: "120 mL/min", choices: ["60 mL/min", "90 mL/min", "120 mL/min", "180 mL/min"] },
+  { q: "Creatinine clearance overestimates GFR slightly because…", a: "Creatinine is also secreted by the PCT", choices: [
+    "Creatinine is reabsorbed",
+    "Creatinine is also secreted by the PCT",
+    "Creatinine binds albumin",
+    "Creatinine is unstable in serum"
+  ]},
+  { q: "Inulin clearance equals GFR because inulin is…", a: "Freely filtered, neither reabsorbed nor secreted", choices: [
+    "Reabsorbed in the PCT",
+    "Secreted in the DCT",
+    "Freely filtered, neither reabsorbed nor secreted",
+    "Bound to plasma proteins"
+  ]},
+  { q: "The filtration fraction is the ratio of…", a: "GFR to renal plasma flow", choices: [
+    "GFR to cardiac output",
+    "GFR to renal plasma flow",
+    "Urine output to plasma flow",
+    "Glomerular pressure to MAP"
+  ]},
+  { q: "Angiotensin II preferentially constricts the…", a: "Efferent arteriole", choices: ["Afferent arteriole", "Efferent arteriole", "Both equally", "Neither"] },
+  { q: "NSAIDs reduce GFR by…", a: "Blocking prostaglandin-mediated afferent vasodilation", choices: [
+    "Blocking efferent constriction",
+    "Blocking prostaglandin-mediated afferent vasodilation",
+    "Inhibiting renin release",
+    "Inhibiting ENaC"
+  ]},
+  { q: "Glucosuria appears at a plasma glucose of approximately…", a: "180–200 mg/dL", choices: ["100 mg/dL", "140 mg/dL", "180–200 mg/dL", "300 mg/dL"] },
+  { q: "Renin is released in response to…", a: "Decreased renal perfusion pressure or low distal NaCl", choices: [
+    "Hyperkalemia",
+    "Decreased renal perfusion pressure or low distal NaCl",
+    "Hypernatremia",
+    "Elevated angiotensin II"
+  ]},
+  { q: "Hyperkalemia directly stimulates secretion of…", a: "Aldosterone", choices: ["ADH", "Aldosterone", "Renin", "ANP"] },
+  { q: "Acidemia shifts the renal acid-base response toward…", a: "↑ H⁺ secretion and ↑ HCO₃⁻ reabsorption", choices: [
+    "↑ HCO₃⁻ excretion",
+    "↑ H⁺ secretion and ↑ HCO₃⁻ reabsorption",
+    "↑ K⁺ secretion",
+    "↓ ammoniagenesis"
+  ]}
+]} />
+
+## Every transporter and hormone - function reference
+
+### Tubular transporters
+
+| Transporter | Location | What it does | Pharmacology |
+|---|---|---|---|
+| **Na⁺/K⁺ ATPase** | All tubule basolateral membranes | Pumps 3 Na⁺ out, 2 K⁺ in - sets the Na⁺ gradient that drives nearly all other transport | Digoxin inhibits in cardiac cells, not directly here |
+| **Na⁺-glucose cotransporter (SGLT2)** | PCT apical | Reabsorbs glucose from filtrate | **SGLT2 inhibitors** (empagliflozin) → glycosuria, weight loss, BP ↓, HF + CKD benefit |
+| **Na⁺-amino acid / Na⁺-phosphate / Na⁺-organic cotransporters** | PCT apical | Reabsorb AA, phosphate, other nutrients | PTH inhibits Na⁺-phosphate cotransporter (phosphaturic) |
+| **NHE3 (Na⁺/H⁺ exchanger)** | PCT apical | Secretes H⁺, reabsorbs Na⁺ + HCO₃⁻ | Acetazolamide ↓ HCO₃⁻ reabsorption via CA inhibition |
+| **Carbonic anhydrase (intracellular + brush border)** | PCT cells | CO₂ + H₂O ⇌ HCO₃⁻ + H⁺ | Acetazolamide inhibits - proximal RTA-like effect |
+| **NKCC2** | Thick ascending limb apical | Cotransports 1 Na⁺ / 1 K⁺ / 2 Cl⁻ | **Loop diuretics** (furosemide) inhibit |
+| **ROMK (K⁺ channel)** | TAL + CD apical | K⁺ recycling at TAL; K⁺ secretion at CD | Bartter syndrome - loss of function mimics loop diuretic |
+| **NCC** | DCT apical | Cotransports Na⁺ / Cl⁻ | **Thiazide diuretics** inhibit; loss of function = Gitelman syndrome |
+| **ENaC** | Collecting duct apical (principal cells) | Reabsorbs Na⁺ (aldosterone induces) | **Amiloride, triamterene** block; gain of function = Liddle syndrome |
+| **Aquaporin-2 (AQP2)** | CD apical | ADH-regulated water reabsorption | Vaptans (tolvaptan) block V2 receptor → blocks AQP2 insertion |
+| **H⁺ ATPase + H⁺/K⁺ ATPase** | α-intercalated cells apical | Acid secretion | Defect → type I RTA (distal) |
+| **Pendrin (Cl⁻/HCO₃⁻ exchanger)** | β-intercalated cells apical | Secretes HCO₃⁻ | Active in alkalemia |
+
+### Hormones acting on the nephron
+
+| Hormone | Source | Target | Action | Why crucial |
+|---|---|---|---|---|
+| **ADH (vasopressin)** | Posterior pituitary (from hypothalamus) | CD principal cells (V2) | Inserts AQP2 → water reabsorption | Lost in central DI; ineffective in nephrogenic DI; excessive → SIADH (hyponatremia) |
+| **Aldosterone** | Adrenal zona glomerulosa | CD principal + α-intercalated | ↑ ENaC, ↑ Na⁺/K⁺ ATPase, ↑ K⁺ secretion, ↑ H⁺ secretion | Conn (excess) → HTN, hypokalemia, alkalosis; Addison (deficient) → opposite |
+| **Angiotensin II** | RAAS cascade | Efferent arteriole > afferent; PCT; adrenal | Efferent constriction → ↑ GFR; ↑ Na⁺/H⁺ exchange in PCT; ↑ aldosterone | ACE inhibitors / ARBs block - reno-protective in proteinuria |
+| **ANP / BNP** | Atria / ventricles (stretch) | Afferent arteriole; CD | Afferent dilation; ↓ ENaC | Natriuresis, ↓ BP; BNP used to diagnose HF |
+| **PTH** | Parathyroid | DCT (Ca²⁺), PCT (phosphate) | ↑ Ca²⁺ reabsorption (TRPV5), ↓ phosphate reabsorption | Hyperparathyroidism → hypercalciuria + phosphaturia |
+| **Calcitriol** | PCT (1α-hydroxylase) | Intestine + bone | ↑ Ca²⁺ + PO₄³⁻ absorption | CKD → low calcitriol → renal osteodystrophy |
+| **EPO** | Peritubular fibroblasts | Bone marrow | ↑ RBC production | CKD → anemia; treated with epoetin alfa |
+
+## High-yield exam patterns
+
+<HighYield exam="nclex">
+**NCLEX fluid/electrolyte priorities:**
+- **Hyperkalemia (K⁺ &gt;5)** order of treatment: **calcium gluconate** (stabilize membrane) → insulin + glucose / albuterol (shift K⁺ into cells) → kayexalate or dialysis (remove K⁺).
+- **Hypokalemia (K⁺ &lt;3.5)**: never push IV K⁺; max 10 mEq/h peripheral, 20 mEq/h central; monitor ECG (U wave, T flatten).
+- **Hyponatremia &lt;125**: confusion, seizures; **correct slowly** (no faster than 8–12 mEq/L/24 h to avoid osmotic demyelination/CPM).
+- **Hypernatremia**: dehydration; correct slowly to avoid cerebral edema.
+- **Daily weight + I/O** for any patient on diuretics.
+</HighYield>
+
+<HighYield exam="pharm">
+**Diuretic class essentials:**
+| Class | Example | Site | K⁺ effect | Key adverse |
+|---|---|---|---|---|
+| **Carbonic anhydrase inhibitor** | Acetazolamide | PCT | K⁺ wasting | Metabolic acidosis; altitude sickness, glaucoma |
+| **Loop** | Furosemide, bumetanide | TAL (NKCC2) | K⁺ wasting | Ototoxicity, hypocalcemia, hypomagnesemia, gout |
+| **Thiazide** | HCTZ, chlorthalidone | DCT (NCC) | K⁺ wasting | **HyperGLUC**: glucose, lipids, uric acid, calcium ↑ |
+| **K⁺-sparing (aldosterone antag)** | Spironolactone, eplerenone | CD aldo receptor | K⁺ retention | Gynecomastia (spiro), hyperkalemia |
+| **K⁺-sparing (ENaC)** | Amiloride, triamterene | CD ENaC | K⁺ retention | Hyperkalemia |
+| **Osmotic** | Mannitol | Entire tubule | Variable | Pulmonary edema in HF (initial intravascular pull) |
+| **ADH antagonists (vaptans)** | Tolvaptan | CD V2 receptor | Neutral | SIADH, hyponatremia |
+| **SGLT2 inhibitor** | Empagliflozin | PCT SGLT2 | Mild K⁺ wasting | UTI/yeast infection, euglycemic DKA |
+</HighYield>
+
+## Clinical case
+
+<ClinicalCase title="Peaked T waves on ECG" vignette="A 64-year-old man with diabetic CKD (baseline creatinine 2.8) and HFrEF (EF 30%) on lisinopril + spironolactone presents with weakness. Potassium is 6.8 mEq/L. ECG shows peaked T waves and widening of the QRS complex." questions={[
+  { q: "What is the FIRST step?", a: "IV calcium gluconate to stabilize the cardiac membrane", choices: [
+    "IV insulin + glucose",
+    "IV calcium gluconate to stabilize the cardiac membrane",
+    "Oral sodium polystyrene sulfonate (kayexalate)",
+    "Emergent hemodialysis"
+  ], explanation: "Calcium gluconate IV stabilizes the cardiac membrane within minutes - it does NOT lower K⁺ but prevents arrhythmia. Order: (1) stabilize membrane with calcium, (2) shift K⁺ into cells with insulin/glucose + albuterol, (3) eliminate K⁺ from body with kayexalate or dialysis." },
+  { q: "Which two medications likely contributed to his hyperkalemia?", a: "Lisinopril and spironolactone", choices: [
+    "Lisinopril and furosemide",
+    "Lisinopril and spironolactone",
+    "Lisinopril and metoprolol",
+    "Furosemide and metoprolol"
+  ], explanation: "ACE inhibitors (block aldosterone production) and aldosterone receptor antagonists (block aldosterone action) both ↓ K⁺ secretion. Combined with renal dysfunction → hyperkalemia. Loop diuretics (furosemide) cause hypokalemia, not hyperkalemia." }
+]} />

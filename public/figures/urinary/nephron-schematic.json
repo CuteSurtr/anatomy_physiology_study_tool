@@ -1,0 +1,21 @@
+{
+  "src": "/figures/urinary/nephron-schematic.svg",
+  "alt": "Schematic of a nephron showing Bowman's capsule, PCT, loop of Henle, DCT, and collecting duct",
+  "viewBox": [0, 0, 700, 800],
+  "license": {
+    "type": "CC BY",
+    "attribution": "Anatomy + Physio - original schematic"
+  },
+  "labels": [
+    { "id": "bowman", "x": 130, "y": 120, "label": "Bowman's capsule", "synonyms": ["bowman capsule", "glomerular capsule", "renal corpuscle"] },
+    { "id": "glomerulus", "x": 130, "y": 120, "label": "Glomerulus" },
+    { "id": "afferent", "x": 75, "y": 85, "label": "Afferent arteriole" },
+    { "id": "efferent", "x": 75, "y": 155, "label": "Efferent arteriole" },
+    { "id": "pct", "x": 260, "y": 140, "label": "Proximal convoluted tubule", "synonyms": ["PCT", "proximal tubule"] },
+    { "id": "descending", "x": 305, "y": 420, "label": "Descending limb of loop of Henle", "synonyms": ["descending limb", "thin descending limb"] },
+    { "id": "ascending", "x": 415, "y": 380, "label": "Ascending limb of loop of Henle", "synonyms": ["ascending limb", "thick ascending limb", "TAL"] },
+    { "id": "loop", "x": 360, "y": 620, "label": "Loop of Henle", "synonyms": ["henle loop", "nephron loop"] },
+    { "id": "dct", "x": 510, "y": 240, "label": "Distal convoluted tubule", "synonyms": ["DCT", "distal tubule"] },
+    { "id": "collecting", "x": 595, "y": 500, "label": "Collecting duct" }
+  ]
+}

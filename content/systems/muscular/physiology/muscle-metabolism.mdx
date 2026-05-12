@@ -1,0 +1,238 @@
+---
+title: Muscle Metabolism & Fatigue
+system: muscular
+related:
+  - sliding-filament
+  - muscle-tissue-types
+figures: []
+sources:
+  - Hall & Guyton - Chapters 7-9, 84
+  - Berne & Levy - Chapter 14
+  - First Aid USMLE 2024
+level: undergrad
+---
+
+A contracting muscle needs **ATP** - for myosin head detachment, Ca²⁺ pumping back into the SR (SERCA), and Na/K-ATPase activity. Muscle has **three energy systems** running on different timescales, and **fatigue** has multiple proven mechanisms beyond "running out of ATP."
+
+<Figure name="muscular/glycolysis" caption="Glycolysis - anaerobic ATP supply for short-duration high-intensity exercise." />
+
+<Figure name="muscular/sarcomere" caption="Sarcomere - the unit consuming ATP during cross-bridge cycling." />
+
+## Three ATP-supply systems
+
+| System | Timescale | Mechanism | ATP yield | Limited by |
+|---|---|---|---|---|
+| **Phosphocreatine (PCr) system** | 0-10 s | PCr + ADP → ATP + Cr (creatine kinase) | Instant; ~1 ATP per PCr | PCr stores (~80 mmol/kg dry muscle) |
+| **Anaerobic glycolysis** | 10 s - 2 min | Glucose/glycogen → 2 pyruvate → 2 lactate; no O₂ | 2 ATP/glucose | Lactate + H⁺ accumulation, glycogen stores |
+| **Oxidative phosphorylation** | >2 min | Pyruvate + FFAs + AAs → CO₂ + H₂O via TCA + ETC | 30-32 ATP/glucose; ~106 ATP/palmitate | O₂ + substrate delivery; mitochondrial capacity |
+
+### Switching between systems
+- **100m sprint**: ~80% PCr + glycolysis, ~20% oxidative.
+- **400m run**: ~50/50 glycolytic + oxidative.
+- **Marathon**: ~99% oxidative - fat is the dominant fuel after first hour.
+
+### The "lactate threshold"
+- During exercise, blood lactate stays near baseline up to ~60% VO₂max, then rises sharply.
+- This isn't because oxygen runs out - it's because **glycolytic flux exceeds pyruvate's clearance via the mitochondria**, so excess pyruvate is shunted to lactate.
+- Lactate is then exported, reused by other muscle/heart/liver (Cori cycle to glucose in liver).
+
+<Mnemonic>
+**"Lactate is fuel, not waste"** - heart, slow-twitch muscle, and brain happily oxidize lactate. The Cori cycle uses 6 ATP in liver to regenerate 2 ATP in muscle (net loss); but it offloads acidosis from the working muscle.
+</Mnemonic>
+
+## Energy sources by intensity
+
+```
+Effort   PCr   Glyco   Oxid
+─────────────────────────────
+Max     ████   ███      █
+High     ██    ███     ██
+Mod       █    ██      ███
+Easy      ·    █       ███
+Rest      ·    ·       ███ (FFA)
+```
+
+At rest, **fatty acid oxidation** dominates (>70% of energy). FFAs liberated by adipose lipolysis (sensitive to insulin - high insulin shuts off FFA delivery, hence rebound hunger after sugar).
+
+## Fuel storage in muscle
+
+| Substrate | Stored as | Mass |
+|---|---|---|
+| **Glycogen** | Glycogen granules with glycogenin core | ~400 g total body (300 g muscle + 100 g liver) |
+| **PCr** | Phosphate-creatine pool | ~120 g |
+| **Triglycerides** | Intramuscular droplets near mitochondria | ~300 g |
+| **Free amino acids** | Glutamine, alanine pool | Small |
+
+Muscle glycogen is **locally trapped** - no glucose-6-phosphatase, so it can't release glucose to the bloodstream like liver does. It's just for the muscle that made it.
+
+## The Cori and Cahill cycles - moving energy around
+
+| Cycle | Origin | Pathway |
+|---|---|---|
+| **Cori cycle** | Anaerobic muscle | Muscle: glucose → 2 lactate. Lactate → liver. Liver: 2 lactate → glucose (gluconeogenesis, 6 ATP). Glucose → blood → muscle |
+| **Cahill (alanine) cycle** | Working/fasting muscle | Muscle: pyruvate + glutamate → alanine + α-KG. Alanine → liver. Liver: alanine → pyruvate → glucose. Carries N to urea cycle |
+
+Both move carbon back to muscle as glucose at a net energy cost - paid by liver.
+
+## Fatigue - five proven mechanisms
+
+| Type | Mechanism | When |
+|---|---|---|
+| **Central fatigue** | Decreased CNS drive (motor cortex, motivation, NT depletion) | Long-duration, hot, hypoglycemic |
+| **Substrate depletion** | Glycogen exhaustion (the "wall" at ~2-3 h of moderate exercise) | Endurance |
+| **Metabolite accumulation** | ↑ Pi (from PCr breakdown) blocks myosin cycling; ↓ pH affects troponin C; reactive O species damage | Intense |
+| **Ion balance** | K⁺ leaks out of cell → loss of resting potential → AP failure; Na/K-ATPase keeps up but lags | High frequency contraction |
+| **Excitation-contraction uncoupling** | DHPR-RyR1 coupling becomes unreliable; SR Ca²⁺ release drops | Extended high-intensity |
+
+Note: **lactate per se is NOT the cause of fatigue** - that's an old myth. The H⁺ from glycolysis is more relevant (acidosis), and even that contributes less than Pi accumulation.
+
+## EPOC - "afterburn"
+
+**Excess Post-exercise Oxygen Consumption** - O₂ consumption stays elevated for minutes to hours after exercise:
+- Restoring PCr stores (~3 min)
+- Re-saturating myoglobin/hemoglobin
+- Lactate clearance (~1 h)
+- Body temperature normalization
+- Restoring ATP cycling
+- Catecholamine clearance
+
+The "afterburn" is real but small (~10-15% of exercise calorie cost). Not the path to weight loss.
+
+## Muscle adaptation - what training changes
+
+| Type | Adaptations |
+|---|---|
+| **Endurance training** | ↑ mitochondrial density (PGC-1α), ↑ capillarization, ↑ oxidative enzymes, ↑ myoglobin, **shift toward type I fibers (slow oxidative)** |
+| **Resistance training** | ↑ myofibrillar proteins (hypertrophy via mTOR), ↑ neural drive (early gains are neural), ↑ PCr stores, **type II fibers grow** (especially IIa) |
+| **Detraining** | All of the above reverse in weeks to months; faster than they were gained |
+
+### Why elite sprinters and marathoners look different
+- **Sprinters**: high type IIx % + large cross-section + neuromuscular efficiency.
+- **Marathoners**: high type I % + dense capillary network + low body fat + high VO₂max.
+- Fiber-type % is largely genetically determined (training shifts ~5-10%).
+
+<Clinical>
+**Rhabdomyolysis** - myocyte necrosis releases CK + myoglobin + K⁺ + phosphate into blood.
+- Causes: crush injury, severe exercise, **statins** (especially with fibrates, macrolides, fibrates, grapefruit), seizures, cocaine, hyperthermia, drugs that disrupt SR Ca²⁺.
+- Triad: tea-colored urine + ↑↑ CK (often >5000) + ↑ K⁺.
+- AKI from heme pigment toxicity + Ca²⁺ deposition.
+- Treat: aggressive IV fluids (~ 1.5 L/h until clear urine), monitor K⁺, fix electrolytes.
+
+**Malignant hyperthermia**: RyR1 mutation (autosomal dominant) → halogenated anesthetics + succinylcholine trigger sustained SR Ca²⁺ release → tetanic contraction + heat (>40°C) + acidosis + hyperkalemia + rhabdo. Treatment: **dantrolene** (blocks RyR1).
+
+**McArdle disease (glycogen storage type V)**: muscle phosphorylase deficiency → can't break down muscle glycogen. Exercise intolerance + cramps + myoglobinuria after intense exercise; **"second wind" phenomenon** as FFAs take over.
+
+**Pompe disease (type II)**: acid maltase deficiency → glycogen accumulates in lysosomes → cardiomyopathy + hypotonia (infantile fatal). Enzyme replacement available.
+</Clinical>
+
+## Function reference - every metabolic component
+
+| Component | Function | Why it matters |
+|---|---|---|
+| **Creatine kinase (CK)** | PCr + ADP ↔ ATP + Cr | Plasma CK is the biomarker of muscle damage; MB isoform specific to cardiac |
+| **Hexokinase II** | Glucose → G6P in muscle (insulin-sensitive isoform) | First step of muscle glucose use; failed insulin signaling = T2DM |
+| **Glycogen phosphorylase** (myo isoform) | Glycogen → G1P | McArdle disease |
+| **PFK-1** | Rate-limiting glycolysis | Tarui disease (rare); fluoride competitive inhibitor (lab tube preservative) |
+| **Lactate dehydrogenase (LDH)** | Pyruvate ↔ lactate | Reversible; allows muscle to "store" pyruvate as lactate for export |
+| **Pyruvate dehydrogenase (PDH)** | Pyruvate → acetyl-CoA | Gateway to TCA; requires thiamine + lipoate + CoA + FAD + NAD; deficiency → lactic acidosis |
+| **CPT-1** | Carnitine-bound FA into mitochondria | Rate-limiting for FA oxidation; inhibited by insulin (high-carb state) |
+| **β-oxidation** | FA → acetyl-CoA repeatedly | Long-chain FAs need carnitine shuttle; medium-chain (MCT) don't |
+| **Citrate synthase** | First TCA step (oxaloacetate + acetyl-CoA → citrate) | Mitochondrial density marker |
+| **Cytochrome c oxidase (Complex IV)** | Final ETC enzyme | Inhibited by CN⁻, CO, H₂S (cellular asphyxiants) |
+| **GLUT4** | Insulin-regulated glucose uptake (muscle + adipose) | Recruited by exercise via AMPK independent of insulin - why exercise improves glycemic control |
+| **AMPK** | "Energy sensor" - activated by low ATP/AMP ratio | Metformin acts here; ↑ FA oxidation + glucose uptake |
+| **mTOR** | "Growth sensor" - protein synthesis | Activated by amino acids (leucine) + insulin + resistance exercise → hypertrophy |
+| **PGC-1α** | Mitochondrial biogenesis master regulator | Induced by endurance training |
+
+## Why this matters
+
+<HighYield variant="boards">
+- **CK elevation differential**: rhabdomyolysis (often >10,000), MI (CK-MB), polymyositis/dermatomyositis (often 2,000-20,000), muscular dystrophy (Duchenne CK can be 50,000), strenuous exercise (usually &lt;2,000).
+- **Statin myopathy**: dose-dependent. Risk factors: high dose, age, female, hypothyroid, renal disease, drug interactions (CYP3A4 inhibitors, gemfibrozil). Check CK if symptomatic.
+- **DKA + exercise**: lipolysis already maximal → exercising worsens ketosis. Insulin-deficient patients shouldn't exercise hard until corrected.
+- **Glucose oxidation requires PDH** (thiamine, lipoate, CoA, FAD, NAD). Thiamine deficiency → lactate buildup; classic in alcoholics, refeeding syndrome, beri-beri.
+- **Cyanide poisoning** = inhibits Complex IV (cytochrome c oxidase) → mitochondria can't accept electrons → forced anaerobic metabolism → lactic acidosis with bright red venous blood. Antidotes: hydroxocobalamin, nitrites + thiosulfate.
+- **MELAS (mitochondrial encephalomyopathy)**: maternally inherited; lactic acidosis + stroke-like episodes + myopathy. Lactate ↑ at rest.
+- **Creatine supplementation**: ↑ PCr stores, demonstrable performance boost in repeated short-burst activity; safe in healthy adults.
+- **Anaerobic threshold** (lactate threshold) is the basis for endurance training zones.
+</HighYield>
+
+## Histology
+
+<Figure name="histology/skeletal-muscle-histo" caption="Skeletal muscle histology - site of all the metabolism discussed here." />
+
+## Clinical case
+
+<ClinicalCase
+  vignette="A 45-year-old man on simvastatin + clarithromycin (for sinusitis) runs a half marathon. The next day: severe muscle pain, weakness, tea-colored urine. ED labs: CK 28,000, K 6.1, Cr 2.4, urinalysis positive for blood but no RBCs."
+  questions={[
+    { q: "What is the diagnosis?", a: "Rhabdomyolysis - statin-macrolide interaction + exertion", choices: [
+      "Acute glomerulonephritis",
+      "Rhabdomyolysis - statin-macrolide interaction + exertion",
+      "Polymyositis",
+      "Hemolysis"
+    ], explanation: "Massive CK + myoglobinuria (urine dipstick positive for blood without RBCs - myoglobin) + AKI = rhabdomyolysis. Clarithromycin inhibits CYP3A4 → ↑ simvastatin levels by 10×; combined with strenuous exercise it triggers rhabdo. Always check meds before adding a CYP3A4 inhibitor in a statin patient." },
+    { q: "Why does myoglobin damage kidneys?", a: "Filtered heme generates ROS in tubule; also forms tubular casts at acidic pH + causes renal vasoconstriction", choices: [
+      "Direct toxicity to glomerular basement membrane",
+      "Filtered heme generates ROS in tubule; also forms tubular casts at acidic pH + causes renal vasoconstriction",
+      "Immune complex deposition",
+      "Hyperuricemia"
+    ], explanation: "Three mechanisms: (1) heme-iron generates free radicals + lipid peroxidation in tubular epithelium, (2) myoglobin precipitates with Tamm-Horsfall protein in acidic urine → tubular obstruction, (3) myoglobin scavenges NO → renal vasoconstriction. Aggressive isotonic IV fluids dilute + alkalinize urine + improve perfusion." },
+    { q: "Most important immediate treatment?", a: "Aggressive IV normal saline (1-2 L/hr targeting urine output >200 mL/hr) + monitor K⁺ + correct acidosis", choices: [
+      "Hemodialysis",
+      "Furosemide diuresis",
+      "Aggressive IV normal saline (1-2 L/hr targeting urine output >200 mL/hr) + monitor K⁺ + correct acidosis",
+      "Steroids"
+    ], explanation: "Volume resuscitation is THE intervention. Goal: high tubular flow to flush myoglobin. Sodium bicarbonate to alkalinize urine (pH >6.5) reduces myoglobin precipitation; mannitol historically used but no longer recommended. Hemodialysis only if AKI fails to respond, hyperkalemia, or fluid overload." }
+  ]}
+/>
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Phosphocreatine system supplies ATP for approximately…", a: "First 10 seconds of maximal effort", choices: [
+    "First 10 seconds of maximal effort",
+    "First 2 minutes",
+    "First 30 minutes",
+    "Indefinite"
+  ]},
+  { q: "Anaerobic glycolysis yields how many ATP per glucose?", a: "2", choices: ["2", "4", "30", "36"] },
+  { q: "Muscle glycogen cannot be exported as blood glucose because muscle lacks…", a: "Glucose-6-phosphatase", choices: [
+    "Glycogen synthase",
+    "Glucose-6-phosphatase",
+    "Hexokinase",
+    "Glycogen phosphorylase"
+  ]},
+  { q: "Cori cycle moves what between muscle and liver?", a: "Lactate to liver, glucose back to muscle", choices: [
+    "Glucose to liver, lactate back",
+    "Lactate to liver, glucose back to muscle",
+    "Alanine to liver, glucose back",
+    "FFAs to liver, ketones back"
+  ]},
+  { q: "Major cause of fatigue during very high-intensity exercise is…", a: "Inorganic phosphate (Pi) accumulation + ion imbalance, not lactate per se", choices: [
+    "Oxygen depletion",
+    "Lactate buildup",
+    "Inorganic phosphate (Pi) accumulation + ion imbalance, not lactate per se",
+    "Triglyceride exhaustion"
+  ]},
+  { q: "McArdle disease results from deficiency of…", a: "Muscle glycogen phosphorylase", choices: [
+    "Acid maltase",
+    "Muscle glycogen phosphorylase",
+    "Phosphofructokinase",
+    "Branching enzyme"
+  ]},
+  { q: "Carnitine shuttle (CPT-1) is required for transport of…", a: "Long-chain fatty acids into mitochondria", choices: [
+    "Glucose into cells",
+    "Long-chain fatty acids into mitochondria",
+    "Pyruvate into mitochondria",
+    "Lactate into liver"
+  ]},
+  { q: "AMPK is activated by…", a: "Low energy state (high AMP/ATP ratio)", choices: [
+    "High insulin",
+    "Low energy state (high AMP/ATP ratio)",
+    "Resistance exercise specifically",
+    "Cortisol"
+  ]},
+  { q: "Cyanide poisoning blocks which complex?", a: "Complex IV (cytochrome c oxidase)", choices: ["Complex I", "Complex II", "Complex III", "Complex IV (cytochrome c oxidase)"] },
+  { q: "Aggressive IV fluids in rhabdo target what urine output rate?", a: ">200 mL/hr", choices: ["~50 mL/hr", "~100 mL/hr", ">200 mL/hr", ">500 mL/hr"] }
+]} />

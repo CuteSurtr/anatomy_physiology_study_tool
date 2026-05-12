@@ -1,0 +1,21 @@
+{
+  "src": "/figures/nervous/brain-sagittal-numbered.svg",
+  "alt": "Brain sagittal section with 8 numbered structures",
+  "viewBox": [0, 0, 401, 374],
+  "imageHasNumbers": true,
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Jmarchn - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Encephalon_human_sagittal_section_multilingual.svg"
+  },
+  "labels": [
+    { "id": "n1", "x": 0, "y": 0, "label": "Cerebrum", "synonyms": ["brain"] },
+    { "id": "n2", "x": 0, "y": 0, "label": "Telencephalon" },
+    { "id": "n3", "x": 0, "y": 0, "label": "Diencephalon" },
+    { "id": "n4", "x": 0, "y": 0, "label": "Brainstem", "synonyms": ["brain stem"] },
+    { "id": "n5", "x": 0, "y": 0, "label": "Midbrain", "synonyms": ["mesencephalon"] },
+    { "id": "n6", "x": 0, "y": 0, "label": "Pons", "synonyms": ["protuberance"] },
+    { "id": "n7", "x": 0, "y": 0, "label": "Medulla oblongata", "synonyms": ["medulla", "bulb"] },
+    { "id": "n8", "x": 0, "y": 0, "label": "Cerebellum" }
+  ]
+}

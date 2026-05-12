@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <rect width="1000" height="400" fill="#fefefe"/>
+
+  <!-- Dendrites (left branching) -->
+  <g stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M 100 200 Q 60 140, 30 100"/>
+    <path d="M 100 200 Q 50 180, 20 170"/>
+    <path d="M 100 200 Q 60 230, 25 250"/>
+    <path d="M 100 200 Q 50 280, 30 310"/>
+    <path d="M 110 180 Q 80 110, 70 60"/>
+    <path d="M 110 220 Q 80 300, 80 330"/>
+    <!-- sub-branches -->
+    <path d="M 50 160 L 35 145"/>
+    <path d="M 50 160 L 35 175"/>
+    <path d="M 60 240 L 40 250"/>
+  </g>
+
+  <!-- Soma (cell body) -->
+  <ellipse cx="150" cy="200" rx="60" ry="55" fill="#ede9fe" stroke="#5b21b6" stroke-width="3"/>
+  <circle cx="150" cy="200" r="20" fill="#c4b5fd" stroke="#5b21b6" stroke-width="2"/>
+  <circle cx="150" cy="200" r="6" fill="#5b21b6"/>
+
+  <!-- Axon hillock (taper from soma) -->
+  <path d="M 205 185 Q 230 195, 250 195 L 250 205 Q 230 205, 205 215 Z" fill="#ddd6fe" stroke="#5b21b6" stroke-width="2"/>
+
+  <!-- Axon with myelin sheath segments -->
+  <!-- Bare axon line through everything -->
+  <line x1="250" y1="200" x2="850" y2="200" stroke="#a78bfa" stroke-width="6"/>
+
+  <!-- Myelin segments (Schwann cells) -->
+  <ellipse cx="320" cy="200" rx="48" ry="22" fill="#fde68a" stroke="#a16207" stroke-width="2.5"/>
+  <ellipse cx="440" cy="200" rx="48" ry="22" fill="#fde68a" stroke="#a16207" stroke-width="2.5"/>
+  <ellipse cx="560" cy="200" rx="48" ry="22" fill="#fde68a" stroke="#a16207" stroke-width="2.5"/>
+  <ellipse cx="680" cy="200" rx="48" ry="22" fill="#fde68a" stroke="#a16207" stroke-width="2.5"/>
+  <ellipse cx="800" cy="200" rx="40" ry="22" fill="#fde68a" stroke="#a16207" stroke-width="2.5"/>
+
+  <!-- Axon terminals (right branching) -->
+  <g stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M 850 200 Q 890 170, 920 160"/>
+    <path d="M 850 200 Q 890 200, 940 200"/>
+    <path d="M 850 200 Q 890 230, 920 250"/>
+    <path d="M 850 200 Q 880 150, 900 120"/>
+    <path d="M 850 200 Q 880 250, 910 280"/>
+  </g>
+  <!-- terminal buttons -->
+  <circle cx="922" cy="160" r="8" fill="#7c3aed"/>
+  <circle cx="942" cy="200" r="8" fill="#7c3aed"/>
+  <circle cx="922" cy="250" r="8" fill="#7c3aed"/>
+  <circle cx="902" cy="120" r="8" fill="#7c3aed"/>
+  <circle cx="912" cy="280" r="8" fill="#7c3aed"/>
+
+  <!-- Subtle grid lines for visual rhythm -->
+</svg>

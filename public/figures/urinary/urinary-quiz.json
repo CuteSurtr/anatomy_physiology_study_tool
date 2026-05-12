@@ -1,0 +1,22 @@
+{
+  "src": "/figures/urinary/urinary-overview.svg",
+  "alt": "Urinary system for fill-in-blank practice",
+  "viewBox": [0, 0, 700, 1000],
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Jordi March i Nogué (Jmarchn) - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Urinary_system.svg"
+  },
+  "labels": [
+    { "id": "right-kidney", "x": 215, "y": 350, "label": "Right kidney" },
+    { "id": "left-kidney", "x": 480, "y": 320, "label": "Left kidney" },
+    { "id": "right-ureter", "x": 280, "y": 530, "label": "Right ureter", "synonyms": ["ureter"] },
+    { "id": "left-ureter", "x": 415, "y": 520, "label": "Left ureter", "synonyms": ["ureter"] },
+    { "id": "bladder", "x": 350, "y": 740, "label": "Urinary bladder", "synonyms": ["bladder"] },
+    { "id": "urethra", "x": 350, "y": 870, "label": "Urethra" },
+    { "id": "renal-artery", "x": 280, "y": 345, "label": "Renal artery" },
+    { "id": "renal-vein", "x": 305, "y": 365, "label": "Renal vein" },
+    { "id": "ivc", "x": 320, "y": 250, "label": "Inferior vena cava", "synonyms": ["IVC"] },
+    { "id": "abdominal-aorta", "x": 380, "y": 230, "label": "Abdominal aorta", "synonyms": ["aorta"] }
+  ]
+}

@@ -1,0 +1,189 @@
+---
+title: Action Potential
+system: nervous
+related:
+  - brain
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 12.4
+level: undergrad
+---
+
+A neuronal action potential is a **rapid, all-or-none reversal of membrane potential** propagating along an axon. Resting potential sits around **−70 mV** (K⁺ leak channels + Na⁺/K⁺ ATPase set the gradient).
+
+<Figure name="nervous/neuron" caption="Multipolar neuron - dendrites receive, soma integrates, axon propagates the action potential to terminal." />
+
+## Phases
+
+1. **Resting** (−70 mV): voltage-gated Na⁺ and K⁺ channels closed; K⁺ leak dominates.
+2. **Depolarization to threshold** (~−55 mV): graded summation from dendrites at the axon hillock.
+3. **Rising phase**: voltage-gated Na⁺ channels open → Na⁺ rushes in → membrane swings to ~+30 mV.
+4. **Peak**: Na⁺ channels inactivate; voltage-gated K⁺ channels open.
+5. **Repolarization**: K⁺ flows out, membrane returns toward rest.
+6. **Hyperpolarization (undershoot)**: K⁺ channels close slowly - membrane briefly more negative than rest.
+7. **Return to rest**: K⁺ channels close; Na⁺/K⁺ ATPase maintains gradients long-term.
+
+## Refractory periods
+
+- **Absolute refractory** (during phases 3–5): Na⁺ channels are inactivated - no new AP can fire, regardless of stimulus strength. This is what keeps APs unidirectional.
+- **Relative refractory** (phase 6): a stronger-than-normal stimulus can trigger another AP.
+
+## Propagation
+
+- **Unmyelinated axons**: continuous propagation; slow (~1 m/s).
+- **Myelinated axons**: **saltatory** conduction - APs jump between **nodes of Ranvier** where voltage-gated Na⁺ channels are concentrated. Speeds reach ~100 m/s.
+
+<Clinical>
+**Multiple sclerosis** is autoimmune demyelination of CNS axons. Loss of myelin → slowed or blocked conduction → variable neurologic deficits depending on plaque location. **Guillain-Barré** is the peripheral analog (post-infectious demyelination of PNS).
+</Clinical>
+
+<Note title="Why the AP is all-or-none">
+Once threshold is crossed, the Na⁺ influx is positive feedback (depolarization → more Na⁺ channels open → more depolarization). The amplitude doesn't encode stimulus strength - **frequency** does.
+</Note>
+
+## Synaptic transmission
+
+When the AP reaches the **presynaptic terminal**:
+
+1. Voltage-gated **Ca²⁺ channels** open → Ca²⁺ enters the terminal.
+2. Ca²⁺ triggers **synaptic vesicles** (full of neurotransmitter) to fuse with the membrane (via SNARE proteins).
+3. Neurotransmitter diffuses across the synaptic cleft, binds receptors on the postsynaptic membrane.
+4. Postsynaptic effect: excitatory (EPSP, e.g., glutamate at AMPA/NMDA → Na⁺ in) or inhibitory (IPSP, e.g., GABA at GABA-A → Cl⁻ in).
+5. Termination: reuptake (most neurotransmitters), enzymatic breakdown (ACh by acetylcholinesterase), or diffusion away.
+
+## Major neurotransmitters
+
+| NT | Type | Main role |
+|---|---|---|
+| Glutamate | Amino acid | #1 excitatory in CNS |
+| GABA | Amino acid | #1 inhibitory in CNS (brain); benzodiazepines + barbiturates target GABA-A |
+| Glycine | Amino acid | Major inhibitory in spinal cord |
+| Acetylcholine | Cholinergic | NMJ, autonomic ganglia, parasympathetic postganglionic |
+| Norepinephrine | Catecholamine | Sympathetic postganglionic, mood/arousal (locus coeruleus) |
+| Dopamine | Catecholamine | Reward, movement (nigrostriatal - lost in Parkinson) |
+| Serotonin | Indoleamine | Mood, sleep, GI motility (raphe nuclei) |
+
+## Histology
+
+<Figure name="histology/nissl" caption="Neuronal cell bodies - Nissl substance (rough ER) is characteristic of the soma." />
+
+## Quick check
+
+<Quiz questions={[
+  { q: "The rising phase of the AP is caused by…", a: "Na⁺ influx", choices: ["K⁺ efflux", "Na⁺ influx", "Ca²⁺ influx", "Cl⁻ influx"] },
+  { q: "During the absolute refractory period…", a: "Na⁺ channels are inactivated and no new AP can fire", choices: [
+    "K⁺ channels are closed",
+    "Na⁺ channels are inactivated and no new AP can fire",
+    "Threshold is lower",
+    "Resting potential is more negative"
+  ]},
+  { q: "Saltatory conduction depends on…", a: "Myelin and nodes of Ranvier", choices: ["Continuous Na⁺ channels along the axon", "Myelin and nodes of Ranvier", "Larger axon diameter alone", "ATP-gated K⁺ channels"] },
+  { q: "Resting membrane potential of a typical neuron is approximately…", a: "−70 mV", choices: ["−40 mV", "−70 mV", "−90 mV", "+30 mV"] },
+  { q: "Repolarization is driven by…", a: "K⁺ efflux through voltage-gated K⁺ channels", choices: [
+    "Na⁺ influx through voltage-gated Na⁺ channels",
+    "K⁺ efflux through voltage-gated K⁺ channels",
+    "Cl⁻ influx through ligand-gated channels",
+    "Ca²⁺ influx through L-type channels"
+  ]},
+  { q: "Neurotransmitter release at the presynaptic terminal is triggered by influx of…", a: "Ca²⁺", choices: ["Na⁺", "K⁺", "Ca²⁺", "Mg²⁺"] },
+  { q: "The principal inhibitory neurotransmitter of the brain is…", a: "GABA", choices: ["Glutamate", "GABA", "Acetylcholine", "Dopamine"] },
+  { q: "Acetylcholine in the synaptic cleft is terminated by…", a: "Enzymatic breakdown by acetylcholinesterase", choices: [
+    "Reuptake into the presynaptic terminal",
+    "Enzymatic breakdown by acetylcholinesterase",
+    "Diffusion alone",
+    "Postsynaptic internalization"
+  ]},
+  { q: "Multiple sclerosis primarily damages…", a: "CNS myelin (oligodendrocytes)", choices: [
+    "CNS myelin (oligodendrocytes)",
+    "PNS myelin (Schwann cells)",
+    "Voltage-gated Na⁺ channels",
+    "The neuromuscular junction"
+  ]},
+  { q: "The neurotransmitter most depleted in Parkinson disease is…", a: "Dopamine", choices: ["Acetylcholine", "Norepinephrine", "Dopamine", "GABA"] },
+  { q: "Action-potential amplitude encodes…", a: "Nothing - APs are all-or-none", choices: [
+    "Stimulus strength",
+    "Stimulus duration",
+    "Nothing - APs are all-or-none",
+    "Resting potential"
+  ]},
+  { q: "Stimulus strength is encoded by…", a: "AP frequency and recruitment", choices: [
+    "AP amplitude",
+    "AP duration",
+    "AP frequency and recruitment",
+    "Resting potential"
+  ]}
+]} />
+
+## Every ion channel and neurotransmitter - function reference
+
+### Voltage-gated channels
+
+| Channel | Function | Where | Drugs |
+|---|---|---|---|
+| **Na⁺ (Nav)** | Rapid depolarization | Throughout neuron, especially nodes of Ranvier | Local anesthetics (lidocaine), Class I antiarrhythmics, phenytoin |
+| **K⁺ (Kv)** | Repolarization | Throughout | Class III antiarrhythmics (amiodarone, sotalol) |
+| **Ca²⁺ (L-type)** | Sustained depolarization in cardiac/smooth muscle; neurotransmitter release in synapse | Cardiac, smooth muscle, presynaptic terminals | DHP CCBs (amlodipine), non-DHP CCBs (verapamil, diltiazem) |
+| **Ca²⁺ (N, P/Q types)** | Presynaptic Ca²⁺ entry | Neurons | Gabapentin (α2δ), ziconotide |
+| **Ca²⁺ (T-type)** | Pacemaker, thalamic oscillations | SA node, thalamus | Ethosuximide (absence seizures) |
+
+### Neurotransmitters
+
+| NT | Class | Receptors | Function | Drugs |
+|---|---|---|---|---|
+| **Glutamate** | Amino acid | AMPA, NMDA, kainate (ionotropic); mGluR (metabotropic) | Major excitatory NT | Ketamine, memantine (NMDA antagonists) |
+| **GABA** | Amino acid | GABA-A (Cl⁻), GABA-B (G-coupled K⁺) | Major inhibitory NT | Benzos, barbs, propofol potentiate GABA-A |
+| **Glycine** | Amino acid | Cl⁻ channel | Inhibitory in spinal cord | Strychnine blocks → tetanus-like |
+| **Acetylcholine** | Cholinergic | Nicotinic (ionotropic), Muscarinic (M1–M5, G-coupled) | NMJ, autonomic ganglia, parasympathetic post; CNS arousal | AChE inhibitors, anticholinergics |
+| **Norepinephrine** | Catecholamine | α1, α2, β1, β2, β3 | Sympathetic post-ganglionic; arousal | SNRIs, α-blockers, β-blockers |
+| **Dopamine** | Catecholamine | D1 (G_s) - direct path; D2 (G_i) - indirect path | Reward, movement, prolactin inhibition | Antipsychotics (D2 antagonists), L-DOPA |
+| **Serotonin** | Indoleamine | 5-HT1–7 family | Mood, sleep, GI motility | SSRIs, triptans, ondansetron |
+| **Histamine** | Amine | H1, H2, H3 | Wakefulness, gastric acid, allergy | Antihistamines |
+| **Endorphins / enkephalins** | Peptide | μ, κ, δ opioid receptors | Analgesia, reward | Opioids agonize; naloxone antagonizes |
+| **Substance P** | Peptide | NK1 | Pain transmission | Aprepitant (chemo nausea) |
+
+## High-yield exam patterns
+
+<HighYield exam="nclex">
+**NCLEX neuro patient teaching:**
+- **Multiple sclerosis**: avoid heat (worsens symptoms - Uhthoff phenomenon); rest periods to manage fatigue; teach injection technique for DMT (e.g., interferon-β).
+- **Guillain-Barré**: ascending paralysis; monitor respiratory function (VC, NIF) - intubate before failure.
+- **Seizure first aid**: protect head, time the seizure, side-lying after; **status epilepticus** &gt;5 min → emergency.
+- **Anti-epileptic teaching**: never stop abruptly (status risk); take consistently; monitor levels.
+</HighYield>
+
+<HighYield exam="pharm">
+**CNS pharm essentials:**
+- **Benzodiazepines** (diazepam, lorazepam, midazolam): GABA-A potentiation - ↑ frequency of Cl⁻ opening; reversal = **flumazenil**.
+- **Barbiturates**: GABA-A - ↑ duration; lethal in overdose (resp depression).
+- **SSRIs**: 4–6 wk for full effect; suicidality warning in young adults; serotonin syndrome if combined with MAOI/triptan.
+- **Lithium**: narrow therapeutic window (0.6–1.2 mEq/L); monitor renal, thyroid; dehydration → toxicity.
+- **Antipsychotics**: typicals (haloperidol) → EPS, tardive dyskinesia; atypicals → metabolic syndrome (weight, glucose, lipids).
+- **Triptans**: contraindicated in CAD, pregnancy.
+</HighYield>
+
+## More neurophysiology figures
+
+### Chemical synapse - detailed view
+
+<Figure name="nervous/synapse" caption="Chemical synapse showing the presynaptic terminal (with vesicles + mitochondria + Ca²⁺ channels), the synaptic cleft, and the postsynaptic membrane (with neurotransmitter receptors)." />
+
+### Practice - synapse diagram quiz
+
+<DiagramQuiz name="nervous/synapse-unlabeled" title="Label the parts of a chemical synapse" />
+
+## Clinical case
+
+<ClinicalCase title="Episodic vision loss in a young woman" vignette="A 29-year-old woman presents with 5 days of painful right-eye vision loss with color desaturation. She also reports a 2-week history of left-leg numbness 6 months ago that resolved spontaneously. MRI brain shows multiple T2 hyperintense lesions in the periventricular white matter, brainstem, and corpus callosum, some of which enhance with gadolinium. Oligoclonal bands are present in CSF." questions={[
+  { q: "What is the most likely diagnosis?", a: "Multiple sclerosis", choices: [
+    "Acute disseminated encephalomyelitis",
+    "Neuromyelitis optica",
+    "Multiple sclerosis",
+    "Brain tumor"
+  ], explanation: "MS hallmark: lesions disseminated in **space and time** - multiple lesions (space) appearing at different times (some enhance = active, others don't = chronic). Optic neuritis is often the first symptom in young women. CSF oligoclonal bands supports the diagnosis." },
+  { q: "MS damages which structure?", a: "CNS myelin (oligodendrocytes)", choices: [
+    "Peripheral nerve myelin (Schwann cells)",
+    "CNS myelin (oligodendrocytes)",
+    "Neuromuscular junction",
+    "Anterior horn motor neurons"
+  ], explanation: "MS is autoimmune demyelination of CNS axons (oligodendrocytes affected). Loss of saltatory conduction → slowed or blocked signals → variable neuro deficits. Guillain-Barré is the peripheral analog (Schwann cells). Heat worsens symptoms (Uhthoff phenomenon)." }
+]} />

@@ -1,0 +1,274 @@
+---
+title: Cell Membrane Transport & Signaling
+system: foundations
+related:
+  - histology
+  - body-organization
+figures: []
+sources:
+  - Alberts Molecular Biology of the Cell 6e
+  - Hall & Guyton - Chapters 4-5
+  - First Aid USMLE 2024 - Biochemistry
+level: undergrad
+---
+
+Every physiological process relies on **moving stuff across membranes** (transport) and **passing information** (signaling). Five transport categories, four major signaling cascades, dozens of disease implications. Mastering these explains nearly every drug class.
+
+<Figure name="foundations/cell-membrane" caption="Cell plasma membrane - phospholipid bilayer with embedded integral proteins (channels, transporters, receptors), cholesterol, and surface glycocalyx." />
+
+<Figure name="foundations/transport" caption="Facilitated diffusion via a membrane channel protein - passive but selective." />
+
+## Membrane structure recap
+
+- **Phospholipid bilayer** - hydrophobic interior + polar surfaces.
+- **Cholesterol** - controls fluidity (more = stiffer membrane); ~30% of plasma membrane mass.
+- **Integral membrane proteins** - span the bilayer; transporters, channels, receptors.
+- **Peripheral membrane proteins** - attached on one side.
+- **Glycocalyx** - sugar chains on extracellular surface; recognition + adhesion.
+
+Bilayer is **freely permeable** to: O₂, CO₂, N₂, small uncharged molecules (water - slowly), steroid hormones (rapidly).
+**Impermeable** to: ions, charged molecules, large polar molecules → need transporters.
+
+## Five modes of membrane transport
+
+| Mode | Energy | Direction | Examples |
+|---|---|---|---|
+| **Simple diffusion** | None (entropy) | Down gradient | O₂, CO₂, urea, steroids, NH₃, ethanol |
+| **Facilitated diffusion** | None | Down gradient via specific protein | Glucose via GLUT, water via aquaporins, ions via channels |
+| **Primary active transport** | ATP directly | Against gradient | Na/K-ATPase, Ca-ATPase (SERCA, PMCA), H/K-ATPase (stomach), H-ATPase (lysosome) |
+| **Secondary active transport** | Gradient (usually Na⁺) | Against own gradient using another's | SGLT (glucose + Na), Na/Ca exchanger, NKCC2 (kidney) |
+| **Vesicular** | ATP | Bulk | Endocytosis (receptor-mediated, phagocytosis, pinocytosis), exocytosis |
+
+### Key pumps
+| Pump | Move | Stoichiometry | Notes |
+|---|---|---|---|
+| **Na⁺/K⁺-ATPase** | 3 Na out, 2 K in | 1 ATP | The most important pump; sets electrochemical gradient. **Digoxin inhibits → ↑ intracellular Na → ↓ Na/Ca exchange → ↑ intracellular Ca → ↑ cardiac contractility** |
+| **Ca²⁺-ATPase (SERCA)** | Ca²⁺ into SR | 1 ATP / 2 Ca²⁺ | Phospholamban inhibition removed by PKA phosphorylation → faster relaxation (lusitropy) in cardiac β1 stim |
+| **Ca²⁺-ATPase (PMCA)** | Ca²⁺ out across plasma membrane | 1 ATP / Ca²⁺ | Maintains cytosolic Ca low |
+| **H⁺/K⁺-ATPase** | H⁺ out, K⁺ in (parietal cell) | 1 ATP / H⁺ | Target of PPIs |
+| **V-type H⁺-ATPase** | H⁺ into lysosome | 1 ATP / H⁺ | Maintains lysosomal pH ~4.5 |
+| **F-type ATP synthase (mitochondria)** | Backwards - uses H⁺ gradient to MAKE ATP | - | Final step of oxidative phosphorylation |
+
+### Ion channels - gated
+| Gating | Triggered by | Example |
+|---|---|---|
+| **Voltage-gated** | Membrane depolarization | Na⁺ (action potential upstroke), K⁺ (repolarization), Ca²⁺ (NT release, contraction) |
+| **Ligand-gated** | Extracellular ligand | Nicotinic ACh, AMPA/NMDA glutamate, GABA-A, glycine |
+| **Mechanosensitive** | Stretch | Cochlear hair cells (Piezo channels), baroreceptor mechanosensation |
+| **Light-gated** | Photon | Retinal rhodopsin (technically Gt-coupled → cGMP-gated) |
+
+### Carrier kinetics
+- Show **saturation** (have Km + Vmax) unlike simple diffusion.
+- Carrier-mediated transport demonstrates **transport maximum (Tm)** - e.g., glucose appears in urine when filtered load exceeds renal proximal tubule SGLT Tm (~300 mg/min).
+- Some carriers have **competitive inhibition** (similar substrate competes).
+
+## Water + osmosis
+
+- Net water flow driven by **osmotic gradient** (toward higher solute concentration).
+- **Aquaporins** speed water permeability ~10-100×; AQP2 in collecting duct is the ADH-regulated channel (vasopressin → insertion → water reabsorption).
+- **Tonicity** depends only on solutes that DON'T cross the membrane (effective osmoles):
+  - **Hypertonic**: cell shrinks
+  - **Isotonic**: no change
+  - **Hypotonic**: cell swells
+- IV fluids:
+  - 0.9% saline = isotonic
+  - 5% dextrose in water = isotonic IV but becomes hypotonic intracellularly (sugar consumed)
+  - 3% saline = hypertonic (osmotherapy for ICP)
+
+<Clinical>
+**SIADH**: inappropriate ADH → aquaporins always open → water retention → dilutional hyponatremia. Treat: fluid restriction; tolvaptan (V2 antagonist); severe → 3% saline cautiously.
+
+**Diabetes insipidus**: lack of ADH (central) or kidney resistance (nephrogenic) → can't reabsorb water → dilute urine + thirst. Treat central with desmopressin; nephrogenic with thiazide diuretic (paradoxical - induces hypovolemia → ↑ PCT Na/water reabsorption).
+</Clinical>
+
+## Signaling - four major pathways
+
+### 1. Ion channels (ionotropic)
+- Fastest (microseconds-ms).
+- Ligand binding → channel opens → ion flux → membrane potential change.
+- Examples: nicotinic AChR, glutamate (NMDA/AMPA), GABA-A.
+
+### 2. G-protein coupled receptors (GPCRs) - most drug targets
+**Mechanism**: ligand binds → receptor conformational change → GDP/GTP exchange on Gα → Gα-GTP detaches + activates effectors.
+
+| G-protein | Effector | 2nd messenger | Effect |
+|---|---|---|---|
+| **Gs** | Adenylate cyclase ↑ | ↑ cAMP → PKA | Heart β1 (↑ contraction), kidney V2 (water), liver glucagon |
+| **Gi** | Adenylate cyclase ↓ | ↓ cAMP | Muscarinic M2 in heart (↓ HR), α2 (↓ NE release), opioid μ |
+| **Gq** | Phospholipase C | IP3 + DAG → ↑ Ca²⁺, PKC | α1, M1, M3, H1, V1 |
+| **G12/13** | Rho GEFs | Cytoskeletal rearrangement | Some thrombin effects |
+
+The same NT (e.g., NE) acts via different G-proteins at different receptors (α1 → Gq vasoconstriction; α2 → Gi presynaptic inhibition; β1 → Gs heart; β2 → Gs bronchodilation).
+
+**Cholera toxin** locks Gs in ON state → ↑↑ cAMP in gut → massive Cl⁻ secretion → secretory diarrhea.
+**Pertussis toxin** locks Gi OFF → ↑ cAMP → multiple effects (whooping cough biology).
+
+### 3. Receptor tyrosine kinases (RTKs)
+- Slower (seconds-minutes); growth + metabolism.
+- Ligand binds → receptor dimerizes → autophosphorylation → recruits adapter proteins → cascade.
+
+| Pathway | Receptor → cascade |
+|---|---|
+| **Insulin** | IR → IRS-1 → PI3K → Akt → GLUT4 translocation; also IRS-1 → MAPK → growth |
+| **Growth factors (EGF, PDGF, FGF, VEGF)** | RTK → Ras → Raf → MEK → ERK → transcription |
+| **Cytokines (JAK/STAT)** | Receptor + JAK kinase → phosphorylates STAT → STAT dimerizes → nucleus |
+
+**JAK inhibitors** (tofacitinib, ruxolitinib) treat RA, polycythemia vera, atopic dermatitis.
+**Imatinib** (BCR-ABL kinase) - first targeted cancer therapy; CML.
+
+### 4. Nuclear receptors (intracellular)
+- Slowest (hours-days); steroid + thyroid + lipid hormones.
+- Hormone diffuses across membrane → binds cytoplasmic or nuclear receptor → conformational change → translocates to nucleus → binds DNA response element → ↑/↓ transcription.
+
+| Hormone | Receptor | Effects |
+|---|---|---|
+| **Cortisol** | GR (cytoplasm) | Anti-inflammatory, gluconeogenesis, immunosuppression |
+| **Aldosterone** | MR (cytoplasm) | ENaC + Na/K-ATPase up in collecting duct |
+| **Estrogen / testosterone** | ER, AR (nuclear or cytoplasm) | Sex steroids' classical effects |
+| **Thyroid hormone (T3)** | TR (nuclear) | Metabolic rate, growth |
+| **Vitamin D (calcitriol)** | VDR (nuclear) | Calcium + phosphate absorption + immune |
+| **Retinoic acid** | RAR / RXR | Development, differentiation |
+
+## Endocytosis modes
+
+| Mode | Selectivity | Example |
+|---|---|---|
+| **Phagocytosis** | Whole particles | Macrophages eating bacteria |
+| **Pinocytosis** ("cell drinking") | Bulk fluid | Constitutive uptake |
+| **Receptor-mediated** (clathrin-coated pits) | Specific ligands | LDL receptor - Brown + Goldstein won Nobel for this |
+| **Caveolae-mediated** | Lipid raft components | Some toxins; VEGF signaling |
+
+## Second messengers - the toolkit
+
+| 2nd messenger | Source | Targets |
+|---|---|---|
+| **cAMP** | Adenylate cyclase | PKA → phosphorylates many proteins |
+| **cGMP** | Guanylate cyclase (sGC = NO target; pGC = ANP target) | PKG → vasodilation, retinal photoreceptors |
+| **IP3** | PIP2 by PLC | Releases Ca²⁺ from ER |
+| **DAG** | PIP2 by PLC | Activates PKC |
+| **Ca²⁺** | Channels + IP3R + RyR + leak | Calmodulin, troponin C, calcineurin |
+| **NO** | NOS family | Activates sGC → cGMP; major vasodilator |
+
+**Caffeine + theophylline**: inhibit phosphodiesterase → cAMP stays elevated → β-like effects (bronchodilation, ↑ HR, alertness).
+**Sildenafil (Viagra)**: PDE5 inhibitor → ↑ cGMP in corpus cavernosum → smooth muscle relaxation → erection.
+**Milrinone**: PDE3 inhibitor → ↑ cAMP in heart → inotropy; cardiogenic shock.
+
+## Function reference - every key player
+
+| Component | Function | Why it matters |
+|---|---|---|
+| **Na/K-ATPase** | Sets membrane potential + drives Na-coupled cotransport | Digoxin target; loss → swelling, death |
+| **Aquaporins** | Water channels | AQP2 in collecting duct = ADH target; loss = nephrogenic DI |
+| **Voltage-gated Na⁺ channels** | Action potential upstroke | Local anesthetics block; Brugada syndrome (cardiac); periodic paralysis |
+| **Voltage-gated Ca²⁺ channels** | NT release + cardiac plateau + smooth muscle contraction | DHPs (amlodipine) block L-type; benzodiazepines + gabapentinoids affect α2δ subunit |
+| **Voltage-gated K⁺ channels** | Repolarization; pacemaker | Class III antiarrhythmics (amiodarone, sotalol); long QT mutations |
+| **Nicotinic AChR** | Ionotropic (Na/K) | NMJ + autonomic ganglia + CNS; varenicline (smoking cessation) |
+| **GABA-A** | Ionotropic Cl⁻ | Benzo + barbiturate + alcohol target |
+| **GPCRs** | Most drug targets in pharmacology | ~30% of all marketed drugs |
+| **Receptor tyrosine kinases** | Growth + metabolism | Tumor drivers (HER2, EGFR); targets of small-molecule + monoclonal cancer drugs |
+| **JAK/STAT** | Cytokine signaling | Polycythemia vera (JAK2 V617F), JAK inhibitor drugs |
+| **Nuclear receptors** | Steroid/thyroid receptors | Tamoxifen (ER), spironolactone (MR), bicalutamide (AR), levothyroxine (TR replacement) |
+| **PIP2** | Lipid precursor for IP3 + DAG | Cleaved by PLC; site of Gq signaling |
+| **Cholera toxin** | Locks Gs ON → ↑↑ cAMP in gut | Massive secretory diarrhea |
+| **Pertussis toxin** | Locks Gi OFF | Whooping cough toxin |
+| **Anthrax edema factor** | Bacterial adenylate cyclase → ↑ cAMP | Anthrax pathophysiology |
+| **Diphtheria toxin** | ADP-ribosylates EF-2 → blocks protein synthesis | - |
+
+## Why this matters
+
+<HighYield variant="boards">
+- **Digoxin** mechanism: Na/K-ATPase inhibition → ↑ intracellular Na → ↓ Na/Ca exchanger gradient → ↑ intracellular Ca → ↑ contractility. Toxicity: anorexia, nausea, vision changes (yellow), arrhythmias. Hypokalemia + hypomagnesemia worsen toxicity.
+- **GLUT family**:
+  - GLUT1 (RBC, brain, BBB) - basal
+  - GLUT2 (β cells, liver, kidney, gut) - high Km, glucose sensor
+  - GLUT3 (neurons) - constitutive high affinity
+  - GLUT4 (muscle, fat) - insulin-regulated
+  - GLUT5 (gut, sperm) - fructose
+- **Loop diuretics** inhibit NKCC2 in thick ascending limb → loses Na/K/Cl + indirectly Ca/Mg (paracellular).
+- **Thiazides** inhibit NCC in DCT → loses Na/Cl + indirectly retains Ca (helpful for stones).
+- **Cardiac glycoside toxicity** treated with: digoxin-specific Fab fragments, correct K⁺ (controversial - high K⁺ worsens, low K⁺ also worsens; target slightly high), atropine if bradyarrhythmia.
+- **Insulin signaling defect (T2DM)**: chronic inflammation → TNF-α → IKK activation → phosphoserine on IRS-1 → IRS-1 degradation → blunted PI3K/Akt → ↓ GLUT4 translocation → muscle resistance.
+- **Cystic fibrosis**: CFTR (cAMP-gated Cl⁻ channel) defect → reduced Cl⁻ + water secretion onto epithelial surfaces → thick mucus everywhere. ΔF508 (~70%) misfolds + is degraded.
+- **Familial hypercholesterolemia**: defective LDL receptor → impaired receptor-mediated endocytosis of LDL → ↑↑ LDL. Statins help by ↑ LDL receptor expression.
+- **GPCR desensitization**: continuous agonist → β-arrestin recruitment → receptor internalization → tachyphylaxis. Explains why pulsatile GnRH is needed; continuous → axis suppression.
+</HighYield>
+
+## Histology
+
+<Figure name="histology/epidermis-layers" caption="Cell-to-cell organization at scale - epidermal layers depend on tight junctions, desmosomes, and signaling discussed in this page." />
+
+## Clinical case
+
+<ClinicalCase
+  vignette="A 76-year-old man on digoxin for heart failure presents with nausea, anorexia, blurred yellow-tinged vision, and palpitations. ECG: PVCs and bidirectional ventricular tachycardia. K⁺ 3.0, Mg 1.4, Cr 1.7."
+  questions={[
+    { q: "Mechanism of digoxin toxicity?", a: "Excessive Na/K-ATPase inhibition → ↑ intracellular Na/Ca → arrhythmogenicity; worsened by hypokalemia (which exposes more binding sites) + renal dysfunction (drug accumulation)", choices: [
+      "Direct β-adrenergic stimulation",
+      "Excessive Na/K-ATPase inhibition → ↑ intracellular Na/Ca → arrhythmogenicity; worsened by hypokalemia (which exposes more binding sites) + renal dysfunction (drug accumulation)",
+      "Vagal stimulation",
+      "Calcium channel blockade"
+    ], explanation: "Digoxin competes with K⁺ for the Na/K-ATPase external binding site. Lower extracellular K → fewer K⁺ ions competing → more digoxin bound → more pump inhibition. Renal failure ↑ drug levels. Hypomagnesemia exacerbates - Mg is required for Na/K-ATPase function." },
+    { q: "Most specific antidote?", a: "Digoxin-specific antibody Fab fragments", choices: [
+      "Atropine alone",
+      "Calcium gluconate",
+      "Digoxin-specific antibody Fab fragments",
+      "Magnesium sulfate"
+    ], explanation: "Digibind / DigiFab - Fab fragments of antibodies against digoxin. Bind and inactivate the drug. Used for severe toxicity: ventricular arrhythmia, K >5 (dose-dependent prognostic marker), serum level very high. Magnesium can also help arrhythmias. Calcium AVOIDED - paradoxically may worsen toxicity in extreme cases ('stone heart')." },
+    { q: "Why is potassium repletion critical here?", a: "Low K worsens digoxin toxicity by exposing more Na/K-ATPase binding sites; hyperkalemia in digoxin toxicity is a separate marker of severe pump inhibition but should NOT be corrected until Fab is given", choices: [
+      "Potassium has no role",
+      "Low K worsens digoxin toxicity by exposing more Na/K-ATPase binding sites; hyperkalemia in digoxin toxicity is a separate marker of severe pump inhibition but should NOT be corrected until Fab is given",
+      "Always replete K aggressively",
+      "Hypokalemia is the cause, not a contributor"
+    ], explanation: "Subtle: HYPOkalemia worsens digoxin's effect (more pump inhibition). HYPERkalemia (often seen in massive overdose) is a SIGN of severe toxicity (pump failure → K leaks out). The latter shouldn't be aggressively treated with insulin/glucose (no improvement in toxicity), instead give Fab. K replacement in mild toxicity is helpful." }
+  ]}
+/>
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Na/K-ATPase stoichiometry per ATP =", a: "3 Na out, 2 K in", choices: ["2 Na out, 3 K in", "3 Na out, 2 K in", "1 Na out, 1 K in", "3 Na in, 2 K out"] },
+  { q: "Insulin-dependent glucose transporter is…", a: "GLUT4", choices: ["GLUT1", "GLUT2", "GLUT3", "GLUT4"] },
+  { q: "Gs activation results in…", a: "↑ cAMP → PKA", choices: [
+    "↓ cAMP",
+    "↑ cAMP → PKA",
+    "IP3 + DAG",
+    "Direct channel opening"
+  ]},
+  { q: "Cholera toxin acts on…", a: "Gs (locks ON → ↑↑ cAMP in gut)", choices: [
+    "Gi (locks ON)",
+    "Gs (locks ON → ↑↑ cAMP in gut)",
+    "Gq",
+    "Nicotinic receptor"
+  ]},
+  { q: "Receptor tyrosine kinases dimerize upon…", a: "Ligand binding → autophosphorylation", choices: [
+    "Ligand binding → autophosphorylation",
+    "G-protein activation",
+    "Channel opening",
+    "Cytoplasmic recruitment"
+  ]},
+  { q: "Sildenafil (Viagra) inhibits…", a: "PDE5 → ↑ cGMP", choices: ["PDE3 → ↑ cAMP", "PDE4 → ↑ cAMP", "PDE5 → ↑ cGMP", "PDE5 → ↑ cAMP"] },
+  { q: "Digoxin's mechanism is to inhibit…", a: "Na/K-ATPase", choices: [
+    "L-type Ca channel",
+    "Na/K-ATPase",
+    "Na/Ca exchanger directly",
+    "β-adrenergic receptor"
+  ]},
+  { q: "Aquaporins are most concentrated where in the kidney?", a: "Collecting duct (AQP2, ADH-regulated)", choices: [
+    "Proximal tubule (AQP1)",
+    "Loop of Henle",
+    "Distal convoluted tubule",
+    "Collecting duct (AQP2, ADH-regulated)"
+  ]},
+  { q: "Nuclear receptors typically act over what timescale?", a: "Hours to days (transcriptional)", choices: [
+    "Milliseconds (ionotropic)",
+    "Seconds (G-proteins)",
+    "Minutes (RTK cascades)",
+    "Hours to days (transcriptional)"
+  ]},
+  { q: "Pertussis toxin's effect on Gi =", a: "Locks Gi OFF (cannot inhibit AC) → ↑ cAMP", choices: [
+    "Locks Gi ON",
+    "Locks Gi OFF (cannot inhibit AC) → ↑ cAMP",
+    "Has no effect on Gi",
+    "Activates Gs"
+  ]}
+]} />

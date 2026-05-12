@@ -1,0 +1,202 @@
+---
+title: Digestion & Absorption
+system: digestive
+related:
+  - stomach
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 23.7
+level: undergrad
+---
+
+The job: break ingested food into small enough molecules to cross the enterocyte membrane, then absorb them. **Most absorption happens in the small intestine**, which has ~250 m² of surface area thanks to plicae circulares, villi, and microvilli.
+
+<Figure name="digestive/peristalsis" caption="Peristaltic waves move chyme distally throughout digestion + absorption." />
+
+## Macronutrient digestion
+
+| Nutrient | Begins | Final products | Main absorption site |
+|---|---|---|---|
+| **Carbohydrate** | Salivary amylase (mouth) | Glucose, galactose, fructose | Duodenum/jejunum |
+| **Protein** | Pepsin (stomach) | Amino acids, di-/tripeptides | Jejunum (mostly) |
+| **Fat** | Lingual + gastric lipase (minor) | Monoglycerides + FFAs | Jejunum (via micelles → chylomicrons) |
+
+The **brush border** of enterocytes carries the final hydrolytic enzymes: lactase, sucrase, maltase, dextrinase, peptidases.
+
+## Absorption mechanisms (worth memorizing)
+
+- **Glucose / galactose**: **SGLT1** (Na⁺-coupled) into enterocyte → **GLUT2** out into blood.
+- **Fructose**: **GLUT5** in → **GLUT2** out (no Na⁺ needed).
+- **Amino acids**: multiple Na⁺-coupled transporters.
+- **Fats**: passive diffusion of MGs + FFAs from micelles → re-esterified inside enterocyte → packaged into **chylomicrons** → exit via lymphatic **lacteals**, not blood.
+- **B12**: bound to intrinsic factor → absorbed in terminal ileum via specific receptor.
+- **Iron**: Fe²⁺ via DMT1; regulated by **hepcidin** (↑ in inflammation → traps iron in enterocytes/macrophages).
+
+## Hormonal control
+
+| Hormone | Source | Trigger | Action |
+|---|---|---|---|
+| Gastrin | G cells (antrum) | Peptides, stomach distension | ↑ HCl |
+| CCK | I cells (duodenum) | Fats, proteins | ↑ pancreatic enzymes, ↑ gallbladder contraction, ↓ gastric emptying |
+| Secretin | S cells (duodenum) | Acid in duodenum | ↑ pancreatic HCO₃⁻ |
+| GIP | K cells (duodenum) | Glucose, fats | ↑ insulin (incretin effect) |
+
+<Clinical>
+**Lactose intolerance**: deficiency of brush-border lactase → undigested lactose reaches colon → osmotic diarrhea + bacterial fermentation (gas, bloating). Most adults worldwide are lactase non-persistent - it's the default, not the deficiency.
+
+**Celiac disease**: gluten triggers immune-mediated villous atrophy in the proximal small intestine → malabsorption (iron, folate, calcium). Diagnose with anti-tTG IgA + duodenal biopsy.
+</Clinical>
+
+## Histology
+
+<Figure name="histology/villi" caption="Small intestinal villi + microvilli - surface-area amplification ~600x for absorption." />
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Glucose enters the enterocyte through…", a: "SGLT1 (Na⁺-coupled)", choices: ["GLUT2", "GLUT5", "SGLT1 (Na⁺-coupled)", "Facilitated diffusion only"] },
+  { q: "Chylomicrons leave the enterocyte via…", a: "Lacteals (lymphatics)", choices: ["Portal vein", "Hepatic artery", "Lacteals (lymphatics)", "Inferior vena cava"] },
+  { q: "Which hormone stimulates pancreatic bicarbonate secretion?", a: "Secretin", choices: ["Gastrin", "CCK", "Secretin", "GIP"] }
+]} />
+
+## More practice
+
+<Quiz questions={[
+  { q: "Salivary amylase begins digestion of…", a: "Starch", choices: ["Protein", "Starch", "Fat", "Cellulose"] },
+  { q: "Trypsinogen is activated to trypsin by…", a: "Enterokinase (enteropeptidase) on the duodenal brush border", choices: [
+    "Pepsin",
+    "Enterokinase (enteropeptidase) on the duodenal brush border",
+    "HCl in the stomach",
+    "Bile salts"
+  ]},
+  { q: "Bile salts are synthesized from…", a: "Cholesterol", choices: ["Cholesterol", "Fatty acids", "Amino acids", "Glucose"] },
+  { q: "Bile salts emulsify fats by forming…", a: "Micelles", choices: ["Chylomicrons", "Liposomes", "Micelles", "LDL particles"] },
+  { q: "Enterohepatic recirculation occurs primarily in the…", a: "Terminal ileum", choices: ["Duodenum", "Jejunum", "Terminal ileum", "Colon"] },
+  { q: "B12 is absorbed in the…", a: "Terminal ileum", choices: ["Stomach", "Duodenum", "Jejunum", "Terminal ileum"] },
+  { q: "Iron is absorbed primarily in the…", a: "Duodenum", choices: ["Stomach", "Duodenum", "Jejunum", "Ileum"] },
+  { q: "The fed/absorptive state is dominated by which hormone?", a: "Insulin", choices: ["Glucagon", "Insulin", "Cortisol", "Growth hormone"] },
+  { q: "Most water absorption from the GI tract occurs in the…", a: "Small intestine", choices: ["Stomach", "Small intestine", "Colon", "Rectum"] },
+  { q: "Hartnup disease is a defect in absorption of…", a: "Neutral amino acids (e.g., tryptophan)", choices: [
+    "Glucose",
+    "Neutral amino acids (e.g., tryptophan)",
+    "B12",
+    "Fat-soluble vitamins"
+  ]}
+]} />
+
+## Every GI enzyme, hormone, and transporter - function reference
+
+### Digestive enzymes
+
+| Enzyme | Source | Substrate | Why crucial |
+|---|---|---|---|
+| **Salivary α-amylase (ptyalin)** | Salivary glands | Starch → maltose, oligosaccharides | Starts carb digestion in mouth |
+| **Lingual lipase** | Tongue glands | Triglycerides → MG + FFA | Minor; significant in newborns |
+| **Pepsin** (from pepsinogen) | Chief cells (stomach) | Proteins → smaller peptides | Activated by acid; autocatalytic |
+| **Gastric lipase** | Chief cells | TG → MG + FFA | Minor fat digestion |
+| **Pancreatic α-amylase** | Pancreas | Starch → maltose, etc. | Major carb-digesting enzyme |
+| **Trypsin** (from trypsinogen) | Pancreas | Proteins → peptides; activates other zymogens | Activated by enterokinase in duodenum |
+| **Chymotrypsin, elastase, carboxypeptidase** | Pancreas | Proteins | Cooperate with trypsin |
+| **Pancreatic lipase + colipase** | Pancreas | TG → MG + FFA | Main fat digestion; needs bile for emulsification |
+| **Cholesterol esterase** | Pancreas | Cholesterol esters | Releases cholesterol |
+| **Phospholipase A2** | Pancreas | Phospholipids | Releases fatty acids |
+| **Lactase, sucrase, maltase, dextrinase** | Brush border | Disaccharides → monosaccharides | Final step of carb digestion |
+| **Aminopeptidases, dipeptidases** | Brush border | Peptides → amino acids | Final protein digestion |
+| **Enterokinase (enteropeptidase)** | Duodenal brush border | Trypsinogen → trypsin | The master switch - activates pancreatic protease cascade |
+
+### GI hormones
+
+| Hormone | Source | Trigger | Action | Why crucial |
+|---|---|---|---|---|
+| **Gastrin** | G cells (antrum) | Peptides, distension, vagal | ↑ HCl from parietal cells; trophic to mucosa | Zollinger-Ellison (gastrinoma) → recurrent ulcers |
+| **CCK** | I cells (duodenum) | Fatty acids, peptides | ↑ pancreatic enzymes, ↑ gallbladder contraction, ↓ gastric emptying | Postprandial gallbladder pain in cholelithiasis |
+| **Secretin** | S cells (duodenum) | Acid in duodenum | ↑ pancreatic + biliary HCO₃⁻ | Neutralizes acid; diagnostic test for gastrinoma |
+| **GIP (glucose-dependent insulinotropic peptide)** | K cells (duodenum) | Glucose, fats | ↑ insulin (incretin) | Why oral glucose triggers more insulin than IV glucose |
+| **GLP-1** | L cells (ileum) | Carbs, fats | ↑ insulin, ↓ glucagon, ↓ gastric emptying, satiety | **Target of semaglutide, tirzepatide** - diabetes + obesity drugs |
+| **Motilin** | M cells (small intestine) | Fasting state | Initiates **migrating motor complex** between meals | "Housekeeper" of GI; erythromycin agonist used for gastroparesis |
+| **Somatostatin** | D cells (everywhere) | Acid, food | Inhibits everything GI | Octreotide (analog) used for variceal bleeding, NETs |
+| **VIP** | Enteric neurons | - | Relaxes smooth muscle, secretes water/electrolytes | VIPoma → WDHA (watery diarrhea, hypokalemia, achlorhydria) |
+| **Ghrelin** | Stomach (P/D1 cells) | Fasting | ↑ appetite | "Hunger hormone"; rises before meals |
+
+### Absorption transporters
+
+| Nutrient | Transporter | Mechanism | Location |
+|---|---|---|---|
+| **Glucose / galactose** | SGLT1 (apical), GLUT2 (basolateral) | Na⁺-coupled | Duodenum/jejunum |
+| **Fructose** | GLUT5 (apical), GLUT2 (basolateral) | Facilitated | Duodenum/jejunum |
+| **Amino acids** | Multiple Na⁺-coupled transporters | Active | Jejunum |
+| **Di-/tripeptides** | PepT1 (H⁺-coupled) | Active | Brush border |
+| **Fats (MGs, FFAs)** | Diffuse from micelles → re-esterified → chylomicrons → lacteals | Passive uptake, lymphatic exit | Jejunum |
+| **Iron (Fe²⁺)** | DMT1 (apical), ferroportin (basolateral, regulated by hepcidin) | Active | Duodenum |
+| **Calcium** | TRPV6 (apical), calbindin, PMCA (basolateral) - vitamin D-dependent | Active | Duodenum |
+| **B12** | IF-B12 complex → cubilin receptor → endocytosis | Receptor-mediated | Terminal ileum |
+| **Bile acids** | ASBT (apical) | Na⁺-coupled | Terminal ileum (enterohepatic recirculation) |
+| **Water** | Aquaporins; paracellular | Osmotic | All segments - most in small intestine |
+
+## High-yield exam patterns
+
+<HighYield exam="nclex">
+**NCLEX GI clinical priorities:**
+- **TPN**: monitor glucose q4–6h; refeeding syndrome risk (↓ K⁺, Mg²⁺, PO₄³⁻) - replete before starting; never abruptly stop (rebound hypoglycemia).
+- **Lactose intolerance teaching**: avoid lactose; lactase enzyme supplements; calcium + vitamin D from other sources.
+- **Celiac disease**: lifelong gluten-free diet; serologies (anti-tTG, EMA) - fall after diet compliance.
+- **Cholelithiasis**: 4 F's (Female, Fat, Forty, Fertile); colicky RUQ pain after fatty meal - radiates to right shoulder.
+- **Bowel sound assessment**: listen each quadrant 1 min before reporting absent.
+</HighYield>
+
+<HighYield exam="step1">
+**Vitamin/mineral deficiencies - high-yield combos:**
+- **B12 deficiency**: pernicious anemia, terminal ileum disease (Crohn's, resection), vegan diet → megaloblastic anemia + neuro.
+- **Folate deficiency**: alcoholism, pregnancy, methotrexate, phenytoin → megaloblastic anemia (no neuro).
+- **Iron deficiency**: microcytic anemia; in adults, suspect GI blood loss until proven otherwise (colonoscopy).
+- **Vitamin A**: night blindness, xerophthalmia, dry skin; teratogen in pregnancy.
+- **Vitamin D**: rickets (kids), osteomalacia (adults).
+- **Vitamin K**: prolonged PT; warfarin antagonist; newborns get IM dose.
+- **Zinc**: poor wound healing, dysgeusia.
+</HighYield>
+
+<HighYield exam="pharm">
+**GI motility + secretion pharm:**
+- **Loperamide**: μ-opioid agonist (doesn't cross BBB); don't use in C. diff or bloody diarrhea.
+- **Bismuth subsalicylate**: anti-secretory + bismuth coating; turns stool/tongue black.
+- **Ondansetron**: 5-HT3 antagonist for chemo-induced nausea; QT prolongation risk.
+- **Metoclopramide**: D2 antagonist + 5-HT4 agonist; for gastroparesis; tardive dyskinesia with chronic use.
+- **GLP-1 agonists** (semaglutide, liraglutide, tirzepatide [GLP-1 + GIP]): ↓ gastric emptying, ↑ satiety, ↓ glucagon, ↑ insulin; weight loss + DM benefit; pancreatitis warning.
+- **Octreotide**: somatostatin analog; variceal bleeding, neuroendocrine tumors, secretory diarrhea.
+</HighYield>
+
+## Small intestine - absorptive surface in detail
+
+<Figure name="digestive/small-intestine" caption="Small intestine wall showing villi (finger-like projections), microvilli (brush border on enterocytes), and intestinal layers (mucosa, submucosa, muscularis, serosa)." />
+
+Three structural amplifications give the small intestine ~**250 m² of surface area** (a tennis court):
+
+1. **Plicae circulares (folds of Kerckring)** - circular submucosal folds; ~3× surface area
+2. **Villi** - finger-like mucosal projections; ~10× more surface area
+3. **Microvilli (brush border)** - on apical enterocytes; ~20× more
+
+Each villus contains:
+- **Enterocytes** (absorption) - replaced every 3–5 days from crypt stem cells
+- **Goblet cells** (mucus)
+- **Capillary network** (water-soluble nutrient pickup → portal vein → liver)
+- **Lacteal** (lymphatic; chylomicron pickup → systemic circulation, bypassing portal)
+- **Paneth cells** (in crypts) - antimicrobial peptides (defensins, lysozyme); host-microbe gatekeepers
+- **Enteroendocrine cells** - secrete CCK, secretin, GIP, GLP-1, etc.
+- **M cells** (over Peyer's patches) - antigen sampling for immune surveillance
+
+## Clinical case
+
+<ClinicalCase title="Chronic diarrhea and anemia in a young woman" vignette="A 27-year-old woman has 6 months of chronic diarrhea, bloating, 8 lb weight loss, and fatigue. Labs: Hb 9.8 g/dL with MCV 75 (microcytic), ferritin low, anti-tissue transglutaminase IgA strongly positive. Duodenal biopsy shows villous atrophy with crypt hyperplasia and intraepithelial lymphocytosis." questions={[
+  { q: "What is the diagnosis?", a: "Celiac disease", choices: [
+    "Crohn disease",
+    "Celiac disease",
+    "Tropical sprue",
+    "Whipple disease"
+  ], explanation: "Celiac: anti-tTG IgA + villous atrophy in the proximal small intestine triggered by gluten. Iron deficiency anemia is a classic presentation (Fe is absorbed in duodenum - the area most damaged). Check IgA level - patients with selective IgA deficiency need IgG-based testing." },
+  { q: "What is the only effective treatment?", a: "Lifelong strict gluten-free diet", choices: [
+    "Mesalamine",
+    "Pancreatic enzyme replacement",
+    "Lifelong strict gluten-free diet",
+    "Oral iron alone"
+  ], explanation: "No effective pharmacotherapy yet - gluten avoidance heals villi over months. Anti-tTG falls after compliance (useful monitoring). Untreated → osteoporosis, infertility, T-cell lymphoma risk, dermatitis herpetiformis." }
+]} />

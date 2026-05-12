@@ -1,0 +1,22 @@
+{
+  "src": "/figures/nervous/ear-anatomy.svg",
+  "alt": "Ear anatomy quiz - label outer, middle, and inner ear structures",
+  "viewBox": [0, 0, 685, 520],
+  "license": {
+    "type": "CC BY 2.5",
+    "attribution": "Lars Chittka & Axel Brockmann - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear.svg"
+  },
+  "labels": [
+    { "id": "auricle", "x": 80, "y": 200, "label": "Auricle", "synonyms": ["pinna"] },
+    { "id": "ear-canal", "x": 200, "y": 260, "label": "External auditory canal", "synonyms": ["external acoustic meatus", "ear canal"] },
+    { "id": "tympanic", "x": 290, "y": 260, "label": "Tympanic membrane", "synonyms": ["eardrum"] },
+    { "id": "malleus", "x": 310, "y": 200, "label": "Malleus", "synonyms": ["hammer"] },
+    { "id": "incus", "x": 360, "y": 180, "label": "Incus", "synonyms": ["anvil"] },
+    { "id": "stapes", "x": 410, "y": 220, "label": "Stapes", "synonyms": ["stirrup"] },
+    { "id": "semicircular", "x": 480, "y": 130, "label": "Semicircular canals", "synonyms": ["semicircular canal"] },
+    { "id": "cochlea", "x": 480, "y": 320, "label": "Cochlea" },
+    { "id": "vestibulocochlear", "x": 580, "y": 260, "label": "Vestibulocochlear nerve", "synonyms": ["CN VIII", "cranial nerve 8", "auditory nerve"] },
+    { "id": "eustachian", "x": 400, "y": 380, "label": "Eustachian tube", "synonyms": ["auditory tube", "pharyngotympanic tube"] }
+  ]
+}
