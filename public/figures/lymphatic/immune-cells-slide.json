@@ -1,4 +1,9 @@
 {
-  "src": "/figures/lymphatic/immune-cells-slide.png",
-  "alt": "Lecture slide tracing immune-cell development from hematopoietic stem cells into lymphoid and myeloid lineages."
+  "src": "/figures/lymphatic/immune-cells-slide.svg",
+  "alt": "Hematopoiesis - all immune cell lineages branching from a single hematopoietic stem cell.",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Mikael Häggström / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Hematopoiesis_simple.svg"
+  }
 }

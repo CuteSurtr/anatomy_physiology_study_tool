@@ -1,4 +1,9 @@
 {
-  "src": "/figures/skeletal/bone-histology-slide.png",
-  "alt": "Lecture slide comparing spongy bone and compact bone histology with osteocytes in lacunae."
+  "src": "/figures/skeletal/bone-histology-slide.jpg",
+  "alt": "Compact bone histology - osteons (Haversian systems) with concentric lamellae around central canals.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:605_Compact_Bone.jpg"
+  }
 }

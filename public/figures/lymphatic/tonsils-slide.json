@@ -1,4 +1,9 @@
 {
-  "src": "/figures/lymphatic/tonsils-slide.png",
-  "alt": "Lecture slide showing the tonsils in the pharynx and their immunologic role."
+  "src": "/figures/lymphatic/tonsils-slide.jpg",
+  "alt": "Pharynx anatomy showing the tonsillar ring (palatine, lingual, pharyngeal/adenoid, tubal).",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Illu_pharynx.jpg"
+  }
 }

@@ -1,4 +1,9 @@
 {
-  "src": "/figures/endocrine/pancreas-islet-slide.png",
-  "alt": "Lecture slide showing an islet of Langerhans embedded in exocrine pancreatic tissue."
+  "src": "/figures/endocrine/pancreas-islet-slide.jpg",
+  "alt": "Pancreas anatomy - head, body, tail with islets of Langerhans embedded.",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Pancreas.jpg"
+  }
 }

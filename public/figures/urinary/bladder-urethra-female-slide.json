@@ -1,4 +1,9 @@
 {
-  "src": "/figures/urinary/bladder-urethra-female-slide.png",
-  "alt": "Sagittal female pelvic section showing the bladder and urethra."
+  "src": "/figures/urinary/bladder-urethra-female-slide.jpg",
+  "alt": "Female + male urethras side by side - short female urethra opens between clitoris and vagina; long male urethra passes through prostate.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Female_and_Male_Urethra.jpg"
+  }
 }

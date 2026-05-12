@@ -1,4 +1,9 @@
 {
   "src": "/figures/endocrine/adrenal-cortex-medulla-slide.png",
-  "alt": "Lecture slide highlighting the adrenal cortex and medulla and their major tissue types and hormone classes."
+  "alt": "Adrenal gland cross-section - cortex with three zones (glomerulosa, fasciculata, reticularis) around the medulla (chromaffin cells).",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Adrenal_Gland_detail_-_English.png"
+  }
 }

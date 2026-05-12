@@ -1,4 +1,9 @@
 {
   "src": "/figures/histology/epithelial-types-slide.png",
-  "alt": "Lecture slide showing simple and stratified squamous, cuboidal, and columnar epithelial tissue types."
+  "alt": "Epithelial classification by shape (squamous, cuboidal, columnar) and layering (simple, stratified, pseudostratified, transitional).",
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Blausen_0356_Epithelium_Classification.png"
+  }
 }

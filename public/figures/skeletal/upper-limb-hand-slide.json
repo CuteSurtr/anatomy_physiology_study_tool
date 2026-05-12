@@ -1,4 +1,9 @@
 {
-  "src": "/figures/skeletal/upper-limb-hand-slide.png",
-  "alt": "Lecture slide labeling the carpal bones, metacarpals, and phalanges of the hand."
+  "src": "/figures/skeletal/upper-limb-hand-slide.jpg",
+  "alt": "Hand and wrist bones - 8 carpals in 2 rows, 5 metacarpals, 14 phalanges.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Hand_carpal_bones.jpg"
+  }
 }

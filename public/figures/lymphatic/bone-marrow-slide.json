@@ -1,4 +1,9 @@
 {
-  "src": "/figures/lymphatic/bone-marrow-slide.png",
-  "alt": "Lecture slide illustrating vascular bone marrow packed with hematopoietic cells."
+  "src": "/figures/lymphatic/bone-marrow-slide.jpg",
+  "alt": "Bone marrow biopsy histology - hematopoietic stem cells and developing blood cell lineages.",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Bone_marrow_biopsy.jpg"
+  }
 }

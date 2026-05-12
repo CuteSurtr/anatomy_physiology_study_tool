@@ -1,4 +1,9 @@
 {
   "src": "/figures/skeletal/lower-limb-foot-slide.png",
-  "alt": "Lecture slide labeling the tarsal bones, metatarsals, and phalanges of the foot."
+  "alt": "Tarsal bones of the foot - talus, calcaneus, navicular, cuboid, three cuneiforms.",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Tarsus2.png"
+  }
 }
