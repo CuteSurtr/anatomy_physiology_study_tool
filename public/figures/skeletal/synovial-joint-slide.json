@@ -1,4 +1,9 @@
 {
-  "src": "/figures/skeletal/synovial-joint-slide.png",
-  "alt": "Lecture slide showing the basic anatomy of a synovial joint, including capsule, synovial membrane, cartilage, and fluid."
+  "src": "/figures/skeletal/synovial-joint-slide.jpg",
+  "alt": "Generic synovial joint structure - articular cartilage, joint capsule, synovium, joint cavity with synovial fluid.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File:907_Synovial_Joints.jpg"
+  }
 }

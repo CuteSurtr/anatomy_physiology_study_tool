@@ -1,4 +1,9 @@
 {
   "src": "/figures/urinary/renal-portal-circulation-slide.png",
-  "alt": "Lecture slide explaining the kidney portal system from afferent arteriole to glomerulus to peritubular capillaries."
+  "alt": "Portal circulation of the kidney - afferent + efferent arterioles bracket the glomerulus before forming peritubular capillaries.",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Kidney_tubules.png"
+  }
 }

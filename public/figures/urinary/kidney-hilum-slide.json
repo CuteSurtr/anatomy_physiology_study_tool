@@ -1,4 +1,9 @@
 {
   "src": "/figures/urinary/kidney-hilum-slide.png",
-  "alt": "Lecture slide labeling the renal artery, renal vein, and ureter at the kidney hilum."
+  "alt": "Kidney internal anatomy at the hilum - renal artery, renal vein, ureter, calyces, pelvis.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "PioM / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Kidney_PioM.png"
+  }
 }

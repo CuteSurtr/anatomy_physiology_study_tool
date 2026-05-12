@@ -1,4 +1,9 @@
 {
-  "src": "/figures/skeletal/lower-limb-ankle-slide.png",
-  "alt": "Lecture slide illustrating the ankle ligaments and the typical lateral ankle sprain mechanism."
+  "src": "/figures/skeletal/lower-limb-ankle-slide.svg",
+  "alt": "Ankle joint - distal tibia + fibula meeting talus, with collateral ligaments labeled.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Ankle_en.svg"
+  }
 }

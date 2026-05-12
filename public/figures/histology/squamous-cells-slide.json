@@ -1,4 +1,9 @@
 {
-  "src": "/figures/histology/squamous-cells-slide.png",
-  "alt": "Lecture slide comparing stratified squamous epithelium with thin simple squamous epithelium in alveoli."
+  "src": "/figures/histology/squamous-cells-slide.jpg",
+  "alt": "Comparison of skeletal, smooth, and cardiac muscle cells.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File:414_Skeletal_Smooth_Cardiac.jpg"
+  }
 }

@@ -1,4 +1,9 @@
 {
-  "src": "/figures/urinary/ureters-slide.png",
-  "alt": "Lecture slide showing the ureters running from the kidneys to the bladder."
+  "src": "/figures/urinary/ureters-slide.jpg",
+  "alt": "Urinary system overview - kidneys, ureters, bladder, urethra.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_lymphatic_system.jpg"
+  }
 }

@@ -1,4 +1,9 @@
 {
-  "src": "/figures/skeletal/tmj-slide.png",
-  "alt": "Lecture slide locating the temporomandibular joint on the skull."
+  "src": "/figures/skeletal/tmj-slide.svg",
+  "alt": "Temporomandibular joint - mandibular condyle, articular disc, mandibular fossa, capsule.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Temporomandibular_joint_number.svg"
+  }
 }

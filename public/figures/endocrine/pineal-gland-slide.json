@@ -1,4 +1,9 @@
 {
-  "src": "/figures/endocrine/pineal-gland-slide.png",
-  "alt": "Lecture slide locating the pineal gland posterior to the thalamus."
+  "src": "/figures/endocrine/pineal-gland-slide.svg",
+  "alt": "Pineal gland location in the brain - posterior to the thalamus, in the epithalamus.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "Cancer Research UK / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_position_of_the_pineal_gland_in_the_brain_CRUK_416.svg"
+  }
 }

@@ -1,4 +1,9 @@
 {
-  "src": "/figures/lymphatic/lymph-vessels-slide.png",
-  "alt": "Lecture slide showing lymphatic vessels and the thoracic duct with their transport and absorption functions."
+  "src": "/figures/lymphatic/lymph-vessels-slide.jpg",
+  "alt": "Anatomy of the lymphatic system - vessels and major node groups.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:2201_Anatomy_of_the_Lymphatic_System.jpg"
+  }
 }

@@ -1,4 +1,9 @@
 {
   "src": "/figures/histology/glandular-epithelium-slide.png",
-  "alt": "Lecture slide contrasting proper epithelium with glandular epithelium, including endocrine and exocrine examples."
+  "alt": "Epithelial classification including glandular varieties (exocrine glands).  Same family of diagram covers glandular epithelium.",
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Blausen_0356_Epithelium_Classification.png"
+  }
 }

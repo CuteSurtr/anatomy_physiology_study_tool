@@ -1,4 +1,9 @@
 {
-  "src": "/figures/skeletal/radiographs-slide.png",
-  "alt": "Lecture slide labeling common skeletal structures on plain radiographs."
+  "src": "/figures/skeletal/radiographs-slide.svg",
+  "alt": "Human skeleton (posterior view) labeled in English.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Human_skeleton_back_en.svg"
+  }
 }

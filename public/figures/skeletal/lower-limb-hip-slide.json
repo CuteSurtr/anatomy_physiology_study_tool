@@ -1,4 +1,9 @@
 {
-  "src": "/figures/skeletal/lower-limb-hip-slide.png",
-  "alt": "Lecture slide showing the proximal femur and a common hip-fracture site."
+  "src": "/figures/skeletal/lower-limb-hip-slide.jpg",
+  "alt": "Hip bone (os coxae) anterior view - ilium, ischium, pubis joining at the acetabulum.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Hip_bone_anterior_high-res.jpg"
+  }
 }

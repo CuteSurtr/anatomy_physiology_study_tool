@@ -1,4 +1,9 @@
 {
-  "src": "/figures/endocrine/hypothalamus-pituitary-portal-slide.png",
-  "alt": "Lecture slide showing the hypothalamus, pituitary infundibulum, and anterior pituitary as a portal system."
+  "src": "/figures/endocrine/hypothalamus-pituitary-portal-slide.jpg",
+  "alt": "Hypothalamus and pituitary complex with the hypophyseal portal system linking them.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File:1806_The_Hypothalamus-Pituitary_Complex.jpg"
+  }
 }

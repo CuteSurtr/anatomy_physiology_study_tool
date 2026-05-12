@@ -1,4 +1,9 @@
 {
   "src": "/figures/urinary/renal-blood-flow-nephron-slide.png",
-  "alt": "Lecture slide overlaying afferent arteriole, glomerulus, efferent arteriole, and peritubular capillaries on a nephron."
+  "alt": "Renal blood flow - afferent arteriole, glomerulus, efferent arteriole, peritubular capillaries traced alongside the nephron tubule.",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Kidney_tubules.png"
+  }
 }

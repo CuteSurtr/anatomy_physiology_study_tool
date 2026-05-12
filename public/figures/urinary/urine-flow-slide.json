@@ -1,4 +1,9 @@
 {
   "src": "/figures/urinary/urine-flow-slide.png",
-  "alt": "Lecture slide showing urine flow from kidneys to ureters to bladder to urethra."
+  "alt": "Urine flow path - kidneys (cortex/medulla -> pelvis) -> ureters -> bladder -> urethra.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "PioM / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Kidney_PioM.png"
+  }
 }

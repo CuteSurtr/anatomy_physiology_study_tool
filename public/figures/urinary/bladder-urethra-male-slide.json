@@ -1,4 +1,9 @@
 {
-  "src": "/figures/urinary/bladder-urethra-male-slide.png",
-  "alt": "Sagittal male pelvic section showing the bladder, prostate, and urethra."
+  "src": "/figures/urinary/bladder-urethra-male-slide.jpg",
+  "alt": "Bladder anatomy with trigone, detrusor, internal + external urethral sphincters.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:2605_The_Bladder_(ca).jpg"
+  }
 }

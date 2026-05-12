@@ -1,4 +1,9 @@
 {
-  "src": "/figures/lymphatic/lymph-node-fyi-slide.png",
-  "alt": "Lecture slide diagramming lymph node compartments and the movement of afferent and efferent lymph."
+  "src": "/figures/lymphatic/lymph-node-fyi-slide.jpg",
+  "alt": "Structure of a lymph node - capsule, cortex (B-cell follicles), paracortex (T cells), medulla.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax College / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:2207_Structure_and_Histology_of_a_Lymph_Node.jpg"
+  }
 }

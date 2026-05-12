@@ -1,4 +1,9 @@
 {
   "src": "/figures/urinary/filtrate-flow-slide.png",
-  "alt": "Lecture slide labeling Bowmans cup, proximal tubule, loop of Henle, distal tubule, and collecting duct."
+  "alt": "Kidney tubules showing the filtrate path through PCT, loop of Henle, DCT, and collecting duct.",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Kidney_tubules.png"
+  }
 }

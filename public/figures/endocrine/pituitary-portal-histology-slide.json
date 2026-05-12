@@ -1,4 +1,9 @@
 {
-  "src": "/figures/endocrine/pituitary-portal-histology-slide.png",
-  "alt": "Lecture slide labeling the pituitary stalk, portal vessels, posterior pituitary, and anterior pituitary on histology."
+  "src": "/figures/endocrine/pituitary-portal-histology-slide.jpg",
+  "alt": "Anterior pituitary histology - chromophobes, basophils, acidophils (annotated).",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Histology_of_pars_distalis_of_the_anterior_pituitary_with_chromophobes,_basophils,_and_acidophils,_annotated.jpg"
+  }
 }

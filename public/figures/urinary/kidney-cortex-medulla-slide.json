@@ -1,4 +1,9 @@
 {
   "src": "/figures/urinary/kidney-cortex-medulla-slide.png",
-  "alt": "Lecture slide comparing the cortex and medulla within a kidney cross-section."
+  "alt": "Kidney internal anatomy - cortex, medulla, pyramids, calyces, pelvis.",
+  "license": {
+    "type": "CC BY-SA",
+    "attribution": "PioM / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Kidney_PioM.png"
+  }
 }
