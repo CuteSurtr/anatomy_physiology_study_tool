@@ -1,0 +1,26 @@
+{
+  "src": "/figures/urinary/urinary-numbered.svg",
+  "alt": "Urinary system with 13 numbered structures",
+  "viewBox": [0, 0, 510, 670],
+  "imageHasNumbers": true,
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Jordi March i Nogué, M.Komorniczak - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Urinary_system_ver_2.svg"
+  },
+  "labels": [
+    { "id": "n1", "x": 0, "y": 0, "label": "Kidney" },
+    { "id": "n2", "x": 0, "y": 0, "label": "Renal pelvis" },
+    { "id": "n3", "x": 0, "y": 0, "label": "Ureter" },
+    { "id": "n4", "x": 0, "y": 0, "label": "Urinary bladder", "synonyms": ["bladder"] },
+    { "id": "n5", "x": 0, "y": 0, "label": "Urethra" },
+    { "id": "n6", "x": 0, "y": 0, "label": "Adrenal gland", "synonyms": ["suprarenal gland", "adrenal"] },
+    { "id": "n7", "x": 0, "y": 0, "label": "Liver" },
+    { "id": "n8", "x": 0, "y": 0, "label": "Renal vessels", "synonyms": ["renal artery and vein", "renal vasculature"] },
+    { "id": "n9", "x": 0, "y": 0, "label": "Inferior vena cava", "synonyms": ["IVC"] },
+    { "id": "n10", "x": 0, "y": 0, "label": "Abdominal aorta", "synonyms": ["aorta"] },
+    { "id": "n11", "x": 0, "y": 0, "label": "Common iliac vessels", "synonyms": ["common iliac artery and vein", "iliac vessels"] },
+    { "id": "n12", "x": 0, "y": 0, "label": "Large intestine", "synonyms": ["colon"] },
+    { "id": "n13", "x": 0, "y": 0, "label": "Pelvis" }
+  ]
+}

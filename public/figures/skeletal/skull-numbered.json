@@ -1,0 +1,23 @@
+{
+  "src": "/figures/skeletal/skull-numbered.svg",
+  "alt": "Skull anterior view with 10 numbered bones",
+  "viewBox": [0, 0, 306, 364],
+  "imageHasNumbers": true,
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Mariana Ruiz Villarreal (LadyofHats) - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Human_skull_front_bones_numbered.svg"
+  },
+  "labels": [
+    { "id": "n1", "x": 0, "y": 0, "label": "Frontal bone", "synonyms": ["frontal"] },
+    { "id": "n2", "x": 0, "y": 0, "label": "Nasal bone", "synonyms": ["nasal", "nasal bones"] },
+    { "id": "n3", "x": 0, "y": 0, "label": "Parietal bone", "synonyms": ["parietal"] },
+    { "id": "n4", "x": 0, "y": 0, "label": "Temporal bone", "synonyms": ["temporal"] },
+    { "id": "n5", "x": 0, "y": 0, "label": "Sphenoid bone", "synonyms": ["sphenoid"] },
+    { "id": "n6", "x": 0, "y": 0, "label": "Lacrimal bone", "synonyms": ["lacrimal"] },
+    { "id": "n7", "x": 0, "y": 0, "label": "Zygomatic bone", "synonyms": ["zygomatic", "cheekbone"] },
+    { "id": "n8", "x": 0, "y": 0, "label": "Ethmoid bone (upper) / Vomer (lower)", "synonyms": ["ethmoid", "vomer", "ethmoid and vomer", "ethmoid/vomer"] },
+    { "id": "n9", "x": 0, "y": 0, "label": "Maxilla", "synonyms": ["upper jaw"] },
+    { "id": "n10", "x": 0, "y": 0, "label": "Mandible", "synonyms": ["jaw", "lower jaw"] }
+  ]
+}

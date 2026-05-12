@@ -1,0 +1,24 @@
+{
+  "src": "/figures/cardiovascular/heart-real.svg",
+  "alt": "Unlabeled anatomically detailed diagram of the human heart",
+  "viewBox": [0, 0, 533, 641],
+  "license": {
+    "type": "CC BY-SA 4.0",
+    "attribution": "Stenemo - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Diagram_of_the_human_heart_(no_labels).svg"
+  },
+  "labels": [
+    { "id": "svc", "x": 145, "y": 95, "label": "Superior Vena Cava", "synonyms": ["SVC"] },
+    { "id": "aorta", "x": 320, "y": 75, "label": "Aortic Arch", "synonyms": ["aorta", "arch of aorta"] },
+    { "id": "pa", "x": 235, "y": 145, "label": "Pulmonary Trunk", "synonyms": ["pulmonary artery", "PA", "pulmonary trunk"] },
+    { "id": "pv", "x": 415, "y": 195, "label": "Pulmonary Veins", "synonyms": ["pulmonary vein"] },
+    { "id": "ra", "x": 195, "y": 280, "label": "Right Atrium", "synonyms": ["RA"] },
+    { "id": "la", "x": 360, "y": 265, "label": "Left Atrium", "synonyms": ["LA"] },
+    { "id": "tricuspid", "x": 220, "y": 360, "label": "Tricuspid Valve", "synonyms": ["tricuspid"] },
+    { "id": "mitral", "x": 345, "y": 345, "label": "Mitral Valve", "synonyms": ["mitral", "bicuspid valve", "bicuspid"] },
+    { "id": "rv", "x": 230, "y": 440, "label": "Right Ventricle", "synonyms": ["RV"] },
+    { "id": "lv", "x": 355, "y": 440, "label": "Left Ventricle", "synonyms": ["LV"] },
+    { "id": "ivc", "x": 215, "y": 555, "label": "Inferior Vena Cava", "synonyms": ["IVC"] },
+    { "id": "apex", "x": 310, "y": 585, "label": "Apex" }
+  ]
+}

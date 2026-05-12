@@ -1,0 +1,21 @@
+{
+  "src": "/figures/lymphatic/lymph-node.png",
+  "alt": "Lymph node microanatomy for fill-in-blank practice",
+  "viewBox": [0, 0, 600, 500],
+  "license": {
+    "type": "Public Domain",
+    "attribution": "US NCI SEER - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Illu_lymph_node_structure.png"
+  },
+  "labels": [
+    { "id": "capsule", "x": 100, "y": 110, "label": "Capsule" },
+    { "id": "afferent", "x": 60, "y": 230, "label": "Afferent lymphatic vessels", "synonyms": ["afferent vessels", "afferent"] },
+    { "id": "subcapsular", "x": 140, "y": 145, "label": "Subcapsular sinus" },
+    { "id": "cortex", "x": 200, "y": 165, "label": "Cortex" },
+    { "id": "follicle", "x": 220, "y": 195, "label": "Lymphoid follicle (B cells)", "synonyms": ["follicle", "lymphoid follicle", "germinal center"] },
+    { "id": "paracortex", "x": 290, "y": 240, "label": "Paracortex (T cells)", "synonyms": ["paracortex", "T cell zone"] },
+    { "id": "medulla", "x": 380, "y": 290, "label": "Medulla" },
+    { "id": "efferent", "x": 510, "y": 280, "label": "Efferent lymphatic vessel", "synonyms": ["efferent vessel", "efferent"] },
+    { "id": "hilum", "x": 480, "y": 280, "label": "Hilum" }
+  ]
+}

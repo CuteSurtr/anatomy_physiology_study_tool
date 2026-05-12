@@ -1,0 +1,21 @@
+{
+  "src": "/figures/endocrine/endocrine-numbered.png",
+  "alt": "Endocrine system with 8 numbered glands",
+  "viewBox": [0, 0, 227, 366],
+  "imageHasNumbers": true,
+  "license": {
+    "type": "Public Domain",
+    "attribution": "U.S. SEER (NCI) - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Illu_endocrine_system.png"
+  },
+  "labels": [
+    { "id": "n1", "x": 0, "y": 0, "label": "Pineal gland", "synonyms": ["pineal"] },
+    { "id": "n2", "x": 0, "y": 0, "label": "Pituitary gland", "synonyms": ["pituitary", "hypophysis"] },
+    { "id": "n3", "x": 0, "y": 0, "label": "Thyroid gland", "synonyms": ["thyroid"] },
+    { "id": "n4", "x": 0, "y": 0, "label": "Thymus" },
+    { "id": "n5", "x": 0, "y": 0, "label": "Adrenal gland", "synonyms": ["suprarenal gland", "adrenal"] },
+    { "id": "n6", "x": 0, "y": 0, "label": "Pancreas" },
+    { "id": "n7", "x": 0, "y": 0, "label": "Ovary", "synonyms": ["ovaries"] },
+    { "id": "n8", "x": 0, "y": 0, "label": "Testicle", "synonyms": ["testis", "testes"] }
+  ]
+}

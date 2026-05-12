@@ -1,0 +1,279 @@
+---
+title: Sliding Filament Mechanism
+system: muscular
+related:
+  - major-muscle-groups
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 10.3
+level: undergrad
+---
+
+Skeletal muscle contraction is **thin filaments sliding past thick filaments**, shortening the sarcomere - the filaments themselves don't shorten. The cycle is calcium-gated and ATP-powered. First proposed independently by **A.F. Huxley & R. Niedergerke** and **H.E. Huxley & J. Hanson** in 1954.
+
+<Figure name="muscular/sarcomere" caption="Sarcomere structure - Z lines, A/I bands, H zone, M line." />
+
+<Figure name="muscular/sarcomere-diagram" caption="Sarcomere components labeled - thick myosin filaments, thin actin filaments, and accessory proteins." />
+
+## Molecular cast of characters
+
+### Thick filament (myosin)
+
+A bundle of ~300 **myosin II** molecules. Each myosin is a hexamer: two **heavy chains** (each with a globular head, neck, and rod tail) + two pairs of **light chains** (essential + regulatory). Heads project outward in a helical pattern. Functions of the head:
+
+- ATPase activity (hydrolyzes ATP to ADP + Pi)
+- Actin binding
+- Conformational change → "power stroke"
+
+The **bare zone** in the middle of each thick filament (where no heads project) corresponds to the **H zone** of the sarcomere.
+
+### Thin filament (actin + tropomyosin + troponin)
+
+- **G-actin** monomers polymerize into a double-helical **F-actin** strand. Has structural polarity: plus (+) end at the Z disc, minus (−) end at the M line.
+- **Tropomyosin** - a rope-like coiled-coil dimer that wraps along seven actin monomers, lying in the groove of the F-actin helix. At rest it physically blocks the myosin-binding sites on actin.
+- **Troponin complex** (three subunits per regulatory unit):
+  - **Troponin T (TnT)** - binds tropomyosin (anchor)
+  - **Troponin I (TnI)** - binds actin, **inhibits** actomyosin interaction at rest
+  - **Troponin C (TnC)** - binds Ca²⁺ (four sites; two regulatory, two structural)
+
+### Other key proteins
+
+- **Titin** - the largest known protein (~3 MDa). Spans Z disc to M line; gives passive elastic recoil. Limits sarcomere length.
+- **Nebulin** - runs along the thin filament; thought to act as a "ruler" for thin filament length.
+- **Dystrophin** - links sarcomere cytoskeleton to the sarcolemma via the dystroglycan complex. Lost in **Duchenne muscular dystrophy** (X-linked frameshift), reduced in **Becker** (in-frame deletion).
+- **Myosin-binding protein C, α-actinin (Z disc anchor), desmin (intermediate filament around Z discs)** - structural.
+
+## The cross-bridge cycle
+
+1. **ATP binds myosin head** → myosin releases actin.
+2. **ATP hydrolysis** → head cocks into high-energy position (still holding ADP + P_i).
+3. **Ca²⁺ binds troponin C** → tropomyosin shifts, exposing actin binding sites.
+4. **Cross-bridge forms** → myosin head binds actin.
+5. **Power stroke** → P_i released, head pivots, thin filament slides toward M-line. ADP released.
+6. Cycle repeats as long as Ca²⁺ and ATP are present.
+
+## Excitation–contraction coupling
+
+The signal from motor neuron to muscle contraction is a chain of seven steps. Each one is a potential failure point with known clinical correlates.
+
+1. **AP arrives at the motor neuron terminal** → voltage-gated **Ca²⁺ channels** open → Ca²⁺ enters terminal.
+2. **ACh vesicles fuse with the membrane** (SNARE-mediated) → ACh released into the synaptic cleft.
+3. **ACh binds nicotinic AChR (NM)** on the motor end-plate of the sarcolemma → ion channel opens → Na⁺ in, K⁺ out → **end-plate potential**.
+4. **End-plate potential triggers a muscle AP** that propagates along the sarcolemma and **down the T-tubules** (deep invaginations of the sarcolemma at the A-I junction).
+5. **T-tubule depolarization activates DHPRs** (L-type Ca²⁺ channels acting as voltage sensors). DHPRs are **mechanically coupled** to **ryanodine receptors (RyR1)** on the SR membrane.
+6. **RyR1 opens** → Ca²⁺ released from the SR into the cytosol (Ca²⁺-induced Ca²⁺ release amplifies this in cardiac muscle but is less prominent in skeletal).
+7. **Ca²⁺ binds TnC** → cross-bridge cycle begins.
+
+Relaxation requires **SERCA** (sarcoplasmic/ER Ca²⁺ ATPase) on the SR membrane to pump cytosolic Ca²⁺ back into the SR - an active process consuming ~30% of muscle ATP at rest. The **Na⁺/Ca²⁺ exchanger** on the sarcolemma extrudes a smaller fraction of Ca²⁺ to the extracellular space.
+
+### The T-tubule triad
+
+In skeletal muscle, each T-tubule is flanked by **two terminal cisternae** of SR, forming a **triad** at the A-I band junction. Cardiac muscle has **dyads** (one T-tubule + one SR cisterna) located at the Z line - and uses extracellular Ca²⁺ influx (rather than purely SR release) to trigger contraction.
+
+### Where it can go wrong (high-yield NMJ and EC-coupling disorders)
+
+| Disease | Mechanism | Clinical pearl |
+|---|---|---|
+| **Myasthenia gravis** | Auto-Ab against postsynaptic nicotinic AChR | Ptosis, fatigable weakness; **improves** with edrophonium/pyridostigmine |
+| **Lambert-Eaton** | Auto-Ab against presynaptic VGCC (Ca²⁺ channel) | Often paraneoplastic (small-cell lung Ca); **improves** with repeated use |
+| **Botulism** | Botulinum toxin cleaves SNARE proteins → no ACh release | Descending flaccid paralysis, "floppy baby"; pupils dilated |
+| **Tetanus** | Tetanospasmin cleaves SNAREs in inhibitory spinal interneurons → unopposed motor | Spastic paralysis, lockjaw, opisthotonos |
+| **Curare** | Competitive nicotinic AChR block | Used historically as paralytic in anesthesia |
+| **Succinylcholine** | Depolarizing NMJ blocker (sustained agonist) | Brief paralysis for intubation; risk of hyperkalemia and **malignant hyperthermia** |
+| **Malignant hyperthermia** | Mutated RyR1 → uncontrolled Ca²⁺ release from SR | Hyperthermia, rigidity, hypercarbia under volatile anesthesia + succinylcholine; treat with **dantrolene** (RyR1 blocker) |
+| **Duchenne muscular dystrophy** | Dystrophin gene frameshift | Boys, calf pseudohypertrophy, Gowers sign, ↑↑↑ CK |
+
+<Note title="Why rigor mortis happens">
+After death, ATP runs out. Myosin heads cannot release actin (step 1 fails) and Ca²⁺ leaks from the SR with no SERCA to pump it back. Muscle stays contracted until proteolysis breaks the cross-bridges (~24–48 h).
+</Note>
+
+<Clinical>
+**Myasthenia gravis**: autoantibodies against the nicotinic ACh receptor at the NMJ. Fewer functional receptors → fewer end-plate potentials → muscle weakness that worsens with use. Improves transiently with **acetylcholinesterase inhibitors** (pyridostigmine), which prolong ACh in the synaptic cleft.
+</Clinical>
+
+## Sarcomere anatomy review
+
+The contractile unit is the **sarcomere**, from one **Z disc** to the next. Within it:
+
+| Band/zone | What's there | Behavior on contraction |
+|---|---|---|
+| **Z disc** | Anchors thin filaments | Z discs pulled toward M line |
+| **I band** | Thin filaments only (around the Z) | **Shortens** |
+| **A band** | Full length of thick filaments | **Stays the same length** (myosin doesn't shrink) |
+| **H zone** | Thick filaments only (no overlap) | **Shortens** |
+| **M line** | Center of A band; anchors thick filaments | Reference point - does not move |
+
+## Muscle fiber types
+
+| Type | Contraction | Fatigue | Color | Use |
+|---|---|---|---|---|
+| **Type I (slow oxidative)** | Slow | Resistant | Red (myoglobin-rich, many mitochondria) | Postural, marathon |
+| **Type IIa (fast oxidative)** | Fast | Moderate | Pink | Sustained sprinting |
+| **Type IIx/b (fast glycolytic)** | Fast | Quickly | White | Sprints, jumps |
+
+## Every sarcomere structure and EC-coupling component - function table
+
+### Sarcomere structural components
+
+| Structure | Function | Why crucial |
+|---|---|---|
+| **Z disc** | Boundary of one sarcomere; anchors thin filaments via α-actinin | Defines the sarcomere unit; transmits force between sarcomeres; in series for whole-fiber shortening |
+| **M line** | Midline of sarcomere; anchors thick filaments via myomesin | Keeps thick filaments registered and aligned; reference point in A band |
+| **A band** | Length of thick filaments (myosin) | Stays the **same length during contraction** - myosin doesn't shorten; useful EM landmark |
+| **I band** | Region of thin filament only, around the Z disc | **Shortens during contraction** as thin filaments slide inward |
+| **H zone** | Center of A band - thick filament without thin overlap | **Shortens during contraction** as thin filaments encroach |
+| **Bare zone (middle of thick filament)** | Region of myosin tails with no projecting heads | Marks the actual center; corresponds to M line region |
+| **Sarcomere** | Z-disc-to-Z-disc unit | Fundamental contractile unit; thousands in series per myofibril |
+
+### Myosin (thick filament)
+
+| Component | Function | Why crucial |
+|---|---|---|
+| **Myosin heavy chain (×2 per molecule)** | Globular head + neck + α-helical rod tail | Heads do work; tails self-assemble into the bipolar thick filament |
+| **Myosin head** | ATPase activity + actin binding + power stroke | Each cycle pulls thin filament ~10 nm toward M line; hydrolyzes 1 ATP per cycle |
+| **Essential + regulatory light chains** | Wrap the neck (lever arm); modulate head movement | Phosphorylation of regulatory light chain in smooth muscle is the contraction switch (unlike skeletal) |
+| **Myosin-binding protein C (MyBP-C)** | Stabilizes thick filament; modulates cross-bridge cycling | Mutations cause hypertrophic cardiomyopathy in heart |
+
+### Thin filament
+
+| Component | Function | Why crucial |
+|---|---|---|
+| **G-actin** | Globular monomer | Polymerizes into F-actin |
+| **F-actin** | Polymer (double helix) | Substrate for myosin binding; polarized (+ end at Z, − end at M) |
+| **Tropomyosin** | Coiled-coil dimer covering 7 actin monomers | At rest, **physically blocks myosin-binding sites**; shifts when Ca²⁺ binds troponin |
+| **Troponin T (TnT)** | Binds tropomyosin | Anchors the troponin complex along the thin filament |
+| **Troponin I (TnI)** | Binds actin; **inhibits** actin-myosin interaction at rest | Released when TnC binds Ca²⁺ - uncovers binding sites |
+| **Troponin C (TnC)** | Binds 4 Ca²⁺ (2 regulatory + 2 structural) | The Ca²⁺ sensor of contraction; cardiac TnT and TnI are used as **biomarkers of MI** |
+
+### Scaffolding and cytoskeleton
+
+| Component | Function | Why crucial |
+|---|---|---|
+| **Titin** | Largest known protein; Z disc → M line | Passive elastic recoil; limits sarcomere length; bidirectional spring during contraction/relaxation |
+| **Nebulin** | Long protein along the thin filament | Acts as a "ruler" specifying thin filament length |
+| **α-actinin** | Z disc protein; crosslinks thin filaments | Maintains Z-disc structure |
+| **Desmin** | Intermediate filament wrapping each Z disc, linking adjacent myofibrils | Keeps Z discs in register across the muscle cell; mutations → desminopathies |
+| **Dystrophin** | Links sarcomere cytoskeleton (actin) to dystroglycan complex in the sarcolemma | Transmits force from sarcomere to extracellular matrix; loss → **Duchenne MD**; reduced → Becker MD |
+| **Dystroglycan complex** | Spans sarcolemma; binds dystrophin (inside) and laminin (outside) | Mechanically anchors muscle cell to basement membrane |
+
+### Excitation–contraction coupling machinery
+
+| Component | Function | Why crucial |
+|---|---|---|
+| **Sarcolemma** | Muscle cell plasma membrane | Carries AP from end-plate along the fiber |
+| **Motor end-plate / NMJ** | Specialized synapse between motor neuron and muscle | Site of MG, LEMS, botulism, curare action |
+| **Nicotinic AChR (NM type)** | Ligand-gated cation channel on motor end-plate | Opens on ACh binding → end-plate potential triggers muscle AP |
+| **T-tubule** | Invagination of sarcolemma at the A-I band junction in skeletal muscle (one per sarcomere) | Carries AP into the cell interior - without it, deep myofibrils wouldn't get the signal |
+| **Triad (skeletal)** | T-tubule flanked by two SR cisternae | Structural site of DHPR-RyR1 coupling |
+| **Dyad (cardiac)** | T-tubule + one SR cisterna at the Z line | Cardiac version - uses Ca²⁺-induced Ca²⁺ release more prominently |
+| **Dihydropyridine receptor (DHPR)** | L-type Ca²⁺ channel + voltage sensor on T-tubule | **Mechanically gates RyR1 in skeletal muscle** (direct mechanical coupling); in cardiac, allows Ca²⁺ influx that triggers RyR2 |
+| **Ryanodine receptor (RyR1 skeletal, RyR2 cardiac)** | Massive Ca²⁺-release channel on SR membrane | Opens to flood cytosol with Ca²⁺; **RyR1 mutations → malignant hyperthermia**; **dantrolene blocks it** |
+| **Sarcoplasmic reticulum (SR)** | Specialized smooth ER that stores Ca²⁺ at ~10,000× cytosolic concentration | Source of Ca²⁺ for contraction; volume + Ca²⁺ content set how strong/fast the contraction can be |
+| **Terminal cisternae** | Dilated SR portions abutting T-tubules | Site of RyR clusters; the actual Ca²⁺ release sites |
+| **SERCA** | Sarcoplasmic Ca²⁺ ATPase | Pumps cytosolic Ca²⁺ back into SR - required for relaxation; consumes ~30% of resting muscle ATP |
+| **Calsequestrin** | High-capacity Ca²⁺-buffering protein in SR lumen | Stores Ca²⁺ at high concentration without raising free Ca²⁺ (keeps SERCA gradient manageable) |
+| **Na⁺/Ca²⁺ exchanger (NCX)** | Sarcolemmal exchanger | Extrudes Ca²⁺ to extracellular space; important in cardiac myocytes |
+
+## Practice - diagram quiz
+
+<DiagramQuiz name="muscular/sarcomere-schematic" title="Label the bands and filaments of a sarcomere" />
+
+## Histology
+
+<Figure name="histology/skeletal-muscle-histo" caption="Skeletal muscle histology - striations reflect sarcomere alignment." />
+
+## Quick check
+
+<Quiz questions={[
+  { q: "ATP binding to the myosin head causes…", a: "Detachment from actin", choices: ["Power stroke", "Detachment from actin", "Cross-bridge formation", "Ca²⁺ release"] },
+  { q: "Ca²⁺ enters the cytosol from…", a: "The sarcoplasmic reticulum", choices: ["Extracellular fluid", "The mitochondria", "The sarcoplasmic reticulum", "The nucleus"] },
+  { q: "Myasthenia gravis is caused by antibodies against…", a: "Nicotinic ACh receptors", choices: ["Muscarinic ACh receptors", "Nicotinic ACh receptors", "Voltage-gated Na⁺ channels", "Ryanodine receptors"] },
+  { q: "During contraction, which sarcomere region stays the same length?", a: "A band", choices: ["I band", "A band", "H zone", "Sarcomere itself"] },
+  { q: "Ca²⁺ binds which troponin subunit to expose actin?", a: "Troponin C", choices: ["Troponin I", "Troponin C", "Troponin T", "Tropomyosin"] },
+  { q: "The power stroke is associated with release of…", a: "Inorganic phosphate (Pi)", choices: [
+    "ATP",
+    "ADP",
+    "Inorganic phosphate (Pi)",
+    "Ca²⁺"
+  ]},
+  { q: "Ca²⁺ is pumped back into the SR by…", a: "SERCA (ATP-dependent)", choices: [
+    "Na⁺/Ca²⁺ exchanger",
+    "Ryanodine receptors",
+    "SERCA (ATP-dependent)",
+    "L-type Ca²⁺ channels"
+  ]},
+  { q: "T-tubule depolarization activates which receptor first?", a: "Dihydropyridine receptor (DHPR)", choices: [
+    "Ryanodine receptor (RyR)",
+    "Dihydropyridine receptor (DHPR)",
+    "Voltage-gated Na⁺ channel",
+    "Nicotinic ACh receptor"
+  ]},
+  { q: "Type I (slow oxidative) fibers are best suited for…", a: "Postural and endurance activity", choices: [
+    "Maximal sprints",
+    "Postural and endurance activity",
+    "Explosive lifts",
+    "Anaerobic effort"
+  ]},
+  { q: "Rigor mortis occurs because…", a: "ATP depletion prevents myosin from releasing actin", choices: [
+    "Lactate accumulation hardens muscle",
+    "ATP depletion prevents myosin from releasing actin",
+    "Ca²⁺ is rapidly pumped back into the SR",
+    "Acetylcholinesterase fails"
+  ]},
+  { q: "Smooth muscle differs from skeletal in that it uses…", a: "Calmodulin and myosin light-chain kinase", choices: [
+    "Troponin and tropomyosin only",
+    "Calmodulin and myosin light-chain kinase",
+    "T-tubules and triads",
+    "Multinucleated fibers"
+  ]},
+  { q: "Curare (a competitive ACh-receptor blocker at the NMJ) causes…", a: "Flaccid paralysis", choices: [
+    "Spastic paralysis",
+    "Flaccid paralysis",
+    "Tetany",
+    "Fasciculations only"
+  ]}
+]} />
+
+## High-yield exam patterns
+
+<HighYield exam="nclex">
+**NCLEX nursing priorities for NMJ disorders:**
+- **Myasthenia gravis**: weakness worsens with use; **edrophonium (Tensilon) test** historically; now anti-AChR antibodies. Crisis = respiratory failure → ICU.
+- **Pyridostigmine** dosing on schedule (don't miss - risk of myasthenic crisis); over-dose → cholinergic crisis (SLUDGE-M).
+- **Plasmapheresis or IVIG** for myasthenic/Guillain-Barré crisis.
+- **Malignant hyperthermia**: hyperthermia, rigidity, hypercarbia after volatile anesthetics or succinylcholine → **stop anesthetic, give dantrolene IV**.
+- **Botulism** infant feeding precaution: no honey before 1 year; "floppy baby" with descending paralysis.
+</HighYield>
+
+<HighYield exam="pharm">
+**NMJ and muscle pharmacology:**
+- **Succinylcholine** (depolarizing NMJ blocker): rapid intubation; risks hyperkalemia (avoid in burns &gt;24 h, crush injury, denervation), MH.
+- **Rocuronium / vecuronium** (non-depolarizing): reversed by **sugammadex** (rocuronium) or neostigmine + glycopyrrolate.
+- **Pyridostigmine, neostigmine, edrophonium** - AChE inhibitors; treat MG.
+- **Atropine** - muscarinic blocker, used with neostigmine to avoid bradycardia.
+- **Dantrolene** - blocks RyR1 → treats MH and neuroleptic malignant syndrome.
+- **Botulinum toxin (Botox)** - therapeutic: dystonia, spasticity, migraine, cosmetic; blocks SNARE-mediated ACh release.
+</HighYield>
+
+## Clinical case
+
+<ClinicalCase title="Ptosis worsening through the day" vignette="A 28-year-old woman reports 3 months of fatigable ptosis and diplopia that worsens through the day and improves with rest. Today she's had difficulty chewing toward the end of meals. Pupillary responses are intact. Reflexes are normal. ECG normal. Anti-acetylcholine receptor antibodies are positive." questions={[
+  { q: "Which condition does she have?", a: "Myasthenia gravis", choices: [
+    "Lambert-Eaton myasthenic syndrome",
+    "Myasthenia gravis",
+    "Botulism",
+    "Multiple sclerosis"
+  ], explanation: "Anti-AChR antibodies block postsynaptic nicotinic receptors at the NMJ → fatigable weakness that worsens with use and improves with rest. Pupillary sparing distinguishes from botulism (mydriasis). LEMS improves with repeated use; MG worsens." },
+  { q: "Which scan should be ordered to evaluate for an associated finding?", a: "Chest CT to evaluate for thymoma", choices: [
+    "Brain MRI",
+    "Chest CT to evaluate for thymoma",
+    "Abdominal CT",
+    "Whole-body PET"
+  ], explanation: "10–15% of MG patients have a thymoma; many more have thymic hyperplasia. Thymectomy can improve symptoms even in non-thymoma patients. CT chest is standard at diagnosis." },
+  { q: "Which medication treats her acutely?", a: "Pyridostigmine (acetylcholinesterase inhibitor)", choices: [
+    "Pyridostigmine (acetylcholinesterase inhibitor)",
+    "Botulinum toxin",
+    "Succinylcholine",
+    "Cabergoline"
+  ], explanation: "AChE inhibitors prolong ACh in the synaptic cleft → more chance to bind remaining receptors → improved strength. Chronic management adds immunosuppression (steroids, azathioprine). Avoid succinylcholine - MG patients are resistant or have prolonged paralysis." }
+]} />

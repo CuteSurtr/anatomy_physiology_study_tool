@@ -1,0 +1,22 @@
+{
+  "src": "/figures/urinary/nephron-blank.svg",
+  "alt": "Anatomically detailed diagram of a nephron without labels",
+  "viewBox": [0, 0, 356, 600],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Yosi I (after Gray's plate 1130) - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Nephron_blank.svg"
+  },
+  "labels": [
+    { "id": "bowman", "x": 75, "y": 90, "label": "Bowman's capsule", "synonyms": ["bowman capsule", "glomerular capsule", "renal corpuscle"] },
+    { "id": "glomerulus", "x": 90, "y": 110, "label": "Glomerulus" },
+    { "id": "afferent", "x": 50, "y": 75, "label": "Afferent arteriole" },
+    { "id": "efferent", "x": 145, "y": 130, "label": "Efferent arteriole" },
+    { "id": "pct", "x": 145, "y": 165, "label": "Proximal convoluted tubule", "synonyms": ["PCT", "proximal tubule"] },
+    { "id": "descending", "x": 175, "y": 300, "label": "Descending limb of loop of Henle", "synonyms": ["descending limb", "thin descending limb"] },
+    { "id": "loop", "x": 180, "y": 470, "label": "Loop of Henle", "synonyms": ["henle loop", "nephron loop"] },
+    { "id": "ascending", "x": 220, "y": 300, "label": "Ascending limb of loop of Henle", "synonyms": ["ascending limb", "thick ascending limb", "TAL"] },
+    { "id": "dct", "x": 270, "y": 175, "label": "Distal convoluted tubule", "synonyms": ["DCT", "distal tubule"] },
+    { "id": "collecting", "x": 295, "y": 400, "label": "Collecting duct" }
+  ]
+}

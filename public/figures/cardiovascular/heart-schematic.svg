@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fafafa"/>
+
+  <!-- Great vessels (top) -->
+  <!-- SVC (patient's right, viewer's left) -->
+  <rect x="260" y="50" width="60" height="130" fill="#60a5fa" stroke="#1e3a8a" stroke-width="2"/>
+  <text x="290" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="16" fill="#1e3a8a" font-weight="600">SVC</text>
+
+  <!-- Aorta arch -->
+  <path d="M 500 180 Q 500 80, 600 80 Q 700 80, 700 200" fill="none" stroke="#b91c1c" stroke-width="22"/>
+  <text x="640" y="60" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="16" fill="#7f1d1d" font-weight="600">Aorta</text>
+
+  <!-- Pulmonary artery (origin from RV, going up between RA and LA) -->
+  <rect x="380" y="80" width="50" height="100" fill="#60a5fa" stroke="#1e3a8a" stroke-width="2"/>
+  <text x="405" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="16" fill="#1e3a8a" font-weight="600">Pulmonary Trunk</text>
+
+  <!-- Pulmonary veins (entering LA from sides) -->
+  <rect x="600" y="160" width="80" height="22" fill="#b91c1c" stroke="#7f1d1d" stroke-width="2"/>
+  <text x="640" y="148" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="13" fill="#7f1d1d">Pulmonary veins</text>
+
+  <!-- Right atrium -->
+  <rect x="200" y="180" width="180" height="140" rx="20" fill="#bfdbfe" stroke="#1e3a8a" stroke-width="2.5"/>
+
+  <!-- Left atrium -->
+  <rect x="430" y="180" width="180" height="140" rx="20" fill="#fecaca" stroke="#7f1d1d" stroke-width="2.5"/>
+
+  <!-- Right ventricle -->
+  <rect x="200" y="340" width="180" height="200" rx="20" fill="#93c5fd" stroke="#1e3a8a" stroke-width="2.5"/>
+
+  <!-- Left ventricle (thicker walls representation) -->
+  <rect x="430" y="340" width="180" height="200" rx="20" fill="#fca5a5" stroke="#7f1d1d" stroke-width="6"/>
+
+  <!-- Septum (line between L and R ventricles) -->
+  <line x1="405" y1="200" x2="405" y2="540" stroke="#52525b" stroke-width="3" stroke-dasharray="6 4"/>
+
+  <!-- Tricuspid valve indicator -->
+  <line x1="220" y1="335" x2="360" y2="335" stroke="#16a34a" stroke-width="5"/>
+  <!-- Mitral valve indicator -->
+  <line x1="450" y1="335" x2="590" y2="335" stroke="#16a34a" stroke-width="5"/>
+
+  <!-- IVC -->
+  <rect x="260" y="540" width="60" height="50" fill="#60a5fa" stroke="#1e3a8a" stroke-width="2"/>
+  <text x="290" y="588" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="16" fill="#1e3a8a" font-weight="600">IVC</text>
+
+  <!-- Apex marker -->
+  <path d="M 520 540 L 540 580 L 560 540 Z" fill="#fca5a5" stroke="#7f1d1d" stroke-width="2"/>
+</svg>

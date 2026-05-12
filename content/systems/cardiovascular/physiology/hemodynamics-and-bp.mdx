@@ -1,0 +1,266 @@
+---
+title: Hemodynamics & Blood Pressure Regulation
+system: cardiovascular
+related:
+  - heart
+  - vessels-and-circulation
+  - cardiac-cycle
+figures: []
+sources:
+  - Hall & Guyton - Chapters 14–19
+  - Berne & Levy Physiology - Section IV
+  - First Aid USMLE 2024
+level: undergrad
+---
+
+Blood pressure is the central regulated variable in cardiovascular physiology. The body monitors it second-by-second and adjusts cardiac output, vascular tone, and blood volume to keep it within a narrow window (~mean 90–95 mmHg in healthy adults). Three lines of defense - **baroreceptor reflex** (seconds), **RAAS + ADH** (minutes to hours), and **renal pressure natriuresis** (days) - govern long-term BP control.
+
+<Figure name="cardiovascular/circulation-overview" caption="Pulmonary and systemic circulation as one continuous loop. The heart generates flow, arterioles set resistance, and veins determine how much blood returns as preload." />
+
+<Figure name="cardiovascular/raas" caption="RAAS - renin → angiotensin I → ACE → angiotensin II → aldosterone, with feedback loops." />
+
+<Figure name="cardiovascular/wiggers" caption="Wiggers diagram - pressures, volume, ECG, and heart sounds across one cardiac cycle." />
+
+## The fundamental equation
+
+```
+BP = CO × TPR
+CO = HR × SV
+```
+
+| Variable | Determinants |
+|---|---|
+| **HR** (heart rate) | Autonomic input (β1 ↑, M2 ↓); intrinsic SA rate; circulating catecholamines |
+| **SV** (stroke volume) | **Preload** + **contractility** + **afterload** |
+| **TPR** (total peripheral resistance) | Arteriolar radius (4th power - Poiseuille), blood viscosity, vessel length |
+
+Any persistent BP elevation reflects ↑ in **at least one** of these. Essential hypertension is usually ↑ TPR; CHF often shows ↓ SV with compensatory ↑ HR + ↑ TPR; pheochromocytoma drives ↑ HR + ↑ TPR via catecholamines.
+
+One useful way to organize the whole topic is: **the heart sets flow, arteries distribute pressure, arterioles regulate resistance, and veins store volume**. Most BP drugs work by changing one of those four buckets.
+
+## Preload, contractility, afterload - the three SV levers
+
+| Lever | Definition | Determinants | What raises it | What lowers it |
+|---|---|---|---|---|
+| **Preload** | End-diastolic ventricular volume → wall stretch | Venous return, ventricular compliance, atrial kick | Volume load, lying down, exercise, ↑ venous tone | Hemorrhage, dehydration, venodilators (nitrates), tachycardia (less filling time) |
+| **Contractility** (inotropy) | Force at any given preload | Sympathetic tone, Ca²⁺ handling | β1 agonists, digoxin, ↑ extracellular Ca²⁺ | β-blockers, acidosis, hypoxia, MI |
+| **Afterload** | Pressure ventricle must overcome to eject | Aortic pressure, TPR, valve stenosis | Hypertension, aortic stenosis, vasoconstriction | Vasodilators (hydralazine, ACE inhibitors) |
+
+### Frank-Starling - the heart's intrinsic preload response
+Greater end-diastolic volume → greater stretch of cardiac myocytes → optimal actin-myosin overlap → **stronger contraction**. This is why both ventricles eject the same volume despite no central coordination - venous return = cardiac output at steady state.
+
+<Mnemonic>
+**"More in → more out"** - within physiological range. Beyond the peak (overstretched), force *falls* (descending limb), which is what happens in decompensated heart failure.
+</Mnemonic>
+
+## Poiseuille's law - why arterioles control TPR
+
+```
+Q = (π × ΔP × r⁴) / (8 × η × L)
+```
+
+The 4th-power dependence on **radius** is the key. Halve the radius → flow drops 16×. This is why a small change in arteriolar smooth muscle tone produces massive shifts in resistance. **Capillaries** have small radius but enormous total cross-sectional area + are in parallel → low resistance, slow flow (ideal for exchange).
+
+<Figure name="cardiovascular/artery-vein-layers" caption="Arteries invest in a thick muscular media because they handle pressure; veins invest in capacitance and one-way valves because they return volume." />
+
+## Three timescales of BP regulation
+
+### 1. Seconds - Baroreceptor reflex (neural)
+
+| Step | Detail |
+|---|---|
+| **Sensors** | Stretch receptors in **carotid sinus** (CN IX → glossopharyngeal) + **aortic arch** (CN X → vagus) |
+| **Integrator** | Nucleus tractus solitarius (NTS) in the medulla |
+| **Effectors** | Sympathetic (↑ HR, ↑ contractility, ↑ TPR, ↑ venous tone) + parasympathetic (vagal slowing of HR) |
+
+**↑ BP** → ↑ baroreceptor firing → NTS → **↑ parasympathetic + ↓ sympathetic** → ↓ HR + vasodilation → BP returns to setpoint.
+
+**↓ BP** → ↓ firing → reverse → reflex tachycardia + vasoconstriction.
+
+<Clinical>
+**Orthostatic hypotension** - failure of the baroreflex to compensate on standing. Drop in SBP ≥ 20 or DBP ≥ 10 within 3 minutes of standing. Causes: volume depletion, autonomic neuropathy (diabetes, Parkinson's, multiple system atrophy), α-blockers, ganglion blockers.
+
+**Carotid sinus hypersensitivity** - exaggerated baroreflex; pressure on the carotid (tight collar, shaving) → bradycardia + syncope.
+
+**Vasovagal syncope** - emotional/painful stimulus → paradoxical reflex bradycardia + vasodilation → drop in cerebral perfusion → faint. Common; benign.
+</Clinical>
+
+### 2. Minutes - Chemoreceptors + ADH
+
+**Peripheral chemoreceptors** (carotid + aortic bodies) respond to **↓ PaO₂**, ↑ PaCO₂, ↓ pH → activate sympathetics → ↑ HR, ↑ BP, ↑ ventilation. Important in shock + hypoxia.
+
+**Central chemoreceptors** (medulla) respond only to ↑ CO₂ (via CSF pH) - mainly for ventilation, not BP.
+
+**ADH/vasopressin** (posterior pituitary):
+- Released in response to ↑ plasma osmolarity (primary) or large ↓ BP (>10%, via baroreceptors)
+- V1 receptors → vasoconstriction (BP support)
+- V2 receptors → aquaporin-2 insertion in collecting duct → water reabsorption → volume expansion
+
+### 3. Hours to days - RAAS + renal pressure natriuresis
+
+The **renin-angiotensin-aldosterone system (RAAS)** is the master volume + BP regulator.
+
+| Step | Detail |
+|---|---|
+| **Trigger** | ↓ renal perfusion (sensed by JG cells) OR ↓ NaCl at macula densa OR ↑ sympathetic input (β1 on JG cells) |
+| **Renin** | Released by JG cells; cleaves angiotensinogen (liver) → **Angiotensin I** |
+| **ACE** | Lung endothelium converts AI → **Angiotensin II** |
+| **Angiotensin II actions** | (1) Potent **vasoconstrictor** (efferent arteriole > afferent → preserves GFR); (2) stimulates **aldosterone** (adrenal zona glomerulosa) → Na⁺ + water retention in distal tubule/collecting duct; (3) stimulates **ADH**; (4) stimulates thirst (hypothalamus); (5) increases sympathetic outflow |
+| **Net effect** | ↑ BP + ↑ blood volume |
+
+**Renal pressure natriuresis** - when arterial BP rises, the kidneys excrete more salt and water → blood volume falls → BP normalizes. This is the **dominant long-term regulator**. Hypertension persists when the kidney's pressure-natriuresis curve is shifted rightward - needs a higher BP to excrete the same Na⁺.
+
+## Drugs that target each lever - pharmacology backbone
+
+| Class | Site | Effect |
+|---|---|---|
+| **ACE inhibitors** (lisinopril) | ACE in lung | ↓ AII → vasodilation + ↓ aldosterone + ↓ ADH |
+| **ARBs** (losartan) | AT1 receptor | Same end result; no cough |
+| **Direct renin inhibitor** (aliskiren) | Renin | Blocks the cascade entry |
+| **Aldosterone antagonists** (spironolactone, eplerenone) | Distal tubule MR | ↓ Na/water retention; K⁺ sparing |
+| **Thiazides** (HCTZ) | Distal convoluted tubule NCC | ↓ blood volume |
+| **Loop diuretics** (furosemide) | Thick ascending limb NKCC2 | Larger volume effect; useful in CHF, HTN |
+| **β-blockers** (metoprolol) | β1 in heart + JG cells | ↓ HR, ↓ contractility, ↓ renin |
+| **α1-blockers** (prazosin) | Arterial + venous smooth muscle | Vasodilation |
+| **Dihydropyridine CCBs** (amlodipine) | L-type Ca²⁺ channels in arterial smooth muscle | Vasodilation (low cardiac effect) |
+| **Non-DHP CCBs** (verapamil, diltiazem) | L-type Ca²⁺ channels in heart > vessels | ↓ HR + contractility |
+| **Hydralazine** | Arteriolar smooth muscle | Direct vasodilation (preferred in pregnancy + CKD) |
+| **α2 agonists** (clonidine) | Brainstem | ↓ sympathetic outflow |
+| **Sodium nitroprusside** | Arterial + venous (NO donor) | Hypertensive emergency |
+
+## Mean arterial pressure (MAP)
+
+Because diastole is twice as long as systole:
+
+```
+MAP ≈ DBP + (1/3 × pulse pressure)
+    = DBP + (1/3 × [SBP – DBP])
+```
+
+**MAP > 60** required for organ perfusion. **MAP < 65** = shock. In sepsis resuscitation, MAP is the explicit target (>65 mmHg).
+
+**Pulse pressure** (SBP – DBP):
+- ↑ in aortic regurgitation, aortic stiffening (aging), anemia, thyrotoxicosis, exercise
+- ↓ in aortic stenosis, cardiogenic shock, hemorrhage
+
+## Shock states - when BP regulation fails
+
+| Type | CO | TPR | PCWP / preload | Mechanism |
+|---|---|---|---|---|
+| **Hypovolemic** | ↓ | ↑ (compensatory) | ↓ | Hemorrhage, dehydration |
+| **Cardiogenic** | ↓ | ↑ | ↑ | Pump failure (MI, severe valve dz) |
+| **Obstructive** | ↓ | ↑ | varies | Tamponade, tension pneumothorax, massive PE |
+| **Distributive - septic** | ↑ early, ↓ late | ↓↓ | ↓ or normal | Cytokine-mediated vasodilation |
+| **Distributive - anaphylactic** | ↑ early | ↓↓ | ↓ | Massive histamine release |
+| **Distributive - neurogenic** | normal | ↓↓ | ↓ | Loss of sympathetic tone (spinal cord injury T6+) |
+
+<Mnemonic>
+**Warm shock vs cold shock**: distributive (septic, anaphylactic, neurogenic) → warm extremities (vasodilation). Hypovolemic + cardiogenic + obstructive → cold + clammy (vasoconstriction).
+</Mnemonic>
+
+## Function reference - every BP regulator
+
+| System | Sensor | Target | Time course |
+|---|---|---|---|
+| **Baroreflex** | Carotid sinus + aortic arch stretch receptors | Sympathetic + parasympathetic output | Seconds |
+| **Peripheral chemoreflex** | Carotid + aortic body O₂/CO₂/pH | Sympathetic output | Seconds |
+| **ADH (vasopressin)** | Hypothalamic osmoreceptors + baroreceptors | V1 (vessels) + V2 (kidney) | Minutes |
+| **RAAS** | JG cells + macula densa | AII + aldosterone | Minutes-hours |
+| **Renal pressure natriuresis** | Renal arterial pressure | Na + water excretion | Days |
+| **Atrial natriuretic peptide (ANP)** | Atrial stretch | Vasodilation + natriuresis (opposes RAAS) | Hours |
+| **B-type natriuretic peptide (BNP)** | Ventricular stretch | Similar to ANP; **biomarker in CHF** | Hours |
+| **Endothelin-1** | Local endothelium | Vasoconstriction; ↑ in pulmonary HTN | Minutes |
+| **Nitric oxide (NO)** | Endothelial NOS, shear stress | Vasodilation via cGMP | Seconds |
+| **Prostacyclin (PGI₂)** | Endothelium | Vasodilation + anti-platelet | Seconds |
+
+## Why this matters
+
+<HighYield variant="boards">
+- **Essential hypertension** (90% of cases) = no single identifiable cause; mostly ↑ TPR + abnormal renal pressure natriuresis. First-line: thiazide, ACEi/ARB, CCB.
+- **Secondary HTN clues** - young patient, abrupt onset, refractory, hypokalemia (primary hyperaldosteronism, Cushing, renin-secreting tumor), episodic (pheochromocytoma), bruit (renal artery stenosis), coarctation (BP arm > leg).
+- **Pheochromocytoma**: episodic HTN + headache + sweating + tachycardia. Diagnosis: 24-h urine metanephrines. Treat: **α-blockade first, then β-blockade** (never β alone - unopposed α → hypertensive crisis).
+- **Renal artery stenosis** - ACE inhibitors can crash GFR (efferent arteriolar dilation removes the only compensatory mechanism). Bilateral RAS or RAS in a solitary kidney = contraindication for ACEi/ARB.
+- **Postural hypotension drug culprits** - α-blockers (prazosin), nitrates, diuretics, TCAs (anti-α), antipsychotics.
+- **Cushing reflex** (rising ICP): **hypertension + bradycardia + irregular respirations**. Ischemic medulla → reflex sympathetic surge to maintain cerebral perfusion → baroreflex slows HR. **Pre-terminal sign** of brainstem compression.
+</HighYield>
+
+## Clinical case
+
+<ClinicalCase
+  vignette="A 24-year-old man is found unconscious after a motor vehicle crash. BP 78/40, HR 122, RR 28. He is cool, pale, diaphoretic. Hb 8.4 (was 14 yesterday). FAST exam positive for intra-abdominal fluid. After 2 L crystalloid: BP 84/48, HR 118."
+  questions={[
+    { q: "What type of shock is this?", a: "Hypovolemic (hemorrhagic) shock", choices: [
+      "Cardiogenic shock",
+      "Septic shock",
+      "Hypovolemic (hemorrhagic) shock",
+      "Neurogenic shock"
+    ], explanation: "Acute hemoglobin drop + positive FAST + cool/clammy/tachycardic = hemorrhagic hypovolemic shock. Cold/clammy = vasoconstriction = the body's response to ↓ preload. Distributive shock would be warm." },
+    { q: "Why is the HR elevated?", a: "Baroreflex - reduced arterial pressure unloads carotid baroreceptors → ↑ sympathetic outflow → ↑ HR + vasoconstriction", choices: [
+      "Pain response",
+      "Baroreflex - reduced arterial pressure unloads carotid baroreceptors → ↑ sympathetic outflow → ↑ HR + vasoconstriction",
+      "Hypoxia-induced sympathetic discharge only",
+      "Loss of vagal tone from spinal injury"
+    ], explanation: "The classic compensated hemorrhage response. Stretch ↓ at carotid sinus → ↓ baroreceptor firing → disinhibition of medullary sympathetics → ↑ HR + ↑ TPR + ↑ venous return. Once compensation fails (Class IV hemorrhage, >40% loss), BP drops despite max sympathetic output." },
+    { q: "What is the most important next step in management?", a: "Transfuse blood products + surgical control of bleeding (massive transfusion protocol)", choices: [
+      "Continue crystalloid only - bolus to 3 L total",
+      "Transfuse blood products + surgical control of bleeding (massive transfusion protocol)",
+      "Start norepinephrine drip",
+      "Add hydrocortisone for adrenal insufficiency"
+    ], explanation: "Crystalloid alone dilutes coagulation factors + worsens oxygen-carrying capacity. After 1–2 L crystalloid without response → activate massive transfusion (1:1:1 PRBC:plasma:platelets) + source control. Vasopressors are a Band-Aid that won't reverse hypovolemia and risk worsening organ perfusion." }
+  ]}
+/>
+
+## Quick check
+
+<Quiz questions={[
+  { q: "BP = …", a: "CO × TPR", choices: ["HR × TPR", "SV × HR", "CO × TPR", "CO + TPR"] },
+  { q: "Most powerful determinant of TPR is…", a: "Arteriolar radius (4th power, Poiseuille)", choices: [
+    "Blood viscosity",
+    "Vessel length",
+    "Arteriolar radius (4th power, Poiseuille)",
+    "Capillary number"
+  ]},
+  { q: "Baroreceptors are located in the…", a: "Carotid sinus + aortic arch", choices: [
+    "Carotid body + aortic body",
+    "Carotid sinus + aortic arch",
+    "Right atrium",
+    "Left ventricle"
+  ]},
+  { q: "Carotid sinus afferents travel via which cranial nerve?", a: "CN IX (glossopharyngeal)", choices: ["CN V", "CN VII", "CN IX (glossopharyngeal)", "CN X"] },
+  { q: "Mean arterial pressure formula =", a: "DBP + 1/3 pulse pressure", choices: [
+    "(SBP + DBP) / 2",
+    "DBP + 1/3 pulse pressure",
+    "SBP – 1/3 pulse pressure",
+    "(SBP × DBP) / 2"
+  ]},
+  { q: "Angiotensin II preferentially constricts the…", a: "Efferent arteriole - preserving GFR when renal blood flow falls", choices: [
+    "Afferent arteriole",
+    "Efferent arteriole - preserving GFR when renal blood flow falls",
+    "Renal vein",
+    "Glomerular capillary"
+  ]},
+  { q: "Pheochromocytoma should be α-blocked before β-blocked because…", a: "β-blockade alone leaves unopposed α-mediated vasoconstriction → hypertensive crisis", choices: [
+    "It worsens diabetes",
+    "β-blockade alone leaves unopposed α-mediated vasoconstriction → hypertensive crisis",
+    "α-blockers are anti-arrhythmic",
+    "β-blockers cause urinary retention"
+  ]},
+  { q: "Cushing reflex is…", a: "HTN + bradycardia + irregular respirations from ↑ ICP", choices: [
+    "Hypotension + tachycardia",
+    "HTN + bradycardia + irregular respirations from ↑ ICP",
+    "Adrenal cortisol excess",
+    "Reflex sympathetic surge in shock"
+  ]},
+  { q: "Septic shock CO and TPR pattern =", a: "↑ CO, ↓↓ TPR", choices: [
+    "↓ CO, ↑ TPR",
+    "↑ CO, ↑ TPR",
+    "↑ CO, ↓↓ TPR",
+    "↓ CO, ↓ TPR"
+  ]},
+  { q: "BNP is released by…", a: "Ventricular myocardium in response to stretch", choices: [
+    "Atrial myocardium only",
+    "Ventricular myocardium in response to stretch",
+    "Kidney JG cells",
+    "Hypothalamus"
+  ]}
+]} />

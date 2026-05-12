@@ -1,0 +1,20 @@
+{
+  "src": "/figures/nervous/neuron-blank.svg",
+  "alt": "Anatomically detailed diagram of a neuron without labels",
+  "viewBox": [0, 0, 400, 215],
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Dhp1080 / Actam - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Derived_Neuron_schema_with_no_labels.svg"
+  },
+  "labels": [
+    { "id": "dendrites", "x": 45, "y": 60, "label": "Dendrites", "synonyms": ["dendrite"] },
+    { "id": "soma", "x": 100, "y": 105, "label": "Soma", "synonyms": ["cell body", "perikaryon"] },
+    { "id": "nucleus", "x": 105, "y": 115, "label": "Nucleus" },
+    { "id": "axon-hillock", "x": 145, "y": 105, "label": "Axon hillock" },
+    { "id": "axon", "x": 225, "y": 105, "label": "Axon" },
+    { "id": "myelin", "x": 270, "y": 105, "label": "Myelin sheath", "synonyms": ["myelin"] },
+    { "id": "node", "x": 305, "y": 105, "label": "Node of Ranvier", "synonyms": ["nodes of Ranvier", "node"] },
+    { "id": "terminals", "x": 375, "y": 105, "label": "Axon terminals", "synonyms": ["axon terminal", "synaptic terminal", "synaptic terminals"] }
+  ]
+}

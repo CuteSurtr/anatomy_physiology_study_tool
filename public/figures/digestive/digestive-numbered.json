@@ -1,0 +1,43 @@
+{
+  "src": "/figures/digestive/digestive-numbered.svg",
+  "alt": "Digestive system with 30 numbered anatomical structures",
+  "viewBox": [0, 0, 370, 810],
+  "imageHasNumbers": true,
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Mariana Ruiz (LadyofHats), with Jmarchn - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Digestive_system_diagram_numbered.svg"
+  },
+  "labels": [
+    { "id": "n1", "x": 0, "y": 0, "label": "Mouth", "synonyms": ["oral cavity"] },
+    { "id": "n2", "x": 0, "y": 0, "label": "Palate" },
+    { "id": "n3", "x": 0, "y": 0, "label": "Uvula" },
+    { "id": "n4", "x": 0, "y": 0, "label": "Tongue" },
+    { "id": "n5", "x": 0, "y": 0, "label": "Teeth", "synonyms": ["tooth"] },
+    { "id": "n6", "x": 0, "y": 0, "label": "Salivary glands" },
+    { "id": "n7", "x": 0, "y": 0, "label": "Sublingual gland", "synonyms": ["sublingual"] },
+    { "id": "n8", "x": 0, "y": 0, "label": "Submandibular gland", "synonyms": ["submandibular"] },
+    { "id": "n9", "x": 0, "y": 0, "label": "Parotid gland", "synonyms": ["parotid"] },
+    { "id": "n10", "x": 0, "y": 0, "label": "Pharynx", "synonyms": ["throat"] },
+    { "id": "n11", "x": 0, "y": 0, "label": "Esophagus", "synonyms": ["oesophagus"] },
+    { "id": "n12", "x": 0, "y": 0, "label": "Liver" },
+    { "id": "n13", "x": 0, "y": 0, "label": "Gallbladder", "synonyms": ["gall bladder"] },
+    { "id": "n14", "x": 0, "y": 0, "label": "Common bile duct", "synonyms": ["bile duct"] },
+    { "id": "n15", "x": 0, "y": 0, "label": "Stomach" },
+    { "id": "n16", "x": 0, "y": 0, "label": "Pancreas" },
+    { "id": "n17", "x": 0, "y": 0, "label": "Pancreatic duct" },
+    { "id": "n18", "x": 0, "y": 0, "label": "Small intestine", "synonyms": ["small bowel"] },
+    { "id": "n19", "x": 0, "y": 0, "label": "Duodenum" },
+    { "id": "n20", "x": 0, "y": 0, "label": "Jejunum" },
+    { "id": "n21", "x": 0, "y": 0, "label": "Ileum" },
+    { "id": "n22", "x": 0, "y": 0, "label": "Appendix", "synonyms": ["vermiform appendix"] },
+    { "id": "n23", "x": 0, "y": 0, "label": "Large intestine", "synonyms": ["colon", "large bowel"] },
+    { "id": "n24", "x": 0, "y": 0, "label": "Transverse colon" },
+    { "id": "n25", "x": 0, "y": 0, "label": "Ascending colon" },
+    { "id": "n26", "x": 0, "y": 0, "label": "Caecum", "synonyms": ["cecum"] },
+    { "id": "n27", "x": 0, "y": 0, "label": "Descending colon" },
+    { "id": "n28", "x": 0, "y": 0, "label": "Sigmoid colon", "synonyms": ["sigmoid"] },
+    { "id": "n29", "x": 0, "y": 0, "label": "Rectum" },
+    { "id": "n30", "x": 0, "y": 0, "label": "Anus" }
+  ]
+}

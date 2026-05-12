@@ -1,0 +1,220 @@
+---
+title: Adaptive Immunity
+system: lymphatic
+related:
+  - lymph-nodes
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 21
+level: undergrad
+---
+
+Adaptive immunity is **specific, slow on first exposure, fast on second**, and **remembered**. Two arms: **cell-mediated** (T cells, intracellular threats) and **humoral** (B cells → antibodies, extracellular threats).
+
+<Figure name="lymphatic/lymph-node-fyi-slide" caption="Lecture slide showing why lymph nodes are the classic meeting site for adaptive immunity: B-cell follicles outside, T-cell-rich cortex inside, and antigen arriving in afferent lymph." />
+
+## T cells
+
+Develop in the **thymus**. Two main types:
+
+- **CD4⁺ helper T cells** recognize antigen on **MHC class II** (on professional APCs - dendritic cells, macrophages, B cells). Subsets: **Th1** (intracellular pathogens, activates macrophages), **Th2** (parasites, allergy, B-cell help), **Th17** (extracellular bacteria/fungi), **Treg** (self-tolerance).
+- **CD8⁺ cytotoxic T cells** recognize antigen on **MHC class I** (on all nucleated cells) → kill infected/tumor cells via perforin + granzymes.
+
+<Mnemonic>
+**Rule of 8s**: MHC I × CD8 = 8; MHC II × CD4 = 8. Helper sees II, killer sees I.
+</Mnemonic>
+
+## B cells
+
+Develop in **bone marrow**. Activation requires (1) antigen binding to BCR + (2) **CD4⁺ Th2** help (via CD40-CD40L + cytokines). Activated B cells become:
+
+- **Plasma cells** - antibody factories (live days to months)
+- **Memory B cells** - long-lived, primed for rapid response on re-exposure
+
+## Antibodies (immunoglobulins)
+
+| Class | Form | Role |
+|---|---|---|
+| **IgM** | Pentamer (serum) | First made in primary response; great agglutinator |
+| **IgG** | Monomer | Most abundant; crosses placenta; opsonizes; neutralizes |
+| **IgA** | Dimer (secretions) | Mucosal immunity; in breast milk |
+| **IgE** | Monomer | Bound to mast cells → allergy + parasites |
+| **IgD** | Monomer | Naïve B-cell surface receptor; unclear secretory role |
+
+**Class switching** (IgM → IgG/A/E) requires CD40-CD40L signal + cytokines and happens in germinal centers.
+
+## Primary vs. secondary response
+
+| Feature | Primary | Secondary |
+|---|---|---|
+| Lag | 5–10 days | 1–3 days |
+| Magnitude | Lower | 10–100× higher |
+| Dominant Ig | IgM, then IgG | IgG (or IgA at mucosa) |
+| Affinity | Lower | Higher (affinity maturation) |
+
+This is why **vaccines work** - they generate memory without disease.
+
+<Clinical>
+**HIV** infects CD4⁺ T cells → progressive depletion → susceptibility to opportunistic infections once CD4 < 200/µL (PCP, toxoplasmosis, CMV).
+
+**X-linked agammaglobulinemia** (Bruton): failure of B-cell maturation → no Ig of any class → recurrent encapsulated bacterial infections after maternal IgG wanes at ~6 months.
+</Clinical>
+
+## Histology
+
+<Figure name="histology/white-pulp" caption="Splenic white pulp - site of adaptive immune responses against blood-borne antigens." />
+
+## Quick check
+
+<Quiz questions={[
+  { q: "CD8⁺ cytotoxic T cells recognize antigen on…", a: "MHC class I", choices: ["MHC class I", "MHC class II", "CD40", "TCR alone"] },
+  { q: "Which antibody is the first to appear in a primary response?", a: "IgM", choices: ["IgG", "IgA", "IgM", "IgE"] },
+  { q: "Class switching requires…", a: "CD40-CD40L interaction with T-cell help", choices: [
+    "Antigen binding alone",
+    "CD40-CD40L interaction with T-cell help",
+    "Complement",
+    "MHC I cross-presentation"
+  ]}
+]} />
+
+## More practice
+
+<Quiz questions={[
+  { q: "Which immunoglobulin crosses the placenta?", a: "IgG", choices: ["IgM", "IgG", "IgA", "IgE"] },
+  { q: "Which immunoglobulin is found in mucosal secretions and breast milk?", a: "IgA", choices: ["IgM", "IgG", "IgA", "IgE"] },
+  { q: "Type I hypersensitivity reactions are mediated by…", a: "IgE bound to mast cells", choices: [
+    "IgG and complement",
+    "Cytotoxic T cells",
+    "IgE bound to mast cells",
+    "Immune complexes"
+  ]},
+  { q: "Anaphylactic shock is treated first with…", a: "IM epinephrine", choices: ["IV antihistamines", "IM epinephrine", "Oral corticosteroids", "IV fluids alone"] },
+  { q: "MHC class I presents peptides to…", a: "CD8⁺ T cells", choices: ["CD4⁺ T cells", "CD8⁺ T cells", "B cells", "NK cells"] },
+  { q: "MHC class II presents peptides to…", a: "CD4⁺ T cells", choices: ["CD4⁺ T cells", "CD8⁺ T cells", "B cells", "NK cells"] },
+  { q: "Natural killer (NK) cells kill targets that…", a: "Have lost MHC I expression", choices: [
+    "Express MHC II",
+    "Have lost MHC I expression",
+    "Are bound by IgM",
+    "Express CD4"
+  ]},
+  { q: "Severe combined immunodeficiency (SCID) is characterized by…", a: "Absent T and B cell function", choices: [
+    "Absent neutrophils only",
+    "Absent T and B cell function",
+    "Absent complement",
+    "Absent immunoglobulins only"
+  ]},
+  { q: "Live attenuated vaccines are contraindicated in…", a: "Severely immunocompromised patients", choices: [
+    "Pregnant women with strong immunity",
+    "Severely immunocompromised patients",
+    "Patients over 65",
+    "Anyone with an egg allergy"
+  ]},
+  { q: "Active immunity refers to…", a: "Immunity developed by the body's own response to antigen", choices: [
+    "Maternal antibodies crossing the placenta",
+    "Receiving immune globulin",
+    "Immunity developed by the body's own response to antigen",
+    "Innate phagocytosis"
+  ]}
+]} />
+
+## Every immune cell and molecule - function reference
+
+### T-cell subsets
+
+| Subset | Marker | Function | Why crucial |
+|---|---|---|---|
+| **CD4⁺ Th1** | IFN-γ, T-bet | Activates macrophages; intracellular pathogens | TB granuloma formation |
+| **CD4⁺ Th2** | IL-4, IL-5, IL-13, GATA3 | Helps B cells, eosinophils; parasites + allergy | Asthma, helminth defense |
+| **CD4⁺ Th17** | IL-17, RORγt | Recruits neutrophils; extracellular bacteria, fungi | Psoriasis (target of IL-17 blockers - secukinumab) |
+| **CD4⁺ Tfh (follicular helper)** | CXCR5; in germinal centers | Help B cells class-switch + affinity-mature | Required for high-quality antibody response |
+| **CD4⁺ Treg** | FOXP3, CD25 | Suppresses other T cells; self-tolerance | Loss → autoimmunity (IPEX syndrome) |
+| **CD8⁺ cytotoxic T cell** | Perforin, granzymes | Kills MHC-I-presented targets | Antiviral, antitumor |
+| **NKT cell** | Recognizes lipid antigens on CD1d | Bridge innate and adaptive | Glycolipid responses |
+| **γδ T cell** | TCR with γδ chains | Tissue-resident; recognize lipids and stress signals | Mucosal defense |
+
+### B-cell lineage
+
+| Stage | Marker | Function |
+|---|---|---|
+| Pro-B → Pre-B → Immature → Mature naive B | CD19, CD20 | Develops in marrow |
+| Activated B cell | + co-stim, Ki-67 | Enters germinal center |
+| Plasma cell | CD138; loss of CD20 | Antibody factory |
+| Memory B cell | CD27 | Long-lived; rapid recall response |
+
+### Antibody (immunoglobulin) classes
+
+| Class | Structure | Half-life | Where | Function |
+|---|---|---|---|---|
+| **IgM** | Pentamer (in serum) | ~5 days | Naive B-cell surface; first secreted Ig in primary response | Strong agglutinator, activates classical complement |
+| **IgG** | Monomer | ~21 days | Serum, tissues | Opsonization, neutralization; **crosses placenta**; secondary response |
+| **IgA** | Dimer (in secretions) or monomer (serum) | ~6 days | Mucosa, breast milk, tears | Mucosal immunity, neutralization |
+| **IgE** | Monomer | ~2 days | Bound to mast cells / basophils | Type I hypersensitivity, anti-parasite |
+| **IgD** | Monomer | ~3 days | Naive B-cell surface (with IgM) | Function unclear; possibly B-cell receptor stability |
+
+### Complement pathway
+
+| Pathway | Trigger | Why crucial |
+|---|---|---|
+| **Classical** | Antigen-antibody complex (IgG, IgM) binds C1 | Adaptive-immunity amplification |
+| **Lectin** | Mannose-binding lectin on microbial sugars | Innate, antibody-independent |
+| **Alternative** | Spontaneous C3 hydrolysis on microbial surfaces | Innate, antibody-independent |
+| Convergence: **C3 convertase** | All three converge here | Makes C3a (anaphylatoxin) + C3b (opsonin) |
+| **C5–C9 (MAC)** | Membrane attack complex | Lyses Gram-negative bacteria (N. meningitidis especially) |
+
+### Hypersensitivity types
+
+| Type | Mechanism | Examples |
+|---|---|---|
+| **I (immediate)** | IgE-mast cell crosslinking | Anaphylaxis, allergic rhinitis, asthma |
+| **II (cytotoxic)** | IgG/IgM against cell-surface antigens | AIHA, ITP, Graves, MG, Goodpasture |
+| **III (immune complex)** | Antigen-antibody deposits → complement | SLE, post-strep GN, serum sickness |
+| **IV (delayed, T-cell)** | T cells + macrophages | Contact dermatitis, TB skin test, transplant rejection |
+
+## High-yield exam patterns
+
+<HighYield exam="nclex">
+**NCLEX immune priorities:**
+- **Anaphylaxis**: **IM epinephrine first** (lateral thigh, 0.3–0.5 mg adult, 0.15 mg child); call EMS; high-flow O₂; IV fluids; antihistamines + steroids are adjuncts, not first-line.
+- **Latex allergy precautions**: latex-free environment; cross-reactive foods (banana, kiwi, avocado).
+- **Vaccine teaching**: live vaccines contraindicated in pregnancy + severe immunocompromise; document VAERS for reactions.
+- **HIV teaching**: medication adherence is everything (resistance); CD4 + viral load monitoring; PCP prophylaxis if CD4 &lt;200 (TMP-SMX).
+- **Transfusion reaction**: stop infusion, KEEP IV LINE OPEN with normal saline, notify provider, send blood + tubing back to lab.
+</HighYield>
+
+<HighYield exam="step1">
+**Immunology disease patterns:**
+- **SCID** (severe combined immunodeficiency): no T or B cell function; needs reverse isolation; bone marrow transplant. ADA deficiency form treatable with gene therapy.
+- **DiGeorge syndrome** (22q11.2 del): thymic + parathyroid aplasia → no T cells + hypocalcemia + cardiac defects (CATCH-22).
+- **Bruton (X-linked) agammaglobulinemia**: no B cells; recurrent encapsulated infections after 6 mo.
+- **CVID**: low Ig levels in young adults; recurrent sinopulmonary infections; ↑ autoimmunity + lymphoma risk.
+- **Chronic granulomatous disease**: NADPH oxidase defect → can't kill catalase-positive organisms (Staph, Serratia, Burkholderia, Aspergillus).
+- **Hyper-IgM syndrome**: CD40L defect → no class switching; high IgM, low IgG/A/E.
+</HighYield>
+
+<HighYield exam="pharm">
+**Immunomodulator pharm:**
+- **Cyclosporine, tacrolimus**: calcineurin inhibitors; transplant; nephrotoxic, neurotoxic, ↑ infections, ↑ post-transplant lymphoma.
+- **Sirolimus**: mTOR inhibitor; renal-sparing transplant regimen.
+- **Azathioprine, mycophenolate**: purine synthesis inhibitors; transplant + autoimmune.
+- **Anti-TNF biologics** (infliximab, adalimumab, etanercept): screen for latent TB (reactivates); contraindicated with HF (class III/IV).
+- **Rituximab**: anti-CD20; lymphoma, rheumatologic disease; HepB reactivation.
+- **Checkpoint inhibitors** (anti-PD1: pembrolizumab, nivolumab; anti-CTLA4: ipilimumab): cancer immunotherapy; can trigger any autoimmune toxicity.
+- **IVIG**: pooled antibodies; replacement in primary immunodeficiency + immune modulation (ITP, Kawasaki, GBS).
+</HighYield>
+
+## Clinical case
+
+<ClinicalCase title="Recurrent sinopulmonary infections in a boy" vignette="A 9-month-old boy is brought in for his 4th episode of otitis media this year, plus a recent pneumonia from S. pneumoniae and a Haemophilus influenzae sinusitis. He had no problems for the first 6 months of life. Quantitative immunoglobulins show absent IgG, IgA, IgM, and IgE. Flow cytometry shows absent CD19+ B cells. T cells are normal." questions={[
+  { q: "What is the most likely diagnosis?", a: "X-linked (Bruton) agammaglobulinemia", choices: [
+    "Severe combined immunodeficiency (SCID)",
+    "X-linked (Bruton) agammaglobulinemia",
+    "Common variable immunodeficiency",
+    "Selective IgA deficiency"
+  ], explanation: "Recurrent encapsulated bacterial infections (S. pneumo, H. flu) starting after maternal IgG wanes at 6 mo + absent B cells = Bruton XLA (BTK mutation → failed pre-B → mature B differentiation). All Ig classes absent. T-cell function intact (vs SCID, where both fail). Treat with monthly IVIG." },
+  { q: "Why did he do well for the first 6 months of life?", a: "Maternal IgG crosses the placenta and protects the infant until ~6 months", choices: [
+    "Innate immunity is sufficient",
+    "Maternal IgG crosses the placenta and protects the infant until ~6 months",
+    "Newborns are sterile initially",
+    "B-cell function is delayed normally"
+  ], explanation: "IgG is the only Ig that crosses the placenta in significant amounts. It provides passive immunity for 3–6 months. Once it wanes, infants with antibody deficiencies become symptomatic - classic for XLA presentation." }
+]} />

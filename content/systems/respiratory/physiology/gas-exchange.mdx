@@ -1,0 +1,183 @@
+---
+title: Gas Exchange & Transport
+system: respiratory
+related:
+  - lungs-and-airways
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 22.4
+level: undergrad
+---
+
+Gas exchange follows **partial-pressure gradients**, not concentrations - Fick's law of diffusion.
+
+<Figure name="respiratory/o2-co2-curve" caption="Oxyhemoglobin dissociation curve with right + left shifts." />
+
+<Figure name="respiratory/alveolus" caption="Alveolar–capillary interface - site of gas exchange." />
+
+## Partial pressures (mmHg, sea level, resting)
+
+| Site | PO₂ | PCO₂ |
+|---|---|---|
+| Atmospheric (inspired) | 160 | 0.3 |
+| Alveolar | 100 | 40 |
+| Mixed venous (entering lung) | 40 | 46 |
+| Arterial (leaving lung) | ~100 | 40 |
+| Tissue | &lt;40 | &gt;46 |
+
+The alveolar–arterial (A-a) gradient is normally **less than 10 mmHg** in young adults; an elevated A-a gradient suggests a problem with gas exchange itself (V/Q mismatch, shunt, diffusion impairment).
+
+## Oxygen transport
+
+**98% bound to hemoglobin**, ~2% dissolved. Each Hb tetramer carries 4 O₂. The **oxygen-hemoglobin dissociation curve** is sigmoidal because of **cooperative binding** - once one O₂ binds, the others bind more readily.
+
+Curve shifts:
+
+- **Right shift** (Hb releases O₂ more easily) - ↑ CO₂, ↑ H⁺ (acidosis), ↑ temperature, ↑ 2,3-BPG. Helpful at the tissues.
+- **Left shift** - opposite. Helpful at the lungs. **Fetal Hb (HbF)** sits left of adult - pulls O₂ from maternal blood across the placenta.
+
+<Mnemonic>
+**Right shift = CADET**: **C**O₂, **A**cid, **2,3-BPG** (D for diphosphoglycerate), **E**xercise, **T**emperature.
+</Mnemonic>
+
+## CO₂ transport
+
+Three forms:
+- **~70% as bicarbonate** (HCO₃⁻) - CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ (catalyzed by carbonic anhydrase in RBCs). HCO₃⁻ exits via the chloride shift.
+- **~23% bound to Hb** (carbaminohemoglobin) at amino groups, not the heme.
+- **~7% dissolved**.
+
+<Clinical>
+**Carbon monoxide poisoning**: CO binds Hb with ~240× the affinity of O₂, forming carboxyhemoglobin. This (a) reduces O₂-carrying capacity and (b) **left-shifts** the remaining curve, impairing release at tissues. Treat with 100% O₂ (or hyperbaric).
+</Clinical>
+
+## Histology
+
+<Figure name="histology/alveoli" caption="Alveolar–capillary interface - site of all gas exchange." />
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Which factor causes a right shift in the oxygen-hemoglobin dissociation curve?", a: "Increased CO₂", choices: ["Decreased temperature", "Increased CO₂", "Fetal hemoglobin", "Alkalosis"] },
+  { q: "The majority of CO₂ in blood is transported as…", a: "Bicarbonate", choices: ["Dissolved CO₂", "Bound to hemoglobin", "Bicarbonate", "Carbonic acid"] },
+  { q: "Carbon monoxide poisoning is best treated with…", a: "100% oxygen", choices: ["Bronchodilators", "100% oxygen", "Methylene blue", "IV fluids alone"] }
+]} />
+
+## More practice
+
+<Quiz questions={[
+  { q: "Tidal volume in a healthy adult at rest is approximately…", a: "500 mL", choices: ["150 mL", "500 mL", "1500 mL", "3000 mL"] },
+  { q: "Anatomic dead space is approximately…", a: "150 mL", choices: ["50 mL", "150 mL", "500 mL", "1500 mL"] },
+  { q: "Inspiratory reserve volume + tidal volume + expiratory reserve volume =", a: "Vital capacity", choices: ["Total lung capacity", "Vital capacity", "Functional residual capacity", "Residual volume"] },
+  { q: "Residual volume cannot be measured by simple spirometry because…", a: "Air remains in the lungs after maximal expiration", choices: [
+    "It is too small to detect",
+    "Air remains in the lungs after maximal expiration",
+    "Patients cannot exhale forcefully",
+    "It overlaps with tidal volume"
+  ]},
+  { q: "A V/Q ratio of zero represents…", a: "A shunt", choices: ["Dead space", "A shunt", "Normal apex", "Normal base"] },
+  { q: "A V/Q ratio approaching infinity represents…", a: "Dead space", choices: ["Dead space", "A shunt", "Compliance failure", "Restrictive disease"] },
+  { q: "In an obstructive pulmonary disease pattern (COPD, asthma), FEV1/FVC is…", a: "Decreased (<0.7)", choices: [
+    "Increased (>0.85)",
+    "Normal (0.7–0.85)",
+    "Decreased (<0.7)",
+    "Unchanged"
+  ]},
+  { q: "Carbonic anhydrase catalyzes the reaction inside…", a: "Red blood cells", choices: ["Plasma directly", "Red blood cells", "Alveolar Type II cells", "Pulmonary endothelium"] },
+  { q: "The Bohr effect describes…", a: "↑ CO₂ / H⁺ shifting the O₂-Hb curve right, releasing O₂", choices: [
+    "↑ pH increasing O₂ affinity",
+    "↑ CO₂ / H⁺ shifting the O₂-Hb curve right, releasing O₂",
+    "CO binding hemoglobin",
+    "2,3-BPG depletion"
+  ]},
+  { q: "Pulmonary surfactant first appears in fetal lungs at approximately…", a: "24–28 weeks gestation", choices: ["12–16 weeks", "18–22 weeks", "24–28 weeks gestation", "36–40 weeks"] }
+]} />
+
+## Every gas-exchange component - function reference
+
+### Hemoglobin and its variants
+
+| Form | Composition | Function | Why crucial |
+|---|---|---|---|
+| **HbA (adult)** | 2α + 2β | Normal adult hemoglobin | 97% of adult Hb |
+| **HbA2** | 2α + 2δ | Minor adult form | Elevated in β-thalassemia trait |
+| **HbF (fetal)** | 2α + 2γ | Higher O₂ affinity (left-shifted curve) | Allows fetal Hb to grab O₂ from maternal Hb across placenta |
+| **HbS** | β6: Glu→Val | Sickles in low O₂ | Sickle cell disease |
+| **HbC** | β6: Glu→Lys | Mild hemolysis | Less severe than HbS |
+| **Methemoglobin** | Fe³⁺ (oxidized) | Cannot bind O₂ | Caused by nitrites, dapsone, benzocaine; treat with methylene blue |
+| **Carboxyhemoglobin** | CO bound to heme | Affinity ~240× O₂; left-shifts remaining curve | CO poisoning - treat with 100% O₂ or hyperbaric |
+
+### V/Q regional differences (upright lung)
+
+| Zone | V/Q | Notes | Why crucial |
+|---|---|---|---|
+| **Apex (Zone 1)** | High V/Q | Less perfusion (gravity), some ventilation | Wasted ventilation; TB grows here (high PO₂) |
+| **Middle (Zone 2)** | ~1 | Optimal matching | Best gas exchange |
+| **Base (Zone 3)** | Low V/Q | More perfusion than ventilation | Wasted blood flow; in supine position the dependent area is posterior |
+
+### Control of breathing
+
+| Component | Function | Why crucial |
+|---|---|---|
+| **Central chemoreceptors (medulla)** | Respond to CSF pH (driven by PCO₂) | Main day-to-day driver of breathing |
+| **Peripheral chemoreceptors (carotid + aortic bodies)** | Respond to PO₂, PCO₂, pH | Hypoxic drive - especially important when central is blunted (e.g., chronic CO₂ retainers) |
+| **Dorsal respiratory group (medulla)** | Inspiratory pattern generator | Diaphragm via phrenic n. |
+| **Ventral respiratory group (medulla)** | Forced inspiration + expiration | Active expiration |
+| **Apneustic center (lower pons)** | Prolongs inspiration | Lesion → apneusis (gasping) |
+| **Pneumotaxic center (upper pons)** | Limits inspiratory duration | Tunes rate |
+| **Stretch receptors (Hering-Breuer)** | Prevent overinflation | Trigger expiration |
+| **Irritant receptors** | Trigger cough, bronchospasm | Protective |
+| **J receptors (juxtacapillary)** | Respond to interstitial edema | Tachypnea in pulmonary edema |
+
+## High-yield exam patterns
+
+<HighYield exam="nclex">
+**ABG interpretation (a critical NCLEX skill):**
+| pH | PaCO₂ | HCO₃⁻ | Interpretation |
+|---|---|---|---|
+| ↓ | ↑ | nl/↑ | Respiratory acidosis (COPD, opioid OD, NM weakness) |
+| ↑ | ↓ | nl/↓ | Respiratory alkalosis (anxiety, PE, pain) |
+| ↓ | nl/↓ | ↓ | Metabolic acidosis (DKA, lactic, renal failure, diarrhea) |
+| ↑ | nl/↑ | ↑ | Metabolic alkalosis (vomiting, diuretics, hyperaldosteronism) |
+
+- **Oxygen therapy COPD pearl**: don't oversaturate (target 88–92%) - hypoxic drive in chronic CO₂ retainers; high O₂ can blunt their respiratory drive.
+- **Pulse ox &lt;90% = call**; **&lt;88% = intervene**.
+- **Incentive spirometer**: post-op 10×/h while awake to prevent atelectasis.
+</HighYield>
+
+<HighYield exam="step1">
+**V/Q and exercise/altitude:**
+- **Exercise**: ↑ CO, ↑ ventilation; A-a gradient widens slightly; lactate rises at threshold.
+- **High altitude**: ↓ PO₂ → hyperventilation → respiratory alkalosis → renal compensation (↑ HCO₃⁻ excretion); chronic → ↑ EPO + RBC mass + 2,3-BPG.
+- **Pulmonary embolism**: V/Q mismatch (high V/Q dead space); ABG shows hypoxia + hypocapnia (from hyperventilation).
+- **Shunt (V/Q = 0)**: hypoxia not corrected with 100% O₂ (unlike V/Q mismatch).
+- **CO₂ dissociation curve**: Haldane effect - deoxygenated Hb binds CO₂ better.
+</HighYield>
+
+<HighYield exam="pharm">
+**Respiratory pharm:**
+- **Albuterol** (SABA): β2 agonist - rescue inhaler; tachycardia + tremor.
+- **Salmeterol / formoterol** (LABA): maintenance only, never monotherapy in asthma (mortality risk).
+- **ICS** (fluticasone, budesonide): rinse mouth → prevent thrush, dysphonia.
+- **Ipratropium / tiotropium**: anticholinergic; preferred in COPD.
+- **Montelukast**: leukotriene receptor antagonist; black box for neuropsychiatric.
+- **Omalizumab** (anti-IgE), **mepolizumab** (anti-IL-5): severe asthma biologics.
+- **Theophylline**: narrow window; CYP1A2 interactions (ciprofloxacin ↑↑).
+</HighYield>
+
+## Clinical case
+
+<ClinicalCase title="Confused man with normal mucous membranes" vignette="A 64-year-old man with a 50-pack-year smoking history is found in his garage with the engine running. He is confused, with a 'cherry-red' appearance to his mucous membranes. SpO₂ on the pulse oximeter reads 97%. ABG: pH 7.35, PaO₂ 99, PaCO₂ 38, HCO₃ 22, carboxyhemoglobin 28%." questions={[
+  { q: "Despite the normal pulse oximetry, why is his oxygen delivery impaired?", a: "CO binds Hb with 240× the affinity of O₂ and left-shifts the remaining curve, blocking O₂ release at tissues", choices: [
+    "He has methemoglobinemia",
+    "Pulse oximetry overestimates due to his anemia",
+    "CO binds Hb with 240× the affinity of O₂ and left-shifts the remaining curve, blocking O₂ release at tissues",
+    "He has a pulmonary embolism"
+  ], explanation: "Standard pulse ox cannot distinguish oxy- from carboxyhemoglobin, falsely reassuring. CO has 240× greater Hb affinity than O₂; bound CO also shifts the curve LEFT, so tissues can't extract O₂ either. Co-oximetry (ABG with COHb) is required for diagnosis." },
+  { q: "What is the appropriate treatment?", a: "100% high-flow oxygen via non-rebreather mask (consider hyperbaric for severe poisoning)", choices: [
+    "Methylene blue",
+    "100% high-flow oxygen via non-rebreather mask (consider hyperbaric for severe poisoning)",
+    "Atropine",
+    "Activated charcoal"
+  ], explanation: "100% O₂ shortens CO half-life from 4–5 h to ~75 min by mass action. Hyperbaric O₂ (consider if LOC, neuro signs, pregnancy, COHb >25%) shortens to ~20 min. Methylene blue treats methemoglobinemia, not CO poisoning." }
+]} />

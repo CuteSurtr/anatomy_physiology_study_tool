@@ -1,0 +1,22 @@
+{
+  "src": "/figures/endocrine/endocrine-overview.svg",
+  "alt": "Endocrine glands for fill-in-blank practice",
+  "viewBox": [0, 0, 700, 1000],
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Termininja - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Endocrine_system.svg"
+  },
+  "labels": [
+    { "id": "hypothalamus", "x": 350, "y": 100, "label": "Hypothalamus" },
+    { "id": "pituitary", "x": 350, "y": 145, "label": "Pituitary gland", "synonyms": ["pituitary", "hypophysis"] },
+    { "id": "pineal", "x": 375, "y": 115, "label": "Pineal gland", "synonyms": ["pineal"] },
+    { "id": "thyroid", "x": 350, "y": 235, "label": "Thyroid gland", "synonyms": ["thyroid"] },
+    { "id": "parathyroid", "x": 380, "y": 235, "label": "Parathyroid glands", "synonyms": ["parathyroid"] },
+    { "id": "thymus", "x": 350, "y": 320, "label": "Thymus" },
+    { "id": "adrenal", "x": 285, "y": 480, "label": "Adrenal glands", "synonyms": ["adrenal", "suprarenal"] },
+    { "id": "pancreas", "x": 350, "y": 540, "label": "Pancreas" },
+    { "id": "ovary", "x": 290, "y": 700, "label": "Ovaries", "synonyms": ["ovary"] },
+    { "id": "testis", "x": 350, "y": 880, "label": "Testes", "synonyms": ["testis", "testicles"] }
+  ]
+}

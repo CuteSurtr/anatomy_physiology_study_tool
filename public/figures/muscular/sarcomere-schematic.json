@@ -1,0 +1,18 @@
+{
+  "src": "/figures/muscular/sarcomere-schematic.svg",
+  "alt": "Schematic of a sarcomere showing Z discs, M line, A band, I band, H zone, thick and thin filaments",
+  "viewBox": [0, 0, 1000, 400],
+  "license": {
+    "type": "CC BY",
+    "attribution": "Anatomy + Physio - original schematic"
+  },
+  "labels": [
+    { "id": "z-left", "x": 80, "y": 200, "label": "Z disc", "synonyms": ["Z line", "Z-disc", "Z-line"] },
+    { "id": "m-line", "x": 500, "y": 200, "label": "M line", "synonyms": ["M-line"] },
+    { "id": "a-band", "x": 500, "y": 50, "label": "A band", "synonyms": ["A-band"] },
+    { "id": "i-band", "x": 140, "y": 65, "label": "I band", "synonyms": ["I-band"] },
+    { "id": "h-zone", "x": 500, "y": 360, "label": "H zone", "synonyms": ["H-zone", "H band"] },
+    { "id": "thick", "x": 400, "y": 200, "label": "Thick filament (myosin)", "synonyms": ["myosin", "thick filament", "myosin filament"] },
+    { "id": "thin", "x": 200, "y": 200, "label": "Thin filament (actin)", "synonyms": ["actin", "thin filament", "actin filament"] }
+  ]
+}

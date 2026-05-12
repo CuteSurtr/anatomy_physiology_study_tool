@@ -1,0 +1,20 @@
+{
+  "src": "/figures/integumentary/skin-layers.png",
+  "alt": "Skin cross-section for fill-in-blank practice",
+  "viewBox": [0, 0, 800, 600],
+  "license": {
+    "type": "Public Domain",
+    "attribution": "US National Cancer Institute / SEER - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Skin.png"
+  },
+  "labels": [
+    { "id": "epidermis", "x": 400, "y": 80, "label": "Epidermis" },
+    { "id": "dermis", "x": 400, "y": 220, "label": "Dermis" },
+    { "id": "hypodermis", "x": 400, "y": 450, "label": "Hypodermis (subcutaneous)", "synonyms": ["subcutaneous tissue", "subcutis", "hypodermis"] },
+    { "id": "hair-shaft", "x": 250, "y": 60, "label": "Hair shaft", "synonyms": ["hair"] },
+    { "id": "hair-follicle", "x": 250, "y": 280, "label": "Hair follicle", "synonyms": ["follicle"] },
+    { "id": "sebaceous", "x": 320, "y": 200, "label": "Sebaceous gland" },
+    { "id": "sweat-gland", "x": 550, "y": 380, "label": "Sweat gland", "synonyms": ["eccrine gland"] },
+    { "id": "arrector-pili", "x": 290, "y": 240, "label": "Arrector pili muscle", "synonyms": ["arrector pili"] }
+  ]
+}

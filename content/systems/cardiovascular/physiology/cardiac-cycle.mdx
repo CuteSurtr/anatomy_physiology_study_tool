@@ -1,0 +1,237 @@
+---
+title: Cardiac Cycle
+system: cardiovascular
+related:
+  - heart
+  - ecg-basics
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 19.3
+level: undergrad
+---
+
+One full cardiac cycle is roughly **0.8 s at 75 bpm**: ~0.3 s in systole and ~0.5 s in diastole. The cycle is the same on both sides of the heart - only the pressures differ.
+
+## Phases (left heart)
+
+1. **Atrial systole** - atrial contraction tops off ventricular filling (the "atrial kick," ~20% of EDV).
+2. **Isovolumetric contraction** - all four valves shut, ventricle squeezes against a closed system, pressure spikes.
+3. **Ventricular ejection** - aortic valve opens once LV pressure > aortic pressure (~80 mmHg). Stroke volume leaves the LV.
+4. **Isovolumetric relaxation** - aortic valve closes (dicrotic notch), ventricle relaxes with all valves shut.
+5. **Rapid ventricular filling** - mitral valve opens; passive filling of LV from LA.
+6. **Diastasis** - slow continued filling.
+
+## Pressure–volume loop, in one paragraph
+
+Start at the bottom-left of the loop: ventricle full of ~50 mL (end-systolic volume), pressure low. Filling (5–6) sweeps right along the bottom until **end-diastolic volume (~120 mL)** - that's **preload**. Isovolumetric contraction shoots straight up. Ejection sweeps left along the top until **end-systolic volume**. Isovolumetric relaxation drops straight down. Stroke volume = EDV − ESV (~70 mL). Width of the loop = stroke volume; area = stroke work.
+
+<Note title="Vocabulary that gets confused">
+- **Preload** ≈ EDV ≈ how stretched the ventricle is before contracting
+- **Afterload** ≈ the pressure the ventricle must overcome to eject (aortic pressure)
+- **Contractility** ≈ inotropy ≈ force at a given preload (independent of preload/afterload)
+- **Ejection fraction** = SV / EDV. Normal ~55–70%.
+</Note>
+
+<Clinical>
+**Heart failure with reduced ejection fraction (HFrEF)**: contractility ↓ → the P-V loop is shifted right (higher ESV, larger EDV) and narrower (smaller SV). EF drops below 40%. Treat by reducing afterload (ACE inhibitors), reducing preload (diuretics), and improving long-term remodeling (beta blockers, ARNI, SGLT2i).
+</Clinical>
+
+## Heart sounds & the Wiggers diagram
+
+<Figure name="cardiovascular/wiggers-diagram" caption="Wiggers diagram - the canonical cardiac-cycle figure. Stacks aortic pressure, LV pressure, LA pressure, ventricular volume, ECG, and phonocardiogram against time. Read top-to-bottom along any vertical slice to see what's happening simultaneously." />
+
+The classic Wiggers diagram stacks (top to bottom) aortic pressure, LV pressure, LA pressure, ventricular volume, the ECG, and the phonocardiogram. Key landmarks:
+
+- **S1** ("lub") - closure of AV valves (mitral + tricuspid) at start of systole.
+- **S2** ("dub") - closure of semilunar valves (aortic + pulmonary) at start of diastole. Physiologic splitting widens on inspiration (delayed P2).
+- **S3** - early diastolic, rapid ventricular filling against a non-compliant ventricle. Normal in kids/athletes; pathologic in volume overload (HF, MR).
+- **S4** - late diastolic, atrial contraction against a stiff ventricle (HTN, LVH, HCM). Never normal.
+
+## ECG basics - the electrical view of the cycle
+
+<Figure name="cardiovascular/ecg-sinus" caption="Normal sinus rhythm with labeled P wave (atrial depolarization), QRS complex (ventricular depolarization), T wave (ventricular repolarization), PR interval, ST segment, and QT interval." />
+
+The ECG records the summed electrical activity of the heart at the body surface. Each wave maps to a mechanical event:
+
+| ECG feature | Electrical event | Mechanical correlate |
+|---|---|---|
+| **P wave** | Atrial depolarization | Atrial systole begins |
+| **PR interval** | Atrial depolarization + AV nodal delay | Time for atria to fill ventricles |
+| **QRS complex** | Ventricular depolarization (masks atrial repolarization) | Onset of ventricular systole |
+| **ST segment** | Ventricles depolarized; ejection phase | Ventricular ejection |
+| **T wave** | Ventricular repolarization | End of systole, isovolumetric relaxation |
+| **QT interval** | Total ventricular electrical activity | Prolonged → torsades risk |
+
+## Cardiac output essentials
+
+**CO = HR × SV** (~5 L/min at rest).
+**MAP = CO × SVR** (≈ DBP + 1/3 pulse pressure).
+**EF = SV / EDV** (normal ~55–70%).
+
+Three knobs on SV: **preload** (Frank-Starling: ↑ EDV stretch → ↑ contraction force), **afterload** (↑ aortic pressure → ↓ SV), **contractility** (sympathetic, calcium handling).
+
+## Histology
+
+<Figure name="histology/cardiac-intercalated" caption="Cardiac muscle with intercalated discs - gap junctions here let depolarization spread the whole syncytium each beat." />
+
+## Quick check
+
+<Quiz questions={[
+  { q: "During isovolumetric contraction, which is true?", a: "All four valves are closed", choices: [
+    "The aortic valve is open",
+    "Blood is being ejected into the aorta",
+    "All four valves are closed",
+    "The mitral valve is open"
+  ]},
+  { q: "Stroke volume equals…", a: "EDV minus ESV", choices: [
+    "EDV plus ESV",
+    "EDV minus ESV",
+    "Cardiac output divided by ejection fraction",
+    "End-diastolic pressure times compliance"
+  ]},
+  { q: "Which intervention primarily reduces afterload in heart failure?", a: "ACE inhibitors", choices: ["Loop diuretics", "ACE inhibitors", "Beta blockers", "Digoxin"] },
+  { q: "An S4 gallop is most associated with…", a: "A stiff, non-compliant ventricle", choices: [
+    "Volume overload",
+    "A stiff, non-compliant ventricle",
+    "Mitral regurgitation",
+    "Acute pulmonary edema"
+  ]},
+  { q: "Frank-Starling describes the relationship between…", a: "Preload (EDV) and stroke volume", choices: [
+    "Heart rate and contractility",
+    "Preload (EDV) and stroke volume",
+    "Afterload and ejection fraction",
+    "MAP and SVR"
+  ]},
+  { q: "Normal ejection fraction is approximately…", a: "55–70%", choices: ["20–40%", "40–55%", "55–70%", "70–90%"] },
+  { q: "The dicrotic notch on the aortic pressure curve marks…", a: "Aortic valve closure", choices: [
+    "Mitral valve closure",
+    "Aortic valve opening",
+    "Aortic valve closure",
+    "Onset of atrial contraction"
+  ]},
+  { q: "MAP can be approximated as…", a: "DBP + 1/3 pulse pressure", choices: [
+    "(SBP + DBP) / 2",
+    "SBP – DBP",
+    "DBP + 1/3 pulse pressure",
+    "DBP + 1/2 pulse pressure"
+  ]},
+  { q: "Cardiac output equals…", a: "Heart rate × stroke volume", choices: [
+    "Heart rate × ejection fraction",
+    "Heart rate × stroke volume",
+    "Stroke volume × MAP",
+    "EDV − ESV per minute"
+  ]},
+  { q: "Physiologic splitting of S2 on inspiration is caused by…", a: "Delayed closure of the pulmonary valve as venous return to the right heart increases", choices: [
+    "Earlier closure of the aortic valve",
+    "Delayed closure of the pulmonary valve as venous return to the right heart increases",
+    "Loss of left ventricular compliance",
+    "Mitral valve prolapse"
+  ]},
+  { q: "Mitral regurgitation classically produces a murmur described as…", a: "Holosystolic at the apex, radiating to the axilla", choices: [
+    "Crescendo-decrescendo at the upper sternal border",
+    "Diastolic rumble at the apex",
+    "Holosystolic at the apex, radiating to the axilla",
+    "Continuous machinery-like at the left upper sternal border"
+  ]},
+  { q: "Beta blockers improve heart failure long-term by…", a: "Reducing sympathetic-driven remodeling and oxygen demand", choices: [
+    "Increasing contractility acutely",
+    "Reducing sympathetic-driven remodeling and oxygen demand",
+    "Increasing preload",
+    "Blocking aldosterone"
+  ]}
+]} />
+
+## Every cardiac-cycle component - function reference
+
+### Phases (one full cycle)
+
+| Phase | Duration (at HR 75) | Valve status | Key event |
+|---|---|---|---|
+| Atrial systole | ~0.1 s | AV open, SL closed | Atrial kick - final 20% of ventricular filling |
+| Isovolumetric contraction | ~0.05 s | All closed | LV pressure rises sharply (no volume change) |
+| Ventricular ejection | ~0.25 s | AV closed, SL open | Stroke volume leaves; pressure peaks |
+| Isovolumetric relaxation | ~0.08 s | All closed | LV pressure falls below aortic (aortic valve closes - dicrotic notch) |
+| Rapid ventricular filling | ~0.11 s | AV open, SL closed | Passive filling from atria |
+| Diastasis | ~0.2 s | AV open | Slow filling phase |
+
+### Heart sounds - what each signifies
+
+| Sound | Cause | Why it matters |
+|---|---|---|
+| **S1 ("lub")** | Mitral + tricuspid valve closure at start of systole | Loud in mitral stenosis (forceful closing of stiff valve); soft in MR |
+| **S2 ("dub")** | Aortic + pulmonary valve closure at end of systole | Physiologic splitting widens on inspiration (delayed P2); paradoxical (widens on expiration) in LBBB |
+| **S3** | Early diastolic rapid filling against compliant or volume-overloaded ventricle | Normal in youth/athletes; pathologic in HF, MR ("ventricular gallop") |
+| **S4** | Late diastolic atrial contraction into a stiff ventricle | **Never normal**; HTN, LVH, HCM, ischemia ("atrial gallop") |
+| **Opening snap** | Forceful opening of stenotic mitral valve | Early diastolic, classic for rheumatic mitral stenosis |
+| **Ejection click** | Bicuspid aortic valve opening | Early systolic, fixed |
+| **Friction rub** | Pericarditis | Triphasic, scratchy; varies with position |
+| **Murmur (systolic)** | Stenosis of SL valve or regurgitation of AV valve | Crescendo-decrescendo (AS) vs holosystolic (MR) |
+| **Murmur (diastolic)** | Regurgitation of SL valve or stenosis of AV valve | Usually pathologic |
+
+### Hemodynamic parameters and their drivers
+
+| Parameter | Determinants | Why crucial |
+|---|---|---|
+| **Cardiac output (CO)** | HR × SV | Total perfusion to body; falls in shock |
+| **Stroke volume (SV)** | Preload × contractility ÷ afterload | The work done per beat |
+| **Preload (EDV)** | Venous return, atrial kick, compliance | Frank-Starling: ↑ stretch → ↑ contraction |
+| **Afterload** | Aortic pressure / SVR | The pressure the LV must overcome - ↑ afterload ↓ SV |
+| **Contractility (inotropy)** | Sympathetic tone, Ca²⁺, drugs | Independent of preload/afterload; ↑ by β1 agonists, digoxin |
+| **MAP** | DBP + 1/3 pulse pressure ≈ CO × SVR | Driving force for tissue perfusion |
+| **Ejection fraction (EF)** | SV / EDV | Index of contractile function; HFrEF if &lt;40% |
+
+### Pharmacology referenced
+
+| Drug class | Action | Effect on cycle |
+|---|---|---|
+| **Beta blockers** | β1 antagonism | ↓ HR, ↓ contractility, ↓ O₂ demand; long-term remodeling benefit in HFrEF |
+| **ACE inhibitors / ARBs** | Block RAAS | ↓ afterload + preload; remodeling benefit |
+| **Loop diuretics** | NKCC2 block | ↓ preload (decongestion) |
+| **Nitrates** | NO donors | Venodilate → ↓ preload; high doses arteriodilate → ↓ afterload |
+| **Digoxin** | Na⁺/K⁺ ATPase inhibition → ↑ intracellular Ca²⁺ | ↑ contractility; vagal effect ↓ HR; narrow therapeutic window |
+| **Calcium channel blockers (non-DHP)** | L-type Ca²⁺ block | ↓ HR, ↓ contractility |
+| **SGLT2 inhibitors** | Glucosuria + natriuresis | Surprisingly large mortality benefit in HFrEF and HFpEF |
+
+## High-yield exam patterns
+
+<HighYield exam="nclex">
+**NCLEX hemodynamic priorities:**
+- **Normal CO ~5 L/min**; **CI &lt;2.2 L/min/m²** = cardiogenic shock.
+- **MAP &lt;65 mmHg** = inadequate organ perfusion - escalate.
+- **Frank-Starling teaching**: ↑ preload → ↑ SV (up to a point). Why fluid challenge helps hypovolemic shock but not cardiogenic.
+- **Post-MI patient with new murmur + acute pulmonary edema** → suspect papillary muscle rupture (acute MR) - surgical emergency.
+- **S3 in adult** = volume overload (HF); **S4** = stiff ventricle (HTN, LVH).
+- IV digoxin push: **slow over 5 min**, monitor for bradycardia; verify K⁺ before giving.
+</HighYield>
+
+<HighYield exam="step1">
+**Pressure-volume loop pathologies:**
+- **Aortic stenosis** → narrower loop with higher peak pressure; LV hypertrophy.
+- **Aortic regurgitation** → wider loop (eccentric volume overload).
+- **Mitral regurgitation** → loop opens earlier (no isovolumetric contraction phase); LV pumps backward into LA.
+- **Mitral stenosis** → low EDV, low SV; LA dilates → AF + LA thrombus.
+- **HFrEF** → ESV shifts right, narrow loop, ↓ SV.
+- **HFpEF** → preserved EF but stiff LV; high filling pressure, normal SV.
+</HighYield>
+
+<HighYield exam="pharm">
+**Drugs by P-V loop effect:**
+- **Preload reducers**: nitrates (venodilators), diuretics - shift loop **left**.
+- **Afterload reducers**: ACE-I, ARBs, hydralazine, ARNI - narrow + shorten loop top.
+- **Positive inotropes**: digoxin, dobutamine, milrinone, levosimendan - **taller** loop (↑ pressure generated), shifts ESPVR up.
+- **Negative inotropes**: β blockers, non-DHP CCBs (verapamil, diltiazem) - opposite.
+- **Pure vasodilators** (hydralazine + nitrates): mortality benefit in Black patients with HFrEF (BiDil trial).
+</HighYield>
+
+## Clinical case
+
+<ClinicalCase title="Worsening dyspnea on exertion" vignette="A 68-year-old woman with long-standing hypertension and type 2 diabetes presents with 3 months of progressive dyspnea on exertion, now occurring with one flight of stairs. She has bilateral lower extremity edema and reports awakening short of breath at night (PND). Vitals: BP 152/88, HR 92, RR 22, SpO₂ 93%. JVD is 10 cm. Cardiac exam reveals an S3 gallop. Lungs have bibasilar crackles. BNP is 1,250 pg/mL. Echocardiogram shows LV ejection fraction of 30%." questions={[
+  { q: "Which best characterizes her heart failure?", a: "HFrEF (systolic dysfunction)", choices: ["HFpEF (diastolic dysfunction)", "HFrEF (systolic dysfunction)", "High-output failure", "Right-sided failure only"], explanation: "EF < 40% = HFrEF. S3 gallop is associated with volume-overloaded, dilated ventricles. PND and orthopnea reflect pulmonary congestion from left-sided failure; LE edema and JVD reflect right-sided failure (biventricular)." },
+  { q: "Which medication class has the strongest mortality benefit in HFrEF and should be started early?", a: "ACE inhibitors or ARNI", choices: ["Loop diuretics", "Calcium channel blockers", "ACE inhibitors or ARNI", "Nitrates alone"], explanation: "RAAS inhibitors (ACE-I, ARB, ARNI) reduce afterload, prevent maladaptive remodeling, and lower mortality. Beta-blockers, MRA (spironolactone), and SGLT2 inhibitors round out the foundational quadruple therapy. Loop diuretics relieve symptoms but don't extend life." },
+  { q: "Six weeks later, her serum K⁺ is 5.8 mEq/L. Which medication is most likely contributing?", a: "Spironolactone (aldosterone receptor antagonist)", choices: [
+    "Furosemide",
+    "Spironolactone (aldosterone receptor antagonist)",
+    "Metoprolol succinate",
+    "Atorvastatin"
+  ], explanation: "Aldosterone antagonists (spironolactone, eplerenone) block K⁺ secretion in the collecting duct → hyperkalemia, especially when combined with ACE inhibitors. Monitor K⁺ + creatinine 1 week after starting and after dose changes." }
+]} />

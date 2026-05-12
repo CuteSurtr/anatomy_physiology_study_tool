@@ -1,0 +1,199 @@
+---
+title: Cardiac Conduction System
+latin: Systema conducens cordis
+system: cardiovascular
+region: heart
+related:
+  - heart
+  - cardiac-cycle
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 19.2
+  - Hall & Guyton - Chapter 10
+  - First Aid USMLE 2024
+level: undergrad
+---
+
+The cardiac conduction system is a network of **specialized cardiomyocytes** (not nerves) that generate and propagate the electrical signal that triggers each heartbeat. Five components - SA node → AV node → bundle of His → bundle branches → Purkinje fibers - and a single rhythm command-line: **"go from the top, pause at AV, sweep the ventricles bottom-up."**
+
+<Figure name="cardiovascular/conduction" caption="The cardiac conduction system - SA node → internodal tracts → AV node → bundle of His → right + left bundle branches → Purkinje fibers." />
+
+<Figure name="cardiovascular/ecg-trace" caption="Normal sinus rhythm on ECG with labeled P, QRS, T waves and intervals." />
+
+## The five components
+
+| Component | Location | Intrinsic rate | Function |
+|---|---|---|---|
+| **SA node** (sinoatrial) | Roof of right atrium, near SVC opening | **60–100 bpm** - dominant pacemaker | Spontaneously depolarizes (funny current I_f) → sets heart rate |
+| **AV node** (atrioventricular) | Floor of right atrium, near coronary sinus + tricuspid annulus | 40–60 bpm | **Slows** conduction (~0.1 s delay) - allows atrial systole to complete before ventricles contract |
+| **Bundle of His** | Penetrates fibrous skeleton into interventricular septum | 30–40 bpm | **Only** electrical bridge between atria and ventricles |
+| **Bundle branches** (R + L) | Either side of interventricular septum | 30–40 bpm | Carry signal to apex; left further divides into anterior + posterior fascicles |
+| **Purkinje fibers** | Subendocardial network of both ventricles | 20–40 bpm (last resort) | Rapid spread to ventricular myocardium - fastest conduction (4 m/s) |
+
+<Mnemonic>
+**"100, 75, 50, 25"** - approximate intrinsic firing rates of SA → AV → His → Purkinje. The fastest pacemaker dominates (**overdrive suppression**); if SA fails, AV takes over, and so on down the chain.
+</Mnemonic>
+
+## How a single beat propagates - step by step
+
+1. **SA node fires** (autorhythmic) → wave spreads across both atria via internodal pathways + Bachmann's bundle (interatrial). → **P wave** on ECG.
+2. **Atrial depolarization → atrial contraction** ("atrial kick" - adds final 20% to ventricular filling).
+3. Wave reaches **AV node** → conduction slows (decremental conduction; ~100 ms). → **PR segment** on ECG.
+4. **Bundle of His → R and L bundle branches** → ventricular septum depolarizes left-to-right first (Q wave).
+5. **Purkinje fibers** sweep ventricles from **apex to base, endocardium to epicardium**. → **QRS complex**.
+6. **Ventricular contraction** - ejection.
+7. **Ventricular repolarization** (T wave) - epicardium repolarizes before endocardium (reason T is usually upright in same leads as QRS).
+
+## Why the AV nodal delay?
+
+The 100 ms hesitation at the AV node is critical:
+- **Atria empty into ventricles** before ventricles contract → optimal preload.
+- **Filters atrial tachyarrhythmias**: in a-fib (350+ atrial impulses/min), the AV node blocks most of them. Ventricular rate stays survivable (~100–160).
+- **Refractory period** > duration of impulse → can't propagate retrograde.
+
+## Pacemaker action potential - different from contractile myocytes
+
+| Feature | Pacemaker (SA/AV) | Contractile myocyte |
+|---|---|---|
+| **Resting potential** | Unstable - drifts up (**funny current I_f** + slow Ca²⁺ leak) | Stable at –90 mV |
+| **Upstroke (phase 0)** | **Ca²⁺** influx (slow, L-type) | **Na⁺** influx (fast) |
+| **Plateau** | None | Phase 2 - Ca²⁺ in / K⁺ out balance |
+| **Repolarization** | K⁺ efflux | K⁺ efflux |
+| **Conduction speed** | Slow (0.05 m/s at AV) | Fast (Purkinje 4 m/s) |
+| **Refractory period** | Long, decremental | Long (prevents tetany) |
+
+The **funny current (I_f)** is a mixed Na⁺/K⁺ inward current activated at hyperpolarized voltages - paradoxically opens when the cell is "supposed" to rest. This is what makes pacemaker cells autorhythmic. **Ivabradine** blocks I_f → slows SA node → treats stable angina + heart failure without dropping contractility.
+
+## Autonomic control of the heart
+
+| Branch | Receptor | Effect on SA/AV | Effect on contractility |
+|---|---|---|---|
+| **Sympathetic** (cardiac plexus, T1–T4) | β1 → Gs → ↑cAMP | ↑ rate (chronotropy +), ↑ AV conduction (dromotropy +) | ↑ force (inotropy +), ↑ relaxation (lusitropy +) |
+| **Parasympathetic** (vagus, CN X) | M2 → Gi → ↓cAMP, ↑ K⁺ efflux | ↓ rate, ↓ AV conduction (right vagus mostly hits SA; left vagus mostly hits AV) | Minimal direct effect on ventricles |
+
+At rest, **parasympathetic tone dominates** - a denervated transplanted heart runs at ~100 bpm (intrinsic SA rate) instead of 70.
+
+## ECG correlates - anatomy to waveform
+
+| ECG feature | What it represents | Normal duration |
+|---|---|---|
+| **P wave** | Atrial depolarization | &lt;0.12 s |
+| **PR interval** | Atrial depo + AV nodal delay | 0.12–0.20 s |
+| **QRS complex** | Ventricular depolarization | &lt;0.12 s |
+| **ST segment** | Ventricles fully depolarized (plateau) | Isoelectric |
+| **T wave** | Ventricular repolarization | - |
+| **QT interval** | Total ventricular depolarization + repolarization | &lt;0.44 s (corrected for HR) |
+
+The **PR interval > 0.20 s = 1st-degree AV block**. **QRS > 0.12 s = bundle branch block**. **QT > 0.5 s = high risk of torsades**.
+
+## Blood supply to the conduction system - board-critical
+
+| Structure | Artery (in 90% right-dominant hearts) |
+|---|---|
+| **SA node** | Right coronary artery → SA nodal branch (60%) or left circumflex (40%) |
+| **AV node** | Right coronary artery → AV nodal branch (90%) - "right-dominant" |
+| **Bundle of His** | LAD + posterior descending artery |
+| **Right bundle branch** | LAD septal branches |
+| **Left bundle branch** (anterior fascicle) | LAD septal branches |
+| **Left bundle branch** (posterior fascicle) | Dual supply - LAD + RCA → most resistant to ischemia |
+
+<Clinical>
+**Inferior MI** (RCA occlusion) frequently causes **AV node ischemia → 2nd or 3rd degree heart block**. Usually transient (AV node has good collateral supply). Often responds to atropine.
+
+**Anterior MI** (LAD occlusion) causes **bundle branch blocks** (His-Purkinje ischemia). New bifascicular block in the setting of anterior MI is an indication for **pacing** - high risk of complete heart block with no escape rhythm.
+
+**Sick sinus syndrome** - SA node fibrosis (often age-related) → bradycardia + pauses + alternating brady-tachy. Treatment: **pacemaker**.
+</Clinical>
+
+## Function reference - every node and conduction structure
+
+| Component | Cellular feature | Function | Clinical pearl |
+|---|---|---|---|
+| **SA node cells** | Express HCN4 channels (I_f); small, pale cytoplasm | Set heart rate; respond to β1/M2 | Ivabradine selectively blocks HCN4 → slows HR without lowering contractility |
+| **Internodal tracts** | Bachmann (interatrial), Wenckebach (anterior), Thorel (posterior) | Carry depolarization from SA to AV + interatrial spread | Selective Bachmann's bundle pacing improves atrial sync |
+| **AV node** | Slow Ca²⁺-mediated AP; decremental conduction; long refractory period | Critical gatekeeper - slows + filters atrial impulses | Target of AV-nodal blockers (β-blockers, non-DHP CCBs, digoxin, adenosine) in AVNRT/a-fib rate control |
+| **Bundle of His** | Penetrates fibrous skeleton (the **only** atrioventricular electrical connection in a normal heart) | Single point of failure between atria + ventricles | Bypass via accessory pathway (Bundle of Kent) = **WPW syndrome** → delta wave |
+| **Bundle branches** | Insulated fibers running on either side of IV septum | Rapid ventricular activation | LBBB widens QRS, hides ST changes; RBBB has classic RSR' in V1 |
+| **Purkinje fibers** | Large pale cells with abundant glycogen; fastest conduction | Synchronous ventricular contraction; latent escape pacemaker (~30 bpm) | If both SA and AV fail, Purkinje escape rhythm keeps you alive - but slow + unreliable |
+| **Fibrous skeleton** | Dense connective tissue around all four valves | **Electrical insulator** between atria and ventricles + anchor for valves + muscle origin | Without it, atrial impulses would directly excite the ventricles - no AV delay |
+
+## Why this matters
+
+<HighYield variant="boards">
+- **Adenosine** = transient AV nodal block (5–10 s asystole). Used to break AVNRT and to diagnose a-flutter (slows ventricular rate so the sawtooth pattern becomes visible).
+- **Atropine** (M2 antagonist) → ↑ SA + AV conduction. First-line for symptomatic bradycardia.
+- **β1-blockers, non-dihydropyridine CCBs (verapamil, diltiazem), digoxin** = AV-nodal blockers. Used for **rate control** in atrial fibrillation.
+- **DON'T combine** β-blocker + non-DHP CCB IV - synergistic AV block → bradycardia/asystole.
+- **WPW** - accessory bypass tract (Bundle of Kent) lets impulses skip the AV node → pre-excitation (delta wave). Avoid AV-nodal blockers in WPW + a-fib (atrial impulses race down the accessory pathway → V-fib).
+- **3rd-degree (complete) AV block** = atria + ventricles independent. P waves march through. QRS narrow if escape pacemaker is junctional (~40 bpm); wide if ventricular (~30 bpm).
+</HighYield>
+
+## Histology
+
+<Figure name="histology/cardiac-muscle-histo" caption="Cardiac muscle histology - the substrate for the conduction system + contracting myocardium." />
+
+## Clinical case
+
+<ClinicalCase
+  vignette="A 78-year-old woman is brought in after collapsing at home. ECG shows P waves at 80/min with no relationship to QRS complexes, which are wide (>0.14 s) and slow (32/min). BP 70/40. She is pale and diaphoretic."
+  questions={[
+    { q: "What is the rhythm?", a: "3rd-degree (complete) AV block with ventricular escape", choices: [
+      "Atrial fibrillation with slow response",
+      "Sinus bradycardia",
+      "3rd-degree (complete) AV block with ventricular escape",
+      "2nd-degree Mobitz I (Wenckebach)"
+    ], explanation: "AV dissociation (P waves and QRS marching independently) + wide-complex escape rhythm at ~30 = complete heart block with a ventricular (Purkinje) escape. Junctional escapes are usually narrow (~40–60 bpm). The wide, slow rate signals the AV node has failed and only the Purkinje system is firing." },
+    { q: "What is the most appropriate immediate management?", a: "Transcutaneous pacing → transvenous pacemaker; atropine likely won't help below the AV node", choices: [
+      "IV adenosine",
+      "Synchronized cardioversion",
+      "Transcutaneous pacing → transvenous pacemaker; atropine likely won't help below the AV node",
+      "Amiodarone IV"
+    ], explanation: "Atropine acts via the AV node - useless when the block is infranodal (His-Purkinje). Wide-complex escape = infranodal block. Atropine can paradoxically worsen things by speeding atrial rate without improving conduction. Immediate transcutaneous pacing, then definitive transvenous or permanent pacemaker." },
+    { q: "Which coronary territory most likely caused this?", a: "RCA - supplies AV node in 90% of right-dominant hearts; inferior MI", choices: [
+      "LAD - anterior MI",
+      "Left circumflex - lateral MI",
+      "RCA - supplies AV node in 90% of right-dominant hearts; inferior MI",
+      "Left main - global ischemia"
+    ], explanation: "RCA → AV nodal branch supplies the AV node in 90% of people. Inferior MI is the classic cause of transient complete heart block. Anterior MI (LAD) more often causes bifascicular block + complete heart block but with unreliable escape because His-Purkinje is the ischemic site." }
+  ]}
+/>
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Dominant pacemaker of the heart is the…", a: "SA node", choices: ["AV node", "SA node", "Bundle of His", "Purkinje fibers"] },
+  { q: "Phase 0 of the SA nodal action potential is mediated by…", a: "Ca²⁺ influx (L-type channels)", choices: ["Na⁺ influx (fast channels)", "Ca²⁺ influx (L-type channels)", "K⁺ efflux", "Na⁺/K⁺-ATPase"] },
+  { q: "The funny current (I_f) is blocked by…", a: "Ivabradine", choices: ["Atropine", "Adenosine", "Ivabradine", "Verapamil"] },
+  { q: "AV node is supplied by which artery in 90% of people?", a: "RCA (right coronary artery)", choices: ["LAD", "Left circumflex", "RCA (right coronary artery)", "Left main"] },
+  { q: "WPW syndrome involves an accessory pathway called…", a: "Bundle of Kent", choices: ["Bundle of His", "Bundle of Kent", "Bachmann's bundle", "Purkinje extension"] },
+  { q: "Why is the AV nodal delay important?", a: "Allows atrial systole to complete before ventricular contraction (optimal preload)", choices: [
+    "Slows propagation in case of MI",
+    "Allows atrial systole to complete before ventricular contraction (optimal preload)",
+    "Generates the T wave",
+    "Maintains intrinsic SA rhythm"
+  ]},
+  { q: "Adenosine works by…", a: "Activating A1 receptors → ↑ K⁺ efflux + ↓ cAMP at the AV node → transient block", choices: [
+    "Blocking Na⁺ channels",
+    "Activating A1 receptors → ↑ K⁺ efflux + ↓ cAMP at the AV node → transient block",
+    "Inhibiting Na/K-ATPase",
+    "Blocking L-type Ca²⁺ channels"
+  ]},
+  { q: "Complete heart block with wide-complex escape originates from…", a: "Ventricular (Purkinje) tissue", choices: [
+    "SA node",
+    "AV junction",
+    "Ventricular (Purkinje) tissue",
+    "Bachmann's bundle"
+  ]},
+  { q: "Resting heart rate is set primarily by…", a: "Parasympathetic (vagal) tone on the SA node", choices: [
+    "Sympathetic tone",
+    "Parasympathetic (vagal) tone on the SA node",
+    "Intrinsic SA rate of 60",
+    "Adrenal epinephrine"
+  ]},
+  { q: "The fibrous skeleton of the heart functions as a(n)…", a: "Electrical insulator between atria and ventricles", choices: [
+    "Mechanical pump",
+    "Electrical insulator between atria and ventricles",
+    "Source of pacemaker cells",
+    "Vascular conduit"
+  ]}
+]} />
