@@ -1,22 +1,10 @@
 {
-  "src": "/figures/cardiovascular/heart-schematic.svg",
-  "alt": "Schematic anterior view of the heart showing chambers, valves, and great vessels",
-  "viewBox": [0, 0, 800, 600],
+  "src": "/figures/cardiovascular/heart-schematic.png",
+  "alt": "Heart cross-section showing all four chambers, the inter-atrial and inter-ventricular septa, and the AV valves between atria and ventricles. Servier Medical Art.",
   "license": {
-    "type": "CC BY",
-    "attribution": "Anatomy + Physio - original schematic"
-  },
-  "labels": [
-    { "id": "ra", "x": 290, "y": 250, "label": "Right Atrium", "synonyms": ["RA"] },
-    { "id": "la", "x": 520, "y": 250, "label": "Left Atrium", "synonyms": ["LA"] },
-    { "id": "rv", "x": 290, "y": 440, "label": "Right Ventricle", "synonyms": ["RV"] },
-    { "id": "lv", "x": 520, "y": 440, "label": "Left Ventricle", "synonyms": ["LV"] },
-    { "id": "tricuspid", "x": 290, "y": 335, "label": "Tricuspid Valve", "synonyms": ["tricuspid"] },
-    { "id": "mitral", "x": 520, "y": 335, "label": "Mitral Valve", "synonyms": ["mitral", "bicuspid valve", "bicuspid"] },
-    { "id": "aorta", "x": 660, "y": 110, "label": "Aortic Arch", "synonyms": ["aorta", "arch of aorta"] },
-    { "id": "pa", "x": 405, "y": 130, "label": "Pulmonary Trunk", "synonyms": ["pulmonary artery", "PA"] },
-    { "id": "svc", "x": 290, "y": 110, "label": "Superior Vena Cava", "synonyms": ["SVC"] },
-    { "id": "ivc", "x": 290, "y": 560, "label": "Inferior Vena Cava", "synonyms": ["IVC"] },
-    { "id": "pv", "x": 640, "y": 170, "label": "Pulmonary Veins", "synonyms": ["pulmonary vein"] }
-  ]
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/heart_physiology/"
+  }
 }
