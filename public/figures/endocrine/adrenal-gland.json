@@ -1,9 +1,10 @@
 {
-  "src": "/figures/endocrine/adrenal-gland.jpg",
-  "alt": "Adrenal gland cross-section showing cortex (zona glomerulosa, fasciculata, reticularis) and medulla",
+  "src": "/figures/endocrine/adrenal-gland.png",
+  "alt": "Adrenal gland cell types and vasculature - left panel shows the cortical zones (glomerulosa, fasciculata, reticularis) and medulla; right panel shows the vascular supply through cortex into the medulla. Servier Medical Art.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "EEOC / NCI - Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Illu_adrenal_gland.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/endocrinology/"
   }
 }

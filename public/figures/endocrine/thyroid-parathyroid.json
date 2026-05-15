@@ -1,9 +1,10 @@
 {
-  "src": "/figures/endocrine/thyroid-parathyroid.jpg",
-  "alt": "Thyroid and parathyroid glands - anterior anatomy",
+  "src": "/figures/endocrine/thyroid-parathyroid.png",
+  "alt": "Thyroid + parathyroid glands - front view and posterior view with the four parathyroids visible on the back surface of the thyroid. Servier Medical Art.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "U.S. National Cancer Institute (SEER) - Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Illu_thyroid_parathyroid.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/endocrinology/"
   }
 }
