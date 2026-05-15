@@ -1,0 +1,10 @@
+{
+  "src": "/figures/cardiovascular/aorta-elastic-recoil.png",
+  "alt": "Arterial elastic-recoil function - in systole the aortic wall stretches to accommodate the ejected stroke volume; in diastole the wall recoils and continues pushing blood forward, so flow stays continuous despite a pulsatile pump. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/heart_physiology/"
+  }
+}
