@@ -1,0 +1,10 @@
+{
+  "src": "/figures/cardiovascular/cardiac-cycle.png",
+  "alt": "Cardiac cycle phases - systole (ventricular contraction, ejection) and diastole (ventricular relaxation, filling), with valve positions shown for each phase. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/heart_physiology/"
+  }
+}
