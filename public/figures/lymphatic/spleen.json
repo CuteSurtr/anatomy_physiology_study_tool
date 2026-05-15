@@ -1,9 +1,10 @@
 {
-  "src": "/figures/lymphatic/spleen.jpg",
-  "alt": "Human spleen anatomy showing red pulp, white pulp, splenic artery and vein",
+  "src": "/figures/lymphatic/spleen.png",
+  "alt": "Spleen - external view from anterior (left) and from posterior with hilum visible (right). Servier Medical Art.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "U.S. SEER (NCI) - Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Illu_spleen.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/digestive_system/"
   }
 }

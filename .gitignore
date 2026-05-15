@@ -47,3 +47,6 @@ next-env.d.ts
 *.pdf
 _lecture-text/
 _medical-images/
+
+# Servier Medical Art kits - CC BY 4.0 source assets (extracted slides committed under public/figures/)
+ServierMedicalArt-all-kits/

@@ -1,9 +1,10 @@
 {
-  "src": "/figures/endocrine/thyroid.jpg",
-  "alt": "Thyroid + parathyroid glands - anterior view showing isthmus, lobes, and four parathyroid glands on the posterior surface",
+  "src": "/figures/endocrine/thyroid.png",
+  "alt": "Thyroid gland - front view (left) and posterior view showing four parathyroid glands on the back surface (right). Servier Medical Art.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons (Gray's Anatomy plate)",
-    "url": "https://commons.wikimedia.org/wiki/File:Illu_thyroid_parathyroid.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/endocrinology/"
   }
 }
