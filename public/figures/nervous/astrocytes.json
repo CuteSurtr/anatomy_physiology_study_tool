@@ -1,0 +1,10 @@
+{
+  "src": "/figures/nervous/astrocytes.png",
+  "alt": "Astrocytes - the most abundant glial cell in the CNS. Star-shaped with many processes; form the blood-brain barrier with capillaries; regulate ion + neurotransmitter homeostasis around synapses. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/neural_cells/"
+  }
+}

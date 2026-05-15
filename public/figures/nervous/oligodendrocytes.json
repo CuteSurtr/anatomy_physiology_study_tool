@@ -1,0 +1,10 @@
+{
+  "src": "/figures/nervous/oligodendrocytes.png",
+  "alt": "Oligodendrocytes - CNS myelin-forming glia. One oligodendrocyte wraps multiple axons (vs Schwann cells in PNS, which wrap one axon segment each). Target of demyelinating disease like multiple sclerosis. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/neural_cells/"
+  }
+}
