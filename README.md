@@ -1,8 +1,10 @@
 # Open Anatomy & Physiology
 
+**Live:** <https://anatomy-physiology-study-tool.vercel.app>
+
 A free, public anatomy and physiology reference with built-in quizzes, spaced repetition, and anonymous per-device progress tracking. No login, no paywall.
 
-> 12 body systems · **59 content pages** (35 anatomy + 24 physiology) · **~150 CC-BY figures** · Quiz / Practice / Review / Study Dashboard · No login.
+> 12 body systems · **59 content pages** (35 anatomy + 24 physiology) · **~200 CC-BY figures** · Quiz / Practice / Review / Study Dashboard · No login.
 
 ## What's in it
 
@@ -131,7 +133,9 @@ Available MDX components: `Figure`, `Quiz`, `DiagramQuiz`, `Clinical`, `Clinical
 
 ## Deploy
 
-See [DEPLOY.md](DEPLOY.md).
+Live deployment: <https://anatomy-physiology-study-tool.vercel.app> (auto-deployed from `main` on Vercel).
+
+See [DEPLOY.md](DEPLOY.md) for the full setup walkthrough.
 
 TL;DR - import the GitHub repo into Vercel, set `DATABASE_URL` as an env var, click Deploy.
 
