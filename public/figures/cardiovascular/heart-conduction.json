@@ -1,0 +1,10 @@
+{
+  "src": "/figures/cardiovascular/heart-conduction.png",
+  "alt": "Cardiac conduction system - SA node, AV node, bundle of His, right + left bundle branches, and the Purkinje fibers, with the electrical activation wavefront propagating from atria to ventricles. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/heart_physiology/"
+  }
+}
