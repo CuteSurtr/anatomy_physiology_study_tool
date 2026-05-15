@@ -1,9 +1,10 @@
 {
-  "src": "/figures/urinary/ureters-slide.jpg",
-  "alt": "Urinary system overview - kidneys, ureters, bladder, urethra.",
+  "src": "/figures/urinary/ureters-slide.png",
+  "alt": "Urinary tract overview - female (left) and male (right): kidneys, ureters running from each kidney to the bladder, the bladder, and the urethra (with the male prostate around its upper segment). Servier Medical Art.",
   "license": {
     "type": "CC BY 4.0",
-    "attribution": "OpenStax College / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_lymphatic_system.jpg"
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/urinary_system/"
   }
 }

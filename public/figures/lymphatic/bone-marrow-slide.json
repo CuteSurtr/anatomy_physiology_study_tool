@@ -1,9 +1,10 @@
 {
-  "src": "/figures/lymphatic/bone-marrow-slide.jpg",
-  "alt": "Bone marrow biopsy histology - hematopoietic stem cells and developing blood cell lineages.",
+  "src": "/figures/lymphatic/bone-marrow-slide.png",
+  "alt": "Hematopoiesis - all red, white, and platelet lineages branching from a single hematopoietic stem cell in the bone marrow. Servier Medical Art.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Bone_marrow_biopsy.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/blood_immunology/"
   }
 }

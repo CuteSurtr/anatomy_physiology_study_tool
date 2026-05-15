@@ -1,9 +1,9 @@
 {
-  "src": "/figures/skeletal/lower-limb-foot-slide.png",
-  "alt": "Tarsal bones of the foot - talus, calcaneus, navicular, cuboid, three cuneiforms.",
+  "src": "/figures/skeletal/lower-limb-foot-slide.svg",
+  "alt": "Bones of the right foot, dorsal view - tarsals (proximal, including talus + calcaneus), metatarsals (I-V), and phalanges (proximal, intermediate, distal) of digits I-V.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Tarsus2.png"
+    "type": "CC BY-SA 3.0",
+    "attribution": "Mario modesto et al., adapted by HLHJ - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Ospied-en.svg"
   }
 }
