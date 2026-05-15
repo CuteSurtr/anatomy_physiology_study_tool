@@ -1,0 +1,10 @@
+{
+  "src": "/figures/cardiovascular/coagulation.png",
+  "alt": "Coagulation cascade - vascular injury exposes collagen, platelets adhere + activate, then a fibrin mesh forms to lock RBCs into a stable clot. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/blood_immunology/"
+  }
+}

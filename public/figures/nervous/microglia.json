@@ -1,0 +1,10 @@
+{
+  "src": "/figures/nervous/microglia.png",
+  "alt": "Microglia - resident immune cells of the CNS. Derived from yolk-sac macrophages. Surveillance + phagocytosis of debris, infected cells, and amyloid plaques. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/neural_cells/"
+  }
+}
