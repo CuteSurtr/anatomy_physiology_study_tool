@@ -1,9 +1,9 @@
 {
-  "src": "/figures/respiratory/upper-airway.jpg",
-  "alt": "Pharynx anatomy - naso-, oro-, laryngopharynx.",
+  "src": "/figures/respiratory/upper-airway.svg",
+  "alt": "Sagittal view of the pharynx with its three subdivisions labeled in English: nasopharynx, oropharynx, laryngopharynx.",
   "license": {
     "type": "Public Domain",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Illu_pharynx.jpg"
+    "attribution": "Arcadian; vectorized by Ripounet - Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Illu_pharynx.svg"
   }
 }
