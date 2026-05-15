@@ -1,0 +1,10 @@
+{
+  "src": "/figures/skeletal/osteoblast.png",
+  "alt": "Osteoblasts - bone-forming cells derived from mesenchymal stem cells. Secrete osteoid (Type I collagen + ground substance) which then mineralizes with hydroxyapatite. Express RANKL and OPG to regulate osteoclast activity. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/bone_structure/"
+  }
+}

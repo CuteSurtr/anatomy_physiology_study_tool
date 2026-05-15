@@ -1,0 +1,10 @@
+{
+  "src": "/figures/skeletal/osteoclast.png",
+  "alt": "Osteoclasts - large multinucleated cells from the monocyte lineage. The ruffled border seals against bone, secretes H+ (vacuolar ATPase) and lysosomal enzymes (cathepsin K) that dissolve hydroxyapatite + collagen. Target of bisphosphonates and denosumab. Servier Medical Art.",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art - SMART",
+    "url": "https://smart.servier.com/",
+    "source_kit": "https://smart.servier.com/smart_image/bone_structure/"
+  }
+}
