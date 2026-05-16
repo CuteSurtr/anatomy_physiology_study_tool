@@ -1,0 +1,9 @@
+{
+  "src": "/figures/foundations/michaelis-menten.svg",
+  "alt": "Michaelis-Menten saturation curve - V vs [S] reaches Vmax asymptotically; Km is the substrate concentration giving half Vmax.",
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Thomas Shafee / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File%3AMichaelis-Menten_saturation_curve_of_an_enzyme_reaction.svg"
+  }
+}

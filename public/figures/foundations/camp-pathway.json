@@ -1,0 +1,9 @@
+{
+  "src": "/figures/foundations/camp-pathway.png",
+  "alt": "cAMP signaling pathway - ligand binds GPCR \u2192 G\u03b1s activates adenylyl cyclase \u2192 ATP\u2192cAMP \u2192 activates PKA \u2192 phosphorylates target proteins.",
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File%3AActivation_of_the_cAMP_pathway_by_binding_of_ligand_to_its_appropriate_receptor.png"
+  }
+}

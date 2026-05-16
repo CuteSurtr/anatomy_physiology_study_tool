@@ -1,0 +1,9 @@
+{
+  "src": "/figures/foundations/lineweaver-burk.svg",
+  "alt": "Lineweaver-Burk plot - 1/V vs 1/[S]. x-intercept = -1/Km, y-intercept = 1/Vmax. Linearizes Michaelis-Menten kinetics.",
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Pro bug catcher / Wikimedia",
+    "url": "https://commons.wikimedia.org/wiki/File%3ALineweaver-Burke_plot.svg"
+  }
+}
