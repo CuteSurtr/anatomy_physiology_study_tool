@@ -2,9 +2,9 @@
 
 **Live:** <https://anatomy-physiology-study-tool.vercel.app>
 
-A free, public anatomy and physiology reference with built-in quizzes, spaced repetition, and anonymous per-device progress tracking. No login, no paywall.
+A free, public anatomy and physiology reference with built-in quizzes, spaced repetition, and anonymous per-device progress tracking.
 
-> 12 body systems · **59 content pages** (35 anatomy + 24 physiology) · **~200 CC-BY figures** · Quiz / Practice / Review / Study Dashboard · No login.
+> 12 body systems · **59 content pages** (35 anatomy + 24 physiology) · **~200 CC-BY figures** · Quiz / Practice / Review / Study Dashboard
 
 ## What's in it
 
