@@ -1,10 +1,9 @@
 {
-  "src": "/figures/reproductive/testicle-v2.png",
-  "alt": "Testicle anatomy - external (left) and sagittal section (right) showing seminiferous tubules, rete testis, efferent ductules, and the epididymis (head, body, tail). Servier Medical Art.",
+  "src": "/figures/reproductive/testicle-openstax.jpg",
+  "alt": "Testis (anatomy of the testis and epididymis) - labeled cross-section. Spermatic cord, cremaster muscle, tunica vaginalis + tunica albuginea, seminiferous tubule lobules, septa, head + body + tail of epididymis, ductus deferens, efferent ductules, rete testis, straight tubule (OpenStax A&P 2e, Figure 28.1.3).",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "Servier Medical Art - SMART",
-    "url": "https://smart.servier.com/",
-    "source_kit": "https://smart.servier.com/smart_image/reproduction/"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg"
   }
 }

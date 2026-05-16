@@ -1,50 +1,114 @@
 {
-  "src": "/figures/reproductive/testicle-v2.png",
-  "alt": "Identify the components of the testis.",
+  "src": "/figures/reproductive/testicle-openstax.jpg",
+  "alt": "Identify the labeled structures of the testis and epididymis.",
   "viewBox": [
     0,
     0,
-    1888,
-    1110
+    743,
+    686
   ],
   "license": {
     "type": "CC BY 3.0",
-    "attribution": "Blausen Medical Communications / Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg"
   },
   "labels": [
     {
-      "id": "testis",
-      "x": 661,
-      "y": 610,
-      "label": "Testis"
-    },
-    {
-      "id": "epididymis",
-      "x": 1038,
-      "y": 500,
-      "label": "Epididymis"
-    },
-    {
-      "id": "vas",
-      "x": 1227,
-      "y": 278,
-      "label": "Vas deferens",
+      "id": "spermatic",
+      "x": 223,
+      "y": 55,
+      "label": "Spermatic cord",
       "synonyms": [
-        "ductus deferens"
+        "spermatic"
       ]
     },
     {
-      "id": "seminiferous",
-      "x": 566,
-      "y": 777,
-      "label": "Seminiferous tubule"
+      "id": "cremaster",
+      "x": 580,
+      "y": 117,
+      "label": "Cremaster muscle"
     },
     {
-      "id": "tunica",
-      "x": 378,
-      "y": 555,
+      "id": "tunica-vag",
+      "x": 639,
+      "y": 192,
+      "label": "Tunica vaginalis"
+    },
+    {
+      "id": "tunica-alb",
+      "x": 594,
+      "y": 480,
       "label": "Tunica albuginea"
+    },
+    {
+      "id": "head-epi",
+      "x": 594,
+      "y": 247,
+      "label": "Head of epididymis",
+      "synonyms": [
+        "head of the epididymis"
+      ]
+    },
+    {
+      "id": "body-epi",
+      "x": 119,
+      "y": 274,
+      "label": "Body of epididymis"
+    },
+    {
+      "id": "tail-epi",
+      "x": 409,
+      "y": 624,
+      "label": "Tail of epididymis"
+    },
+    {
+      "id": "seminiferous",
+      "x": 609,
+      "y": 343,
+      "label": "Seminiferous tubule lobules",
+      "synonyms": [
+        "seminiferous tubules",
+        "seminiferous tubule"
+      ]
+    },
+    {
+      "id": "septa",
+      "x": 617,
+      "y": 398,
+      "label": "Septa",
+      "synonyms": [
+        "septa (tunica albuginea)"
+      ]
+    },
+    {
+      "id": "ductus",
+      "x": 119,
+      "y": 329,
+      "label": "Ductus deferens",
+      "synonyms": [
+        "vas deferens"
+      ]
+    },
+    {
+      "id": "efferent",
+      "x": 119,
+      "y": 206,
+      "label": "Efferent ductule",
+      "synonyms": [
+        "efferent ductules"
+      ]
+    },
+    {
+      "id": "rete",
+      "x": 119,
+      "y": 425,
+      "label": "Rete testis"
+    },
+    {
+      "id": "straight",
+      "x": 119,
+      "y": 535,
+      "label": "Straight tubule"
     }
   ]
 }
