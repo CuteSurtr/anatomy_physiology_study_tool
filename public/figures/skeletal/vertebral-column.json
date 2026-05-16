@@ -1,10 +1,9 @@
 {
-  "src": "/figures/skeletal/vertebral-column.png",
-  "alt": "Vertebral column - anterior, posterior, and lateral views showing the cervical, thoracic, lumbar, sacral, coccygeal regions and the four alternating curvatures (cervical lordosis, thoracic kyphosis, lumbar lordosis, sacral kyphosis). Servier Medical Art.",
+  "src": "/figures/skeletal/vertebral-column.jpg",
+  "alt": "Vertebral column - anterior view (left) and lateral view (right) with all five regions labeled: 7 cervical vertebrae (C1-C7) forming the cervical curve, 12 thoracic (T1-T12), 5 lumbar (L1-L5), fused sacrum, and coccyx. Intervertebral discs visible between bodies.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "Servier Medical Art - SMART",
-    "url": "https://smart.servier.com/",
-    "source_kit": "https://smart.servier.com/smart_image/bones/"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College - Anatomy & Physiology 2e, Fig 7.20 / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:715_Vertebral_Column.jpg"
   }
 }
