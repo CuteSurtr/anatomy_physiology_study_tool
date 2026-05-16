@@ -1,0 +1,9 @@
+{
+  "src": "/figures/respiratory/spirometry-tracing.svg",
+  "alt": "Spirometry tracing - volume vs time. Tidal volume (TV), inspiratory reserve volume (IRV), expiratory reserve volume (ERV), forced vital capacity (FVC), FEV1 (forced expiratory volume in 1 second).",
+  "license": {
+    "type": "CC BY-SA 3.0",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File%3ASpirometry.svg"
+  }
+}
