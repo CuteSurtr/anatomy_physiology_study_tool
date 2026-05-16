@@ -1,0 +1,74 @@
+{
+  "src": "/figures/skeletal/synovial-joint-types.jpg",
+  "alt": "Six types of synovial joints - identify each by its example location.",
+  "viewBox": [
+    0,
+    0,
+    2354,
+    2806
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A909_Types_of_Synovial_Joints.jpg"
+  },
+  "labels": [
+    {
+      "id": "pivot",
+      "x": 290,
+      "y": 360,
+      "label": "Pivot joint",
+      "synonyms": [
+        "pivot"
+      ]
+    },
+    {
+      "id": "hinge",
+      "x": 240,
+      "y": 940,
+      "label": "Hinge joint",
+      "synonyms": [
+        "hinge"
+      ]
+    },
+    {
+      "id": "saddle",
+      "x": 380,
+      "y": 1900,
+      "label": "Saddle joint",
+      "synonyms": [
+        "saddle"
+      ]
+    },
+    {
+      "id": "plane",
+      "x": 1670,
+      "y": 2050,
+      "label": "Plane joint",
+      "synonyms": [
+        "plane",
+        "gliding"
+      ]
+    },
+    {
+      "id": "condyloid",
+      "x": 2100,
+      "y": 1170,
+      "label": "Condyloid joint",
+      "synonyms": [
+        "condyloid",
+        "ellipsoid"
+      ]
+    },
+    {
+      "id": "ball-socket",
+      "x": 1990,
+      "y": 290,
+      "label": "Ball-and-socket joint",
+      "synonyms": [
+        "ball and socket",
+        "spheroid"
+      ]
+    }
+  ]
+}

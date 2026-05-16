@@ -1,0 +1,152 @@
+{
+  "src": "/figures/nervous/cranial-nerves-12.jpg",
+  "alt": "Twelve cranial nerves at their origins on the inferior brain.",
+  "viewBox": [
+    0,
+    0,
+    784,
+    491
+  ],
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax",
+    "url": "https://commons.wikimedia.org/wiki/File%3A1320_The_Cranial_Nerves.jpg"
+  },
+  "labels": [
+    {
+      "id": "olfactory",
+      "x": 390,
+      "y": 65,
+      "label": "CN I (olfactory)",
+      "synonyms": [
+        "olfactory",
+        "CN I",
+        "I"
+      ]
+    },
+    {
+      "id": "optic",
+      "x": 390,
+      "y": 130,
+      "label": "CN II (optic)",
+      "synonyms": [
+        "optic",
+        "CN II",
+        "II"
+      ]
+    },
+    {
+      "id": "oculomotor",
+      "x": 390,
+      "y": 180,
+      "label": "CN III (oculomotor)",
+      "synonyms": [
+        "oculomotor",
+        "CN III",
+        "III"
+      ]
+    },
+    {
+      "id": "trochlear",
+      "x": 390,
+      "y": 215,
+      "label": "CN IV (trochlear)",
+      "synonyms": [
+        "trochlear",
+        "CN IV",
+        "IV"
+      ]
+    },
+    {
+      "id": "trigeminal",
+      "x": 390,
+      "y": 260,
+      "label": "CN V (trigeminal)",
+      "synonyms": [
+        "trigeminal",
+        "CN V",
+        "V"
+      ]
+    },
+    {
+      "id": "abducens",
+      "x": 390,
+      "y": 305,
+      "label": "CN VI (abducens)",
+      "synonyms": [
+        "abducens",
+        "CN VI",
+        "VI"
+      ]
+    },
+    {
+      "id": "facial",
+      "x": 390,
+      "y": 340,
+      "label": "CN VII (facial)",
+      "synonyms": [
+        "facial",
+        "CN VII",
+        "VII"
+      ]
+    },
+    {
+      "id": "vestibulocochlear",
+      "x": 390,
+      "y": 365,
+      "label": "CN VIII (vestibulocochlear)",
+      "synonyms": [
+        "vestibulocochlear",
+        "auditory",
+        "acoustic",
+        "CN VIII",
+        "VIII"
+      ]
+    },
+    {
+      "id": "glossopharyngeal",
+      "x": 390,
+      "y": 395,
+      "label": "CN IX (glossopharyngeal)",
+      "synonyms": [
+        "glossopharyngeal",
+        "CN IX",
+        "IX"
+      ]
+    },
+    {
+      "id": "vagus",
+      "x": 390,
+      "y": 420,
+      "label": "CN X (vagus)",
+      "synonyms": [
+        "vagus",
+        "CN X",
+        "X"
+      ]
+    },
+    {
+      "id": "accessory",
+      "x": 390,
+      "y": 450,
+      "label": "CN XI (accessory)",
+      "synonyms": [
+        "accessory",
+        "spinal accessory",
+        "CN XI",
+        "XI"
+      ]
+    },
+    {
+      "id": "hypoglossal",
+      "x": 390,
+      "y": 475,
+      "label": "CN XII (hypoglossal)",
+      "synonyms": [
+        "hypoglossal",
+        "CN XII",
+        "XII"
+      ]
+    }
+  ]
+}

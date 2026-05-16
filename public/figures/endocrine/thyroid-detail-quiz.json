@@ -1,0 +1,53 @@
+{
+  "src": "/figures/endocrine/thyroid-detail.jpg",
+  "alt": "Thyroid gland - identify the major surrounding structures.",
+  "viewBox": [
+    0,
+    0,
+    737,
+    1410
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A1811_The_Thyroid_Gland.jpg"
+  },
+  "labels": [
+    {
+      "id": "thyroid-cartilage",
+      "x": 370,
+      "y": 240,
+      "label": "Thyroid cartilage"
+    },
+    {
+      "id": "right-lobe",
+      "x": 530,
+      "y": 510,
+      "label": "Right lobe of thyroid",
+      "synonyms": [
+        "right lobe"
+      ]
+    },
+    {
+      "id": "left-lobe",
+      "x": 210,
+      "y": 510,
+      "label": "Left lobe of thyroid",
+      "synonyms": [
+        "left lobe"
+      ]
+    },
+    {
+      "id": "isthmus",
+      "x": 370,
+      "y": 580,
+      "label": "Isthmus"
+    },
+    {
+      "id": "trachea",
+      "x": 370,
+      "y": 850,
+      "label": "Trachea"
+    }
+  ]
+}

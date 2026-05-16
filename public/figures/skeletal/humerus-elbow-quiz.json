@@ -1,0 +1,103 @@
+{
+  "src": "/figures/skeletal/humerus-elbow.jpg",
+  "alt": "Humerus and elbow - identify each landmark on the anterior view.",
+  "viewBox": [
+    0,
+    0,
+    676,
+    853
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A804_Humerus_and_Elbow.jpg"
+  },
+  "labels": [
+    {
+      "id": "head",
+      "x": 290,
+      "y": 195,
+      "label": "Head"
+    },
+    {
+      "id": "anatomical-neck",
+      "x": 285,
+      "y": 175,
+      "label": "Anatomical neck"
+    },
+    {
+      "id": "surgical-neck",
+      "x": 295,
+      "y": 235,
+      "label": "Surgical neck"
+    },
+    {
+      "id": "greater-tubercle",
+      "x": 200,
+      "y": 215,
+      "label": "Greater tubercle"
+    },
+    {
+      "id": "lesser-tubercle",
+      "x": 290,
+      "y": 220,
+      "label": "Lesser tubercle"
+    },
+    {
+      "id": "intertubercular",
+      "x": 235,
+      "y": 250,
+      "label": "Intertubercular groove",
+      "synonyms": [
+        "bicipital groove",
+        "intertubercular sulcus"
+      ]
+    },
+    {
+      "id": "deltoid-tuberosity",
+      "x": 250,
+      "y": 410,
+      "label": "Deltoid tuberosity"
+    },
+    {
+      "id": "body",
+      "x": 250,
+      "y": 500,
+      "label": "Body (shaft)",
+      "synonyms": [
+        "shaft",
+        "body"
+      ]
+    },
+    {
+      "id": "trochlea",
+      "x": 285,
+      "y": 760,
+      "label": "Trochlea"
+    },
+    {
+      "id": "capitulum",
+      "x": 215,
+      "y": 760,
+      "label": "Capitulum"
+    },
+    {
+      "id": "medial-epicondyle",
+      "x": 320,
+      "y": 730,
+      "label": "Medial epicondyle"
+    },
+    {
+      "id": "lateral-epicondyle",
+      "x": 590,
+      "y": 700,
+      "label": "Lateral epicondyle"
+    },
+    {
+      "id": "olecranon-fossa",
+      "x": 540,
+      "y": 720,
+      "label": "Olecranon fossa"
+    }
+  ]
+}

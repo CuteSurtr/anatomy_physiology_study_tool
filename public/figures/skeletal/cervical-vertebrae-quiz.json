@@ -1,0 +1,108 @@
+{
+  "src": "/figures/skeletal/cervical-vertebrae.jpg",
+  "alt": "Cervical vertebrae - identify the parts of a typical cervical vertebra and the atlas/axis.",
+  "viewBox": [
+    0,
+    0,
+    1083,
+    1240
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A723_Cervical_Vertebrae.jpg"
+  },
+  "labels": [
+    {
+      "id": "spinous-process",
+      "x": 310,
+      "y": 70,
+      "label": "Spinous process (bifid)",
+      "synonyms": [
+        "bifid spinous process"
+      ]
+    },
+    {
+      "id": "vertebral-foramen",
+      "x": 305,
+      "y": 175,
+      "label": "Vertebral foramen"
+    },
+    {
+      "id": "lamina",
+      "x": 245,
+      "y": 145,
+      "label": "Lamina"
+    },
+    {
+      "id": "pedicle",
+      "x": 420,
+      "y": 165,
+      "label": "Pedicle"
+    },
+    {
+      "id": "transverse-process",
+      "x": 200,
+      "y": 235,
+      "label": "Transverse process"
+    },
+    {
+      "id": "transverse-foramen",
+      "x": 200,
+      "y": 290,
+      "label": "Transverse foramen"
+    },
+    {
+      "id": "body",
+      "x": 320,
+      "y": 295,
+      "label": "Body"
+    },
+    {
+      "id": "superior-articular-process",
+      "x": 195,
+      "y": 180,
+      "label": "Superior articular process"
+    },
+    {
+      "id": "atlas",
+      "x": 715,
+      "y": 110,
+      "label": "Atlas (C1)",
+      "synonyms": [
+        "C1",
+        "atlas"
+      ]
+    },
+    {
+      "id": "axis",
+      "x": 715,
+      "y": 145,
+      "label": "Axis (C2)",
+      "synonyms": [
+        "C2",
+        "axis"
+      ]
+    },
+    {
+      "id": "dens",
+      "x": 740,
+      "y": 35,
+      "label": "Dens of axis",
+      "synonyms": [
+        "dens",
+        "odontoid process"
+      ]
+    },
+    {
+      "id": "c7",
+      "x": 595,
+      "y": 340,
+      "label": "C7 (vertebra prominens)",
+      "synonyms": [
+        "vertebra prominens",
+        "C7"
+      ]
+    }
+  ]
+}

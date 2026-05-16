@@ -1,0 +1,57 @@
+{
+  "src": "/figures/nervous/cerebellum-detail.jpg",
+  "alt": "Cerebellum gross anatomy - identify each region.",
+  "viewBox": [
+    0,
+    0,
+    875,
+    1080
+  ],
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax",
+    "url": "https://commons.wikimedia.org/wiki/File%3A1312_CerebellumN.jpg"
+  },
+  "labels": [
+    {
+      "id": "vermis",
+      "x": 435,
+      "y": 540,
+      "label": "Vermis"
+    },
+    {
+      "id": "left-hemisphere",
+      "x": 165,
+      "y": 520,
+      "label": "Left cerebellar hemisphere",
+      "synonyms": [
+        "cerebellar hemisphere"
+      ]
+    },
+    {
+      "id": "right-hemisphere",
+      "x": 700,
+      "y": 520,
+      "label": "Right cerebellar hemisphere",
+      "synonyms": [
+        "cerebellar hemisphere"
+      ]
+    },
+    {
+      "id": "folia",
+      "x": 250,
+      "y": 320,
+      "label": "Folia"
+    },
+    {
+      "id": "arbor-vitae",
+      "x": 440,
+      "y": 770,
+      "label": "Arbor vitae (white matter)",
+      "synonyms": [
+        "arbor vitae",
+        "white matter"
+      ]
+    }
+  ]
+}

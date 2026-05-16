@@ -1,0 +1,48 @@
+{
+  "src": "/figures/cardiovascular/chordae-papillary.jpg",
+  "alt": "Chordae tendineae + papillary muscles - identify each structure.",
+  "viewBox": [
+    0,
+    0,
+    1606,
+    1112
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A2010_Chordae_Tendinae_Papillary_Muscles.jpg"
+  },
+  "labels": [
+    {
+      "id": "chordae",
+      "x": 750,
+      "y": 400,
+      "label": "Chordae tendineae"
+    },
+    {
+      "id": "papillary-muscle",
+      "x": 600,
+      "y": 700,
+      "label": "Papillary muscle"
+    },
+    {
+      "id": "mitral-valve",
+      "x": 750,
+      "y": 250,
+      "label": "Mitral valve",
+      "synonyms": [
+        "bicuspid valve",
+        "mitral"
+      ]
+    },
+    {
+      "id": "left-ventricle",
+      "x": 800,
+      "y": 800,
+      "label": "Left ventricle",
+      "synonyms": [
+        "LV"
+      ]
+    }
+  ]
+}

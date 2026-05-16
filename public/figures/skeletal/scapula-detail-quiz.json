@@ -1,0 +1,93 @@
+{
+  "src": "/figures/skeletal/scapula-detail.jpg",
+  "alt": "Scapula - identify each landmark on the anterior and posterior views.",
+  "viewBox": [
+    0,
+    0,
+    972,
+    641
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A803_The_Scapula.jpg"
+  },
+  "labels": [
+    {
+      "id": "acromion",
+      "x": 130,
+      "y": 165,
+      "label": "Acromion"
+    },
+    {
+      "id": "coracoid",
+      "x": 70,
+      "y": 195,
+      "label": "Coracoid process",
+      "synonyms": [
+        "coracoid"
+      ]
+    },
+    {
+      "id": "glenoid",
+      "x": 105,
+      "y": 295,
+      "label": "Glenoid cavity",
+      "synonyms": [
+        "glenoid fossa"
+      ]
+    },
+    {
+      "id": "spine",
+      "x": 685,
+      "y": 305,
+      "label": "Spine of scapula",
+      "synonyms": [
+        "scapular spine",
+        "spine"
+      ]
+    },
+    {
+      "id": "supraspinous",
+      "x": 615,
+      "y": 240,
+      "label": "Supraspinous fossa"
+    },
+    {
+      "id": "infraspinous",
+      "x": 660,
+      "y": 355,
+      "label": "Infraspinous fossa"
+    },
+    {
+      "id": "subscapular",
+      "x": 380,
+      "y": 415,
+      "label": "Subscapular fossa"
+    },
+    {
+      "id": "superior-border",
+      "x": 305,
+      "y": 170,
+      "label": "Superior border"
+    },
+    {
+      "id": "medial-border",
+      "x": 425,
+      "y": 480,
+      "label": "Medial border"
+    },
+    {
+      "id": "lateral-border",
+      "x": 200,
+      "y": 470,
+      "label": "Lateral border"
+    },
+    {
+      "id": "inferior-angle",
+      "x": 440,
+      "y": 620,
+      "label": "Inferior angle"
+    }
+  ]
+}
