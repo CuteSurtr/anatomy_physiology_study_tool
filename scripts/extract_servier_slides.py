@@ -88,16 +88,67 @@ def build_manifest():
 
 # --- conversion -------------------------------------------------------------
 
+def make_clean_pptx(src: Path, dst: Path) -> list[str]:
+    """Strip the Servier template's colored-fan background + bottom-right logo
+    from a copy of the .pptx, so the rendered slide is just the title + anatomy.
+
+    The decoration lives as <p:bg><a:blipFill r:embed="..."/></p:bg> on both the
+    slide master and the slide layouts; the Servier logo is a <p:pic> in the
+    slide master, embedded as rId6 (consistent across all SMART kits). Without
+    this step, the colored triangles bleed into the upper-left of every cropped
+    figure (often clipping or visually 'cutting off' the actual illustration).
+    """
+    with zipfile.ZipFile(src, "r") as zin:
+        files = {name: zin.read(name) for name in zin.namelist()}
+    changed: list[str] = []
+    for key in list(files.keys()):
+        is_layout_or_master = (
+            ("slideLayouts/slideLayout" in key or "slideMasters/slideMaster" in key)
+            and key.endswith(".xml")
+        )
+        if not is_layout_or_master:
+            continue
+        c = files[key].decode("utf-8")
+        new = re.sub(r"<p:bg>.*?</p:bg>", "", c, flags=re.DOTALL)
+        if "slideMaster" in key:
+            # Drop the Servier logo picture (always embedded as rId6 in SMART kits)
+            new = re.sub(
+                r'<p:pic>(?:(?!<p:pic).)*?r:embed="rId6"(?:(?!</p:pic>).)*?</p:pic>',
+                "",
+                new,
+                flags=re.DOTALL,
+            )
+        if new != c:
+            files[key] = new.encode("utf-8")
+            changed.append(key)
+    with zipfile.ZipFile(dst, "w", zipfile.ZIP_DEFLATED) as zout:
+        for name, data in files.items():
+            zout.writestr(name, data)
+    return changed
+
+
 def convert_kits_to_pdf():
+    """Convert each .pptx to PDF, first stripping the template decoration.
+
+    Writes the cleaned .pptx to a sibling .clean.pptx in WORK_DIR before
+    converting, so the LibreOffice render output has no fan triangles + no
+    Servier logo to crop around.
+    """
     WORK_DIR.mkdir(exist_ok=True)
     for pptx in sorted(KITS_DIR.glob("*.pptx")):
         out_pdf = WORK_DIR / f"{pptx.stem}.pdf"
         if out_pdf.exists():
             continue
+        clean = WORK_DIR / f"{pptx.stem}.clean.pptx"
+        make_clean_pptx(pptx, clean)
         subprocess.run(
-            [SOFFICE, "--headless", "--convert-to", "pdf", "--outdir", str(WORK_DIR), str(pptx)],
+            [SOFFICE, "--headless", "--convert-to", "pdf", "--outdir", str(WORK_DIR), str(clean)],
             check=False,
         )
+        # LibreOffice names the output after the source file name. Rename to drop ".clean".
+        produced = WORK_DIR / f"{pptx.stem}.clean.pdf"
+        if produced.exists():
+            produced.rename(out_pdf)
 
 
 def render_pdfs_to_pngs():
