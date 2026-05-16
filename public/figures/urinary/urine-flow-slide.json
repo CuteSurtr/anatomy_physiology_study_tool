@@ -1,9 +1,9 @@
 {
   "src": "/figures/urinary/urine-flow-slide.png",
-  "alt": "Urine flow path - kidneys (cortex/medulla -> pelvis) -> ureters -> bladder -> urethra.",
+  "alt": "Male urinary system with English text labels - kidney, ureter, urinary bladder, prostate, urethra. Shows the full path urine takes from kidneys \u2192 ureters \u2192 bladder \u2192 urethra. (CC BY-SA 4.0)",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "PioM / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:Kidney_PioM.png"
+    "type": "CC BY-SA 4.0",
+    "attribution": "BruceBlaus",
+    "url": "https://commons.wikimedia.org/wiki/File%3AUrinary_System_%28Male%29.png"
   }
 }

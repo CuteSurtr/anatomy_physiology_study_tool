@@ -1,9 +1,9 @@
 {
   "src": "/figures/urinary/kidney-cortex-medulla-slide.png",
-  "alt": "Kidney internal anatomy - cortex, medulla, pyramids, calyces, pelvis.",
+  "alt": "Kidney internal anatomy with English text labels - renal cortex, renal medulla, renal pyramids, renal papilla, renal columns, major + minor calyces, renal pelvis, hilum, renal artery + vein, ureter, fibrous capsule. (Blausen Medical CC BY 3.0)",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "PioM / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:Kidney_PioM.png"
+    "type": "CC BY 3.0",
+    "attribution": "BruceBlaus . When using this image in external sources it can be cited as: Blausen.com staff (2014). \" Medical gallery of Blausen Medical 2014 \". WikiJournal of Medicine 1 (2). DOI : 10.15347/wjm/2014.010 . ISSN 2002-4436 .",
+    "url": "https://commons.wikimedia.org/wiki/File%3ABlausen_0592_KidneyAnatomy_01.png"
   }
 }

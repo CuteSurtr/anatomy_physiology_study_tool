@@ -1,9 +1,9 @@
 {
   "src": "/figures/urinary/kidney-hilum-slide.png",
-  "alt": "Kidney internal anatomy at the hilum - renal artery, renal vein, ureter, calyces, pelvis.",
+  "alt": "Kidney with labeled vascular structures and hilum, showing the renal artery + vein + ureter exiting at the hilum, plus the internal cortex/medulla/calyces visible in cross-section. (Blausen Medical CC BY 3.0)",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "PioM / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:Kidney_PioM.png"
+    "type": "CC BY 3.0",
+    "attribution": "BruceBlaus",
+    "url": "https://commons.wikimedia.org/wiki/File%3ABlausen_0593_KidneyAnatomy_02.png"
   }
 }
