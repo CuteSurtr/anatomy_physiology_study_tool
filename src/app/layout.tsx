@@ -21,7 +21,7 @@ const serif = Source_Serif_4({
 export const metadata: Metadata = {
   title: "Open Anatomy & Physiology - free and public",
   description:
-    "A free, public anatomy and physiology reference. Twelve body systems, openly licensed figures, clinical correlations, and quizzes on every page. No login.",
+    "A free, public anatomy and physiology reference. Twelve body systems, openly licensed figures, clinical correlations, and quizzes on every page.",
 };
 
 export default function RootLayout({
