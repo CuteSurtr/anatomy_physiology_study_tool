@@ -1,0 +1,9 @@
+{
+  "src": "/figures/cardiovascular/cardiac-cycle-ecg.jpg",
+  "alt": "Cardiac cycle correlated with the ECG. P wave = atrial depolarization \u2192 atrial systole. QRS = ventricular depolarization \u2192 ventricular systole begins (S1 sound). T wave = ventricular repolarization \u2192 diastole begins (S2 sound).",
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A2028_Cardiac_Cycle_vs_Electrocardiogram.jpg"
+  }
+}
