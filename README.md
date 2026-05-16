@@ -2,102 +2,122 @@
 
 **Live:** <https://anatomy-physiology-study-tool.vercel.app>
 
-A free, public anatomy and physiology reference with built-in quizzes, spaced repetition, and anonymous per-device progress tracking.
+An open anatomy and physiology reference with built-in quizzes, fill-in-the-blank diagram quizzes, spaced repetition, and anonymous per-device progress tracking.
 
-> 12 body systems · **59 content pages** (35 anatomy + 24 physiology) · **~200 CC-BY figures** · Quiz / Practice / Review / Study Dashboard
+> 12 body systems · **93 content pages** (12 overviews + 38 anatomy + 43 physiology) · **326 openly-licensed figures** · **70 fill-in-the-blank DiagramQuizzes** · **97 multiple-choice Quiz blocks** · **67 ClinicalCase vignettes**
 
 ## What's in it
 
-**Content** - every page is written from primary sources (Moore's, Gray's, Hall & Guyton, OpenStax A&P 2e, First Aid USMLE 2024) with the same structure:
-- Body anatomy/physiology with tables and function references
-- `Clinical` correlation callouts
-- `Mnemonic` boxes
-- `HighYield` exam frames (boards / NCLEX / step1 / step2 / pharm)
-- 10-question `Quiz` block at the bottom
-- 1–3 question `ClinicalCase` vignette
-- Selected pages have `DiagramQuiz` (fill-in-the-blank on labeled images)
+Every page is written from primary sources (Moore's Clinically Oriented Anatomy, Gray's Anatomy, Hall & Guyton, Kandel, Lehninger, OpenStax A&P 2e, First Aid USMLE 2024) and uses a consistent set of MDX components:
 
-**Routes**
-- `/` - landing + body systems grid + global ⌘K search
-- `/[system]` - overview of any body system
-- `/[system]/[type]/[slug]` - every individual anatomy / physiology / clinical page
-- `/practice` - mixed practice quiz (filter by system + tag, randomize)
-- `/review` - spaced-repetition session for cards that came due
-- `/study` - your dashboard (streak, 91-day heatmap, system mastery, bookmarks, Anki export)
-- `/sync` - anonymous device pairing via one-time 8-char code
-- `/api/og` - dynamic per-page Open Graph image
-- `/api/anki` - CSV export of your SRS deck (importable into Anki)
+- **`Figure`** — image with caption, license, optional labeled SVG overlay
+- **`LabeledImage`** — interactive labeled diagram (auto-rendered by `Figure` when the JSON sidecar has `viewBox + labels`)
+- **`DiagramQuiz`** — fill-in-the-blank quiz with numbered pins overlaid on a diagram; checks answers, accepts synonyms, supports reveal-all
+- **`Quiz`** — multi-question multiple-choice block (10 questions per page is typical); scored, logs every attempt
+- **`ClinicalCase`** — 1–3 question vignette with explanation per choice
+- **`Clinical`**, **`Note`**, **`Mnemonic`** — coloured callouts for clinical correlates, side notes, and memory aids
+- **`HighYield`** — exam-targeted frames (`exam` = `nclex`, `step1`, `step2`, `pharm`, or `boards`)
+
+### Physiology coverage by system
+
+| System | Physiology pages |
+|---|---|
+| Cardiovascular | 5 (cardiac cycle, hemodynamics & BP, hemostasis & coagulation, cardiac-output regulation, blood-gas & O₂ chemistry) |
+| Digestive | 3 (digestion & absorption, GI hormones & motility, liver metabolism & bile) |
+| Endocrine | 4 (HPA axis, glucose homeostasis, thyroid hormone, adrenal cortex + medulla) |
+| Foundations | 6 (cell transport & signaling, embryology, homeostasis & feedback, cellular respiration, biochemistry of signaling, enzyme kinetics + acid-base) |
+| Integumentary | 3 (thermoregulation, wound healing, skin sensation & vitamin D) |
+| Lymphatic | 3 (innate immunity, adaptive immunity, lymph flow & edema) |
+| Muscular | 3 (sliding filament, muscle metabolism, neuromuscular junction) |
+| Nervous | 4 (action potential, neurotransmitters & reflexes, synaptic transmission, sensory physiology) |
+| Reproductive | 3 (gametogenesis, menstrual cycle, pregnancy & lactation) |
+| Respiratory | 3 (ventilation mechanics, gas exchange, gas transport & respiratory control) |
+| Skeletal | 3 (bone remodeling, Ca / vitamin D / PTH, joint mechanics & movement) |
+| Urinary | 3 (nephron function, acid-base balance, fluid & electrolyte balance) |
+
+### Figure sources
+
+Every image carries CC-BY or Public Domain attribution in its JSON sidecar:
+
+- **OpenStax Anatomy & Physiology 2e** (CC-BY 4.0)
+- **Blausen Medical Communications** (CC-BY 3.0, via Wikimedia)
+- **Wikimedia Commons** (CC-BY-SA, Public Domain)
+- **Gray's Anatomy 1918**, **Sobotta's Atlas 1909** (Public Domain)
+- **Servier Medical Art** (CC-BY 4.0, extracted from the official PowerPoint kits — pipeline lives in [`scripts/extract_servier_slides.py`](scripts/extract_servier_slides.py))
+- **NIGMS, NCI, NEI, CDC** (Public Domain US Government)
+
+## Routes
+
+| Route | What |
+|---|---|
+| `/` | Landing page: 12-system grid + global ⌘K search across every page |
+| `/[system]` | System overview with its anatomy / physiology / clinical sub-pages |
+| `/[system]/[type]/[slug]` | Every individual page (e.g., `/cardiovascular/physiology/cardiac-cycle`) |
+| `/practice` | Mixed practice quiz across all systems (randomized) |
+| `/review` | Spaced-repetition session for cards due today |
+| `/study` | Personal dashboard — streak, 91-day activity heatmap, system mastery, bookmarks, Anki export |
+| `/sync` | Anonymous device pairing via one-time 8-char code |
+| `/api/og` | Per-page Open Graph image (dynamic) |
+| `/api/anki` | CSV export of your SRS deck for import into Anki |
 
 ## Stack
 
-- **Next.js 16** (App Router, Turbopack, ESLint flat config, Vercel)
-- **Velite** typed MDX content collections (`#site/content`)
+- **Next.js 16** (App Router, Turbopack, edge proxy/middleware in `src/proxy.ts`)
+- **Velite** typed MDX content collections — `content/systems/**/*.mdx` are imported via `#site/content`
 - **Tailwind CSS 4** with dark mode (`@custom-variant dark`)
-- **Neon Postgres** + **Drizzle ORM** with versioned migrations
-- **Vitest** for unit tests; **ESLint** (eslint-config-next) for linting
-- **Vercel Analytics** for privacy-friendly anonymous analytics
+- **Neon Postgres** + **Drizzle ORM** with versioned migrations in `drizzle/`
+- **Vitest** for unit tests; **ESLint** (flat config) for linting
+- **Vercel Analytics** for anonymous traffic stats
+- Vercel `Cache-Control: public, max-age=31536000, immutable` on `/figures/*` — any swapped image needs a new file name to bust caches
 
 ## Anonymous progress tracking
 
-There are no accounts. On first visit, a UUID is set in a `Set-Cookie: ap_did=…` (2-year, SameSite=Lax) by a Next.js proxy. Every quiz answer, SRS grade, and bookmark is keyed to that UUID. Clearing cookies = fresh start.
+There are no accounts. On first visit, a UUID is set as `ap_did=…` (2-year, SameSite=Lax) cookie. Every quiz answer, SRS grade, and bookmark is keyed to that UUID. Clearing cookies = fresh start. To move progress between devices, mint a one-time sync code at `/sync`.
+
+The cookie is now self-healing: if the proxy didn't set it for any reason (CDN edge case, cleared cookies, etc.), the first server action call to `ensureDevice()` mints a UUID and sets the cookie. This eliminates the "Couldn't save (no_device)" toast that brand-new visitors could otherwise hit on their first quiz answer.
 
 ### Database
 
-Four tables:
-
 | Table | Purpose |
 |---|---|
-| `devices` | One row per browser/device UUID; tracks first + last seen |
+| `devices` | One row per browser/device UUID; first + last seen |
 | `attempts` | Every quiz answer (correct/incorrect, selected choice, timestamp) |
 | `srs_cards` | SM-2-style spaced repetition state per question (interval, ease factor, lapses, due date) |
 | `bookmarks` | Saved pages per device |
-| `sync_codes` | One-time codes for device pairing (15-min expiry) |
+| `sync_codes` | One-time codes for device pairing (15-min expiry, single use) |
 | `question_stats` | Anonymous aggregate per-question hit rate ("X% of N got this right") |
 
-All actions are Zod-validated and per-device rate-limited.
+All server actions are Zod-validated and per-device rate-limited.
 
 ## Local development
 
 ```bash
-# 1. Install dependencies
+# 1. Install
 npm install
 
-# 2. Set up the database
-#    Create a free Neon project at https://neon.tech
-#    Copy the connection string into .env.local:
+# 2. Database — create a free Neon project at https://neon.tech, then:
 echo 'DATABASE_URL="postgresql://…"' > .env.local
 
-# 3. Push the schema (dev mode)
-npx drizzle-kit push --config=drizzle.config.ts
+# 3. Push schema (dev) or apply migrations (prod)
+npx drizzle-kit push --config=drizzle.config.ts          # dev
+# OR
+npx drizzle-kit migrate --config=drizzle.config.ts       # prod
 
-# 4. Build content + start dev server
+# 4. Run Velite + Next dev server
 npm run dev
 ```
 
-`npm run dev` runs Velite first to build the MDX collection, then `next dev`.
+`npm run dev` runs `velite` first to compile the MDX collection, then `next dev`.
 
-## Common scripts
+## Scripts
 
 ```bash
-npm run dev           # Velite + next dev with Turbopack
-npm run build         # next build
-npx velite            # rebuild MDX content collection only
+npm run dev           # velite + next dev (Turbopack)
+npm run build         # velite + next build
+npx velite            # rebuild MDX collection only
 npx tsc --noEmit      # type check
 npx eslint .          # lint
-npx vitest run        # tests (SRS scheduler + rate-limiter)
-```
-
-## Database migrations
-
-Local rapid iteration:
-```bash
-npx drizzle-kit push --config=drizzle.config.ts
-```
-
-Production (versioned migrations, committed to the repo under `drizzle/`):
-```bash
-npx drizzle-kit generate --config=drizzle.config.ts   # creates SQL diff
-npx drizzle-kit migrate --config=drizzle.config.ts    # applies to DATABASE_URL
+npx vitest run        # unit tests (SRS scheduler, rate-limiter)
 ```
 
 ## Content authoring
@@ -119,41 +139,83 @@ sources:
 level: undergrad
 ---
 
-Body text in markdown with MDX components…
+Body text in markdown with MDX components.
 
-<Figure name="cardiovascular/heart-real" caption="…" />
+<Figure name="cardiovascular/heart-valves" caption="The four cardiac valves in a cutaway view." />
+
+<DiagramQuiz name="cardiovascular/heart-valves-quiz" title="Identify the heart valves" />
+
 <Quiz questions={[
-  { q: "…", a: "…", choices: ["…"] }
+  { q: "Which valve closes during S1?", a: "Mitral + tricuspid", choices: [...] }
 ]} />
+
+<ClinicalCase
+  vignette="A 68-year-old woman with dyspnea on exertion…"
+  questions={[ ... ]}
+/>
 ```
 
-Available MDX components: `Figure`, `Quiz`, `DiagramQuiz`, `Clinical`, `ClinicalCase`, `Mnemonic`, `Note`, `HighYield`.
+### Figures + DiagramQuizzes
 
-**Figures** live under `public/figures/<system>/<slug>.{svg,png,jpg}` with a JSON sidecar `<slug>.json` carrying alt text + license + (optionally) viewBox + labels for diagram quizzes.
+Every image at `public/figures/<system>/<slug>.{svg,png,jpg}` has a JSON sidecar `<slug>.json` with at least:
+
+```json
+{
+  "src": "/figures/cardiovascular/heart-valves.jpg",
+  "alt": "Description of what's in the image",
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/…"
+  }
+}
+```
+
+Adding `viewBox + labels` upgrades it to an interactive labeled diagram. Naming a sidecar `<slug>-quiz.json` and pointing it at a labeled image creates a fill-in-the-blank DiagramQuiz where numbered pins are overlaid on the image and the user types each structure's name. Synonyms are accepted (the input is normalized: lower-cased, punctuation stripped, "artery" → "a", "vein" → "v", "nerve" → "n").
+
+```json
+{
+  "src": "/figures/cardiovascular/heart-valves.jpg",
+  "alt": "Identify the four heart valves and chambers.",
+  "viewBox": [0, 0, 1525, 1217],
+  "labels": [
+    { "id": "aortic", "x": 762, "y": 219, "label": "Aortic valve" },
+    { "id": "mitral", "x": 839, "y": 560, "label": "Mitral valve", "synonyms": ["bicuspid valve"] }
+  ]
+}
+```
 
 ## Deploy
 
 Live deployment: <https://anatomy-physiology-study-tool.vercel.app> (auto-deployed from `main` on Vercel).
 
-See [DEPLOY.md](DEPLOY.md) for the full setup walkthrough.
-
-TL;DR - import the GitHub repo into Vercel, set `DATABASE_URL` as an env var, click Deploy.
+See [DEPLOY.md](DEPLOY.md) for the full walkthrough. TL;DR: import the GitHub repo into Vercel, set `DATABASE_URL` as an env var, click Deploy.
 
 ## CI
 
 `.github/workflows/ci.yml` runs on every push and PR:
+
 - Velite content build
 - `tsc --noEmit`
 - `eslint .`
 - `next build` with a stub `DATABASE_URL` (server actions aren't executed during build)
 - `vitest run`
 
-Dependabot opens grouped weekly npm PRs + monthly GH Actions PRs.
+Dependabot opens grouped weekly npm PRs + monthly GitHub Actions PRs.
+
+## Mobile
+
+Responsive across phone, tablet, and desktop:
+
+- Header collapses to a hamburger menu under `md` (768px)
+- Landing page grid is 1 → 2 → 3 columns
+- DiagramQuiz stacks image above the answer list on phones
+- MDX tables now scroll horizontally inside their own box (so the page itself doesn't scroll sideways on narrow viewports)
 
 ## Licensing
 
-Code: MIT (see [LICENSE](LICENSE) if present).
-Figures: CC-BY / Public Domain - attributed in each figure's `.json` sidecar (OpenStax CC-BY 4.0, Wikimedia Commons CC-BY-SA, Gray's Anatomy 1918 PD, Sobotta's Atlas 1909 PD).
-Content text: original prose written from primary sources; if you want to reuse, please attribute back.
+- **Code:** MIT (see `LICENSE` if present)
+- **Figures:** CC-BY / CC-BY-SA / Public Domain — attribution per figure in its `.json` sidecar
+- **Content text:** original prose written from primary sources; if you reuse, please attribute back
 
 Educational use only. Not medical advice.
