@@ -1,0 +1,9 @@
+{
+  "src": "/figures/cardiovascular/cardiac-output-factors.jpg",
+  "alt": "Factors regulating cardiac output. CO = HR \u00d7 SV. HR controlled by autonomic input (sympathetic \u2191 via \u03b21; parasympathetic \u2193 via vagus). SV controlled by preload (EDV, Starling's law), afterload (aortic pressure), contractility (inotropy, via \u03b21 + Ca2+).",
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A2031_Factors_in_Cardiac_Output.jpg"
+  }
+}

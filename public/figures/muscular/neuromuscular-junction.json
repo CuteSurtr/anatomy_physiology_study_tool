@@ -1,0 +1,9 @@
+{
+  "src": "/figures/muscular/neuromuscular-junction.jpg",
+  "alt": "Neuromuscular junction (motor end plate). Motor neuron axon terminal releases ACh into the synaptic cleft, where it binds nicotinic AChRs on the sarcolemma. Each fiber is innervated by one motor neuron, but each motor neuron can innervate many fibers (a motor unit).",
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax",
+    "url": "https://commons.wikimedia.org/wiki/File%3A1009_Motor_End_Plate_and_Innervation.jpg"
+  }
+}

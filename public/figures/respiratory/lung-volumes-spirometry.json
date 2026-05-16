@@ -1,0 +1,9 @@
+{
+  "src": "/figures/respiratory/lung-volumes-spirometry.jpg",
+  "alt": "Lung volumes + capacities on spirometry. Volumes: TV (tidal), IRV (inspiratory reserve), ERV (expiratory reserve), RV (residual, can't measure with spirometry). Capacities (sums): IC = TV+IRV; FRC = ERV+RV; VC = TV+IRV+ERV; TLC = all four.",
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A2317_Spirometry_and_Respiratory_Volumes.jpg"
+  }
+}
