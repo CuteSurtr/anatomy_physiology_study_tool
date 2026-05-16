@@ -1,0 +1,9 @@
+{
+  "src": "/figures/foundations/cell-cycle.svg",
+  "alt": "The eukaryotic cell cycle - interphase (G1 \u2192 S \u2192 G2) + M phase (mitosis: prophase, metaphase, anaphase, telophase + cytokinesis). G1/S and G2/M checkpoints prevent damaged-DNA progression.",
+  "license": {
+    "type": "CC BY-SA 4.0",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File%3AThe_Cell_Cycle.svg"
+  }
+}
