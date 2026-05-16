@@ -1,9 +1,9 @@
 {
-  "src": "/figures/endocrine/endocrine-overview.svg",
-  "alt": "Diagram of the human endocrine system with major glands labeled",
+  "src": "/figures/endocrine/endocrine-overview.jpg",
+  "alt": "Major endocrine glands of the human body, fully labeled (OpenStax). Whole-body view shows thymus, adrenal glands, pancreas, ovaries (female) / testes (male). Insets: pineal + pituitary in the brain (with thalamus), and the thyroid in detail (with thyroid cartilage, parathyroid glands on the posterior surface, trachea).",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Termininja - Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Endocrine_system.svg"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A1801_The_Endocrine_System.jpg"
   }
 }
