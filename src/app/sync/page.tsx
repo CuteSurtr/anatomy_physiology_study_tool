@@ -13,7 +13,7 @@ export default function SyncPage() {
         Pair another device
       </h1>
       <p className="mt-3 text-zinc-600 dark:text-zinc-400">
-        Anonymous device-pairing - no email, no login. Generate a code on one device, enter
+        Anonymous device-pairing. Generate a code on one device, enter
         it on the other. The second device adopts the first device&apos;s progress.
       </p>
       <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-500">
