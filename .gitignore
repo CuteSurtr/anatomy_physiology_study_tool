@@ -50,3 +50,7 @@ _medical-images/
 
 # Servier Medical Art kits - CC BY 4.0 source assets (extracted slides committed under public/figures/)
 ServierMedicalArt-all-kits/
+
+# Python bytecode (Servier extraction script)
+__pycache__/
+*.pyc
