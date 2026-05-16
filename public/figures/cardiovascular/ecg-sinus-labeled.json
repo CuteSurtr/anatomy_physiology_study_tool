@@ -1,0 +1,9 @@
+{
+  "src": "/figures/cardiovascular/ecg-sinus-labeled.svg",
+  "alt": "Normal sinus rhythm ECG with labeled waves and intervals - P wave (atrial depolarization), PR interval, QRS complex (ventricular depolarization), ST segment, T wave (ventricular repolarization), QT interval.",
+  "license": {
+    "type": "Public Domain",
+    "attribution": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File%3ASinusRhythmLabels.svg"
+  }
+}
