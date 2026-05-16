@@ -9,9 +9,9 @@ export const systemPreviews: Record<
   nervous: { src: "/figures/nervous/nervous-overview.svg", bg: "#f5f3ff" },
   respiratory: { src: "/figures/respiratory/respiratory-overview.svg", bg: "#ecfeff" },
   digestive: { src: "/figures/digestive/digestive-overview.svg", bg: "#f7fee7" },
-  urinary: { src: "/figures/urinary/urinary-overview.svg", bg: "#fefce8" },
-  endocrine: { src: "/figures/endocrine/endocrine-overview.svg", bg: "#fdf4ff" },
-  lymphatic: { src: "/figures/lymphatic/lymphatic-overview.svg", bg: "#f0fdfa" },
+  urinary: { src: "/figures/urinary/urinary-overview.png", bg: "#fefce8" },
+  endocrine: { src: "/figures/endocrine/endocrine-overview.jpg", bg: "#fdf4ff" },
+  lymphatic: { src: "/figures/lymphatic/lymphatic-overview.png", bg: "#f0fdfa" },
   reproductive: { src: "/figures/reproductive/female-reproductive.svg", bg: "#fdf2f8" },
   integumentary: { src: "/figures/integumentary/skin-layers.png", bg: "#fff7ed", objectPosition: "center top" },
 };
