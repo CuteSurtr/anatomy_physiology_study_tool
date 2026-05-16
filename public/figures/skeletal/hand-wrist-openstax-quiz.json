@@ -1,0 +1,62 @@
+{
+  "src": "/figures/skeletal/hand-wrist-openstax.jpg",
+  "alt": "Identify the bones of the hand and wrist.",
+  "viewBox": [
+    0,
+    0,
+    977,
+    788
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File:806_Hand_and_Wrist.jpg"
+  },
+  "labels": [
+    {
+      "id": "scaphoid",
+      "x": 293,
+      "y": 512,
+      "label": "Scaphoid"
+    },
+    {
+      "id": "lunate",
+      "x": 440,
+      "y": 512,
+      "label": "Lunate"
+    },
+    {
+      "id": "triquetrum",
+      "x": 586,
+      "y": 536,
+      "label": "Triquetrum"
+    },
+    {
+      "id": "hamate",
+      "x": 606,
+      "y": 433,
+      "label": "Hamate"
+    },
+    {
+      "id": "carpals",
+      "x": 440,
+      "y": 433,
+      "label": "Carpals (collective)",
+      "synonyms": [
+        "carpal bones"
+      ]
+    },
+    {
+      "id": "metacarpals",
+      "x": 440,
+      "y": 276,
+      "label": "Metacarpals"
+    },
+    {
+      "id": "phalanges",
+      "x": 440,
+      "y": 79,
+      "label": "Phalanges"
+    }
+  ]
+}

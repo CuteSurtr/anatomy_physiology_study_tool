@@ -1,0 +1,59 @@
+{
+  "src": "/figures/skeletal/foot-bones-openstax.jpg",
+  "alt": "Identify the bones of the foot.",
+  "viewBox": [
+    0,
+    0,
+    1119,
+    817
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File:812_Bones_of_the_Foot.jpg"
+  },
+  "labels": [
+    {
+      "id": "calcaneus",
+      "x": 839,
+      "y": 408,
+      "label": "Calcaneus"
+    },
+    {
+      "id": "talus",
+      "x": 671,
+      "y": 368,
+      "label": "Talus"
+    },
+    {
+      "id": "navicular",
+      "x": 504,
+      "y": 408,
+      "label": "Navicular"
+    },
+    {
+      "id": "cuboid",
+      "x": 615,
+      "y": 531,
+      "label": "Cuboid"
+    },
+    {
+      "id": "cuneiforms",
+      "x": 425,
+      "y": 449,
+      "label": "Cuneiforms"
+    },
+    {
+      "id": "metatarsals",
+      "x": 280,
+      "y": 449,
+      "label": "Metatarsals"
+    },
+    {
+      "id": "phalanges",
+      "x": 112,
+      "y": 449,
+      "label": "Phalanges"
+    }
+  ]
+}

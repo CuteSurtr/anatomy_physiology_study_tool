@@ -1,0 +1,67 @@
+{
+  "src": "/figures/skeletal/knee-frontal.png",
+  "alt": "Identify the ligaments + structures of the anterior knee.",
+  "viewBox": [
+    0,
+    0,
+    1943,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art (SMART)",
+    "url": "https://smart.servier.com/"
+  },
+  "labels": [
+    {
+      "id": "acl",
+      "x": 816,
+      "y": 500,
+      "label": "Anterior cruciate ligament",
+      "synonyms": [
+        "ACL"
+      ]
+    },
+    {
+      "id": "pcl",
+      "x": 1127,
+      "y": 500,
+      "label": "Posterior cruciate ligament",
+      "synonyms": [
+        "PCL"
+      ]
+    },
+    {
+      "id": "mcl",
+      "x": 583,
+      "y": 610,
+      "label": "Medial collateral ligament",
+      "synonyms": [
+        "MCL",
+        "tibial collateral ligament"
+      ]
+    },
+    {
+      "id": "lcl",
+      "x": 1360,
+      "y": 610,
+      "label": "Lateral collateral ligament",
+      "synonyms": [
+        "LCL",
+        "fibular collateral ligament"
+      ]
+    },
+    {
+      "id": "medial-meniscus",
+      "x": 777,
+      "y": 722,
+      "label": "Medial meniscus"
+    },
+    {
+      "id": "lateral-meniscus",
+      "x": 1166,
+      "y": 722,
+      "label": "Lateral meniscus"
+    }
+  ]
+}

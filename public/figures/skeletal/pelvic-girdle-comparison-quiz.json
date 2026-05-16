@@ -1,0 +1,50 @@
+{
+  "src": "/figures/skeletal/pelvic-girdle-comparison.jpg",
+  "alt": "Identify the major bony landmarks of the pelvic girdle.",
+  "viewBox": [
+    0,
+    0,
+    956,
+    448
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File:809_Male_Female_Pelvic_Girdle.jpg"
+  },
+  "labels": [
+    {
+      "id": "iliac-crest",
+      "x": 239,
+      "y": 45,
+      "label": "Iliac crest"
+    },
+    {
+      "id": "asis",
+      "x": 143,
+      "y": 90,
+      "label": "Anterior superior iliac spine",
+      "synonyms": [
+        "ASIS"
+      ]
+    },
+    {
+      "id": "pubic-symph",
+      "x": 239,
+      "y": 349,
+      "label": "Pubic symphysis"
+    },
+    {
+      "id": "acetabulum",
+      "x": 172,
+      "y": 224,
+      "label": "Acetabulum"
+    },
+    {
+      "id": "sacrum",
+      "x": 478,
+      "y": 134,
+      "label": "Sacrum"
+    }
+  ]
+}

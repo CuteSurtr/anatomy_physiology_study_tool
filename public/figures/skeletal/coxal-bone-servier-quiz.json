@@ -1,0 +1,47 @@
+{
+  "src": "/figures/skeletal/coxal-bone-servier.png",
+  "alt": "Identify the regions of the coxal (hip) bone.",
+  "viewBox": [
+    0,
+    0,
+    2123,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "Servier Medical Art (SMART)",
+    "url": "https://smart.servier.com/"
+  },
+  "labels": [
+    {
+      "id": "ilium",
+      "x": 1062,
+      "y": 222,
+      "label": "Ilium"
+    },
+    {
+      "id": "ischium",
+      "x": 1168,
+      "y": 866,
+      "label": "Ischium"
+    },
+    {
+      "id": "pubis",
+      "x": 637,
+      "y": 722,
+      "label": "Pubis"
+    },
+    {
+      "id": "acetabulum",
+      "x": 1168,
+      "y": 610,
+      "label": "Acetabulum"
+    },
+    {
+      "id": "obturator",
+      "x": 892,
+      "y": 832,
+      "label": "Obturator foramen"
+    }
+  ]
+}
