@@ -1,0 +1,231 @@
+---
+title: Thyroid Hormone Physiology
+system: endocrine
+related:
+  - thyroid-parathyroid
+  - hpa-axis
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 17.4
+  - Hall & Guyton - Chapter 77
+  - First Aid USMLE 2024 - Endocrine
+level: undergrad
+---
+
+Thyroid hormones (T₃ and T₄) set the basal metabolic rate of every cell in the body. They drive heat production, glucose use, lipid turnover, protein synthesis, fetal CNS development, and growth. Too much causes a hyperdynamic, heat-intolerant patient; too little produces a slowed, cold-intolerant patient. The axis is one of the most reliable test items in endocrinology because the **TSH ↔ free T₄ relationship is so clean.**
+
+<Figure name="endocrine/thyroid" caption="The thyroid gland - bilobed structure straddling the trachea below the cricoid cartilage, joined by an isthmus. Highly vascular. Follicles store colloid (thyroglobulin) - the only endocrine gland that stores its hormone extracellularly." />
+
+<Figure name="endocrine/thyroid-detail" caption="Thyroid follicular structure - simple cuboidal follicular cells surround colloid (thyroglobulin protein matrix). Parafollicular C cells in the interstitium secrete calcitonin (separate axis - calcium regulation, see skeletal physiology)." />
+
+## Synthesis - the seven steps
+
+1. **Iodide trapping** - **Na⁺/I⁻ symporter (NIS)** on the basolateral side of the follicular cell pumps I⁻ from blood into the cell (against gradient). Concentrates I⁻ 30-fold.
+2. **Transport into colloid** - **pendrin** transporter moves I⁻ across the apical membrane into the colloid.
+3. **Oxidation** - **thyroid peroxidase (TPO)** oxidizes I⁻ to I⁰ in the presence of H₂O₂.
+4. **Iodination of thyroglobulin** - TPO attaches I to tyrosine residues on **thyroglobulin (Tg)** → MIT (monoiodotyrosine) and DIT (diiodotyrosine).
+5. **Coupling** - TPO couples iodinated tyrosines on Tg: MIT + DIT = T₃; DIT + DIT = T₄. ~90% of secreted hormone is T₄.
+6. **Endocytosis and proteolysis** - When TSH stimulates, colloid is endocytosed; lysosomes hydrolyze Tg → T₃ and T₄ free in cytoplasm.
+7. **Secretion** - T₃ and T₄ diffuse into the blood.
+
+<Note title="Why iodine deficiency matters">
+Without iodine, the thyroid can't make hormone. The pituitary keeps pushing TSH (no negative feedback) → follicular hyperplasia → **goiter**. Severe iodine deficiency in pregnancy → fetal hypothyroidism → **cretinism** (intellectual disability, deafness, short stature). Iodization of salt (US, 1924) eradicated endemic goiter in most developed countries. Iodine deficiency remains the #1 cause of preventable intellectual disability worldwide.
+</Note>
+
+## Transport in blood
+
+Thyroid hormones are hydrophobic and ~99.97% protein-bound in plasma:
+- **Thyroxine-binding globulin (TBG)** - carries 70% of T₄
+- **Albumin** and **transthyretin (TTR)** - carry the rest
+
+Only the **free fraction (~0.03%)** is biologically active. TBG goes up in pregnancy and with estrogens → total T₄ rises but free T₄ stays normal. **Always measure free T₄, not total T₄**, when TBG state is in question.
+
+## Conversion - T₄ is a prohormone
+
+**T₄ is the main secreted form, but T₃ is the active form.** Peripheral tissues convert T₄ → T₃ via **deiodinases**:
+
+| Enzyme | Location | Reaction | Notes |
+|---|---|---|---|
+| **D1** | Liver, kidney, thyroid | T₄ → T₃ (and T₄ → rT₃) | Source of most plasma T₃ |
+| **D2** | CNS, pituitary, brown fat | T₄ → T₃ | Local production for tissue use; provides T₃ for negative feedback in pituitary |
+| **D3** | Placenta, fetus, brain | T₄ → **reverse T₃ (rT₃)**, T₃ → T₂ | Inactivates; protects fetus from maternal hormone |
+
+**Reverse T₃ (rT₃)** is inactive. In sick euthyroid syndrome, D1 is suppressed and D3 is induced → low T₃, high rT₃, normal-low TSH.
+
+## Mechanism at the cell
+
+T₃ enters the cell via MCT8 transporter → binds **nuclear thyroid receptors (TRα, TRβ)** that act as transcription factors with retinoid-X-receptor (RXR) heterodimers on thyroid response elements (TREs). T₃ has ~10× the affinity of T₄ - explains why T₃ is the active form.
+
+## Physiologic effects - everywhere
+
+| System | Effect | Mechanism |
+|---|---|---|
+| **Basal metabolic rate** | ↑ | Mitochondrial biogenesis, Na/K-ATPase upregulation, uncoupling |
+| **Heat production** | ↑ | "Calorigenic effect" - obligatory heat from increased metabolism |
+| **Cardiovascular** | ↑ HR, ↑ contractility, ↑ CO, ↓ SVR | Upregulates β1 receptors; vasodilation from increased metabolic demand |
+| **Respiratory** | ↑ RR, ↑ minute ventilation | Brainstem drive |
+| **CNS** | Critical for fetal brain development; affects mood, cognition in adults | Synaptic / myelination effects |
+| **Skeletal** | Bone turnover ↑; required for normal linear growth | Synergizes with GH and IGF-1 |
+| **GI** | Motility ↑ | Smooth muscle effect |
+| **Lipid** | LDL receptor expression ↑ → cholesterol ↓ | Hepatic effect |
+| **Carbohydrate** | Glucose absorption ↑, glycogenolysis ↑ | Counterregulatory + permissive |
+| **Reproductive** | Permissive for normal menstrual cycles; T₃ enters fetus | Hyperthyroidism → oligomenorrhea; hypo → menorrhagia |
+
+## The HPT axis - regulation
+
+```
+Hypothalamus → TRH → Anterior pituitary → TSH → Thyroid → T₄ + T₃
+                            ↑                              │
+                            └──── (−) negative feedback ───┘
+```
+
+- **TRH** (thyrotropin-releasing hormone) from hypothalamus → drives TSH
+- **TSH** (thyroid-stimulating hormone) from anterior pituitary thyrotrophs → drives synthesis + release of T₃/T₄
+- **Negative feedback** - T₃ (from local D2 conversion in pituitary) suppresses TSH; also suppresses hypothalamic TRH
+
+**The TSH-free T₄ relationship is log-linear.** A small drop in free T₄ produces a large rise in TSH - making TSH the most sensitive marker of thyroid dysfunction in *primary* thyroid disease.
+
+| State | TSH | Free T₄ | Free T₃ |
+|---|---|---|---|
+| **Primary hypothyroidism** | ↑↑ | ↓ | Low or normal |
+| **Subclinical hypothyroidism** | ↑ | Normal | Normal |
+| **Central hypothyroidism** (pituitary/hypothalamic) | Low or normal | ↓ | Low |
+| **Primary hyperthyroidism** | ↓↓ | ↑ | ↑ |
+| **Subclinical hyperthyroidism** | ↓ | Normal | Normal |
+| **TSH-secreting pituitary adenoma** | ↑ (or normal) | ↑ | ↑ |
+| **Sick euthyroid** | Low or normal | Low or normal | ↓, rT₃ ↑ |
+| **Pregnancy (T1)** | ↓ (hCG cross-reacts with TSHR) | Normal-high | Normal-high |
+
+## Hyperthyroidism
+
+**Most common causes:**
+- **Graves disease** - thyroid-stimulating immunoglobulins (TSI / anti-TSHR antibodies) activate TSH receptor. Diffuse goiter, ophthalmopathy, pretibial myxedema, ↑ radioiodine uptake (diffuse).
+- **Toxic multinodular goiter** - autonomous nodules; patchy uptake.
+- **Toxic adenoma** - one hot nodule; rest of gland suppressed.
+- **Thyroiditis** (subacute, postpartum, painless) - inflammatory release of preformed hormone, *low* radioiodine uptake.
+- **Exogenous T₄** - factitious or over-replacement; low Tg.
+
+**Symptoms:** weight loss with increased appetite, heat intolerance, tachycardia, palpitations, AF, tremor, anxiety, insomnia, lid lag, hyperreflexia, oligomenorrhea, diarrhea.
+
+**Thyroid storm** - life-threatening hyperthyroidism: T > 40°C, severe tachycardia (often AF), CNS dysfunction (agitation → coma), GI failure, high-output heart failure. Treat with **β-blockers** (propranolol), **PTU or methimazole**, **iodine (Lugol's) - given an hour after the thionamide** (Wolff-Chaikoff effect), **glucocorticoids** (blocks T₄ → T₃ conversion), and cooling.
+
+## Hypothyroidism
+
+**Most common causes:**
+- **Hashimoto thyroiditis** - autoimmune (TPO + anti-Tg antibodies), chronic lymphocytic infiltrate. Most common cause in iodine-replete populations.
+- **Iodine deficiency** - most common cause worldwide.
+- **Post-ablation / surgical** - radioactive iodine, thyroidectomy.
+- **Drug-induced** - amiodarone, lithium, interferon, checkpoint inhibitors.
+- **Central** - hypothalamic or pituitary failure.
+
+**Symptoms:** weight gain with decreased appetite, cold intolerance, bradycardia, fatigue, constipation, dry skin, brittle hair, slow reflexes (with delayed relaxation), menorrhagia, depression, myxedema.
+
+**Myxedema coma** - decompensated hypothyroidism with hypothermia, hyponatremia, hypoventilation, hypotension, AMS. Mortality high. Treat with **IV levothyroxine + IV hydrocortisone** (cover potential coexisting adrenal insufficiency) + supportive care.
+
+<HighYield exam="step1">
+**Antibody patterns:**
+- **Graves** → anti-TSHR (TSI), can also have anti-TPO
+- **Hashimoto** → anti-TPO (highly sensitive), anti-Tg
+- **Postpartum thyroiditis** → anti-TPO
+
+**Radioactive iodine uptake (RAIU):**
+- ↑ diffuse → Graves
+- ↑ patchy → toxic MNG
+- ↑ single nodule → toxic adenoma
+- ↓ → thyroiditis (preformed hormone leaks out) or exogenous T₄
+
+**Hallmark physical findings:**
+- Graves → exophthalmos, lid lag, pretibial myxedema
+- Hashimoto → diffusely firm, sometimes lobulated goiter
+- Subacute (de Quervain) thyroiditis → tender goiter, post-viral
+</HighYield>
+
+<HighYield exam="pharm">
+**Antithyroid drugs:**
+- **Methimazole** - inhibits TPO (organification + coupling). First-line. Avoid in T1 pregnancy (teratogenic - aplasia cutis, choanal atresia).
+- **PTU** (propylthiouracil) - inhibits TPO + inhibits peripheral T₄→T₃ conversion. Use in T1 pregnancy and thyroid storm. **Risks: hepatotoxicity, ANCA-associated vasculitis.**
+- **β-blockers** (propranolol) - symptomatic; propranolol also inhibits T₄→T₃ conversion at high doses.
+- **Iodine (Lugol's, SSKI)** - **Wolff-Chaikoff effect**: high iodine transiently suppresses hormone synthesis. Used pre-thyroidectomy, in storm, and in radiation exposure (saturates the gland with cold iodine). Don't give first in storm - give *after* thionamide to prevent **Jod-Basedow** (iodine-induced hyperthyroidism in nodular goiter).
+- **Radioactive iodine (¹³¹I)** - ablative therapy for Graves, MNG, adenoma. Contraindicated in pregnancy and breastfeeding.
+- **Levothyroxine (synthetic T₄)** - hypothyroidism treatment. Take on empty stomach; absorption ↓ by Ca²⁺, iron, fiber, PPIs. Goal: normalize TSH (in primary disease).
+</HighYield>
+
+## Pregnancy and the thyroid
+
+- TBG ↑ → total T₄ ↑; free T₄ stays normal
+- hCG cross-reacts weakly with the TSH receptor → mild ↑ free T₄, ↓ TSH in T1 (physiologic; resembles mild hyper)
+- Fetal thyroid begins functioning at week 12 - before that, fetus depends on maternal T₄
+- Maternal hypothyroidism → fetal CNS deficits, miscarriage, preterm birth → **screen TSH in early pregnancy and increase levothyroxine dose by ~30% as soon as pregnancy is confirmed**
+
+## Quick check
+
+<Quiz questions={[
+  { q: "The active form of thyroid hormone is…", a: "T₃ (triiodothyronine)", choices: ["T₄ (thyroxine)", "T₃ (triiodothyronine)", "Reverse T₃ (rT₃)", "Thyroglobulin"] },
+  { q: "Most circulating T₃ is generated by…", a: "Peripheral 5'-deiodination of T₄ in liver and kidney", choices: [
+    "Direct thyroid secretion of T₃",
+    "Peripheral 5'-deiodination of T₄ in liver and kidney",
+    "Conversion of thyroglobulin to T₃ in plasma",
+    "Pituitary D2 activity"
+  ]},
+  { q: "Which enzyme is the main pharmacologic target of methimazole?", a: "Thyroid peroxidase (TPO)", choices: [
+    "Thyroglobulin protease",
+    "Thyroid peroxidase (TPO)",
+    "Na⁺/I⁻ symporter (NIS)",
+    "Type 1 deiodinase (D1)"
+  ]},
+  { q: "TSH receptor stimulation by autoantibodies is the mechanism of…", a: "Graves disease", choices: [
+    "Hashimoto thyroiditis",
+    "Graves disease",
+    "Subacute thyroiditis",
+    "Riedel thyroiditis"
+  ]},
+  { q: "A patient with low TSH, high free T₄, and DIFFUSELY increased radioactive iodine uptake most likely has…", a: "Graves disease", choices: [
+    "Toxic multinodular goiter",
+    "Subacute granulomatous thyroiditis",
+    "Graves disease",
+    "Exogenous thyroid hormone use"
+  ]},
+  { q: "A patient with low TSH, high free T₄, and DECREASED radioactive iodine uptake most likely has…", a: "Thyroiditis (release of preformed hormone)", choices: [
+    "Graves disease",
+    "Toxic adenoma",
+    "Thyroiditis (release of preformed hormone)",
+    "TSH-secreting pituitary adenoma"
+  ]},
+  { q: "Which antithyroid drug is preferred during the first trimester of pregnancy?", a: "Propylthiouracil (PTU)", choices: ["Methimazole", "Propylthiouracil (PTU)", "Radioactive iodine", "Lugol's solution"] },
+  { q: "In thyroid storm, the rationale for giving Lugol's iodine after a thionamide is…", a: "Wolff-Chaikoff effect transiently suppresses synthesis; giving iodine before the thionamide could fuel further synthesis (Jod-Basedow)", choices: [
+    "Direct toxicity to follicular cells",
+    "Wolff-Chaikoff effect transiently suppresses synthesis; giving iodine before the thionamide could fuel further synthesis (Jod-Basedow)",
+    "Increases TBG binding capacity",
+    "Crosses placenta to protect the fetus"
+  ]},
+  { q: "Sick euthyroid syndrome is characterized by…", a: "Low T₃, high reverse T₃, normal or low TSH and free T₄", choices: [
+    "High TSH, high free T₄",
+    "Low T₃, high reverse T₃, normal or low TSH and free T₄",
+    "High TSH, low free T₄",
+    "Low TSH, low free T₄ with low rT₃"
+  ]},
+  { q: "Pregnancy raises total T₄ because…", a: "Estrogen increases TBG, which holds more bound T₄", choices: [
+    "Placenta secretes T₄",
+    "Estrogen increases TBG, which holds more bound T₄",
+    "hCG inhibits hepatic deiodinase",
+    "Iodine uptake by NIS doubles"
+  ]}
+]} />
+
+## Clinical case
+
+<ClinicalCase title="Palpitations, weight loss, and a stare" vignette="A 38-year-old woman presents with 4 months of 6 kg unintentional weight loss, heat intolerance, anxiety, and palpitations. She reports loose stools 3-4 times daily and irregular menses. Exam: HR 118 irregular, BP 142/72, T 37.4°C. She has a fine tremor of the outstretched hands, smooth diffusely enlarged thyroid with a bruit, lid lag, mild proptosis bilaterally, and warm moist palms. ECG shows atrial fibrillation. TSH < 0.01 mIU/L; free T₄ 4.2 ng/dL (normal 0.8-1.8); free T₃ 980 pg/dL (normal 230-420). Anti-TSH receptor antibody is positive." questions={[
+  { q: "What is the most likely diagnosis?", a: "Graves disease", choices: ["Toxic multinodular goiter", "Subacute thyroiditis", "Graves disease", "Factitious thyrotoxicosis"], explanation: "Diffuse goiter with bruit, ophthalmopathy (lid lag, proptosis), positive anti-TSHR antibodies, and biochemical hyperthyroidism define Graves. Toxic MNG and adenoma have nodular goiters without ophthalmopathy. Thyroiditis has tender or normal-size gland with low radioactive iodine uptake. Factitious has low thyroglobulin." },
+  { q: "Which combination of medications is most appropriate as initial therapy in this patient?", a: "Methimazole + propranolol", choices: [
+    "Levothyroxine + propranolol",
+    "Methimazole + propranolol",
+    "Lugol's iodine + propranolol",
+    "Hydrocortisone + radioactive iodine"
+  ], explanation: "Methimazole blocks new hormone synthesis (preferred over PTU outside pregnancy due to lower hepatotoxicity). β-blockers control adrenergic symptoms (HR, tremor, anxiety) and high doses of propranolol mildly inhibit T₄→T₃ conversion. Definitive therapy with radioactive iodine or thyroidectomy is typically planned after thionamide-induced euthyroidism. Ophthalmopathy is *worsened* by RAI - consider thyroidectomy or pre-treat with steroids if severe." },
+  { q: "Three weeks later she returns with high fever (T 40°C), confusion, HR 160, BP 90/60, and worsening tremor. Her thyroid storm is precipitated by a viral illness. Which step is INCORRECT?", a: "Give Lugol's iodine immediately, before the thionamide", choices: [
+    "Propranolol IV",
+    "Give Lugol's iodine immediately, before the thionamide",
+    "Hydrocortisone IV",
+    "PTU loading dose (preferred over methimazole in storm)"
+  ], explanation: "In thyroid storm, give a thionamide FIRST (PTU preferred for storm due to additional T₄→T₃ blockade), then iodine an hour later. Giving iodine before the thionamide could feed iodide to the suddenly stimulated gland → Jod-Basedow worsening. Steroids reduce T₄→T₃ conversion and treat possible coexisting adrenal insufficiency. β-blockers (propranolol) blunt sympathetic outflow." }
+]} />

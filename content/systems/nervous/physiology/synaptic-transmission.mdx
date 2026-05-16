@@ -1,0 +1,206 @@
+---
+title: Synaptic Transmission
+system: nervous
+related:
+  - action-potential
+  - neurotransmitters-and-reflexes
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 12.5
+  - Kandel Principles of Neural Science 6e - Chapters 12-14
+  - First Aid USMLE 2024 - Neurology
+level: undergrad
+---
+
+A neuron talks to another cell (neuron, muscle, gland) at a **synapse**. Two kinds exist: **chemical** (most synapses, slow, modifiable, the basis of learning) and **electrical** (gap junctions, fast, used for synchrony in the retina, heart, smooth muscle, and inferior olive). This page covers the chemical synapse, which underlies essentially all signaling in the CNS and most of the PNS.
+
+<Figure name="nervous/synapse" caption="Chemical synapse - presynaptic terminal with synaptic vesicles, synaptic cleft (~20 nm), postsynaptic membrane with neurotransmitter receptors. Voltage-gated Ca²⁺ channels at the terminal trigger vesicle fusion. Postsynaptic receptors are ionotropic (ligand-gated channels) or metabotropic (G-protein coupled)." />
+
+## The chemical synapse, step by step
+
+1. **Action potential arrives** at the presynaptic terminal.
+2. **Voltage-gated Ca²⁺ channels open**, Ca²⁺ enters - 100× higher gradient than the Na⁺ gradient.
+3. **Vesicle fusion** - Ca²⁺ binds synaptotagmin, which triggers the SNARE complex (synaptobrevin, syntaxin, SNAP-25) to fuse vesicle with active zone.
+4. **Neurotransmitter (NT) is released** into the cleft - typically a quantum per vesicle (~5,000 molecules).
+5. **NT diffuses 20 nm**, binds postsynaptic receptors.
+6. **Receptor activation**:
+   - **Ionotropic** (ligand-gated ion channel) → fast (ms), brief, opens specific ion channel
+   - **Metabotropic** (GPCR) → slow (10s of ms to seconds), uses second messengers, modulates many downstream channels
+7. **NT is cleared** from the cleft by:
+   - **Reuptake** by transporters (SERT for serotonin, NET for NE, DAT for dopamine, GAT for GABA, EAAT for glutamate)
+   - **Enzymatic degradation** (AChE for ACh, MAO and COMT for monoamines)
+   - **Diffusion** away from the cleft
+
+## Postsynaptic potentials
+
+The receptor's effect determines whether the postsynaptic cell becomes more or less likely to fire:
+
+| Type | Effect | Ion movement | Example neurotransmitter |
+|---|---|---|---|
+| **EPSP** - excitatory postsynaptic potential | Depolarization | Na⁺ in (and K⁺ out) via AMPA/NMDA/nAChR | Glutamate, ACh (nicotinic) |
+| **IPSP** - inhibitory postsynaptic potential | Hyperpolarization | Cl⁻ in (GABA-A) or K⁺ out (GABA-B) | GABA, glycine |
+
+Postsynaptic potentials are **graded** (size depends on amount of NT) and **decremental** (decay with distance from the synapse). They sum at the axon hillock - the trigger zone where, if threshold is reached, an action potential is generated.
+
+## Summation - the integration rule
+
+A single EPSP rarely reaches threshold. Neurons integrate hundreds to thousands of synaptic inputs across space and time:
+
+| Type | Description |
+|---|---|
+| **Temporal summation** | Repeated EPSPs from the *same* presynaptic neuron arrive faster than the membrane can repolarize → potentials stack |
+| **Spatial summation** | EPSPs from *different* synapses on the same postsynaptic neuron coincide → potentials add |
+
+EPSPs and IPSPs can also cancel each other - a single inhibitory synapse near the axon hillock can veto thousands of distant EPSPs. This is how **inhibitory interneurons** sharpen signals.
+
+## Major neurotransmitter systems
+
+| Neurotransmitter | Type | Main receptors | Primary roles |
+|---|---|---|---|
+| **Glutamate** | Amino acid | AMPA, NMDA, kainate (ionotropic); mGluR (metabotropic) | Principal CNS excitatory NT; learning, memory, sensation |
+| **GABA** | Amino acid | GABA-A (Cl⁻ channel, ionotropic), GABA-B (K⁺ channel via G protein) | Principal CNS inhibitory NT; sedatives target GABA-A |
+| **Glycine** | Amino acid | Glycine receptor (Cl⁻ channel) | Inhibitory NT in spinal cord and brainstem; strychnine blocks |
+| **ACh** | Cholinergic | Nicotinic (ionotropic, Na⁺ + K⁺); Muscarinic (M1-M5, GPCR) | Neuromuscular junction; autonomic ganglia; parasympathetic effectors; CNS arousal + memory |
+| **Norepinephrine** | Monoamine | α₁, α₂, β₁, β₂, β₃ (all GPCR) | Sympathetic effectors; CNS arousal, attention, mood |
+| **Dopamine** | Monoamine | D1, D2 families (GPCR) | Reward, motor control (nigrostriatal), prolactin inhibition, executive function |
+| **Serotonin (5-HT)** | Monoamine | 5-HT1-7 families (mostly GPCR; 5-HT3 is ionotropic) | Mood, sleep, appetite, GI motility, vasoconstriction |
+| **Histamine** | Monoamine | H1, H2, H3 (GPCR) | Wakefulness, allergic response, gastric acid |
+| **Endorphins / enkephalins** | Peptide | μ, δ, κ opioid receptors (GPCR) | Pain modulation, reward |
+| **Substance P** | Peptide | NK1 receptor (GPCR) | Pain, vomiting |
+| **Nitric oxide (NO)** | Gas | Diffuses into cell, activates guanylyl cyclase | Retrograde signaling, vasodilation |
+| **Endocannabinoids** | Lipid | CB1, CB2 (GPCR) | Retrograde modulator, appetite, pain, mood |
+
+<Mnemonic title="Mood disorders and neurotransmitters">
+- **Depression** → low NE / 5-HT / dopamine (monoamine hypothesis). Treated with SSRIs, SNRIs, MAOIs, TCAs - all of which raise synaptic monoamines.
+- **Anxiety** → low GABA. Treated with benzodiazepines and other GABA-A potentiators.
+- **Schizophrenia** → ↑ mesolimbic dopamine (positive symptoms) + ↓ mesocortical dopamine (negative symptoms). Treated with D2 antagonists.
+- **Parkinson disease** → loss of nigrostriatal dopamine. Treated with L-DOPA + decarboxylase inhibitor.
+- **Alzheimer disease** → ↓ ACh (basal nucleus of Meynert). Treated with AChE inhibitors.
+- **Huntington disease** → ↓ GABA + ACh, ↑ dopamine in striatum.
+</Mnemonic>
+
+## Drug action at the synapse - canonical targets
+
+| Step | Drug class | Examples |
+|---|---|---|
+| Presynaptic Ca²⁺ influx | Voltage-gated Ca²⁺ blockers (presynaptic) | Gabapentin, pregabalin (α₂δ subunit) |
+| NT synthesis | Substrate / cofactor | L-DOPA → dopamine |
+| Vesicle loading | VMAT2 inhibitor | Reserpine, tetrabenazine |
+| Release | Botulinum toxin (cleaves SNAREs) | Botox - paralysis |
+| Release | Black widow toxin | Massive vesicle release |
+| Receptor agonist | Direct activation | Morphine (μ opioid), benzodiazepines (GABA-A allosteric) |
+| Receptor antagonist | Block receptor | Naloxone (opioid), flumazenil (BZD), antipsychotics (D2) |
+| Reuptake | Block transporter | SSRIs (SERT), SNRIs, TCAs, cocaine (DAT + SERT + NET), amphetamine (reverse DAT) |
+| Enzymatic breakdown | Block enzyme | AChE inhibitors (donepezil, neostigmine, organophosphates); MAOIs |
+
+## Long-term potentiation (LTP) - synaptic learning
+
+The synapse is plastic. The same input can produce a larger postsynaptic response after a brief high-frequency stimulus - this is **LTP**, the cellular basis of learning and memory.
+
+**Mechanism at glutamatergic synapses (hippocampus, cortex):**
+1. High-frequency stimulation depolarizes the postsynaptic membrane.
+2. Depolarization expels Mg²⁺ from the NMDA receptor pore.
+3. With glutamate bound + depolarization, NMDA opens → Ca²⁺ influx.
+4. Ca²⁺ activates CaMKII → phosphorylates AMPA receptors and inserts more into the membrane.
+5. Same glutamate input now produces a larger EPSP - the synapse has "remembered."
+
+The opposite process - **long-term depression (LTD)** - weakens synapses with low-frequency, weakly correlated activity. Together LTP and LTD are the cellular substrate of Hebbian learning ("neurons that fire together, wire together").
+
+<Clinical>
+**Why NMDA matters clinically:**
+- **Ketamine** is a noncompetitive NMDA antagonist - rapid-onset antidepressant + dissociative anesthetic.
+- **Memantine** is a low-affinity NMDA antagonist - used in moderate-severe Alzheimer to dampen glutamate excitotoxicity.
+- **PCP / dextromethorphan** are also NMDA antagonists at high doses → dissociation, psychosis.
+- **Anti-NMDA receptor encephalitis** (Dalmau syndrome) → antibodies against NMDA receptors → psychiatric symptoms, seizures, autonomic instability. Often paraneoplastic (ovarian teratoma in young women).
+</Clinical>
+
+## Electrical synapses (gap junctions)
+
+A small minority of synapses use **connexin hemichannels** that align to form **gap junctions** - direct cytoplasmic continuity between cells. Properties:
+- **Fast** - no synaptic delay (no NT release/diffusion)
+- **Bidirectional** - usually
+- **Synchronizing** - propagates depolarization simultaneously to many cells
+- **Found in** - cardiac and smooth muscle, retina (horizontal + amacrine cells), inferior olive, parts of the cortex during development
+
+## Quick check
+
+<Quiz questions={[
+  { q: "The immediate trigger for neurotransmitter release at the presynaptic terminal is…", a: "Ca²⁺ influx through voltage-gated channels", choices: [
+    "Na⁺ influx through voltage-gated channels",
+    "K⁺ efflux",
+    "Ca²⁺ influx through voltage-gated channels",
+    "Cl⁻ influx"
+  ]},
+  { q: "Botulinum toxin causes paralysis by…", a: "Cleaving SNARE proteins, preventing ACh vesicle fusion at the NMJ", choices: [
+    "Blocking nicotinic ACh receptors",
+    "Inhibiting acetylcholinesterase",
+    "Cleaving SNARE proteins, preventing ACh vesicle fusion at the NMJ",
+    "Depleting choline stores"
+  ]},
+  { q: "Which receptor is ionotropic (a ligand-gated ion channel)?", a: "NMDA glutamate receptor", choices: [
+    "Muscarinic M2 receptor",
+    "D1 dopamine receptor",
+    "NMDA glutamate receptor",
+    "β1 adrenergic receptor"
+  ]},
+  { q: "Spatial summation refers to…", a: "EPSPs from different synapses on the same neuron adding together", choices: [
+    "Repeated EPSPs from the same presynaptic neuron stacking in time",
+    "EPSPs from different synapses on the same neuron adding together",
+    "IPSPs canceling EPSPs at the axon hillock",
+    "Lateral inhibition between adjacent neurons"
+  ]},
+  { q: "Long-term potentiation in the hippocampus requires…", a: "Coincident glutamate binding and postsynaptic depolarization at the NMDA receptor", choices: [
+    "AMPA receptor blockade",
+    "Coincident glutamate binding and postsynaptic depolarization at the NMDA receptor",
+    "Loss of Mg²⁺ from the AMPA receptor",
+    "GABA-A activation"
+  ]},
+  { q: "SSRIs treat depression by…", a: "Blocking the serotonin reuptake transporter (SERT) on the presynaptic membrane", choices: [
+    "Antagonizing 5-HT2A receptors",
+    "Blocking the serotonin reuptake transporter (SERT) on the presynaptic membrane",
+    "Increasing serotonin synthesis",
+    "Activating MAO"
+  ]},
+  { q: "Which neurotransmitter is the principal inhibitory transmitter in the spinal cord?", a: "Glycine", choices: ["GABA", "Glutamate", "Glycine", "Serotonin"] },
+  { q: "Activation of the GABA-A receptor produces…", a: "Hyperpolarizing IPSP via Cl⁻ influx", choices: [
+    "Depolarizing EPSP via Na⁺ influx",
+    "Hyperpolarizing IPSP via Cl⁻ influx",
+    "Slow inhibition via second messengers",
+    "Bidirectional electrical coupling"
+  ]},
+  { q: "Tetanus toxin paralyzes its victim by…", a: "Blocking inhibitory glycine/GABA release in the spinal cord, causing unopposed motor neuron firing", choices: [
+    "Blocking ACh release at the NMJ",
+    "Blocking inhibitory glycine/GABA release in the spinal cord, causing unopposed motor neuron firing",
+    "Activating NMDA receptors",
+    "Depleting dopamine in the substantia nigra"
+  ]},
+  { q: "Which is the most common type of synapse in the human body?", a: "Chemical, with ionotropic and metabotropic receptors", choices: [
+    "Electrical (gap junctions)",
+    "Chemical, with ionotropic and metabotropic receptors",
+    "Mixed electrical-chemical",
+    "Dendrodendritic"
+  ]}
+]} />
+
+## Clinical case
+
+<ClinicalCase title="A bumblebee sting and a strange weakness" vignette="A 28-year-old beekeeper develops a single bee sting on the right arm. Twenty minutes later he develops generalized weakness, drooping eyelids, blurred vision, and difficulty swallowing. He has no rash and no wheeze. Vitals: BP 120/80, HR 88, RR 16, SpO₂ 98%. Neuro exam reveals bilateral ptosis, dilated pupils unresponsive to light, weak gag reflex, descending flaccid paralysis. His wife reports he ate home-canned green beans the night before, which his neighbor (now also weak) shared with him." questions={[
+  { q: "What is the most likely cause of his symptoms?", a: "Botulism from preformed botulinum toxin in home-canned food", choices: [
+    "Anaphylaxis to bee venom",
+    "Myasthenia gravis crisis",
+    "Botulism from preformed botulinum toxin in home-canned food",
+    "Guillain-Barré syndrome"
+  ], explanation: "Descending flaccid paralysis with cranial nerve involvement (diplopia, ptosis, dysphagia), dilated nonreactive pupils, intact sensation, and the home-canned-food history point to botulism. Clostridium botulinum spores survive incomplete canning, germinate in anaerobic low-acid conditions, and produce preformed toxin. Anaphylaxis would involve airway/rash/hypotension. MG and GBS don't usually cause fixed dilated pupils." },
+  { q: "Mechanistically, botulinum toxin works by…", a: "Cleaving SNARE proteins (SNAP-25, syntaxin, synaptobrevin) so ACh vesicles cannot fuse with the presynaptic membrane", choices: [
+    "Blocking nicotinic ACh receptors at the motor end plate",
+    "Inhibiting acetylcholinesterase, causing initial weakness from depolarization block",
+    "Cleaving SNARE proteins (SNAP-25, syntaxin, synaptobrevin) so ACh vesicles cannot fuse with the presynaptic membrane",
+    "Antagonizing muscarinic receptors at autonomic effectors"
+  ], explanation: "Botulinum toxin enzymatically cleaves SNARE complex proteins, abolishing exocytosis of ACh at both NMJ (somatic motor) and autonomic cholinergic synapses. This explains both the flaccid paralysis and the anticholinergic features (dilated pupils, dry mouth, constipation, urinary retention). It is irreversible at affected terminals - recovery requires axonal sprouting and formation of new active zones over weeks to months." },
+  { q: "First-line treatment is…", a: "Equine-derived heptavalent botulinum antitoxin, supportive care including ventilatory support", choices: [
+    "Pyridostigmine and IVIG",
+    "Plasma exchange",
+    "Equine-derived heptavalent botulinum antitoxin, supportive care including ventilatory support",
+    "Epinephrine and IM diphenhydramine"
+  ], explanation: "Antitoxin neutralizes only circulating toxin (not toxin already bound), so administer as early as possible. Public health must be notified (botulism is reportable). Mechanical ventilation may be required for weeks. Pyridostigmine doesn't help because the problem is upstream of ACh release - there is no ACh to potentiate." }
+]} />

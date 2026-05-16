@@ -1,0 +1,189 @@
+---
+title: Cellular Respiration & ATP
+system: foundations
+related:
+  - cell-transport-and-signaling
+  - histology
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 24.2-24.3
+  - Lehninger Biochemistry 8e - Chapters 14-19
+  - First Aid USMLE 2024 - Biochemistry
+level: undergrad
+---
+
+Every physiological process - muscle contraction, ion pumping, neurotransmission, biosynthesis - is paid for in **ATP**. The cell makes ATP by breaking carbon-hydrogen bonds and capturing the released energy in phosphate bonds. Glucose oxidation is the cleanest example: **C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + ~30 ATP**.
+
+The pathway has three stages: **glycolysis** (cytosol), the **TCA / Krebs cycle** (mitochondrial matrix), and **oxidative phosphorylation** (inner mitochondrial membrane).
+
+<Figure name="foundations/mitochondrion" caption="Mitochondrion - outer membrane (smooth, permeable to small molecules via porin/VDAC), inner membrane (folded into cristae, impermeable, houses ETC and ATP synthase), intermembrane space (low pH due to H⁺ pumping), matrix (TCA cycle enzymes, β-oxidation enzymes, mtDNA). Sites of cellular respiration past glycolysis." />
+
+## Stage 1 - Glycolysis (cytosol, no oxygen needed)
+
+Glucose (6 C) → 2 pyruvate (3 C each). 10 enzymatic steps. Investment of 2 ATP up front, payoff of 4 ATP at the end → **net +2 ATP** and **+2 NADH** per glucose.
+
+**Key regulatory enzymes:**
+- **Hexokinase / glucokinase** - traps glucose in the cell by phosphorylating it. Glucokinase (liver, β cell) has low affinity → only active at high glucose; not feedback-inhibited by G6P.
+- **Phosphofructokinase-1 (PFK-1)** - the **rate-limiting** step. Activated by AMP, fructose-2,6-bisphosphate; inhibited by ATP, citrate.
+- **Pyruvate kinase** - generates the second ATP. Activated by F1,6BP (feedforward); inhibited by ATP and alanine.
+
+**Fates of pyruvate:**
+| Conditions | Fate |
+|---|---|
+| **Aerobic** (O₂ available) | Pyruvate dehydrogenase → acetyl-CoA → TCA cycle |
+| **Anaerobic** (no O₂; exercising muscle, RBCs) | Lactate dehydrogenase → lactate; regenerates NAD⁺ to keep glycolysis going |
+| **Alcoholic fermentation** (yeast, not human) | Ethanol + CO₂ |
+
+<Figure name="muscular/glycolysis" caption="Glycolysis - the 10-step cytosolic pathway converting glucose (6C) to 2 pyruvate (3C). Investment phase consumes 2 ATP; payoff phase produces 4 ATP + 2 NADH. Net: 2 ATP + 2 NADH per glucose. PFK-1 is the rate-limiting enzyme." />
+
+## Stage 2 - Pyruvate dehydrogenase + TCA cycle (mitochondrial matrix)
+
+### Pyruvate dehydrogenase (PDH)
+
+Pyruvate enters the mitochondrion via the pyruvate carrier and is converted to acetyl-CoA + CO₂ + NADH by the **PDH complex** - a giant complex of three enzymes (E1, E2, E3) using **5 cofactors**:
+
+<Mnemonic title="PDH and α-KGDH cofactors - 'Tender Loving Care For Nancy'">
+- **T**PP (thiamine pyrophosphate, vit B1)
+- **L**ipoic acid
+- **C**oA (pantothenic acid, vit B5)
+- **F**AD (riboflavin, vit B2)
+- **N**AD⁺ (niacin, vit B3)
+
+Thiamine deficiency (alcoholism, malnutrition) impairs PDH and α-ketoglutarate dehydrogenase → **Wernicke encephalopathy** (ophthalmoplegia, ataxia, confusion).
+</Mnemonic>
+
+### TCA cycle
+
+Each acetyl-CoA (2 C) enters and is fully oxidized to **2 CO₂**, producing **3 NADH, 1 FADH₂, 1 GTP** per turn. Since glucose makes 2 pyruvate → 2 acetyl-CoA → 2 TCA turns.
+
+**Per acetyl-CoA: 3 NADH + 1 FADH₂ + 1 GTP**
+**Per glucose (2 turns): 6 NADH + 2 FADH₂ + 2 GTP**
+**Plus PDH: 2 NADH**
+**Plus glycolysis: 2 NADH + 2 ATP**
+
+## Stage 3 - Electron transport chain + oxidative phosphorylation
+
+The NADH and FADH₂ collected above carry **high-energy electrons** to the inner mitochondrial membrane, where four protein complexes (I, II, III, IV) pump H⁺ from matrix to intermembrane space, building a proton gradient. **ATP synthase (Complex V)** lets H⁺ flow back through it, using the energy to phosphorylate ADP → ATP.
+
+### The four ETC complexes
+
+| Complex | What enters | What exits | H⁺ pumped |
+|---|---|---|---|
+| **I** (NADH dehydrogenase) | NADH | NAD⁺, e⁻ to CoQ | Yes |
+| **II** (Succinate dehydrogenase) - the only TCA enzyme in the membrane | FADH₂ (from succinate → fumarate) | FAD, e⁻ to CoQ | No |
+| **III** (Cytochrome bc1) | CoQH₂ | CoQ, e⁻ to cytochrome c | Yes |
+| **IV** (Cytochrome c oxidase) | cytochrome c | Reduces O₂ → H₂O | Yes |
+| **V** (ATP synthase) | H⁺ down gradient | ATP from ADP + Pi | (no, ↓ gradient) |
+
+**O₂ is the final electron acceptor.** Without O₂, NADH and FADH₂ pile up, NAD⁺/FAD aren't regenerated, the TCA cycle stalls, and the cell must rely on glycolysis + lactate fermentation alone.
+
+### ATP yield per glucose (rounded)
+
+| Step | NADH | FADH₂ | GTP/ATP | Subtotal ATP |
+|---|---|---|---|---|
+| Glycolysis | 2 (cytosolic; counted as 1.5 each = 3) | - | 2 (net) | 5 |
+| 2× PDH | 2 (mitochondrial) | - | - | 5 |
+| 2× TCA | 6 | 2 | 2 | 20 |
+| **Total** | | | | **~30 ATP** (some sources say 32, depending on shuttle and stoichiometry) |
+
+**One NADH → ~2.5 ATP. One FADH₂ → ~1.5 ATP.** The exact number depends on which shuttle is used to move cytosolic NADH into mitochondria (malate-aspartate gives 2.5; glycerol-3-phosphate gives 1.5).
+
+## Inhibitors and uncouplers - poisons at every step
+
+| Site | Inhibitor | Effect |
+|---|---|---|
+| Complex I | Rotenone, MPP+ | Block NADH entry; MPTP causes parkinsonism by selective dopaminergic neuron damage |
+| Complex II | Malonate | Competitive inhibitor of succinate dehydrogenase (research) |
+| Complex III | Antimycin A | Blocks e⁻ flow |
+| Complex IV | **CN⁻ (cyanide)**, **CO**, **H₂S**, sodium azide | Halt e⁻ transfer to O₂ → metabolic acidosis, hypoxia despite normal PaO₂ |
+| ATP synthase | Oligomycin | Blocks H⁺ flow through ATP synthase |
+| Uncouplers | **2,4-dinitrophenol (DNP)**, thermogenin (UCP1 in brown fat), aspirin (high dose) | H⁺ leaks back across the membrane bypassing ATP synthase → energy released as **heat**; ETC speeds up to maintain gradient; ATP ↓ |
+
+<Clinical>
+**Cyanide toxicity** - smoke inhalation (fire), industrial exposure, amygdalin (apricot pits, laetrile). Blocks complex IV → cells can't use O₂. Lactic acidosis with normal PaO₂; venous blood looks arterial (high SvO₂ because tissues can't extract O₂). Treat with **hydroxocobalamin** (binds CN to form cyanocobalamin) or **sodium nitrite + sodium thiosulfate** (nitrite induces methemoglobinemia which binds CN; thiosulfate provides sulfur for rhodanese to make thiocyanate).
+
+**2,4-DNP** - 1930s diet drug; uncouples ETC → fat-burning, weight loss, **fatal hyperthermia**. Still illegally sold; lethal.
+
+**Brown adipose tissue** uses **UCP1 (thermogenin)** for non-shivering thermogenesis in newborns and cold-acclimatized adults.
+</Clinical>
+
+## Fed and fasted state - what burns what
+
+### Fed (postprandial, hours 0-4)
+
+Insulin ↑. Liver:
+- Uptakes glucose (GLUT2) → glycogen synthesis
+- ↑ Glycolysis, ↑ pentose phosphate pathway
+- ↑ Lipogenesis (acetyl-CoA → fatty acids → triglycerides → VLDL)
+- Muscle uptakes glucose (GLUT4 to membrane) for glycogen + immediate use
+- Adipose uptakes glucose + free fatty acids → triglyceride storage
+
+### Fasting (hours 4-24)
+
+Insulin ↓, glucagon ↑. Liver:
+- Glycogen → glucose (glycogenolysis); ~24-hour supply
+- Gluconeogenesis from lactate (Cori cycle), glycerol, amino acids (especially alanine - the glucose-alanine cycle)
+- Adipose lipolysis → FFA → muscle uses FFA (β-oxidation)
+- Brain continues to use glucose
+
+### Starvation (days)
+
+- Glycogen exhausted by day 1
+- Maximal gluconeogenesis (limit ~80 g/day for brain)
+- **Ketogenesis** from acetyl-CoA: β-hydroxybutyrate, acetoacetate, acetone. Brain shifts to ketones as primary fuel after ~3 days → spares muscle protein.
+- Heart and skeletal muscle use FFA + ketones; brain on ketones; only RBCs and renal medulla still need glucose (no mitochondria; anaerobic)
+
+## β-Oxidation - fat burning
+
+Long-chain FFAs are activated to fatty acyl-CoA in cytoplasm, transported into mitochondria via the **carnitine shuttle** (CPT-I, CPT-II), then cycled through β-oxidation: each turn cleaves 2 carbons → acetyl-CoA + 1 NADH + 1 FADH₂.
+
+**Palmitate (16 C) → 8 acetyl-CoA + 7 NADH + 7 FADH₂** in 7 cycles. Each acetyl-CoA then enters TCA. Net per palmitate ≈ **106 ATP** - vastly more than glucose. Fat is the most energy-dense fuel.
+
+**Disorders:**
+- **CPT-II deficiency** → muscle weakness, rhabdomyolysis during exercise/fasting (can't use fat)
+- **MCAD deficiency** (medium-chain acyl-CoA dehydrogenase) → fasting hypoketotic hypoglycemia in infants
+
+## Quick check
+
+<Quiz questions={[
+  { q: "The rate-limiting enzyme of glycolysis is…", a: "Phosphofructokinase-1 (PFK-1)", choices: [
+    "Hexokinase",
+    "Phosphofructokinase-1 (PFK-1)",
+    "Pyruvate kinase",
+    "Pyruvate dehydrogenase"
+  ]},
+  { q: "Under anaerobic conditions, pyruvate is converted to lactate primarily to…", a: "Regenerate NAD⁺ so glycolysis can continue", choices: [
+    "Produce additional ATP directly",
+    "Regenerate NAD⁺ so glycolysis can continue",
+    "Provide substrate for the TCA cycle",
+    "Buffer cellular pH"
+  ]},
+  { q: "Net ATP yield from glycolysis alone (per glucose) is…", a: "2 ATP", choices: ["2 ATP", "4 ATP", "30 ATP", "38 ATP"] },
+  { q: "Pyruvate dehydrogenase requires which vitamin-derived cofactor that is commonly deficient in alcoholics?", a: "Thiamine (vitamin B1)", choices: ["Thiamine (vitamin B1)", "Riboflavin (B2)", "Niacin (B3)", "Pantothenic acid (B5)"] },
+  { q: "The final electron acceptor in the electron transport chain is…", a: "O₂", choices: ["NAD⁺", "CO₂", "Cytochrome c", "O₂"] },
+  { q: "Cyanide poisoning produces lactic acidosis because…", a: "It inhibits complex IV, blocking oxidative phosphorylation and forcing reliance on glycolysis", choices: [
+    "It blocks pyruvate kinase",
+    "It uncouples the ETC, dissipating the proton gradient",
+    "It inhibits complex IV, blocking oxidative phosphorylation and forcing reliance on glycolysis",
+    "It chelates iron in hemoglobin"
+  ]},
+  { q: "2,4-dinitrophenol causes hyperthermia by…", a: "Carrying H⁺ back across the inner mitochondrial membrane, uncoupling the gradient from ATP synthesis", choices: [
+    "Inhibiting ATP synthase",
+    "Carrying H⁺ back across the inner mitochondrial membrane, uncoupling the gradient from ATP synthesis",
+    "Stimulating sympathetic activity",
+    "Activating PDH"
+  ]},
+  { q: "Brown adipose tissue generates heat via…", a: "UCP1 (thermogenin), which lets H⁺ leak across the inner mitochondrial membrane", choices: [
+    "Shivering thermogenesis",
+    "Direct oxidation of fatty acids by skin",
+    "UCP1 (thermogenin), which lets H⁺ leak across the inner mitochondrial membrane",
+    "Cytochrome c oxidase deficiency"
+  ]},
+  { q: "Approximate total ATP yield from complete oxidation of one glucose molecule is…", a: "~30 ATP", choices: ["2 ATP", "8 ATP", "~30 ATP", "~106 ATP"] },
+  { q: "During prolonged starvation, the brain's principal fuel becomes…", a: "Ketone bodies (β-hydroxybutyrate, acetoacetate)", choices: [
+    "Glucose from continued gluconeogenesis",
+    "Lactate from muscle",
+    "Free fatty acids",
+    "Ketone bodies (β-hydroxybutyrate, acetoacetate)"
+  ]}
+]} />

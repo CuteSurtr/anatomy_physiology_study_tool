@@ -1,0 +1,225 @@
+---
+title: Gas Transport & Respiratory Control
+system: respiratory
+related:
+  - gas-exchange
+  - ventilation-mechanics
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 22.4-22.6
+  - West Respiratory Physiology 11e
+  - First Aid USMLE 2024 - Respiratory
+level: undergrad
+---
+
+Gas exchange happens at the alveolus, but oxygen and carbon dioxide still need to **travel through blood** to and from every tissue, and **breathing rate must match** moment-to-moment metabolic demand. This page covers two tightly coupled topics: how blood carries O₂ and CO₂, and how the brainstem decides when to take the next breath.
+
+<Figure name="respiratory/o2-co2-curve" caption="Oxygen-hemoglobin dissociation curve - sigmoidal because of cooperative O₂ binding to hemoglobin's four heme groups. P50 ≈ 26 mmHg. Right shift (↑ T, ↑ PCO₂, ↑ H⁺/↓pH, ↑ 2,3-BPG) means hemoglobin releases O₂ more readily at the tissue. Left shift hoards O₂." />
+
+## How blood carries oxygen
+
+| Form | Fraction | Mechanism |
+|---|---|---|
+| **Bound to hemoglobin** | ~98.5% | 4 O₂ per Hb tetramer (1 per heme) |
+| **Dissolved in plasma** | ~1.5% | 0.003 mL O₂ per dL per mmHg PO₂ - clinically tiny but obeys PaO₂ on ABG |
+
+**O₂ content of blood:** `CaO₂ = (1.34 × Hb × SaO₂) + (0.003 × PaO₂)`
+
+With Hb 15, SaO₂ 100%, PaO₂ 100: ~20.4 mL O₂/dL. The dissolved fraction is 0.3 - tiny.
+
+## The oxygen-hemoglobin dissociation curve
+
+Hb's affinity for O₂ is **cooperative**: binding one O₂ makes the next three easier. This generates the sigmoidal curve. Three key points:
+
+- **PaO₂ 100 mmHg, SaO₂ 100%** - alveolar level
+- **PaO₂ 60 mmHg, SaO₂ ~90%** - the steep slope begins below this; small drops in PaO₂ cause large drops in saturation
+- **PaO₂ 40 mmHg, SaO₂ ~75%** - mixed venous (tissue) level
+
+**Shifts of the curve:**
+
+| Right shift (↓ affinity, releases O₂) | Left shift (↑ affinity, hoards O₂) |
+|---|---|
+| ↑ Temperature | ↓ Temperature |
+| ↑ PCO₂ | ↓ PCO₂ |
+| ↑ H⁺ (↓ pH) - **Bohr effect** | ↓ H⁺ (↑ pH) |
+| ↑ 2,3-BPG (chronic anemia, high altitude) | ↓ 2,3-BPG (stored blood, septic shock) |
+| Fetal hemoglobin (HbF) → **left** of adult Hb | |
+| Carbon monoxide → severe left + flat curve | |
+
+**Bohr effect**: working tissue is hot, acidic, CO₂-rich → curve shifts right → Hb dumps O₂ where it's needed. Beautiful self-regulation.
+
+<Note title="Anemia, CO poisoning, and the curve">
+- **Anemia** lowers O₂ *carrying capacity* (less Hb) but doesn't shift the curve. PaO₂ and SaO₂ remain normal; total O₂ content falls.
+- **Carbon monoxide** binds Hb with 240× the affinity of O₂. It does two evil things: occupies sites (less O₂ binding) AND **left-shifts the remaining Hb**, so O₂ won't unload to tissues. SpO₂ pulse oximetry *cannot distinguish* HbO₂ from HbCO → reads falsely normal. Diagnosis requires **co-oximetry**. Treat with 100% O₂; hyperbaric if severe.
+- **Methemoglobinemia** - Fe²⁺ oxidized to Fe³⁺ - can't bind O₂. Left shifts the remaining Hb. Pulse ox reads ~85%. Treat with methylene blue.
+</Note>
+
+## How blood carries carbon dioxide
+
+CO₂ is 20× more soluble than O₂. Three forms in venous blood:
+
+| Form | Fraction | Detail |
+|---|---|---|
+| **Bicarbonate (HCO₃⁻)** | ~70% | CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻ in red cells, catalyzed by **carbonic anhydrase**. HCO₃⁻ exits via the **Cl⁻/HCO₃⁻ antiporter (band 3 / AE1)** → "**chloride shift**." H⁺ buffered by Hb. |
+| **Bound to Hb (carbamino)** | ~23% | CO₂ + NH₂ groups of Hb globin chains → carbamino-Hb. **Haldane effect**: deoxygenated Hb binds CO₂ better than oxygenated Hb. |
+| **Dissolved in plasma** | ~7% | Obeys PaCO₂ |
+
+**Haldane effect** (the CO₂ counterpart to Bohr): at the lung, oxygenation of Hb releases CO₂ for exhalation; at the tissue, deoxygenation lets Hb pick up more CO₂. The Bohr and Haldane effects are two sides of the same molecular flip.
+
+## Respiratory control - the brainstem rhythm generator
+
+Breathing is automatic but voluntarily overridable. Three control centers in the brainstem:
+
+<Figure name="respiratory/respiratory-centers" caption="Respiratory control centers in the brainstem - medullary dorsal (DRG) and ventral (VRG, including pre-Bötzinger complex, the pacemaker) respiratory groups; pontine pneumotaxic and apneustic centers modulate rate and depth. Inputs from peripheral and central chemoreceptors, lung stretch receptors, and higher CNS." />
+
+| Center | Location | Role |
+|---|---|---|
+| **Dorsal respiratory group (DRG)** | Medulla, nucleus tractus solitarius | Mainly inspiratory; receives chemoreceptor + vagal afferents |
+| **Ventral respiratory group (VRG)** | Medulla | Inspiratory + expiratory; includes **pre-Bötzinger complex - the rhythm pacemaker** |
+| **Pontine respiratory group (pneumotaxic)** | Upper pons | Limits inspiration → faster, shallower breaths |
+| **Apneustic center** | Lower pons | Stimulates inspiration → slower, deeper breaths |
+
+## Chemoreceptors - sensing blood gas tensions
+
+| Receptor | Location | Senses | Effect |
+|---|---|---|---|
+| **Central chemoreceptors** | Ventral surface of medulla | **CSF H⁺ (proxy for arterial PCO₂)** - CO₂ crosses BBB → forms H⁺ in CSF | Most powerful drive for ventilation; tonic and rapid |
+| **Peripheral chemoreceptors (carotid + aortic bodies)** | Carotid bifurcation; aortic arch | **PaO₂ < 60 mmHg, PaCO₂, H⁺** | Hypoxic ventilatory drive; critical in chronic CO₂ retention |
+
+**Two key points:**
+1. Under normal conditions, **PaCO₂ is the dominant driver** of ventilation. Even small rises in PaCO₂ (1-2 mmHg) drive ventilation up dramatically.
+2. **PaO₂ only drives ventilation when below ~60 mmHg** (the steep part of the O₂-Hb curve). This is why patients with chronic CO₂ retention (severe COPD) can lose their PaCO₂ drive and rely on hypoxic drive - giving them 100% O₂ can blunt ventilation. (This *concept* matters more than the practical danger, which is overstated; the bigger problem with 100% O₂ in COPD is V/Q mismatch and Haldane reversal.)
+
+## Other reflexes
+
+- **Hering-Breuer inflation reflex** - lung stretch receptors → vagal afferents → inhibit inspiration when lungs over-inflate. Important in infants; weak in adults at normal tidal volumes.
+- **J receptors** (juxtacapillary) - in alveolar walls; activated by pulmonary edema or PE → rapid shallow breathing, dyspnea sensation.
+- **Irritant receptors** - in airway epithelium; activated by dust, smoke, cold air → cough, bronchoconstriction.
+- **Higher CNS** - voluntary breath-hold, speech, laughing, crying override brainstem rhythm.
+
+## Acid-base interplay
+
+Blood pH = 6.1 + log([HCO₃⁻]/0.03 × PaCO₂) - the Henderson-Hasselbalch equation.
+
+| Disorder | Primary | Compensation | Time |
+|---|---|---|---|
+| **Respiratory acidosis** | ↑ PaCO₂ | Renal ↑ HCO₃⁻ reabsorption + new HCO₃⁻ | Days |
+| **Respiratory alkalosis** | ↓ PaCO₂ | Renal ↓ HCO₃⁻ | Days |
+| **Metabolic acidosis** | ↓ HCO₃⁻ | **Hyperventilation** (Kussmaul breathing) - Winter's formula: PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2 | Minutes |
+| **Metabolic alkalosis** | ↑ HCO₃⁻ | Hypoventilation (limited by hypoxic drive) | Minutes |
+
+The respiratory system compensates for metabolic disturbances within minutes; the kidney compensates for respiratory disturbances in 1-5 days.
+
+## High altitude and acclimatization
+
+At 4,000 m, barometric pressure is ~60% of sea level → PiO₂ falls. The body responds in stages:
+
+1. **Acute (seconds-hours)** - peripheral chemoreceptor stim → hyperventilation → respiratory alkalosis. Cardiac output rises.
+2. **Days** - kidney excretes HCO₃⁻ to correct alkalosis (so ventilation can rise further without alkalemia limiting it). 2,3-BPG synthesis increases → right shift → better tissue unloading.
+3. **Weeks** - erythropoietin rises → hematocrit rises. Capillary density increases. Mitochondrial density in muscle increases.
+
+**Acute mountain sickness (AMS)** - headache, nausea, fatigue at altitude. Severe forms: **HACE** (high-altitude cerebral edema) and **HAPE** (high-altitude pulmonary edema). Treatment: descend; acetazolamide (forces metabolic acidosis → drives respiratory compensation); dexamethasone (HACE); nifedipine (HAPE - reduces pulmonary vasoconstriction).
+
+## Lung volumes recap (functional context)
+
+<Figure name="respiratory/lung-volumes-spirometry" caption="Lung volumes and capacities on spirometry. Tidal volume (TV) ~500 mL; inspiratory reserve (IRV) ~3000 mL; expiratory reserve (ERV) ~1100 mL; residual volume (RV) ~1200 mL (cannot be exhaled, measured indirectly). Capacities: VC = TV + IRV + ERV; FRC = ERV + RV; TLC = all four." />
+
+| Volume / capacity | Definition | Typical adult |
+|---|---|---|
+| **Tidal volume (TV)** | Quiet breath | ~500 mL |
+| **Inspiratory reserve (IRV)** | Additional inhalation above TV | ~3000 mL |
+| **Expiratory reserve (ERV)** | Additional exhalation below TV | ~1100 mL |
+| **Residual volume (RV)** | Always remains | ~1200 mL |
+| **Vital capacity (VC)** | TV + IRV + ERV | ~4600 mL |
+| **FRC** | ERV + RV (volume at end-expiration) | ~2300 mL |
+| **TLC** | All four | ~5800 mL |
+| **FEV₁** | Volume exhaled in first second of forced exhalation | ~80% of FVC |
+| **FEV₁/FVC** | Ratio | **< 0.7 = obstructive**; **normal = restrictive** |
+
+## Quick check
+
+<Quiz questions={[
+  { q: "The Bohr effect refers to…", a: "↑ CO₂ and ↑ H⁺ shifting the O₂-Hb dissociation curve to the right, releasing O₂ at the tissue", choices: [
+    "Hb's reduced affinity for CO₂ when oxygenated",
+    "↑ CO₂ and ↑ H⁺ shifting the O₂-Hb dissociation curve to the right, releasing O₂ at the tissue",
+    "Increased 2,3-BPG synthesis at altitude",
+    "The dissolved fraction of O₂ in plasma"
+  ]},
+  { q: "Fetal hemoglobin has a higher O₂ affinity than adult hemoglobin because…", a: "It binds 2,3-BPG less avidly", choices: [
+    "It has 6 heme groups instead of 4",
+    "It binds 2,3-BPG less avidly",
+    "It is methylated at γ-globin",
+    "It contains Fe³⁺ rather than Fe²⁺"
+  ]},
+  { q: "The dominant form of CO₂ transport in venous blood is…", a: "Bicarbonate in plasma", choices: [
+    "Dissolved CO₂",
+    "Bicarbonate in plasma",
+    "Carbamino-Hb",
+    "Carbonic acid"
+  ]},
+  { q: "The most powerful chemical stimulus for ventilation under normal conditions is…", a: "↑ PaCO₂ acting on central chemoreceptors via CSF H⁺", choices: [
+    "↓ PaO₂ acting on peripheral chemoreceptors",
+    "↑ PaCO₂ acting on central chemoreceptors via CSF H⁺",
+    "↓ pH acting on aortic body",
+    "Lung stretch reflexes"
+  ]},
+  { q: "Pulse oximetry overestimates oxygenation in which condition?", a: "Carbon monoxide poisoning", choices: [
+    "Severe anemia",
+    "Carbon monoxide poisoning",
+    "Pulmonary embolism",
+    "Hyperventilation"
+  ]},
+  { q: "Acute hyperventilation at high altitude produces…", a: "Respiratory alkalosis", choices: [
+    "Respiratory acidosis",
+    "Respiratory alkalosis",
+    "Metabolic alkalosis",
+    "Mixed acidosis"
+  ]},
+  { q: "2,3-BPG levels increase in all of the following EXCEPT…", a: "Stored banked blood (after 1-2 weeks)", choices: [
+    "Chronic anemia",
+    "Stored banked blood (after 1-2 weeks)",
+    "High altitude acclimatization",
+    "Chronic hypoxia"
+  ]},
+  { q: "The chloride shift in red blood cells refers to…", a: "Cl⁻ entering the cell as HCO₃⁻ leaves via the band 3 antiporter", choices: [
+    "Cl⁻ leaving the cell as HCO₃⁻ enters",
+    "Cl⁻ entering the cell as HCO₃⁻ leaves via the band 3 antiporter",
+    "Cl⁻ moving with Na⁺ across the RBC membrane",
+    "Cl⁻ buffering H⁺ inside the cell"
+  ]},
+  { q: "Patients with chronic COPD may rely on hypoxic ventilatory drive because…", a: "Chronic CO₂ retention has blunted the central chemoreceptor response", choices: [
+    "Their peripheral chemoreceptors no longer function",
+    "Chronic CO₂ retention has blunted the central chemoreceptor response",
+    "They have lost most of their alveolar surface area",
+    "Their pneumotaxic center is damaged"
+  ]},
+  { q: "A patient with PaCO₂ 25 mmHg and HCO₃⁻ 22 mEq/L has…", a: "Acute respiratory alkalosis", choices: [
+    "Chronic respiratory alkalosis",
+    "Acute respiratory alkalosis",
+    "Metabolic alkalosis",
+    "Compensated respiratory acidosis"
+  ]}
+]} />
+
+## Clinical case
+
+<ClinicalCase title="Blue lips after a house fire" vignette="A 24-year-old man is rescued from a house fire. He is brought to the ED awake but confused, complaining of headache and nausea. Vitals: BP 110/72, HR 118, RR 22, SpO₂ 99% on room air. Carboxyhemoglobin is 28%. ABG: pH 7.32, PaCO₂ 30 mmHg, PaO₂ 95 mmHg, HCO₃⁻ 18 mEq/L. Lactate 5.2 mmol/L. He has cherry-red lip color, no soot in airway, no stridor." questions={[
+  { q: "Why is his SpO₂ pulse oximetry reading 99% despite severe CO poisoning?", a: "Pulse oximeters cannot distinguish carboxyhemoglobin from oxyhemoglobin - both absorb similarly at 660 nm", choices: [
+    "His true SaO₂ is normal because CO doesn't affect oxygen binding",
+    "Pulse oximeters cannot distinguish carboxyhemoglobin from oxyhemoglobin - both absorb similarly at 660 nm",
+    "The probe is malfunctioning",
+    "He is compensating with increased dissolved O₂"
+  ], explanation: "Standard 2-wavelength pulse oximetry uses 660 nm (red) and 940 nm (infrared) to estimate the ratio of oxygenated to deoxygenated hemoglobin. HbCO absorbs almost identically to HbO₂ at 660 nm. Co-oximetry uses 4+ wavelengths and is required to detect HbCO. Always treat CO poisoning based on clinical suspicion and co-oximetry, never on pulse ox." },
+  { q: "The principal mechanism by which CO causes tissue hypoxia is…", a: "Binding hemoglobin with ~240× the affinity of O₂ AND left-shifting the curve, preventing unloading at tissue", choices: [
+    "Direct mitochondrial toxicity at low doses",
+    "Binding hemoglobin with ~240× the affinity of O₂ AND left-shifting the curve, preventing unloading at tissue",
+    "Methemoglobin formation",
+    "Hemolysis"
+  ], explanation: "CO does two things: (1) occupies O₂-binding sites on Hb, lowering O₂ capacity, and (2) increases the affinity of remaining HbO₂ for O₂, shifting the curve sharply left so even what little O₂ is bound won't release at tissue. At very high HbCO levels, direct mitochondrial cytochrome aa3 inhibition also contributes. Lactate elevation reflects anaerobic metabolism from inadequate tissue O₂ delivery." },
+  { q: "Which therapy should be initiated immediately?", a: "100% O₂ via non-rebreather mask, with hyperbaric O₂ considered for severe poisoning", choices: [
+    "Methylene blue 1-2 mg/kg IV",
+    "Sodium nitrite + sodium thiosulfate",
+    "100% O₂ via non-rebreather mask, with hyperbaric O₂ considered for severe poisoning",
+    "Hydroxocobalamin"
+  ], explanation: "100% O₂ shortens the half-life of HbCO from ~5 hours (room air) to ~80 minutes; hyperbaric O₂ (2.5-3 atm) drops it to ~23 minutes AND increases dissolved O₂ ~20-fold (enough to oxygenate without Hb). HBO is indicated for HbCO >25%, neuro symptoms, pregnancy, cardiac ischemia, or syncope. Methylene blue treats methemoglobinemia. Sodium nitrite + thiosulfate and hydroxocobalamin treat cyanide (also possible in fire smoke - consider empiric hydroxocobalamin if severe lactic acidosis or hypotension)." }
+]} />
