@@ -1,0 +1,59 @@
+{
+  "src": "/figures/endocrine/adrenal-detail.jpg",
+  "alt": "Adrenal gland - identify each cortical zone and the medulla.",
+  "viewBox": [
+    0,
+    0,
+    1102,
+    316
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A1818_The_Adrenal_Glands.jpg"
+  },
+  "labels": [
+    {
+      "id": "capsule",
+      "x": 100,
+      "y": 95,
+      "label": "Capsule"
+    },
+    {
+      "id": "glomerulosa",
+      "x": 150,
+      "y": 105,
+      "label": "Zona glomerulosa",
+      "synonyms": [
+        "glomerulosa"
+      ]
+    },
+    {
+      "id": "fasciculata",
+      "x": 250,
+      "y": 130,
+      "label": "Zona fasciculata",
+      "synonyms": [
+        "fasciculata"
+      ]
+    },
+    {
+      "id": "reticularis",
+      "x": 380,
+      "y": 165,
+      "label": "Zona reticularis",
+      "synonyms": [
+        "reticularis"
+      ]
+    },
+    {
+      "id": "medulla",
+      "x": 600,
+      "y": 195,
+      "label": "Medulla",
+      "synonyms": [
+        "adrenal medulla"
+      ]
+    }
+  ]
+}

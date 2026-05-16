@@ -1,0 +1,120 @@
+{
+  "src": "/figures/foundations/animal-cell.png",
+  "alt": "Animal cell - identify each organelle.",
+  "viewBox": [
+    0,
+    0,
+    1527,
+    1600
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "BruceBlaus . When using this image in external sources it can be cited as: Blausen.com staff (2014). \" Medical gallery of Blausen Medical 2014 \". WikiJournal of Medicine 1 (2). DOI : 10.15347/wjm/2014.010 . ISSN 2002-4436 .",
+    "url": "https://commons.wikimedia.org/wiki/File%3ABlausen_0208_CellAnatomy.png"
+  },
+  "labels": [
+    {
+      "id": "nucleus",
+      "x": 740,
+      "y": 740,
+      "label": "Nucleus"
+    },
+    {
+      "id": "nucleolus",
+      "x": 800,
+      "y": 800,
+      "label": "Nucleolus"
+    },
+    {
+      "id": "nuclear-envelope",
+      "x": 540,
+      "y": 690,
+      "label": "Nuclear envelope",
+      "synonyms": [
+        "nuclear membrane"
+      ]
+    },
+    {
+      "id": "rough-er",
+      "x": 410,
+      "y": 520,
+      "label": "Rough endoplasmic reticulum",
+      "synonyms": [
+        "rough ER",
+        "RER"
+      ]
+    },
+    {
+      "id": "smooth-er",
+      "x": 410,
+      "y": 620,
+      "label": "Smooth endoplasmic reticulum",
+      "synonyms": [
+        "smooth ER",
+        "SER"
+      ]
+    },
+    {
+      "id": "golgi",
+      "x": 360,
+      "y": 380,
+      "label": "Golgi apparatus",
+      "synonyms": [
+        "Golgi body",
+        "Golgi"
+      ]
+    },
+    {
+      "id": "mitochondrion",
+      "x": 430,
+      "y": 1100,
+      "label": "Mitochondrion",
+      "synonyms": [
+        "mitochondria"
+      ]
+    },
+    {
+      "id": "lysosome",
+      "x": 1180,
+      "y": 540,
+      "label": "Lysosome"
+    },
+    {
+      "id": "centrioles",
+      "x": 1130,
+      "y": 380,
+      "label": "Centrioles",
+      "synonyms": [
+        "centriole",
+        "centrosome"
+      ]
+    },
+    {
+      "id": "ribosomes",
+      "x": 1100,
+      "y": 640,
+      "label": "Free ribosomes",
+      "synonyms": [
+        "ribosomes"
+      ]
+    },
+    {
+      "id": "cytoskeleton",
+      "x": 1180,
+      "y": 720,
+      "label": "Cytoskeleton"
+    },
+    {
+      "id": "cilia",
+      "x": 295,
+      "y": 90,
+      "label": "Cilia"
+    },
+    {
+      "id": "microvilli",
+      "x": 1120,
+      "y": 95,
+      "label": "Microvilli"
+    }
+  ]
+}

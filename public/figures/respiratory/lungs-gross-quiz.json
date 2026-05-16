@@ -1,0 +1,83 @@
+{
+  "src": "/figures/respiratory/lungs-gross.jpg",
+  "alt": "Lungs - identify each lobe and fissure.",
+  "viewBox": [
+    0,
+    0,
+    1896,
+    1304
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A2312_Gross_Anatomy_of_the_Lungs.jpg"
+  },
+  "labels": [
+    {
+      "id": "right-superior",
+      "x": 600,
+      "y": 320,
+      "label": "Right superior lobe",
+      "synonyms": [
+        "right upper lobe"
+      ]
+    },
+    {
+      "id": "right-middle",
+      "x": 700,
+      "y": 700,
+      "label": "Right middle lobe"
+    },
+    {
+      "id": "right-inferior",
+      "x": 550,
+      "y": 950,
+      "label": "Right inferior lobe",
+      "synonyms": [
+        "right lower lobe"
+      ]
+    },
+    {
+      "id": "left-superior",
+      "x": 1300,
+      "y": 350,
+      "label": "Left superior lobe",
+      "synonyms": [
+        "left upper lobe"
+      ]
+    },
+    {
+      "id": "left-inferior",
+      "x": 1350,
+      "y": 950,
+      "label": "Left inferior lobe",
+      "synonyms": [
+        "left lower lobe"
+      ]
+    },
+    {
+      "id": "horizontal-fissure",
+      "x": 580,
+      "y": 600,
+      "label": "Horizontal fissure"
+    },
+    {
+      "id": "oblique-fissure",
+      "x": 700,
+      "y": 800,
+      "label": "Oblique fissure"
+    },
+    {
+      "id": "cardiac-notch",
+      "x": 1200,
+      "y": 750,
+      "label": "Cardiac notch"
+    },
+    {
+      "id": "lingula",
+      "x": 1230,
+      "y": 850,
+      "label": "Lingula"
+    }
+  ]
+}

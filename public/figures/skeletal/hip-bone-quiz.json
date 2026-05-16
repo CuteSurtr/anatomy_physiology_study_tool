@@ -1,0 +1,104 @@
+{
+  "src": "/figures/skeletal/hip-bone.jpg",
+  "alt": "Hip bone (os coxae) - identify each part on the lateral view.",
+  "viewBox": [
+    0,
+    0,
+    974,
+    700
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A808_Hip_Bone.jpg"
+  },
+  "labels": [
+    {
+      "id": "ilium",
+      "x": 350,
+      "y": 245,
+      "label": "Ilium"
+    },
+    {
+      "id": "iliac-crest",
+      "x": 370,
+      "y": 145,
+      "label": "Iliac crest"
+    },
+    {
+      "id": "asis",
+      "x": 400,
+      "y": 230,
+      "label": "Anterior superior iliac spine",
+      "synonyms": [
+        "ASIS"
+      ]
+    },
+    {
+      "id": "aiis",
+      "x": 400,
+      "y": 290,
+      "label": "Anterior inferior iliac spine",
+      "synonyms": [
+        "AIIS"
+      ]
+    },
+    {
+      "id": "psis",
+      "x": 75,
+      "y": 230,
+      "label": "Posterior superior iliac spine",
+      "synonyms": [
+        "PSIS"
+      ]
+    },
+    {
+      "id": "acetabulum",
+      "x": 410,
+      "y": 360,
+      "label": "Acetabulum"
+    },
+    {
+      "id": "ischium",
+      "x": 180,
+      "y": 510,
+      "label": "Ischium"
+    },
+    {
+      "id": "ischial-tuberosity",
+      "x": 90,
+      "y": 600,
+      "label": "Ischial tuberosity"
+    },
+    {
+      "id": "ischial-spine",
+      "x": 115,
+      "y": 425,
+      "label": "Ischial spine"
+    },
+    {
+      "id": "pubis",
+      "x": 330,
+      "y": 510,
+      "label": "Pubis"
+    },
+    {
+      "id": "pubic-tubercle",
+      "x": 295,
+      "y": 440,
+      "label": "Pubic tubercle"
+    },
+    {
+      "id": "obturator-foramen",
+      "x": 285,
+      "y": 540,
+      "label": "Obturator foramen"
+    },
+    {
+      "id": "greater-sciatic-notch",
+      "x": 85,
+      "y": 360,
+      "label": "Greater sciatic notch"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "src": "/figures/nervous/cerebral-lobes.jpg",
+  "alt": "Lobes of the cerebral cortex - identify each lobe on the lateral view.",
+  "viewBox": [
+    0,
+    0,
+    733,
+    621
+  ],
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax",
+    "url": "https://commons.wikimedia.org/wiki/File%3A1306_Lobes_of_Cerebral_CortexN.jpg"
+  },
+  "labels": [
+    {
+      "id": "frontal",
+      "x": 200,
+      "y": 260,
+      "label": "Frontal lobe",
+      "synonyms": [
+        "frontal"
+      ]
+    },
+    {
+      "id": "parietal",
+      "x": 440,
+      "y": 200,
+      "label": "Parietal lobe",
+      "synonyms": [
+        "parietal"
+      ]
+    },
+    {
+      "id": "temporal",
+      "x": 360,
+      "y": 470,
+      "label": "Temporal lobe",
+      "synonyms": [
+        "temporal"
+      ]
+    },
+    {
+      "id": "occipital",
+      "x": 615,
+      "y": 320,
+      "label": "Occipital lobe",
+      "synonyms": [
+        "occipital"
+      ]
+    },
+    {
+      "id": "cerebellum",
+      "x": 600,
+      "y": 500,
+      "label": "Cerebellum"
+    },
+    {
+      "id": "brainstem",
+      "x": 410,
+      "y": 560,
+      "label": "Brainstem",
+      "synonyms": [
+        "brain stem"
+      ]
+    }
+  ]
+}

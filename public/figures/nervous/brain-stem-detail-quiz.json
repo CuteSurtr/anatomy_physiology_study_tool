@@ -1,0 +1,53 @@
+{
+  "src": "/figures/nervous/brain-stem-detail.jpg",
+  "alt": "Brainstem - identify the midbrain, pons, and medulla.",
+  "viewBox": [
+    0,
+    0,
+    906,
+    685
+  ],
+  "license": {
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax",
+    "url": "https://commons.wikimedia.org/wiki/File%3A1311_Brain_Stem.jpg"
+  },
+  "labels": [
+    {
+      "id": "midbrain",
+      "x": 430,
+      "y": 215,
+      "label": "Midbrain",
+      "synonyms": [
+        "mesencephalon"
+      ]
+    },
+    {
+      "id": "pons",
+      "x": 425,
+      "y": 360,
+      "label": "Pons"
+    },
+    {
+      "id": "medulla",
+      "x": 430,
+      "y": 540,
+      "label": "Medulla oblongata",
+      "synonyms": [
+        "medulla"
+      ]
+    },
+    {
+      "id": "thalamus",
+      "x": 380,
+      "y": 130,
+      "label": "Thalamus"
+    },
+    {
+      "id": "cerebellum",
+      "x": 700,
+      "y": 410,
+      "label": "Cerebellum"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "src": "/figures/integumentary/nail-anatomy.png",
+  "alt": "Fingernail - identify each part.",
+  "viewBox": [
+    0,
+    0,
+    750,
+    1500
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "BruceBlaus . When using this image in external sources it can be cited as: Blausen.com staff (2014). \" Medical gallery of Blausen Medical 2014 \". WikiJournal of Medicine 1 (2). DOI : 10.15347/wjm/2014.010 . ISSN 2002-4436 .",
+    "url": "https://commons.wikimedia.org/wiki/File%3ABlausen_0406_FingerNailAnatomy.png"
+  },
+  "labels": [
+    {
+      "id": "nail-plate",
+      "x": 375,
+      "y": 700,
+      "label": "Nail plate",
+      "synonyms": [
+        "nail body",
+        "nail"
+      ]
+    },
+    {
+      "id": "lunula",
+      "x": 375,
+      "y": 950,
+      "label": "Lunula"
+    },
+    {
+      "id": "cuticle",
+      "x": 375,
+      "y": 1100,
+      "label": "Cuticle",
+      "synonyms": [
+        "eponychium"
+      ]
+    },
+    {
+      "id": "free-edge",
+      "x": 375,
+      "y": 400,
+      "label": "Free edge"
+    },
+    {
+      "id": "nail-bed",
+      "x": 480,
+      "y": 750,
+      "label": "Nail bed"
+    }
+  ]
+}

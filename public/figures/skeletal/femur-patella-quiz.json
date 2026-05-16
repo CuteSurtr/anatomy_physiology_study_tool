@@ -1,0 +1,92 @@
+{
+  "src": "/figures/skeletal/femur-patella.jpg",
+  "alt": "Femur and patella - identify each landmark on the anterior view.",
+  "viewBox": [
+    0,
+    0,
+    824,
+    1289
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A810_Femur_and_Patella.jpg"
+  },
+  "labels": [
+    {
+      "id": "head",
+      "x": 270,
+      "y": 280,
+      "label": "Head"
+    },
+    {
+      "id": "neck",
+      "x": 245,
+      "y": 340,
+      "label": "Neck"
+    },
+    {
+      "id": "greater-trochanter",
+      "x": 175,
+      "y": 290,
+      "label": "Greater trochanter"
+    },
+    {
+      "id": "lesser-trochanter",
+      "x": 305,
+      "y": 430,
+      "label": "Lesser trochanter"
+    },
+    {
+      "id": "intertrochanteric-line",
+      "x": 290,
+      "y": 370,
+      "label": "Intertrochanteric line"
+    },
+    {
+      "id": "body",
+      "x": 280,
+      "y": 760,
+      "label": "Body (shaft)",
+      "synonyms": [
+        "shaft"
+      ]
+    },
+    {
+      "id": "medial-epicondyle",
+      "x": 320,
+      "y": 1060,
+      "label": "Medial epicondyle"
+    },
+    {
+      "id": "lateral-epicondyle",
+      "x": 195,
+      "y": 1050,
+      "label": "Lateral epicondyle"
+    },
+    {
+      "id": "patella",
+      "x": 275,
+      "y": 1110,
+      "label": "Patella"
+    },
+    {
+      "id": "medial-condyle",
+      "x": 315,
+      "y": 1120,
+      "label": "Medial condyle"
+    },
+    {
+      "id": "tibia",
+      "x": 280,
+      "y": 1230,
+      "label": "Tibia"
+    },
+    {
+      "id": "fibula",
+      "x": 200,
+      "y": 1230,
+      "label": "Fibula"
+    }
+  ]
+}

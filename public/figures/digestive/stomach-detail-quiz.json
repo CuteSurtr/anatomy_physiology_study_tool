@@ -1,0 +1,68 @@
+{
+  "src": "/figures/digestive/stomach-detail.jpg",
+  "alt": "Stomach - identify each anatomical region.",
+  "viewBox": [
+    0,
+    0,
+    1122,
+    741
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A2414_Stomach.jpg"
+  },
+  "labels": [
+    {
+      "id": "cardia",
+      "x": 420,
+      "y": 200,
+      "label": "Cardia"
+    },
+    {
+      "id": "fundus",
+      "x": 330,
+      "y": 130,
+      "label": "Fundus"
+    },
+    {
+      "id": "body",
+      "x": 380,
+      "y": 380,
+      "label": "Body"
+    },
+    {
+      "id": "pyloric-antrum",
+      "x": 580,
+      "y": 410,
+      "label": "Pyloric antrum",
+      "synonyms": [
+        "antrum"
+      ]
+    },
+    {
+      "id": "pylorus",
+      "x": 680,
+      "y": 380,
+      "label": "Pylorus"
+    },
+    {
+      "id": "lesser-curvature",
+      "x": 480,
+      "y": 285,
+      "label": "Lesser curvature"
+    },
+    {
+      "id": "greater-curvature",
+      "x": 300,
+      "y": 450,
+      "label": "Greater curvature"
+    },
+    {
+      "id": "rugae",
+      "x": 870,
+      "y": 380,
+      "label": "Rugae"
+    }
+  ]
+}

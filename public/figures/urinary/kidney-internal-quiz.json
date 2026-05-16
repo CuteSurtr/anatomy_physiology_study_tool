@@ -1,0 +1,90 @@
+{
+  "src": "/figures/urinary/kidney-internal.jpg",
+  "alt": "Kidney internal anatomy - identify each structure.",
+  "viewBox": [
+    0,
+    0,
+    1975,
+    1129
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A2610_The_Kidney.jpg"
+  },
+  "labels": [
+    {
+      "id": "cortex",
+      "x": 1500,
+      "y": 320,
+      "label": "Renal cortex",
+      "synonyms": [
+        "cortex"
+      ]
+    },
+    {
+      "id": "medulla",
+      "x": 1450,
+      "y": 480,
+      "label": "Renal medulla",
+      "synonyms": [
+        "medulla"
+      ]
+    },
+    {
+      "id": "pyramid",
+      "x": 1380,
+      "y": 580,
+      "label": "Renal pyramid",
+      "synonyms": [
+        "medullary pyramid",
+        "pyramid"
+      ]
+    },
+    {
+      "id": "papilla",
+      "x": 1280,
+      "y": 620,
+      "label": "Renal papilla",
+      "synonyms": [
+        "papilla"
+      ]
+    },
+    {
+      "id": "minor-calyx",
+      "x": 1150,
+      "y": 620,
+      "label": "Minor calyx"
+    },
+    {
+      "id": "major-calyx",
+      "x": 1050,
+      "y": 660,
+      "label": "Major calyx"
+    },
+    {
+      "id": "renal-pelvis",
+      "x": 970,
+      "y": 770,
+      "label": "Renal pelvis"
+    },
+    {
+      "id": "ureter",
+      "x": 870,
+      "y": 920,
+      "label": "Ureter"
+    },
+    {
+      "id": "renal-artery",
+      "x": 800,
+      "y": 540,
+      "label": "Renal artery"
+    },
+    {
+      "id": "renal-vein",
+      "x": 800,
+      "y": 700,
+      "label": "Renal vein"
+    }
+  ]
+}

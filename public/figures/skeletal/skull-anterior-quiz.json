@@ -1,0 +1,111 @@
+{
+  "src": "/figures/skeletal/skull-anterior.jpg",
+  "alt": "Anterior view of the skull - identify each cranial + facial bone.",
+  "viewBox": [
+    0,
+    0,
+    2437,
+    2062
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College",
+    "url": "https://commons.wikimedia.org/wiki/File%3A704_Skull-01.jpg"
+  },
+  "labels": [
+    {
+      "id": "frontal",
+      "x": 1480,
+      "y": 380,
+      "label": "Frontal bone",
+      "synonyms": [
+        "frontal"
+      ]
+    },
+    {
+      "id": "parietal",
+      "x": 1880,
+      "y": 470,
+      "label": "Parietal bone",
+      "synonyms": [
+        "parietal"
+      ]
+    },
+    {
+      "id": "sphenoid",
+      "x": 880,
+      "y": 780,
+      "label": "Sphenoid bone",
+      "synonyms": [
+        "sphenoid"
+      ]
+    },
+    {
+      "id": "temporal",
+      "x": 880,
+      "y": 860,
+      "label": "Temporal bone",
+      "synonyms": [
+        "temporal"
+      ]
+    },
+    {
+      "id": "ethmoid",
+      "x": 870,
+      "y": 930,
+      "label": "Ethmoid bone",
+      "synonyms": [
+        "ethmoid"
+      ]
+    },
+    {
+      "id": "nasal",
+      "x": 1140,
+      "y": 1010,
+      "label": "Nasal bone",
+      "synonyms": [
+        "nasal"
+      ]
+    },
+    {
+      "id": "zygomatic",
+      "x": 1820,
+      "y": 1080,
+      "label": "Zygomatic bone",
+      "synonyms": [
+        "zygomatic",
+        "malar"
+      ]
+    },
+    {
+      "id": "lacrimal",
+      "x": 1830,
+      "y": 950,
+      "label": "Lacrimal bone",
+      "synonyms": [
+        "lacrimal"
+      ]
+    },
+    {
+      "id": "maxilla",
+      "x": 1080,
+      "y": 1500,
+      "label": "Maxilla"
+    },
+    {
+      "id": "mandible",
+      "x": 1800,
+      "y": 1820,
+      "label": "Mandible"
+    },
+    {
+      "id": "vomer",
+      "x": 700,
+      "y": 1420,
+      "label": "Vomer bone",
+      "synonyms": [
+        "vomer"
+      ]
+    }
+  ]
+}
