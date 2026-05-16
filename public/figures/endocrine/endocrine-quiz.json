@@ -1,22 +1,22 @@
 {
-  "src": "/figures/endocrine/endocrine-overview.svg",
-  "alt": "Endocrine glands for fill-in-blank practice",
-  "viewBox": [0, 0, 700, 1000],
+  "src": "/figures/endocrine/endocrine-overview.jpg",
+  "alt": "Endocrine glands for fill-in-blank practice (OpenStax 1801)",
+  "viewBox": [0, 0, 928, 831],
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Termininja - Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Endocrine_system.svg"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College - Anatomy & Physiology 2e, Fig 17.2 / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:1801_The_Endocrine_System.jpg"
   },
   "labels": [
-    { "id": "hypothalamus", "x": 350, "y": 100, "label": "Hypothalamus" },
-    { "id": "pituitary", "x": 350, "y": 145, "label": "Pituitary gland", "synonyms": ["pituitary", "hypophysis"] },
-    { "id": "pineal", "x": 375, "y": 115, "label": "Pineal gland", "synonyms": ["pineal"] },
-    { "id": "thyroid", "x": 350, "y": 235, "label": "Thyroid gland", "synonyms": ["thyroid"] },
-    { "id": "parathyroid", "x": 380, "y": 235, "label": "Parathyroid glands", "synonyms": ["parathyroid"] },
-    { "id": "thymus", "x": 350, "y": 320, "label": "Thymus" },
-    { "id": "adrenal", "x": 285, "y": 480, "label": "Adrenal glands", "synonyms": ["adrenal", "suprarenal"] },
-    { "id": "pancreas", "x": 350, "y": 540, "label": "Pancreas" },
-    { "id": "ovary", "x": 290, "y": 700, "label": "Ovaries", "synonyms": ["ovary"] },
-    { "id": "testis", "x": 350, "y": 880, "label": "Testes", "synonyms": ["testis", "testicles"] }
+    { "id": "pineal", "x": 555, "y": 65, "label": "Pineal gland", "synonyms": ["pineal"] },
+    { "id": "pituitary", "x": 600, "y": 135, "label": "Pituitary gland", "synonyms": ["pituitary", "hypophysis"] },
+    { "id": "thyroid", "x": 760, "y": 225, "label": "Thyroid gland", "synonyms": ["thyroid"] },
+    { "id": "parathyroid", "x": 815, "y": 290, "label": "Parathyroid glands", "synonyms": ["parathyroid"] },
+    { "id": "thymus", "x": 175, "y": 295, "label": "Thymus" },
+    { "id": "adrenal", "x": 385, "y": 480, "label": "Adrenal glands", "synonyms": ["adrenal", "suprarenal"] },
+    { "id": "pancreas", "x": 460, "y": 510, "label": "Pancreas" },
+    { "id": "uterus", "x": 415, "y": 600, "label": "Uterus" },
+    { "id": "ovary", "x": 365, "y": 620, "label": "Ovaries", "synonyms": ["ovary"] },
+    { "id": "testis", "x": 390, "y": 730, "label": "Testes", "synonyms": ["testis", "testicles"] }
   ]
 }
