@@ -21,7 +21,7 @@ export default function HomePage() {
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-300">
           Twelve body systems with anatomy, physiology, histology, clinical correlations,
           and quizzes on every page. All figures are openly licensed - OpenStax CC-BY,
-          Wikimedia public domain, and classic atlases. No login, no paywall.
+          Wikimedia public domain, and classic atlases.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
