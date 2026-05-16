@@ -1,9 +1,9 @@
 {
-  "src": "/figures/urinary/urinary-overview.svg",
-  "alt": "Diagram of the human urinary system with 14 labeled components",
+  "src": "/figures/urinary/urinary-overview.png",
+  "alt": "Urinary system anatomy with English text labels - adrenal gland, kidney, ureter, urinary bladder, urethra. (CC BY-SA 4.0)",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Jordi March i Nogué (Jmarchn) - Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Urinary_system.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "BruceBlaus",
+    "url": "https://commons.wikimedia.org/wiki/File%3AUrinary_System_%28Female%29.png"
   }
 }
