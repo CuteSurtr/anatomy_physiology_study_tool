@@ -1,10 +1,9 @@
 {
-  "src": "/figures/skeletal/vertebra.png",
-  "alt": "Representative vertebrae - cervical (small body, transverse foramina), thoracic (heart-shaped body, costal facets), lumbar (large body) shown in superior and lateral views. Servier Medical Art.",
+  "src": "/figures/skeletal/vertebra.jpg",
+  "alt": "Articulated thoracic vertebrae (lateral view) with all major bony landmarks labeled: body, pedicle, lamina, spinous process, transverse process, superior + inferior articular processes, superior + inferior costal facets, articular facet for tubercle of rib, and the intervertebral disc between bodies.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "Servier Medical Art - SMART",
-    "url": "https://smart.servier.com/",
-    "source_kit": "https://smart.servier.com/smart_image/bones/"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College - Anatomy & Physiology 2e, Fig 7.24 / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:719_Thoracic_Vertebra.jpg"
   }
 }
