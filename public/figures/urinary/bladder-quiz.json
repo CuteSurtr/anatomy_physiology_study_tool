@@ -1,0 +1,53 @@
+{
+  "src": "/figures/urinary/bladder.png",
+  "alt": "Identify the parts of the urinary bladder and outlet.",
+  "viewBox": [
+    0,
+    0,
+    1677,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "ureter",
+      "x": 335,
+      "y": 333,
+      "label": "Ureter"
+    },
+    {
+      "id": "trigone",
+      "x": 838,
+      "y": 610,
+      "label": "Trigone"
+    },
+    {
+      "id": "detrusor",
+      "x": 537,
+      "y": 500,
+      "label": "Detrusor muscle",
+      "synonyms": [
+        "detrusor"
+      ]
+    },
+    {
+      "id": "internal-sphincter",
+      "x": 838,
+      "y": 866,
+      "label": "Internal urethral sphincter",
+      "synonyms": [
+        "internal sphincter"
+      ]
+    },
+    {
+      "id": "urethra",
+      "x": 838,
+      "y": 1021,
+      "label": "Urethra"
+    }
+  ]
+}

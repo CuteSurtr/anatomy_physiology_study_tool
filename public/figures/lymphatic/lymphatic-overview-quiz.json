@@ -1,0 +1,62 @@
+{
+  "src": "/figures/lymphatic/lymphatic-overview.png",
+  "alt": "Identify the major lymphoid organs and drainage points.",
+  "viewBox": [
+    0,
+    0,
+    1503,
+    1387
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "thymus",
+      "x": 752,
+      "y": 416,
+      "label": "Thymus"
+    },
+    {
+      "id": "spleen",
+      "x": 601,
+      "y": 694,
+      "label": "Spleen"
+    },
+    {
+      "id": "thoracic-duct",
+      "x": 827,
+      "y": 485,
+      "label": "Thoracic duct"
+    },
+    {
+      "id": "axillary",
+      "x": 376,
+      "y": 416,
+      "label": "Axillary lymph nodes",
+      "synonyms": [
+        "axillary nodes"
+      ]
+    },
+    {
+      "id": "inguinal",
+      "x": 601,
+      "y": 943,
+      "label": "Inguinal lymph nodes",
+      "synonyms": [
+        "inguinal nodes"
+      ]
+    },
+    {
+      "id": "cervical",
+      "x": 827,
+      "y": 208,
+      "label": "Cervical lymph nodes",
+      "synonyms": [
+        "cervical nodes"
+      ]
+    }
+  ]
+}

@@ -95,11 +95,15 @@ html.dark {
   color: #a1a1aa;
 }
 .prose table {
+  display: block;
   width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
   border-collapse: collapse;
   margin: 1.4em 0;
   font-size: 0.95rem;
   font-family: var(--font-sans);
+  -webkit-overflow-scrolling: touch;
 }
 .prose th,
 .prose td {
@@ -107,6 +111,8 @@ html.dark {
   text-align: left;
   border-bottom: 1px solid #e4e4e7;
   vertical-align: top;
+  word-break: normal;
+  overflow-wrap: anywhere;
 }
 .prose thead th {
   background: #fafafa;

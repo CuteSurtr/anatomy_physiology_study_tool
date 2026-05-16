@@ -1,0 +1,76 @@
+{
+  "src": "/figures/nervous/spinal-cord-cross.jpg",
+  "alt": "Identify the gray and white matter regions of the spinal cord.",
+  "viewBox": [
+    0,
+    0,
+    1642,
+    1883
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "dorsal-horn",
+      "x": 821,
+      "y": 565,
+      "label": "Dorsal (posterior) horn",
+      "synonyms": [
+        "dorsal horn",
+        "posterior horn"
+      ]
+    },
+    {
+      "id": "ventral-horn",
+      "x": 821,
+      "y": 1356,
+      "label": "Ventral (anterior) horn",
+      "synonyms": [
+        "ventral horn",
+        "anterior horn"
+      ]
+    },
+    {
+      "id": "central-canal",
+      "x": 821,
+      "y": 1036,
+      "label": "Central canal"
+    },
+    {
+      "id": "white-matter",
+      "x": 328,
+      "y": 942,
+      "label": "White matter"
+    },
+    {
+      "id": "gray-matter",
+      "x": 821,
+      "y": 942,
+      "label": "Gray matter",
+      "synonyms": [
+        "grey matter"
+      ]
+    },
+    {
+      "id": "dorsal-root",
+      "x": 1396,
+      "y": 565,
+      "label": "Dorsal root",
+      "synonyms": [
+        "posterior root"
+      ]
+    },
+    {
+      "id": "ventral-root",
+      "x": 1396,
+      "y": 1318,
+      "label": "Ventral root",
+      "synonyms": [
+        "anterior root"
+      ]
+    }
+  ]
+}

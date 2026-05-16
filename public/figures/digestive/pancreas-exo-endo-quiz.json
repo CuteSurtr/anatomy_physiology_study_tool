@@ -1,0 +1,42 @@
+{
+  "src": "/figures/digestive/pancreas-exo-endo.jpg",
+  "alt": "Identify the pancreas exocrine vs endocrine components.",
+  "viewBox": [
+    0,
+    0,
+    637,
+    827
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "acinus",
+      "x": 191,
+      "y": 248,
+      "label": "Pancreatic acinus",
+      "synonyms": [
+        "acinus",
+        "acinar cells"
+      ]
+    },
+    {
+      "id": "islet",
+      "x": 350,
+      "y": 414,
+      "label": "Islet of Langerhans",
+      "synonyms": [
+        "pancreatic islet"
+      ]
+    },
+    {
+      "id": "duct",
+      "x": 318,
+      "y": 703,
+      "label": "Pancreatic duct"
+    }
+  ]
+}

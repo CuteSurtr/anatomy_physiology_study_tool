@@ -1,0 +1,223 @@
+---
+title: Biochemistry of Cell Signaling
+system: foundations
+related:
+  - cell-transport-and-signaling
+  - homeostasis-and-feedback
+figures: []
+sources:
+  - OpenStax A&P 2e - Chapter 17.2
+  - Lehninger Biochemistry 8e - Chapter 12
+  - Alberts Molecular Biology of the Cell 6e - Chapter 15
+level: undergrad
+---
+
+Every hormone, neurotransmitter, growth factor, and cytokine works through a small number of conserved molecular pathways. Master these **six pathways** and the chemistry of every endocrine and pharmacology lecture clicks into place: GPCRs with Gs/Gi/Gq, receptor tyrosine kinases, steroid hormone receptors, ligand-gated ion channels, JAK-STAT, and guanylyl cyclase.
+
+## The four classes of cell-surface and intracellular receptors
+
+| Class | Where the receptor is | Signal type | Speed | Example ligands |
+|---|---|---|---|---|
+| **Ligand-gated ion channels (ionotropic)** | Plasma membrane | Direct ion flow | Milliseconds | Nicotinic ACh, GABA-A, NMDA glutamate |
+| **G-protein coupled receptors (GPCR, metabotropic)** | Plasma membrane | Second messenger via G protein | Seconds | β-adrenergic, muscarinic, most peptide hormones |
+| **Enzyme-linked / catalytic receptors** | Plasma membrane | Receptor itself is enzyme (tyrosine kinase, serine/threonine kinase, guanylyl cyclase) | Minutes | Insulin, IGF, EGF, ANP, TGF-β |
+| **Nuclear / intracellular receptors** | Cytoplasm or nucleus | Direct transcription factor | Hours | Steroid hormones, thyroid, vitamin D, retinoic acid |
+
+## GPCRs - the workhorse pathway
+
+A GPCR is a 7-pass transmembrane protein. Ligand binding → conformational change → exchange of GDP for GTP on the α subunit of a heterotrimeric **G protein (αβγ)** → α subunit dissociates and activates downstream effectors.
+
+Three major G-protein subtypes determine the downstream signal:
+
+| G protein | Effector | Second messenger | Net effect |
+|---|---|---|---|
+| **Gs** | Activates **adenylyl cyclase (AC)** | **↑ cAMP** → activates PKA | ↑ phosphorylation of many proteins |
+| **Gi** | Inhibits **AC** | **↓ cAMP** | Opposite of Gs |
+| **Gq** | Activates **phospholipase C (PLC-β)** | **IP₃ + DAG** → ↑ intracellular Ca²⁺ + activate PKC | Smooth muscle contraction, secretion |
+
+<Mnemonic title="Receptor type by mnemonic - 'After Visiting Mexico, Heaven Should Have Real Margaritas, Drinking Helpful Tequila'">
+| Receptor | G protein |
+|---|---|
+| α₁ | **q** |
+| α₂ | **i** |
+| β₁, β₂, β₃ | **s** |
+| M₁, M₃, M₅ (odd muscarinic) | **q** |
+| M₂, M₄ (even muscarinic) | **i** |
+| H₁ | **q** |
+| H₂ | **s** |
+| V₁ | **q** |
+| V₂ | **s** |
+| D₁ | **s** |
+| D₂ | **i** |
+
+The pattern "**qiss qiq sqsq**" through the α-β-M-D-H-V receptors is one of the highest-yield USMLE bites.
+</Mnemonic>
+
+### The cAMP-PKA pathway in detail
+
+1. Ligand binds Gs-coupled GPCR (e.g., β₁ adrenergic on cardiomyocyte, glucagon receptor on hepatocyte).
+2. Gαs swaps GDP for GTP, dissociates from βγ.
+3. Gαs activates **adenylyl cyclase** → ATP → **cAMP** (cyclic AMP).
+4. cAMP binds the regulatory subunits of **protein kinase A (PKA)**, releasing the catalytic subunits.
+5. PKA phosphorylates serines/threonines on target proteins. Examples:
+   - Cardiac L-type Ca²⁺ channels → ↑ Ca²⁺ entry → ↑ contractility
+   - Glycogen phosphorylase kinase → ↑ glycogenolysis
+   - Hormone-sensitive lipase → ↑ lipolysis
+   - CREB transcription factor → new gene expression
+6. cAMP is degraded by **phosphodiesterases (PDEs)**. Methylxanthines (caffeine, theophylline) and PDE inhibitors (milrinone, sildenafil) prolong cAMP/cGMP signaling.
+
+### The Gq-PLC-IP₃/DAG pathway
+
+1. Ligand binds Gq-coupled GPCR (α₁ adrenergic, M₁/M₃ muscarinic, H₁ histamine, angiotensin II AT1, vasopressin V₁).
+2. Gαq activates **phospholipase C-β (PLC-β)**.
+3. PLC-β cleaves **PIP₂ (phosphatidylinositol-4,5-bisphosphate)** → **IP₃ + DAG**.
+4. IP₃ → ER **IP₃ receptor** → Ca²⁺ release from ER.
+5. DAG remains in the membrane and activates **protein kinase C (PKC)** with Ca²⁺ as cofactor.
+6. PKC phosphorylates downstream targets.
+
+Net effect: smooth muscle contraction (α₁ vasoconstriction), gland secretion, exocrine activity, vasopressin V₁ vascular effects.
+
+## Receptor tyrosine kinases (RTKs) - growth and metabolism
+
+RTKs include the **insulin receptor**, IGF-1 receptor, EGF/ErbB family, FGF family, PDGF, VEGF.
+
+Mechanism:
+1. Ligand binds extracellular domain → receptor dimerization.
+2. Dimerized receptors **trans-autophosphorylate** their intracellular tyrosine residues.
+3. Phospho-tyrosines recruit adaptor proteins via **SH2 domains** (e.g., GRB2, IRS-1, PI3K p85).
+4. Downstream cascades:
+   - **PI3K → AKT → mTOR** - growth, anabolism, GLUT4 translocation (insulin), protein synthesis
+   - **Ras → Raf → MEK → ERK (MAPK)** - proliferation, differentiation, gene expression
+   - **STAT** activation in some
+
+**Insulin's** unique RTK pathway: insulin binds → IRS-1 phosphorylated → PI3K → AKT → GLUT4 vesicles fuse with membrane → glucose enters muscle/fat. This is why type 2 DM, with AKT pathway resistance, has impaired glucose uptake.
+
+## Nuclear receptors - steroid + thyroid pathway
+
+Lipid-soluble hormones (steroids, thyroid hormone, vitamin D, retinoic acid) diffuse through the membrane and bind intracellular receptors. The receptor-ligand complex translocates to the nucleus, dimerizes, and binds DNA at **hormone response elements**, regulating transcription.
+
+Effects manifest over hours (transcription, translation, protein appearance).
+
+| Hormone | Receptor location |
+|---|---|
+| **Cortisol, aldosterone** | Cytoplasm → nucleus |
+| **Estrogen, progesterone, androgens** | Nucleus |
+| **Thyroid hormone (T₃)** | Nucleus, bound to DNA even without ligand |
+| **Vitamin D, retinoic acid** | Nucleus, RXR heterodimers |
+
+## Guanylyl cyclase pathway - the NO/ANP signal
+
+Two forms:
+- **Particulate (membrane) GC** - activated by **ANP, BNP, CNP** → ↑ cGMP → PKG → smooth muscle relaxation, natriuresis
+- **Soluble (cytoplasmic) GC** - activated by **nitric oxide (NO)** → ↑ cGMP → vascular smooth muscle relaxation
+
+cGMP is hydrolyzed by **PDE5** in vascular smooth muscle. **Sildenafil/tadalafil** inhibit PDE5 → prolonged cGMP → vasodilation in cavernosal arteries (erection) and pulmonary vessels (pulmonary HTN therapy).
+
+## JAK-STAT - the cytokine pathway
+
+Used by interferons, GH, prolactin, erythropoietin, thrombopoietin, leptin, many interleukins.
+
+1. Ligand binds → receptor dimerizes
+2. Associated **JAK kinases** trans-phosphorylate each other + receptor
+3. Phospho-receptors recruit **STAT** proteins via SH2 domains
+4. STATs are phosphorylated, dimerize, translocate to nucleus, activate transcription
+
+JAK inhibitors (**tofacitinib, baricitinib, ruxolitinib**) are used in RA, psoriasis, ulcerative colitis, polycythemia vera.
+
+## TGF-β and serine/threonine kinase receptors
+
+TGF-β superfamily (including BMPs, activin, inhibin) → serine/threonine kinase receptors → **SMAD** transcription factors → growth inhibition, ECM production. Mutations underlie cancers (loss of growth suppression) and skeletal disorders (FGFR mutations in achondroplasia, BMP defects in fibrodysplasia ossificans progressiva).
+
+## Second messengers - the chemical vocabulary
+
+| Second messenger | Source | Major downstream targets |
+|---|---|---|
+| **cAMP** | AC from ATP | PKA, Epac, CNG channels |
+| **cGMP** | GC from GTP | PKG, CNG channels in photoreceptors |
+| **IP₃** | PLC from PIP₂ | IP₃R on ER → Ca²⁺ release |
+| **DAG** | PLC from PIP₂ | PKC |
+| **Ca²⁺** | ER (IP₃R, RyR), extracellular | Calmodulin, CaMK, calcineurin, troponin C, synaptotagmin |
+| **NO** | NOS (eNOS, nNOS, iNOS) | sGC → cGMP |
+| **PIP₃** | PI3K from PIP₂ | AKT (PKB) |
+
+## Pharmacology - drug-receptor concepts
+
+| Term | Meaning |
+|---|---|
+| **Agonist** | Binds + activates receptor (full or partial) |
+| **Antagonist** | Binds but does not activate; blocks agonist |
+| **Inverse agonist** | Binds, stabilizes inactive state; reduces basal activity |
+| **Competitive antagonist** | Binds same site as agonist; surmountable by ↑ agonist |
+| **Non-competitive antagonist** | Binds allosteric site; not surmountable |
+| **Affinity** (Kd) | Concentration at which 50% of receptors are bound (smaller Kd = tighter) |
+| **Efficacy** | Maximum effect a drug can produce |
+| **Potency** (EC50) | Concentration producing 50% of maximum effect |
+| **Tachyphylaxis** | Rapid loss of response with repeated dosing (receptor desensitization / internalization) |
+
+<HighYield exam="step1">
+**Classic GPCR exam patterns:**
+- A patient overdoses on cocaine - which receptor effect predominates? Cocaine blocks NE reuptake → ↑ NE at adrenergic receptors → tachycardia + vasoconstriction (β1 + α1) + mydriasis (α1).
+- Why does sildenafil cause vasodilation? PDE5 inhibition → cGMP accumulates → vascular smooth muscle relaxation. Avoid with nitrates (NO donors also raise cGMP - additive hypotension).
+- Why does milrinone increase contractility? PDE3 inhibition in cardiomyocytes → cAMP accumulates → ↑ PKA → ↑ L-type Ca²⁺ → ↑ contractility.
+- Why does pertussis toxin cause whooping cough symptoms? ADP-ribosylates Gαi → permanent inhibition of Gi → cAMP cannot be turned off → mucous hypersecretion, lymphocytosis.
+- Why does cholera toxin cause profuse watery diarrhea? ADP-ribosylates Gαs → permanent activation of Gs → ↑ cAMP in enterocytes → CFTR Cl⁻ channels stay open → massive secretion.
+</HighYield>
+
+## Receptor desensitization
+
+Repeated agonist exposure → receptor:
+1. **Phosphorylation** by GRKs (GPCR kinases) → recruits **β-arrestin** → uncouples G protein
+2. **Internalization** via clathrin-coated pits → endosomes → either recycled or degraded
+3. **Downregulation** - chronic signaling reduces receptor gene transcription
+
+This explains **tolerance** to opioids, β-agonists in asthma, nitrate tachyphylaxis, and benzodiazepine tolerance.
+
+## Quick check
+
+<Quiz questions={[
+  { q: "Which second messenger is generated by Gs-coupled receptors?", a: "cAMP", choices: ["IP₃", "DAG", "cAMP", "cGMP"] },
+  { q: "Which receptor is Gq-coupled?", a: "α₁ adrenergic", choices: ["α₁ adrenergic", "α₂ adrenergic", "β₂ adrenergic", "M₂ muscarinic"] },
+  { q: "Sildenafil treats erectile dysfunction by…", a: "Inhibiting PDE5, prolonging cGMP-mediated smooth muscle relaxation in cavernosal arteries", choices: [
+    "Stimulating β₂ receptors in penile vessels",
+    "Inhibiting PDE5, prolonging cGMP-mediated smooth muscle relaxation in cavernosal arteries",
+    "Activating PKA in smooth muscle",
+    "Blocking α₁ receptors directly"
+  ]},
+  { q: "Cholera toxin causes profuse diarrhea by…", a: "ADP-ribosylating Gαs, locking it in the GTP-bound active state and elevating cAMP in enterocytes", choices: [
+    "Inhibiting Na/K-ATPase",
+    "ADP-ribosylating Gαs, locking it in the GTP-bound active state and elevating cAMP in enterocytes",
+    "Blocking CFTR chloride channels",
+    "Forming pores in enterocyte membranes"
+  ]},
+  { q: "The insulin receptor is a…", a: "Receptor tyrosine kinase", choices: ["GPCR", "Receptor tyrosine kinase", "Ligand-gated ion channel", "Nuclear receptor"] },
+  { q: "Thyroid hormone receptors are located primarily in the…", a: "Nucleus, bound to DNA even before ligand binds", choices: [
+    "Plasma membrane",
+    "Mitochondrial outer membrane",
+    "Nucleus, bound to DNA even before ligand binds",
+    "Cytoplasm"
+  ]},
+  { q: "The IP₃ pathway leads to release of Ca²⁺ from…", a: "The endoplasmic reticulum via the IP₃ receptor", choices: [
+    "The mitochondria",
+    "The plasma membrane via VOCCs",
+    "The endoplasmic reticulum via the IP₃ receptor",
+    "The lysosomes"
+  ]},
+  { q: "Activation of β₂ receptors in bronchial smooth muscle causes bronchodilation because…", a: "Gs → ↑ cAMP → PKA → relaxation of smooth muscle", choices: [
+    "Gi → ↓ cAMP → relaxation",
+    "Gq → IP₃/DAG → contraction",
+    "Gs → ↑ cAMP → PKA → relaxation of smooth muscle",
+    "Direct ion channel opening"
+  ]},
+  { q: "JAK-STAT signaling is used by…", a: "Cytokines including IFN, GH, prolactin, EPO, and many ILs", choices: [
+    "Steroid hormones",
+    "Catecholamines",
+    "Cytokines including IFN, GH, prolactin, EPO, and many ILs",
+    "Insulin alone"
+  ]},
+  { q: "Receptor desensitization with chronic agonist exposure is mediated by…", a: "Phosphorylation by GRKs, β-arrestin binding, and clathrin-mediated internalization", choices: [
+    "Direct enzymatic degradation of the receptor",
+    "Loss of cellular ATP",
+    "Phosphorylation by GRKs, β-arrestin binding, and clathrin-mediated internalization",
+    "Mutation of the receptor gene"
+  ]}
+]} />

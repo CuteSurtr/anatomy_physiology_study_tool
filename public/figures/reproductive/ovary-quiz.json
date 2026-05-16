@@ -1,0 +1,57 @@
+{
+  "src": "/figures/reproductive/ovary.png",
+  "alt": "Identify the structures of the ovary and follicle stages.",
+  "viewBox": [
+    0,
+    0,
+    2259,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "primordial",
+      "x": 452,
+      "y": 610,
+      "label": "Primordial follicle"
+    },
+    {
+      "id": "primary",
+      "x": 723,
+      "y": 500,
+      "label": "Primary follicle"
+    },
+    {
+      "id": "secondary",
+      "x": 949,
+      "y": 500,
+      "label": "Secondary follicle"
+    },
+    {
+      "id": "graafian",
+      "x": 1242,
+      "y": 500,
+      "label": "Graafian follicle",
+      "synonyms": [
+        "mature follicle",
+        "tertiary follicle"
+      ]
+    },
+    {
+      "id": "ovulation",
+      "x": 1581,
+      "y": 500,
+      "label": "Ovulation"
+    },
+    {
+      "id": "cl",
+      "x": 1694,
+      "y": 722,
+      "label": "Corpus luteum"
+    }
+  ]
+}

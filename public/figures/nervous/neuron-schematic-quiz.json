@@ -1,0 +1,72 @@
+{
+  "src": "/figures/nervous/neuron-schematic.png",
+  "alt": "Identify the parts of a neuron.",
+  "viewBox": [
+    0,
+    0,
+    2089,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "dendrites",
+      "x": 313,
+      "y": 388,
+      "label": "Dendrites",
+      "synonyms": [
+        "dendrite"
+      ]
+    },
+    {
+      "id": "soma",
+      "x": 585,
+      "y": 555,
+      "label": "Cell body",
+      "synonyms": [
+        "soma",
+        "perikaryon"
+      ]
+    },
+    {
+      "id": "nucleus",
+      "x": 585,
+      "y": 610,
+      "label": "Nucleus"
+    },
+    {
+      "id": "axon",
+      "x": 1149,
+      "y": 610,
+      "label": "Axon"
+    },
+    {
+      "id": "myelin",
+      "x": 1358,
+      "y": 555,
+      "label": "Myelin sheath",
+      "synonyms": [
+        "myelin"
+      ]
+    },
+    {
+      "id": "node",
+      "x": 1462,
+      "y": 722,
+      "label": "Node of Ranvier"
+    },
+    {
+      "id": "terminal",
+      "x": 1922,
+      "y": 555,
+      "label": "Axon terminal",
+      "synonyms": [
+        "synaptic terminal"
+      ]
+    }
+  ]
+}

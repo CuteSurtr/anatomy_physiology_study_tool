@@ -1,0 +1,53 @@
+{
+  "src": "/figures/endocrine/pancreas-endocrine.jpg",
+  "alt": "Identify the islet cell types and their hormones.",
+  "viewBox": [
+    0,
+    0,
+    1092,
+    551
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "alpha",
+      "x": 328,
+      "y": 193,
+      "label": "Alpha cell",
+      "synonyms": [
+        "\u03b1 cell"
+      ]
+    },
+    {
+      "id": "beta",
+      "x": 546,
+      "y": 276,
+      "label": "Beta cell",
+      "synonyms": [
+        "\u03b2 cell"
+      ]
+    },
+    {
+      "id": "delta",
+      "x": 764,
+      "y": 276,
+      "label": "Delta cell",
+      "synonyms": [
+        "\u03b4 cell"
+      ]
+    },
+    {
+      "id": "islet",
+      "x": 546,
+      "y": 165,
+      "label": "Islet of Langerhans",
+      "synonyms": [
+        "pancreatic islet"
+      ]
+    }
+  ]
+}

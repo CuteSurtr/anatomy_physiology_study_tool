@@ -1,0 +1,50 @@
+{
+  "src": "/figures/endocrine/pituitary-gland.png",
+  "alt": "Identify the parts of the hypothalamic-pituitary axis.",
+  "viewBox": [
+    0,
+    0,
+    2109,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "hypothalamus",
+      "x": 675,
+      "y": 355,
+      "label": "Hypothalamus"
+    },
+    {
+      "id": "ant-pit",
+      "x": 844,
+      "y": 610,
+      "label": "Anterior pituitary",
+      "synonyms": [
+        "adenohypophysis"
+      ]
+    },
+    {
+      "id": "post-pit",
+      "x": 1054,
+      "y": 610,
+      "label": "Posterior pituitary",
+      "synonyms": [
+        "neurohypophysis"
+      ]
+    },
+    {
+      "id": "infundibulum",
+      "x": 886,
+      "y": 466,
+      "label": "Infundibulum",
+      "synonyms": [
+        "pituitary stalk"
+      ]
+    }
+  ]
+}

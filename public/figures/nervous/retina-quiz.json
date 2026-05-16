@@ -1,0 +1,53 @@
+{
+  "src": "/figures/nervous/retina.png",
+  "alt": "Identify the cell layers of the retina (light enters from bottom).",
+  "viewBox": [
+    0,
+    0,
+    1670,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "ganglion",
+      "x": 835,
+      "y": 944,
+      "label": "Ganglion cell"
+    },
+    {
+      "id": "bipolar",
+      "x": 835,
+      "y": 610,
+      "label": "Bipolar cell"
+    },
+    {
+      "id": "rod",
+      "x": 501,
+      "y": 278,
+      "label": "Rod"
+    },
+    {
+      "id": "cone",
+      "x": 1086,
+      "y": 278,
+      "label": "Cone"
+    },
+    {
+      "id": "horizontal",
+      "x": 501,
+      "y": 722,
+      "label": "Horizontal cell"
+    },
+    {
+      "id": "amacrine",
+      "x": 1169,
+      "y": 722,
+      "label": "Amacrine cell"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "src": "/figures/endocrine/parathyroid.jpg",
+  "alt": "Identify the parathyroid + thyroid (posterior view).",
+  "viewBox": [
+    0,
+    0,
+    1117,
+    408
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "thyroid",
+      "x": 558,
+      "y": 224,
+      "label": "Thyroid gland"
+    },
+    {
+      "id": "sup-para",
+      "x": 469,
+      "y": 122,
+      "label": "Superior parathyroid",
+      "synonyms": [
+        "superior parathyroid gland"
+      ]
+    },
+    {
+      "id": "inf-para",
+      "x": 469,
+      "y": 265,
+      "label": "Inferior parathyroid",
+      "synonyms": [
+        "inferior parathyroid gland"
+      ]
+    },
+    {
+      "id": "trachea",
+      "x": 558,
+      "y": 347,
+      "label": "Trachea"
+    }
+  ]
+}

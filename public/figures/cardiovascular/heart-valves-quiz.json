@@ -1,0 +1,90 @@
+{
+  "src": "/figures/cardiovascular/heart-valves.jpg",
+  "alt": "Identify the four heart valves and chambers in this cutaway diagram.",
+  "viewBox": [
+    0,
+    0,
+    1525,
+    1217
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "aortic-valve",
+      "x": 762,
+      "y": 219,
+      "label": "Aortic valve",
+      "synonyms": [
+        "aortic"
+      ]
+    },
+    {
+      "id": "pulmonary-valve",
+      "x": 534,
+      "y": 243,
+      "label": "Pulmonary valve",
+      "synonyms": [
+        "pulmonic valve"
+      ]
+    },
+    {
+      "id": "mitral",
+      "x": 839,
+      "y": 560,
+      "label": "Mitral valve",
+      "synonyms": [
+        "bicuspid valve",
+        "left AV valve"
+      ]
+    },
+    {
+      "id": "tricuspid",
+      "x": 549,
+      "y": 584,
+      "label": "Tricuspid valve",
+      "synonyms": [
+        "right AV valve"
+      ]
+    },
+    {
+      "id": "lv",
+      "x": 946,
+      "y": 828,
+      "label": "Left ventricle",
+      "synonyms": [
+        "LV"
+      ]
+    },
+    {
+      "id": "rv",
+      "x": 458,
+      "y": 852,
+      "label": "Right ventricle",
+      "synonyms": [
+        "RV"
+      ]
+    },
+    {
+      "id": "la",
+      "x": 946,
+      "y": 389,
+      "label": "Left atrium",
+      "synonyms": [
+        "LA"
+      ]
+    },
+    {
+      "id": "ra",
+      "x": 305,
+      "y": 487,
+      "label": "Right atrium",
+      "synonyms": [
+        "RA"
+      ]
+    }
+  ]
+}

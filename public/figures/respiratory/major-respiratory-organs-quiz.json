@@ -1,0 +1,69 @@
+{
+  "src": "/figures/respiratory/major-respiratory-organs.jpg",
+  "alt": "Identify the major organs of the respiratory tract.",
+  "viewBox": [
+    0,
+    0,
+    1933,
+    1625
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "nose",
+      "x": 870,
+      "y": 130,
+      "label": "Nasal cavity"
+    },
+    {
+      "id": "pharynx",
+      "x": 966,
+      "y": 244,
+      "label": "Pharynx"
+    },
+    {
+      "id": "larynx",
+      "x": 966,
+      "y": 358,
+      "label": "Larynx"
+    },
+    {
+      "id": "trachea",
+      "x": 966,
+      "y": 520,
+      "label": "Trachea"
+    },
+    {
+      "id": "bronchi",
+      "x": 870,
+      "y": 731,
+      "label": "Main bronchi",
+      "synonyms": [
+        "primary bronchi",
+        "bronchus"
+      ]
+    },
+    {
+      "id": "right-lung",
+      "x": 580,
+      "y": 894,
+      "label": "Right lung"
+    },
+    {
+      "id": "left-lung",
+      "x": 1353,
+      "y": 894,
+      "label": "Left lung"
+    },
+    {
+      "id": "diaphragm",
+      "x": 966,
+      "y": 1268,
+      "label": "Diaphragm"
+    }
+  ]
+}

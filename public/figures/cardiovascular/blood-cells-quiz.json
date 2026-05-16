@@ -1,0 +1,66 @@
+{
+  "src": "/figures/cardiovascular/blood-cells.svg",
+  "alt": "Identify the six classes of blood cells/fragments.",
+  "viewBox": [
+    0,
+    0,
+    1800,
+    1200
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "rbc",
+      "x": 270,
+      "y": 456,
+      "label": "Erythrocyte",
+      "synonyms": [
+        "red blood cell",
+        "RBC"
+      ]
+    },
+    {
+      "id": "neutrophil",
+      "x": 684,
+      "y": 456,
+      "label": "Neutrophil"
+    },
+    {
+      "id": "eosinophil",
+      "x": 1044,
+      "y": 456,
+      "label": "Eosinophil"
+    },
+    {
+      "id": "basophil",
+      "x": 1404,
+      "y": 456,
+      "label": "Basophil"
+    },
+    {
+      "id": "lymph",
+      "x": 540,
+      "y": 960,
+      "label": "Lymphocyte"
+    },
+    {
+      "id": "mono",
+      "x": 990,
+      "y": 960,
+      "label": "Monocyte"
+    },
+    {
+      "id": "platelet",
+      "x": 1440,
+      "y": 936,
+      "label": "Platelet",
+      "synonyms": [
+        "thrombocyte"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "src": "/figures/cardiovascular/heart-position.jpg",
+  "alt": "Identify the heart and surrounding thoracic structures.",
+  "viewBox": [
+    0,
+    0,
+    2177,
+    1974
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "heart",
+      "x": 980,
+      "y": 1086,
+      "label": "Heart"
+    },
+    {
+      "id": "right-lung",
+      "x": 435,
+      "y": 790,
+      "label": "Right lung"
+    },
+    {
+      "id": "left-lung",
+      "x": 1633,
+      "y": 790,
+      "label": "Left lung"
+    },
+    {
+      "id": "diaphragm",
+      "x": 980,
+      "y": 1638,
+      "label": "Diaphragm"
+    },
+    {
+      "id": "trachea",
+      "x": 1088,
+      "y": 296,
+      "label": "Trachea"
+    }
+  ]
+}

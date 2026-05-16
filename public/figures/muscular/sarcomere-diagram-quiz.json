@@ -1,0 +1,64 @@
+{
+  "src": "/figures/muscular/sarcomere-diagram.svg",
+  "alt": "Label the bands and lines of the sarcomere.",
+  "viewBox": [
+    0,
+    0,
+    810,
+    360
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "z-line",
+      "x": 122,
+      "y": 180,
+      "label": "Z line",
+      "synonyms": [
+        "Z disc",
+        "Z disk"
+      ]
+    },
+    {
+      "id": "z-line-2",
+      "x": 688,
+      "y": 180,
+      "label": "Z line",
+      "synonyms": [
+        "Z disc",
+        "Z disk"
+      ]
+    },
+    {
+      "id": "a-band",
+      "x": 405,
+      "y": 72,
+      "label": "A band"
+    },
+    {
+      "id": "i-band",
+      "x": 202,
+      "y": 306,
+      "label": "I band"
+    },
+    {
+      "id": "h-zone",
+      "x": 405,
+      "y": 180,
+      "label": "H zone",
+      "synonyms": [
+        "H band"
+      ]
+    },
+    {
+      "id": "m-line",
+      "x": 405,
+      "y": 288,
+      "label": "M line"
+    }
+  ]
+}

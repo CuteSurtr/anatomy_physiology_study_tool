@@ -1,0 +1,53 @@
+{
+  "src": "/figures/muscular/actin-myosin.png",
+  "alt": "Identify the components of the thin and thick filaments.",
+  "viewBox": [
+    0,
+    0,
+    2223,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "actin",
+      "x": 556,
+      "y": 388,
+      "label": "Actin",
+      "synonyms": [
+        "thin filament"
+      ]
+    },
+    {
+      "id": "myosin",
+      "x": 1223,
+      "y": 610,
+      "label": "Myosin",
+      "synonyms": [
+        "thick filament"
+      ]
+    },
+    {
+      "id": "head",
+      "x": 934,
+      "y": 466,
+      "label": "Myosin head"
+    },
+    {
+      "id": "troponin",
+      "x": 667,
+      "y": 222,
+      "label": "Troponin"
+    },
+    {
+      "id": "tropomyosin",
+      "x": 1223,
+      "y": 278,
+      "label": "Tropomyosin"
+    }
+  ]
+}

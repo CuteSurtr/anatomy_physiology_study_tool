@@ -1,0 +1,57 @@
+{
+  "src": "/figures/skeletal/carpal-tunnel.jpg",
+  "alt": "Identify the structures forming the carpal tunnel.",
+  "viewBox": [
+    0,
+    0,
+    639,
+    553
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "median",
+      "x": 320,
+      "y": 138,
+      "label": "Median nerve"
+    },
+    {
+      "id": "fpl",
+      "x": 192,
+      "y": 249,
+      "label": "Flexor pollicis longus",
+      "synonyms": [
+        "FPL"
+      ]
+    },
+    {
+      "id": "fds-fdp",
+      "x": 383,
+      "y": 249,
+      "label": "Flexor digitorum tendons",
+      "synonyms": [
+        "FDS and FDP tendons",
+        "flexor tendons"
+      ]
+    },
+    {
+      "id": "retinaculum",
+      "x": 320,
+      "y": 100,
+      "label": "Flexor retinaculum",
+      "synonyms": [
+        "transverse carpal ligament"
+      ]
+    },
+    {
+      "id": "carpals",
+      "x": 320,
+      "y": 415,
+      "label": "Carpal bones"
+    }
+  ]
+}

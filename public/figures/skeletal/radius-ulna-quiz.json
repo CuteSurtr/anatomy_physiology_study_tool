@@ -1,0 +1,65 @@
+{
+  "src": "/figures/skeletal/radius-ulna.jpg",
+  "alt": "Identify the bones and landmarks of the forearm.",
+  "viewBox": [
+    0,
+    0,
+    637,
+    825
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "radius",
+      "x": 191,
+      "y": 412,
+      "label": "Radius"
+    },
+    {
+      "id": "ulna",
+      "x": 414,
+      "y": 412,
+      "label": "Ulna"
+    },
+    {
+      "id": "olecranon",
+      "x": 350,
+      "y": 41,
+      "label": "Olecranon"
+    },
+    {
+      "id": "radial-tuberosity",
+      "x": 223,
+      "y": 148,
+      "label": "Radial tuberosity"
+    },
+    {
+      "id": "interosseous",
+      "x": 318,
+      "y": 454,
+      "label": "Interosseous membrane"
+    },
+    {
+      "id": "radial-styloid",
+      "x": 127,
+      "y": 784,
+      "label": "Radial styloid process",
+      "synonyms": [
+        "styloid process of radius"
+      ]
+    },
+    {
+      "id": "ulnar-styloid",
+      "x": 497,
+      "y": 759,
+      "label": "Ulnar styloid process",
+      "synonyms": [
+        "styloid process of ulna"
+      ]
+    }
+  ]
+}

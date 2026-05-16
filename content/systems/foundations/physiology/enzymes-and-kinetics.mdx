@@ -1,0 +1,250 @@
+---
+title: Enzyme Kinetics & Metabolic Regulation
+system: foundations
+related:
+  - cellular-respiration
+  - cell-transport-and-signaling
+figures: []
+sources:
+  - Lehninger Biochemistry 8e - Chapter 6
+  - Hall & Guyton - Chapter 67
+  - First Aid USMLE 2024 - Biochemistry
+level: undergrad
+---
+
+Almost every physiologic process is enzymatic. **Enzymes** are catalytic proteins (rarely RNA) that lower the activation energy of a reaction without being consumed. They give the body **specificity** (one enzyme, one reaction), **speed** (10⁶ to 10¹² rate acceleration), and **control points** (every regulated pathway has at least one rate-limiting enzyme).
+
+## Michaelis-Menten kinetics
+
+Most enzymes follow a hyperbolic substrate-velocity curve:
+
+`V = (Vmax × [S]) / (Km + [S])`
+
+| Parameter | What it represents | Clinical use |
+|---|---|---|
+| **Vmax** | Maximum reaction velocity when enzyme is saturated with substrate | Reflects amount + turnover of enzyme |
+| **Km** | Substrate concentration giving ½ Vmax | Inverse of affinity - small Km = high affinity |
+| **kcat** | Turnover number (substrates converted per enzyme per second) | Catalytic efficiency = kcat / Km |
+
+**Lineweaver-Burk plot** (1/V vs 1/[S]) - linearizes the equation. The x-intercept = −1/Km, the y-intercept = 1/Vmax.
+
+### Inhibitor types - distinguishable on Lineweaver-Burk
+
+| Inhibitor | Effect on Km | Effect on Vmax | Effect on lines | Example |
+|---|---|---|---|---|
+| **Competitive** | ↑ (lower apparent affinity) | Unchanged | Same y-intercept, different x | Methotrexate competes with folate for DHFR |
+| **Non-competitive** | Unchanged | ↓ | Same x-intercept, different y | Allosteric inhibitors |
+| **Uncompetitive** | ↓ | ↓ | Parallel lines | Lithium on inositol monophosphatase |
+| **Mixed** | Changes | Changes | Lines cross outside axes | Many natural feedback inhibitors |
+
+<HighYield exam="step1">
+**Competitive vs non-competitive** is the most common exam framework:
+- Competitive → can be overcome by ↑ substrate. Methanol poisoning treated with fomepizole (competitive inhibitor of alcohol dehydrogenase) or ethanol (competing substrate).
+- Non-competitive → cannot be overcome by ↑ substrate. Some allosteric inhibitors and irreversible inhibitors (organophosphate AChE inhibitors) fit this pattern functionally.
+</HighYield>
+
+## Enzyme regulation - five levers
+
+The body controls enzymes via:
+
+1. **Substrate availability** - feed enzyme, get product
+2. **Allosteric modulation** - effectors bind elsewhere, change activity
+3. **Covalent modification** - usually phosphorylation/dephosphorylation
+4. **Proteolytic activation** - zymogens (trypsinogen → trypsin) - typical in GI + clotting
+5. **Gene expression** - transcription rate determines enzyme abundance
+
+## Rate-limiting enzymes you must know
+
+| Pathway | Rate-limiting enzyme | Regulation |
+|---|---|---|
+| **Glycolysis** | Phosphofructokinase-1 (PFK-1) | ↑ AMP, F2,6BP; ↓ ATP, citrate |
+| **Gluconeogenesis** | Fructose-1,6-bisphosphatase (F1,6BPase) | ↑ ATP, citrate; ↓ AMP, F2,6BP |
+| **TCA cycle** | Isocitrate dehydrogenase | ↑ ADP; ↓ ATP, NADH |
+| **Glycogenesis** | Glycogen synthase | ↑ insulin; ↓ glucagon, Epi |
+| **Glycogenolysis** | Glycogen phosphorylase | ↑ glucagon, Epi; ↓ insulin |
+| **Pentose phosphate** | G6PD | ↑ NADP+; ↓ NADPH |
+| **Cholesterol synthesis** | HMG-CoA reductase | Target of statins |
+| **Fatty acid synthesis** | Acetyl-CoA carboxylase | ↑ insulin, citrate; ↓ glucagon, palmitoyl-CoA |
+| **Fatty acid β-oxidation** | Carnitine acyltransferase I (CPT-I) | ↓ by malonyl-CoA |
+| **Ketogenesis** | HMG-CoA synthase (mitochondrial) | ↑ fasting/diabetes |
+| **De novo pyrimidine synthesis** | Carbamoyl phosphate synthetase II | Cytoplasmic |
+| **De novo purine synthesis** | Glutamine-PRPP amidotransferase | Negative feedback by AMP, GMP |
+| **Heme synthesis** | δ-ALA synthase | Negative feedback by heme |
+| **Urea cycle** | Carbamoyl phosphate synthetase I | Mitochondrial; activated by N-acetylglutamate |
+
+## Cofactors and coenzymes
+
+Many enzymes need helpers - metals (Mg²⁺, Zn²⁺, Fe²⁺), or vitamin-derived organic cofactors.
+
+| Vitamin | Coenzyme | Reactions |
+|---|---|---|
+| **B1 (Thiamine)** | TPP | Pyruvate dehydrogenase, α-ketoglutarate dehydrogenase, transketolase, branched-chain ketoacid dehydrogenase |
+| **B2 (Riboflavin)** | FAD, FMN | Oxidoreductases, ETC complex II |
+| **B3 (Niacin)** | NAD⁺, NADP⁺ | Dehydrogenases, redox |
+| **B5 (Pantothenate)** | CoA | Acyl group transfer (acetyl-CoA, succinyl-CoA) |
+| **B6 (Pyridoxine)** | PLP | Transaminases, decarboxylases, ALA synthase, GABA synthesis |
+| **B7 (Biotin)** | Biotin | **Carboxylation** - pyruvate carboxylase, acetyl-CoA carboxylase, propionyl-CoA carboxylase |
+| **B9 (Folate)** | THF | One-carbon transfer, purine + thymidine synthesis |
+| **B12 (Cobalamin)** | Methylcobalamin, adenosylcobalamin | Methionine synthase, methylmalonyl-CoA mutase |
+| **C (Ascorbate)** | Ascorbate | Collagen prolyl + lysyl hydroxylase, dopamine β-hydroxylase, Fe absorption |
+
+<Mnemonic title="Vitamin deficiencies you must spot">
+- **B1 (thiamine)** - **Wernicke encephalopathy** (alcoholic): ophthalmoplegia, ataxia, confusion. Korsakoff = chronic. Beriberi (cardiac + neurologic).
+- **B3 (niacin)** - **Pellagra**: dermatitis, diarrhea, dementia, death.
+- **B6 (pyridoxine)** - peripheral neuropathy (isoniazid co-administer to prevent).
+- **B7 (biotin)** - rare; alopecia, dermatitis, ketolactic acidosis (raw egg whites - avidin).
+- **B9 (folate)** - macrocytic anemia + neural tube defects in pregnancy; NO neurological deficit (vs B12).
+- **B12 (cobalamin)** - macrocytic anemia + subacute combined degeneration of spinal cord (dorsal columns + corticospinal tracts).
+- **C (ascorbate)** - **Scurvy**: bleeding gums, perifollicular hemorrhage, poor wound healing, corkscrew hairs.
+- **Vitamin K** - bleeding, prolonged PT. Newborns get IM vitamin K.
+- **Vitamin A** - night blindness, xerophthalmia, follicular hyperkeratosis.
+- **Vitamin D** - rickets/osteomalacia (see integumentary).
+- **Vitamin E** - hemolysis, neuropathy, ataxia.
+</Mnemonic>
+
+## Acid-base buffering chemistry
+
+Body pH is defended in narrow range 7.35-7.45. Three lines of defense:
+
+1. **Chemical buffers** (seconds)
+2. **Respiratory compensation** (minutes)
+3. **Renal compensation** (days)
+
+### The Henderson-Hasselbalch equation
+
+`pH = pKa + log([A⁻] / [HA])`
+
+For the main extracellular buffer (bicarbonate / carbonic acid):
+`pH = 6.1 + log([HCO₃⁻] / (0.03 × PaCO₂))`
+
+The system works because:
+- CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ (catalyzed by carbonic anhydrase)
+- Lungs control PaCO₂ (volatile acid - 15,000 mEq/day cleared)
+- Kidneys control HCO₃⁻ (regenerate + reabsorb) and excrete fixed acid (NH₄⁺, titratable acidity)
+
+### Major body buffers
+
+| Buffer | Where | pKa | Role |
+|---|---|---|---|
+| **Bicarbonate (HCO₃⁻/H₂CO₃)** | Extracellular | 6.1 | Dominant ECF buffer; open system - lungs can blow off CO₂ |
+| **Phosphate (HPO₄²⁻/H₂PO₄⁻)** | Intracellular + urine | 6.8 | Major intracellular buffer + urinary titratable acid |
+| **Hemoglobin** | RBCs | Multiple histidine residues | Buffers CO₂ at tissue (Bohr/Haldane) |
+| **Plasma proteins** | ECF | ~7 | Histidines and N-termini |
+| **Ammonia/Ammonium (NH₃/NH₄⁺)** | Urine | 9.2 | Renal generated; principal mechanism of new HCO₃⁻ |
+
+<Clinical>
+**The 4-step acid-base approach to any ABG:**
+
+1. **pH** - acidemic (<7.35) or alkalemic (>7.45)?
+2. **PaCO₂ + HCO₃⁻** - which is the primary disturbance?
+   - ↓ pH + ↑ PaCO₂ → respiratory acidosis
+   - ↓ pH + ↓ HCO₃⁻ → metabolic acidosis
+   - ↑ pH + ↓ PaCO₂ → respiratory alkalosis
+   - ↑ pH + ↑ HCO₃⁻ → metabolic alkalosis
+3. **Compensation appropriate?**
+   - Metabolic acidosis: Winter's formula PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2
+   - Acute respiratory: HCO₃⁻ rises 1 mEq per 10 mmHg PaCO₂ rise
+   - Chronic respiratory: HCO₃⁻ rises 3-4 mEq per 10 mmHg
+4. **Anion gap (Na⁺ − Cl⁻ − HCO₃⁻, normal ~10±2)?**
+   - HAGMA causes: **MUDPILES** - Methanol, Uremia, DKA, Propylene glycol, Iron/Isoniazid/Inhalants, Lactic acidosis, Ethylene glycol, Salicylates
+   - NAGMA causes: **HARDASS** - Hyperalimentation, Addison disease, Renal tubular acidosis, Diarrhea, Acetazolamide, Spironolactone, Saline infusion
+</Clinical>
+
+## Drug enzymology - the high-yield bits
+
+| Drug | Enzyme inhibited | Pathway |
+|---|---|---|
+| **Aspirin** | COX-1, COX-2 (irreversible) | Prostaglandin synthesis |
+| **Acetazolamide** | Carbonic anhydrase | HCO₃⁻ reabsorption in PCT, aqueous humor |
+| **Statins** | HMG-CoA reductase | Cholesterol synthesis |
+| **Allopurinol** | Xanthine oxidase | Uric acid production |
+| **Fomepizole, ethanol** | Alcohol dehydrogenase | Toxic alcohol metabolism |
+| **Methotrexate, trimethoprim** | Dihydrofolate reductase | Folate / pyrimidine synthesis |
+| **5-FU** | Thymidylate synthase | Pyrimidine synthesis |
+| **Hydroxyurea** | Ribonucleotide reductase | DNA synthesis |
+| **Sildenafil** | PDE5 | cGMP degradation in cavernosa, lung vessels |
+| **Milrinone, cilostazol** | PDE3 | cAMP degradation in cardiomyocytes, platelets |
+| **Selegiline, rasagiline** | MAO-B | Dopamine degradation (Parkinson) |
+| **Phenelzine, tranylcypromine** | MAO-A + B | Monoamine degradation (depression) |
+| **Tolcapone, entacapone** | COMT | L-DOPA degradation (Parkinson) |
+| **Sulfamethoxazole** | Dihydropteroate synthase | Bacterial folate |
+| **Methimazole, PTU** | Thyroperoxidase | Thyroid hormone synthesis |
+| **Omeprazole** | H⁺/K⁺-ATPase | Gastric acid secretion |
+| **Penicillins** | Transpeptidase (PBP) | Bacterial cell wall |
+| **Fluoroquinolones** | DNA gyrase, topoisomerase IV | Bacterial DNA replication |
+
+## Inborn errors of metabolism - enzyme deficiencies that hit physiology
+
+| Disease | Enzyme deficient | Major feature |
+|---|---|---|
+| **PKU** | Phenylalanine hydroxylase | Intellectual disability, musty body odor; treat with low-Phe diet, supplement Tyr |
+| **Galactosemia** | GALT | Failure to thrive, jaundice, cataracts; avoid lactose |
+| **Hereditary fructose intolerance** | Aldolase B | Hypoglycemia after fructose, avoid fructose/sucrose |
+| **Maple syrup urine disease** | Branched-chain α-ketoacid dehydrogenase | Burnt sugar urine, neurologic decompensation |
+| **G6PD deficiency** | G6PD (PPP) | Hemolytic anemia with oxidants (sulfa, antimalarials, fava); X-linked |
+| **Tay-Sachs** | Hexosaminidase A | Lysosomal GM2 ganglioside buildup → cherry-red spot, neurologic decline |
+| **Pompe** | Acid α-glucosidase | Glycogen in lysosomes; **cardiomegaly + hypotonia in infants** |
+| **McArdle** | Muscle phosphorylase | Exercise intolerance, second wind |
+| **von Gierke (GSD-I)** | Glucose-6-phosphatase | Severe fasting hypoglycemia, hepatomegaly, lactic acidosis |
+| **OTC deficiency** | Ornithine transcarbamylase | Hyperammonemia (urea cycle); X-linked |
+| **Lesch-Nyhan** | HGPRT | Hyperuricemia, self-mutilation; X-linked |
+
+## Quick check
+
+<Quiz questions={[
+  { q: "A competitive inhibitor changes which kinetic parameter?", a: "Increases apparent Km without changing Vmax", choices: [
+    "Decreases Vmax without changing Km",
+    "Increases apparent Km without changing Vmax",
+    "Decreases both Km and Vmax proportionally",
+    "Has no effect on either Km or Vmax"
+  ]},
+  { q: "Methanol poisoning is treated with fomepizole because…", a: "It competitively inhibits alcohol dehydrogenase, preventing methanol → formaldehyde conversion", choices: [
+    "It binds methanol directly",
+    "It activates renal clearance of methanol",
+    "It competitively inhibits alcohol dehydrogenase, preventing methanol → formaldehyde conversion",
+    "It alkalinizes the urine to trap formate"
+  ]},
+  { q: "The rate-limiting enzyme of cholesterol synthesis is…", a: "HMG-CoA reductase", choices: ["Squalene synthase", "HMG-CoA synthase", "HMG-CoA reductase", "Acetyl-CoA carboxylase"] },
+  { q: "Vitamin B12 deficiency causes which neurologic finding?", a: "Subacute combined degeneration of the spinal cord (dorsal columns + lateral corticospinal tracts)", choices: [
+    "Distal symmetric polyneuropathy alone",
+    "Subacute combined degeneration of the spinal cord (dorsal columns + lateral corticospinal tracts)",
+    "Cerebellar ataxia",
+    "Bilateral facial nerve palsy"
+  ]},
+  { q: "The bicarbonate buffer system works as 'open' because…", a: "The respiratory system can rapidly eliminate the volatile acid CO₂", choices: [
+    "The kidney can excrete unlimited HCO₃⁻",
+    "The respiratory system can rapidly eliminate the volatile acid CO₂",
+    "Carbonic anhydrase has a very high Km",
+    "Plasma proteins absorb the H⁺"
+  ]},
+  { q: "Winter's formula estimates the expected PaCO₂ in metabolic acidosis as…", a: "1.5 × HCO₃⁻ + 8 ± 2", choices: [
+    "HCO₃⁻ + 15",
+    "0.7 × HCO₃⁻ + 21",
+    "1.5 × HCO₃⁻ + 8 ± 2",
+    "PaCO₂ = HCO₃⁻ × 2"
+  ]},
+  { q: "A patient with a high anion gap metabolic acidosis and low blood glucose is taking metformin and recently developed contrast nephropathy. The most likely cause is…", a: "Lactic acidosis (type B)", choices: [
+    "DKA",
+    "Lactic acidosis (type B)",
+    "Salicylate toxicity",
+    "Uremic acidosis"
+  ]},
+  { q: "Allopurinol prevents gout flares by…", a: "Inhibiting xanthine oxidase, reducing uric acid production", choices: [
+    "Increasing renal urate excretion",
+    "Inhibiting xanthine oxidase, reducing uric acid production",
+    "Solubilizing uric acid crystals",
+    "Blocking PGE₂ synthesis"
+  ]},
+  { q: "Glucose-6-phosphate dehydrogenase (G6PD) deficiency causes hemolysis on exposure to oxidants because…", a: "G6PD generates NADPH which keeps glutathione reduced; without it, oxidative stress lyses RBCs", choices: [
+    "It depletes ATP in RBCs",
+    "G6PD generates NADPH which keeps glutathione reduced; without it, oxidative stress lyses RBCs",
+    "It binds hemoglobin directly",
+    "It allows iron oxidation in RBCs"
+  ]},
+  { q: "Why does Wernicke encephalopathy occur in chronic alcoholics?", a: "Thiamine deficiency impairs pyruvate dehydrogenase, α-KG dehydrogenase, and transketolase — disrupting brain glucose use", choices: [
+    "Direct alcohol toxicity to neurons",
+    "Folate deficiency from poor diet",
+    "Thiamine deficiency impairs pyruvate dehydrogenase, α-KG dehydrogenase, and transketolase — disrupting brain glucose use",
+    "Cerebellar atrophy from hepatic encephalopathy"
+  ]}
+]} />

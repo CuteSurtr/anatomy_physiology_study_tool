@@ -1,0 +1,97 @@
+{
+  "src": "/figures/cardiovascular/heart-schematic.png",
+  "alt": "Identify the chambers and great vessels of the heart.",
+  "viewBox": [
+    0,
+    0,
+    1651,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "aorta",
+      "x": 693,
+      "y": 111,
+      "label": "Aorta"
+    },
+    {
+      "id": "svc",
+      "x": 363,
+      "y": 200,
+      "label": "Superior vena cava",
+      "synonyms": [
+        "SVC"
+      ]
+    },
+    {
+      "id": "ivc",
+      "x": 297,
+      "y": 866,
+      "label": "Inferior vena cava",
+      "synonyms": [
+        "IVC"
+      ]
+    },
+    {
+      "id": "pa",
+      "x": 908,
+      "y": 222,
+      "label": "Pulmonary trunk",
+      "synonyms": [
+        "pulmonary artery",
+        "main pulmonary artery"
+      ]
+    },
+    {
+      "id": "ra",
+      "x": 495,
+      "y": 466,
+      "label": "Right atrium",
+      "synonyms": [
+        "RA"
+      ]
+    },
+    {
+      "id": "la",
+      "x": 1073,
+      "y": 444,
+      "label": "Left atrium",
+      "synonyms": [
+        "LA"
+      ]
+    },
+    {
+      "id": "rv",
+      "x": 495,
+      "y": 722,
+      "label": "Right ventricle",
+      "synonyms": [
+        "RV"
+      ]
+    },
+    {
+      "id": "lv",
+      "x": 1073,
+      "y": 688,
+      "label": "Left ventricle",
+      "synonyms": [
+        "LV"
+      ]
+    },
+    {
+      "id": "septum",
+      "x": 792,
+      "y": 666,
+      "label": "Interventricular septum",
+      "synonyms": [
+        "septum",
+        "ventricular septum"
+      ]
+    }
+  ]
+}

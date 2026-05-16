@@ -1,0 +1,50 @@
+{
+  "src": "/figures/lymphatic/spleen.png",
+  "alt": "Identify the regions of the spleen.",
+  "viewBox": [
+    0,
+    0,
+    1913,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "capsule",
+      "x": 383,
+      "y": 333,
+      "label": "Capsule"
+    },
+    {
+      "id": "red-pulp",
+      "x": 861,
+      "y": 610,
+      "label": "Red pulp"
+    },
+    {
+      "id": "white-pulp",
+      "x": 1148,
+      "y": 500,
+      "label": "White pulp"
+    },
+    {
+      "id": "hilum",
+      "x": 574,
+      "y": 610,
+      "label": "Hilum"
+    },
+    {
+      "id": "trabecula",
+      "x": 1243,
+      "y": 722,
+      "label": "Trabecula",
+      "synonyms": [
+        "trabeculae"
+      ]
+    }
+  ]
+}

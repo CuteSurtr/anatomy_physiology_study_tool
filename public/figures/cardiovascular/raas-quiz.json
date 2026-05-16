@@ -1,0 +1,47 @@
+{
+  "src": "/figures/cardiovascular/raas.png",
+  "alt": "Identify the organs and hormones in the RAAS axis.",
+  "viewBox": [
+    0,
+    0,
+    1050,
+    585
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "kidney",
+      "x": 189,
+      "y": 292,
+      "label": "Kidney"
+    },
+    {
+      "id": "liver",
+      "x": 472,
+      "y": 105,
+      "label": "Liver"
+    },
+    {
+      "id": "lung",
+      "x": 682,
+      "y": 176,
+      "label": "Lung",
+      "synonyms": [
+        "lungs"
+      ]
+    },
+    {
+      "id": "adrenal",
+      "x": 892,
+      "y": 322,
+      "label": "Adrenal gland",
+      "synonyms": [
+        "adrenal cortex"
+      ]
+    }
+  ]
+}

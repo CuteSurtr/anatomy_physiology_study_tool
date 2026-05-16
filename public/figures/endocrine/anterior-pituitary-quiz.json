@@ -1,0 +1,73 @@
+{
+  "src": "/figures/endocrine/anterior-pituitary.jpg",
+  "alt": "Identify each anterior-pituitary cell type by its hormone target.",
+  "viewBox": [
+    0,
+    0,
+    1154,
+    996
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "soma",
+      "x": 288,
+      "y": 299,
+      "label": "Growth hormone",
+      "synonyms": [
+        "GH",
+        "somatotropin"
+      ]
+    },
+    {
+      "id": "prl",
+      "x": 577,
+      "y": 299,
+      "label": "Prolactin",
+      "synonyms": [
+        "PRL"
+      ]
+    },
+    {
+      "id": "tsh",
+      "x": 866,
+      "y": 299,
+      "label": "TSH",
+      "synonyms": [
+        "thyroid-stimulating hormone",
+        "thyrotropin"
+      ]
+    },
+    {
+      "id": "acth",
+      "x": 346,
+      "y": 697,
+      "label": "ACTH",
+      "synonyms": [
+        "corticotropin"
+      ]
+    },
+    {
+      "id": "lh",
+      "x": 635,
+      "y": 697,
+      "label": "LH",
+      "synonyms": [
+        "luteinizing hormone"
+      ]
+    },
+    {
+      "id": "fsh",
+      "x": 923,
+      "y": 697,
+      "label": "FSH",
+      "synonyms": [
+        "follicle-stimulating hormone"
+      ]
+    }
+  ]
+}

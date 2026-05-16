@@ -1,0 +1,61 @@
+{
+  "src": "/figures/respiratory/alveolus.svg",
+  "alt": "Identify the structures of an alveolus.",
+  "viewBox": [
+    0,
+    0,
+    372,
+    281
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "alveolus",
+      "x": 130,
+      "y": 127,
+      "label": "Alveolus"
+    },
+    {
+      "id": "capillary",
+      "x": 223,
+      "y": 169,
+      "label": "Capillary",
+      "synonyms": [
+        "pulmonary capillary"
+      ]
+    },
+    {
+      "id": "type1",
+      "x": 205,
+      "y": 84,
+      "label": "Type I pneumocyte",
+      "synonyms": [
+        "type I cell",
+        "type 1 alveolar cell"
+      ]
+    },
+    {
+      "id": "type2",
+      "x": 112,
+      "y": 211,
+      "label": "Type II pneumocyte",
+      "synonyms": [
+        "type II cell",
+        "surfactant cell"
+      ]
+    },
+    {
+      "id": "macrophage",
+      "x": 74,
+      "y": 155,
+      "label": "Alveolar macrophage",
+      "synonyms": [
+        "dust cell"
+      ]
+    }
+  ]
+}

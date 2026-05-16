@@ -1,0 +1,51 @@
+{
+  "src": "/figures/respiratory/larynx.png",
+  "alt": "Identify the cartilages and folds of the larynx.",
+  "viewBox": [
+    0,
+    0,
+    2133,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "epiglottis",
+      "x": 853,
+      "y": 166,
+      "label": "Epiglottis"
+    },
+    {
+      "id": "thyroid-cart",
+      "x": 1173,
+      "y": 555,
+      "label": "Thyroid cartilage"
+    },
+    {
+      "id": "cricoid",
+      "x": 1173,
+      "y": 832,
+      "label": "Cricoid cartilage"
+    },
+    {
+      "id": "vocal",
+      "x": 853,
+      "y": 610,
+      "label": "Vocal cord",
+      "synonyms": [
+        "true vocal cord",
+        "vocal fold"
+      ]
+    },
+    {
+      "id": "trachea",
+      "x": 1173,
+      "y": 1021,
+      "label": "Trachea"
+    }
+  ]
+}

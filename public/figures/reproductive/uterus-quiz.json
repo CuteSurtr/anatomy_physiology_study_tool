@@ -1,0 +1,57 @@
+{
+  "src": "/figures/reproductive/uterus.png",
+  "alt": "Identify the parts of the female reproductive tract.",
+  "viewBox": [
+    0,
+    0,
+    1945,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "uterus",
+      "x": 972,
+      "y": 500,
+      "label": "Uterus"
+    },
+    {
+      "id": "ovary",
+      "x": 389,
+      "y": 444,
+      "label": "Ovary"
+    },
+    {
+      "id": "tube",
+      "x": 584,
+      "y": 355,
+      "label": "Fallopian tube",
+      "synonyms": [
+        "uterine tube",
+        "oviduct"
+      ]
+    },
+    {
+      "id": "fundus",
+      "x": 972,
+      "y": 278,
+      "label": "Fundus"
+    },
+    {
+      "id": "cervix",
+      "x": 972,
+      "y": 799,
+      "label": "Cervix"
+    },
+    {
+      "id": "vagina",
+      "x": 972,
+      "y": 999,
+      "label": "Vagina"
+    }
+  ]
+}

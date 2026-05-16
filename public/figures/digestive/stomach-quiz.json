@@ -1,0 +1,65 @@
+{
+  "src": "/figures/digestive/stomach.png",
+  "alt": "Identify the regions of the stomach.",
+  "viewBox": [
+    0,
+    0,
+    2179,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "cardia",
+      "x": 697,
+      "y": 311,
+      "label": "Cardia"
+    },
+    {
+      "id": "fundus",
+      "x": 872,
+      "y": 200,
+      "label": "Fundus"
+    },
+    {
+      "id": "body",
+      "x": 981,
+      "y": 500,
+      "label": "Body"
+    },
+    {
+      "id": "antrum",
+      "x": 1416,
+      "y": 722,
+      "label": "Pyloric antrum",
+      "synonyms": [
+        "antrum"
+      ]
+    },
+    {
+      "id": "pylorus",
+      "x": 1700,
+      "y": 610,
+      "label": "Pylorus",
+      "synonyms": [
+        "pyloric sphincter"
+      ]
+    },
+    {
+      "id": "greater",
+      "x": 1090,
+      "y": 866,
+      "label": "Greater curvature"
+    },
+    {
+      "id": "lesser",
+      "x": 1198,
+      "y": 388,
+      "label": "Lesser curvature"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "src": "/figures/cardiovascular/artery-vein-layers.jpg",
+  "alt": "Identify the three concentric tunics of an artery / vein wall.",
+  "viewBox": [
+    0,
+    0,
+    1567,
+    2125
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "intima",
+      "x": 627,
+      "y": 850,
+      "label": "Tunica intima",
+      "synonyms": [
+        "intima",
+        "endothelium"
+      ]
+    },
+    {
+      "id": "media",
+      "x": 862,
+      "y": 638,
+      "label": "Tunica media",
+      "synonyms": [
+        "media"
+      ]
+    },
+    {
+      "id": "adventitia",
+      "x": 1175,
+      "y": 425,
+      "label": "Tunica externa",
+      "synonyms": [
+        "adventitia",
+        "tunica adventitia"
+      ]
+    },
+    {
+      "id": "lumen",
+      "x": 345,
+      "y": 1062,
+      "label": "Lumen"
+    }
+  ]
+}

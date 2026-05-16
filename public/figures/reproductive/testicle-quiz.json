@@ -1,0 +1,50 @@
+{
+  "src": "/figures/reproductive/testicle.png",
+  "alt": "Identify the components of the testis.",
+  "viewBox": [
+    0,
+    0,
+    1888,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "testis",
+      "x": 661,
+      "y": 610,
+      "label": "Testis"
+    },
+    {
+      "id": "epididymis",
+      "x": 1038,
+      "y": 500,
+      "label": "Epididymis"
+    },
+    {
+      "id": "vas",
+      "x": 1227,
+      "y": 278,
+      "label": "Vas deferens",
+      "synonyms": [
+        "ductus deferens"
+      ]
+    },
+    {
+      "id": "seminiferous",
+      "x": 566,
+      "y": 777,
+      "label": "Seminiferous tubule"
+    },
+    {
+      "id": "tunica",
+      "x": 378,
+      "y": 555,
+      "label": "Tunica albuginea"
+    }
+  ]
+}

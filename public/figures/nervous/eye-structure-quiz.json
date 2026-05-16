@@ -1,0 +1,71 @@
+{
+  "src": "/figures/nervous/eye-structure.png",
+  "alt": "Identify the structures of the eye.",
+  "viewBox": [
+    0,
+    0,
+    2242,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "cornea",
+      "x": 224,
+      "y": 555,
+      "label": "Cornea"
+    },
+    {
+      "id": "iris",
+      "x": 336,
+      "y": 388,
+      "label": "Iris"
+    },
+    {
+      "id": "pupil",
+      "x": 291,
+      "y": 555,
+      "label": "Pupil"
+    },
+    {
+      "id": "lens",
+      "x": 493,
+      "y": 555,
+      "label": "Lens"
+    },
+    {
+      "id": "retina",
+      "x": 1682,
+      "y": 333,
+      "label": "Retina"
+    },
+    {
+      "id": "optic-nerve",
+      "x": 2018,
+      "y": 610,
+      "label": "Optic nerve"
+    },
+    {
+      "id": "fovea",
+      "x": 1838,
+      "y": 555,
+      "label": "Fovea"
+    },
+    {
+      "id": "sclera",
+      "x": 1345,
+      "y": 222,
+      "label": "Sclera"
+    },
+    {
+      "id": "choroid",
+      "x": 1569,
+      "y": 244,
+      "label": "Choroid"
+    }
+  ]
+}

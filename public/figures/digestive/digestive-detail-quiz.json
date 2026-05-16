@@ -1,0 +1,78 @@
+{
+  "src": "/figures/digestive/digestive-detail.jpg",
+  "alt": "Identify each labeled organ of the GI tract and accessory organs.",
+  "viewBox": [
+    0,
+    0,
+    936,
+    1185
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "esophagus",
+      "x": 421,
+      "y": 237,
+      "label": "Esophagus"
+    },
+    {
+      "id": "stomach",
+      "x": 281,
+      "y": 450,
+      "label": "Stomach"
+    },
+    {
+      "id": "liver",
+      "x": 580,
+      "y": 379,
+      "label": "Liver"
+    },
+    {
+      "id": "gallbladder",
+      "x": 562,
+      "y": 498,
+      "label": "Gallbladder"
+    },
+    {
+      "id": "pancreas",
+      "x": 468,
+      "y": 569,
+      "label": "Pancreas"
+    },
+    {
+      "id": "duodenum",
+      "x": 515,
+      "y": 652,
+      "label": "Duodenum"
+    },
+    {
+      "id": "small-intestine",
+      "x": 468,
+      "y": 770,
+      "label": "Small intestine",
+      "synonyms": [
+        "jejunum",
+        "ileum"
+      ]
+    },
+    {
+      "id": "large-intestine",
+      "x": 281,
+      "y": 830,
+      "label": "Large intestine",
+      "synonyms": [
+        "colon"
+      ]
+    },
+    {
+      "id": "rectum",
+      "x": 468,
+      "y": 1090,
+      "label": "Rectum"
+    }
+  ]
+}

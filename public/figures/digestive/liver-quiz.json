@@ -1,0 +1,50 @@
+{
+  "src": "/figures/digestive/liver.png",
+  "alt": "Identify the lobes and biliary structures of the liver.",
+  "viewBox": [
+    0,
+    0,
+    2129,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "right-lobe",
+      "x": 532,
+      "y": 500,
+      "label": "Right lobe"
+    },
+    {
+      "id": "left-lobe",
+      "x": 1384,
+      "y": 500,
+      "label": "Left lobe"
+    },
+    {
+      "id": "gallbladder",
+      "x": 681,
+      "y": 777,
+      "label": "Gallbladder"
+    },
+    {
+      "id": "cbd",
+      "x": 958,
+      "y": 832,
+      "label": "Common bile duct",
+      "synonyms": [
+        "CBD"
+      ]
+    },
+    {
+      "id": "cystic",
+      "x": 852,
+      "y": 722,
+      "label": "Cystic duct"
+    }
+  ]
+}

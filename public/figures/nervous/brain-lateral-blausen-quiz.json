@@ -1,0 +1,56 @@
+{
+  "src": "/figures/nervous/brain-lateral-blausen.png",
+  "alt": "Identify the four lobes of the cerebral cortex.",
+  "viewBox": [
+    0,
+    0,
+    1500,
+    1340
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "frontal",
+      "x": 375,
+      "y": 536,
+      "label": "Frontal lobe"
+    },
+    {
+      "id": "parietal",
+      "x": 825,
+      "y": 402,
+      "label": "Parietal lobe"
+    },
+    {
+      "id": "occipital",
+      "x": 1275,
+      "y": 603,
+      "label": "Occipital lobe"
+    },
+    {
+      "id": "temporal",
+      "x": 825,
+      "y": 871,
+      "label": "Temporal lobe"
+    },
+    {
+      "id": "cerebellum",
+      "x": 1275,
+      "y": 1005,
+      "label": "Cerebellum"
+    },
+    {
+      "id": "brainstem",
+      "x": 975,
+      "y": 1139,
+      "label": "Brainstem",
+      "synonyms": [
+        "brain stem"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "src": "/figures/muscular/neuromuscular-junction.jpg",
+  "alt": "Label the components of the neuromuscular junction.",
+  "viewBox": [
+    0,
+    0,
+    1531,
+    2575
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Human_anatomy_from_CNX_Anatomy_%26_Physiology_Textbook"
+  },
+  "labels": [
+    {
+      "id": "axon",
+      "x": 459,
+      "y": 386,
+      "label": "Motor axon",
+      "synonyms": [
+        "axon",
+        "motor neuron"
+      ]
+    },
+    {
+      "id": "terminal",
+      "x": 766,
+      "y": 1159,
+      "label": "Axon terminal",
+      "synonyms": [
+        "synaptic terminal",
+        "presynaptic terminal"
+      ]
+    },
+    {
+      "id": "vesicles",
+      "x": 689,
+      "y": 1416,
+      "label": "Synaptic vesicles",
+      "synonyms": [
+        "vesicles"
+      ]
+    },
+    {
+      "id": "cleft",
+      "x": 766,
+      "y": 1674,
+      "label": "Synaptic cleft"
+    },
+    {
+      "id": "endplate",
+      "x": 766,
+      "y": 2008,
+      "label": "Motor end plate",
+      "synonyms": [
+        "end plate"
+      ]
+    },
+    {
+      "id": "muscle",
+      "x": 766,
+      "y": 2369,
+      "label": "Muscle fiber",
+      "synonyms": [
+        "sarcolemma",
+        "myocyte"
+      ]
+    }
+  ]
+}

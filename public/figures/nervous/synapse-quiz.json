@@ -1,0 +1,61 @@
+{
+  "src": "/figures/nervous/synapse.jpg",
+  "alt": "Identify the parts of a chemical synapse.",
+  "viewBox": [
+    0,
+    0,
+    544,
+    678
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "presyn",
+      "x": 272,
+      "y": 136,
+      "label": "Presynaptic terminal",
+      "synonyms": [
+        "axon terminal"
+      ]
+    },
+    {
+      "id": "vesicle",
+      "x": 190,
+      "y": 203,
+      "label": "Synaptic vesicle",
+      "synonyms": [
+        "vesicle",
+        "vesicles"
+      ]
+    },
+    {
+      "id": "cleft",
+      "x": 272,
+      "y": 325,
+      "label": "Synaptic cleft"
+    },
+    {
+      "id": "receptor",
+      "x": 163,
+      "y": 420,
+      "label": "Postsynaptic receptor",
+      "synonyms": [
+        "receptor",
+        "neurotransmitter receptor"
+      ]
+    },
+    {
+      "id": "postsyn",
+      "x": 272,
+      "y": 542,
+      "label": "Postsynaptic membrane",
+      "synonyms": [
+        "postsynaptic neuron"
+      ]
+    }
+  ]
+}

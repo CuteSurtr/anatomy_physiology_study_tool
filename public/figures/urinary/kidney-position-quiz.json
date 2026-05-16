@@ -1,0 +1,53 @@
+{
+  "src": "/figures/urinary/kidney-position.jpg",
+  "alt": "Identify the urinary tract structures in the abdomen.",
+  "viewBox": [
+    0,
+    0,
+    1630,
+    1204
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "adrenal",
+      "x": 489,
+      "y": 217,
+      "label": "Adrenal gland",
+      "synonyms": [
+        "suprarenal gland"
+      ]
+    },
+    {
+      "id": "right-kidney",
+      "x": 522,
+      "y": 361,
+      "label": "Right kidney",
+      "synonyms": [
+        "kidney"
+      ]
+    },
+    {
+      "id": "left-kidney",
+      "x": 1108,
+      "y": 361,
+      "label": "Left kidney"
+    },
+    {
+      "id": "ureter",
+      "x": 815,
+      "y": 662,
+      "label": "Ureter"
+    },
+    {
+      "id": "bladder",
+      "x": 815,
+      "y": 1023,
+      "label": "Urinary bladder"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "src": "/figures/cardiovascular/cardiomyocyte.png",
+  "alt": "Identify the major components of a cardiac muscle cell.",
+  "viewBox": [
+    0,
+    0,
+    2042,
+    1110
+  ],
+  "license": {
+    "type": "CC BY 3.0",
+    "attribution": "Blausen Medical Communications / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications_with_labels_in_English"
+  },
+  "labels": [
+    {
+      "id": "nucleus",
+      "x": 613,
+      "y": 610,
+      "label": "Nucleus"
+    },
+    {
+      "id": "id",
+      "x": 1123,
+      "y": 555,
+      "label": "Intercalated disc",
+      "synonyms": [
+        "intercalated disk"
+      ]
+    },
+    {
+      "id": "myofibril",
+      "x": 817,
+      "y": 333,
+      "label": "Myofibril"
+    },
+    {
+      "id": "mito",
+      "x": 1429,
+      "y": 722,
+      "label": "Mitochondrion"
+    },
+    {
+      "id": "sarcolemma",
+      "x": 408,
+      "y": 278,
+      "label": "Sarcolemma"
+    }
+  ]
+}
