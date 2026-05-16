@@ -80,6 +80,29 @@ html.dark {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
   color: #3f3f46;
 }
+.prose pre {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  background: #f4f4f5;
+  border-radius: 6px;
+  padding: 0.9em 1em;
+  margin: 1em 0;
+  font-size: 0.82em;
+  line-height: 1.5;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  color: #27272a;
+  -webkit-overflow-scrolling: touch;
+}
+.prose pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre;
+}
 .prose ul {
   list-style: disc;
   padding-left: 1.4em;
@@ -167,6 +190,10 @@ html.dark .prose a:hover {
 }
 html.dark .prose code {
   background: #27272a;
+  color: #e4e4e7;
+}
+html.dark .prose pre {
+  background: #18181b;
   color: #e4e4e7;
 }
 html.dark .prose li::marker {
