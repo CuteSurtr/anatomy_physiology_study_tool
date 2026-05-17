@@ -1,0 +1,119 @@
+---
+title: Pharmacodynamics
+category: Foundations
+categoryOrder: 1
+order: 2
+summary: What the drug does to the body - receptor theory, dose-response, agonists vs antagonists, therapeutic index.
+drugs: []
+sources:
+  - Katzung Basic & Clinical Pharmacology 16e
+  - Goodman & Gilman 14e
+level: med-school
+---
+
+Pharmacodynamics (PD) is **what the drug does to the body**: how it binds to its target, how that produces an effect, and how potency, efficacy, and toxicity scale with dose.
+
+## Receptors and drug-target interactions
+
+Most drugs work by binding to a specific **target macromolecule** - usually a receptor, but also enzymes, transporters, ion channels, or structural proteins.
+
+| Target | Mechanism | Examples |
+|---|---|---|
+| **G-protein coupled receptor (GPCR)** | Heterotrimeric G-protein → second messenger | β-adrenergic (Gs → cAMP), muscarinic M2 (Gi → ↓ cAMP), opioid (Gi), histamine H1 (Gq) |
+| **Ion channel (ligand-gated)** | Direct ion flux | Nicotinic ACh receptor, GABA-A, NMDA |
+| **Ion channel (voltage-gated)** | Channel-blocking drugs | Local anesthetics (Na+), Ca-channel blockers, antiarrhythmics |
+| **Receptor tyrosine kinase** | Autophosphorylation → RAS/MAPK or PI3K | Insulin, EGFR, VEGF, growth factors |
+| **Nuclear receptor** | Cytoplasm → nucleus → transcription | Glucocorticoids, thyroid hormone, vitamin D, sex steroids, PPARγ (glitazones) |
+| **JAK-STAT receptor** | Cytokine receptors → Janus kinase | Erythropoietin, growth hormone, prolactin, many cytokines |
+| **Enzyme** | Direct inhibition or activation | ACE inhibitors, statins, NSAIDs (COX), DOACs (factor Xa, thrombin) |
+| **Transporter** | Block reuptake or transport | SSRIs (SERT), SGLT2 (renal glucose), PPIs (H+/K+-ATPase) |
+
+## Dose-response and the four key parameters
+
+A dose-response curve has four important features:
+
+- **Potency (EC50)** = dose producing 50% of maximal effect. Left-shift = more potent. Determined by receptor affinity. Not clinically critical (just means you give a smaller pill).
+- **Efficacy (Emax)** = maximal achievable response. Determined by the drug-receptor system. Clinically critical - what you can actually accomplish.
+- **Slope** = how rapidly response changes with dose - steep slope means small dose changes cause large effect changes (narrow therapeutic window).
+- **Therapeutic index (TI)** = `TD50 / ED50` (or `LD50 / ED50` for animal data). Wide TI = safe; narrow TI = dangerous (digoxin, lithium, warfarin, theophylline, phenytoin).
+
+## Agonists, antagonists, and modulators
+
+| Class | What it does | Example |
+|---|---|---|
+| **Full agonist** | Binds + activates receptor maximally | Morphine at μ-opioid receptor; isoproterenol at β |
+| **Partial agonist** | Binds + activates submaximally (lower Emax) | Buprenorphine at μ-opioid; pindolol at β; varenicline at α4β2 nicotinic |
+| **Inverse agonist** | Binds + produces opposite of intrinsic constitutive activity | Some antihistamines at H1 (decrease constitutive activity) |
+| **Competitive antagonist** | Binds same site reversibly; surmountable by ↑ agonist | Naloxone at opioid; atropine at muscarinic |
+| **Non-competitive (irreversible) antagonist** | Binds covalently or to allosteric site; ↓ Emax | Phenoxybenzamine at α (irreversible); aspirin at COX |
+| **Allosteric modulator** | Binds elsewhere; alters affinity or activity | Benzodiazepines at GABA-A (potentiate); etomidate at GABA-A |
+| **Functional antagonist** | Opposes physiologic effect by a different pathway | β-blockers vs α-agonists for hypertension |
+
+**Competitive vs non-competitive on dose-response**: competitive antagonist shifts the agonist curve right (↑ EC50) but preserves Emax. Non-competitive lowers Emax without shifting EC50.
+
+<Mnemonic>
+"**B**uprenorphine, **P**indolol, **V**arenicline = **B**est **P**artial agonists for boards (BPV)."
+</Mnemonic>
+
+## Tolerance, dependence, tachyphylaxis
+
+- **Tolerance** - need ↑ dose for same effect after repeated exposure. Mechanisms: receptor downregulation (β-agonists), receptor desensitization (nicotinic on continuous succinylcholine), enzyme induction (ethanol), depletion of endogenous mediators (tachyphylaxis with ephedrine).
+- **Tachyphylaxis** - rapid tolerance, often after just one or two doses (ephedrine, nitrates if dosed continuously, LSD).
+- **Cross-tolerance** - tolerance to one drug produces tolerance to another acting at the same target (alcohol ↔ benzodiazepines ↔ barbiturates - all GABA-A potentiators).
+- **Physical dependence** - withdrawal syndrome when drug is stopped (opioids, alcohol, benzodiazepines, β-blockers, clonidine). Distinct from addiction.
+
+## Receptor desensitization and downregulation
+
+Chronic agonist → receptor phosphorylation → β-arrestin binding → internalization (desensitization, minutes). Sustained → ↓ receptor synthesis (downregulation, hours–days). Restoration on agonist withdrawal explains rebound hypertension after clonidine stop, rebound tachycardia after β-blocker withdrawal.
+
+## Spare receptors
+
+For some drugs, maximal response is reached before all receptors are bound - "spare receptors" provide reserve. Implication: a small fraction of irreversible antagonism may not block maximal agonist response until the spare receptor reserve is exhausted. Common with β-adrenergic and acetylcholine receptors.
+
+## Drug-drug interactions
+
+PD interactions are about the **effect**, not the level:
+
+| Type | Effect | Example |
+|---|---|---|
+| **Additive** | 1 + 1 = 2 | Two NSAIDs, or NSAID + aspirin (similar mechanism) |
+| **Synergistic** | 1 + 1 > 2 | β-lactam + aminoglycoside (cell wall hole → AG entry); ethanol + benzodiazepine (both CNS depressants) |
+| **Potentiation** | Drug A alone has no effect, but enhances B | Carbidopa (no antiparkinsonian effect alone) + levodopa |
+| **Antagonism** | Drug A opposes B | Naloxone reverses opioid; flumazenil reverses BZD; vitamin K reverses warfarin |
+
+## Therapeutic and toxic index
+
+| Drug | TI | Why it matters |
+|---|---|---|
+| **Digoxin** | Narrow | Toxicity → arrhythmias; monitor levels |
+| **Warfarin** | Narrow | Bleeding; monitor INR |
+| **Lithium** | Narrow | Toxicity → tremor, ataxia, seizures; monitor level, especially with NSAIDs, diuretics |
+| **Theophylline** | Narrow | Toxicity → seizures, arrhythmias |
+| **Phenytoin** | Narrow | Zero-order kinetics + saturable metabolism |
+| **Aminoglycosides** | Narrow | Nephrotoxicity, ototoxicity |
+| **Vancomycin** | Narrow | Nephrotoxicity, "red man" |
+| **Levothyroxine** | Narrow | Hyper-/hypothyroid |
+
+## Quantal dose-response and population variability
+
+Beyond the single-subject curve, populations show variability:
+- **ED50** = dose producing therapeutic effect in 50% of population.
+- **TD50** = dose producing toxicity in 50%.
+- **LD50** = dose lethal in 50% (animal data only).
+- **TI** = TD50/ED50 (or LD50/ED50). The **certain safety factor** (CSF) = TD1/ED99 is a stricter clinical metric.
+
+## Hill equation (for the curious)
+
+```
+E = (Emax × [D]^n) / (EC50^n + [D]^n)
+```
+
+n = Hill coefficient = slope steepness; n=1 means one molecule per binding site; n>1 means cooperative binding (hemoglobin/O2 has n≈2.8).
+
+<HighYield variant="boards">
+- Distinguish potency from efficacy: morphine is **more potent** than codeine but they have **the same maximum analgesia (efficacy)**. Acetaminophen has less efficacy than morphine no matter the dose.
+- A competitive antagonist preserves Emax (more agonist overcomes it). Irreversible antagonist reduces Emax.
+- Partial agonists at full receptor occupancy can act as functional antagonists in the presence of a full agonist (buprenorphine in opioid-tolerant patient precipitates withdrawal).
+- Diazepam's anxiolytic effect at GABA-A is via allosteric potentiation (increases frequency of channel opening, not directly opening it). Barbiturates increase channel **duration**.
+- The therapeutic window narrows in zero-order kinetics: small dose changes can push phenytoin or salicylate from therapeutic to toxic.
+</HighYield>

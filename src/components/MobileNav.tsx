@@ -64,6 +64,20 @@ export function MobileNav({ systems }: { systems: Sys[] }) {
             >
               Mixed practice quiz →
             </Link>
+            <div className="mb-3 grid grid-cols-2 gap-2">
+              <Link
+                href="/pharmacology"
+                className="rounded-md border border-zinc-200 px-3 py-2 text-center text-sm font-medium text-zinc-800 hover:bg-zinc-50"
+              >
+                Pharmacology
+              </Link>
+              <Link
+                href="/terminology"
+                className="rounded-md border border-zinc-200 px-3 py-2 text-center text-sm font-medium text-zinc-800 hover:bg-zinc-50"
+              >
+                Terminology
+              </Link>
+            </div>
             <div className="grid grid-cols-2 gap-2">
               {systems.map((s) => (
                 <Link

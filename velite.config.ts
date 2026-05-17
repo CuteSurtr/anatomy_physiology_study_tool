@@ -101,6 +101,53 @@ const systems = defineCollection({
     }),
 });
 
+const pharmacology = defineCollection({
+  name: "Pharmacology",
+  pattern: "pharmacology/*.mdx",
+  schema: s
+    .object({
+      title: s.string(),
+      category: s.string(),
+      categoryOrder: s.number().default(99),
+      order: s.number().default(99),
+      summary: s.string().optional(),
+      drugs: s.array(s.string()).default([]),
+      related: s.array(s.string()).default([]),
+      figures: s.array(s.string()).default([]),
+      sources: s.array(s.string()).default([]),
+      level: s.enum(["undergrad", "nursing", "med-school"]).default("med-school"),
+      path: s.path(),
+      body: s.mdx(),
+    })
+    .transform((data) => {
+      const slug = data.path.replace(/^pharmacology\//, "").replace(/\.mdx$/, "");
+      return { ...data, slug, href: `/pharmacology/${slug}` };
+    }),
+});
+
+const terminology = defineCollection({
+  name: "Terminology",
+  pattern: "terminology/*.mdx",
+  schema: s
+    .object({
+      title: s.string(),
+      category: s.string(),
+      categoryOrder: s.number().default(99),
+      order: s.number().default(99),
+      summary: s.string().optional(),
+      related: s.array(s.string()).default([]),
+      figures: s.array(s.string()).default([]),
+      sources: s.array(s.string()).default([]),
+      level: s.enum(["undergrad", "nursing", "med-school"]).default("undergrad"),
+      path: s.path(),
+      body: s.mdx(),
+    })
+    .transform((data) => {
+      const slug = data.path.replace(/^terminology\//, "").replace(/\.mdx$/, "");
+      return { ...data, slug, href: `/terminology/${slug}` };
+    }),
+});
+
 export default defineConfig({
   root: "content",
   output: {
@@ -109,7 +156,7 @@ export default defineConfig({
     base: "/static/",
     clean: true,
   },
-  collections: { structures, processes, clinical, systems },
+  collections: { structures, processes, clinical, systems, pharmacology, terminology },
   mdx: {
     rehypePlugins: [rehypeSlug],
   },

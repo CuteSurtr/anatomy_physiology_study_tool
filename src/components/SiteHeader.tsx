@@ -24,6 +24,18 @@ export function SiteHeader() {
         <nav className="hidden items-center gap-2 text-sm font-medium text-zinc-600 dark:text-zinc-300 md:flex">
           <SystemsMenu systems={navData} />
           <Link
+            href="/pharmacology"
+            className="rounded-md px-3 py-1.5 hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
+          >
+            Pharmacology
+          </Link>
+          <Link
+            href="/terminology"
+            className="rounded-md px-3 py-1.5 hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
+          >
+            Terminology
+          </Link>
+          <Link
             href="/practice"
             className="rounded-md px-3 py-1.5 hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
           >

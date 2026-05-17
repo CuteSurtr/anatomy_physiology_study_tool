@@ -1,0 +1,162 @@
+---
+title: Pharmacokinetics (ADME)
+category: Foundations
+categoryOrder: 1
+order: 1
+summary: What the body does to the drug - absorption, distribution, metabolism, excretion - plus half-life, clearance, and steady-state math.
+drugs: []
+sources:
+  - Katzung Basic & Clinical Pharmacology 16e
+  - Goodman & Gilman 14e
+  - First Aid USMLE 2024
+level: med-school
+---
+
+Pharmacokinetics (PK) is **what the body does to the drug**: how it gets in, where it goes, how it's broken down, and how it leaves. Four steps - **A**bsorption, **D**istribution, **M**etabolism, **E**xcretion - control plasma concentration over time, which is what the patient ultimately experiences.
+
+## Absorption - how the drug enters circulation
+
+Routes and the fraction of dose reaching systemic circulation (bioavailability, **F**):
+
+| Route | F (typical) | Onset | Notes |
+|---|---|---|---|
+| **IV** | 1.0 by definition | seconds | No absorption barrier; full dose immediately available |
+| **IM** | 0.75–1.0 | minutes | Aqueous solutions fast; oily/depot slow (e.g., haloperidol decanoate) |
+| **SC** | 0.75–1.0 | minutes–hours | Slower than IM; insulin, heparin, GLP-1 agonists |
+| **PO (oral)** | 0.05–1.0 | 30 min–hours | Subject to **first-pass metabolism**; gut + liver clear before systemic exposure |
+| **Sublingual / buccal** | 0.3–0.8 | minutes | Bypasses first pass - nitroglycerin, buprenorphine |
+| **Rectal** | 0.5–0.8 | 30 min | ~50% bypasses first pass via inferior + middle rectal veins |
+| **Inhaled** | varies | seconds | Local (bronchodilators) or systemic (anesthetics) |
+| **Transdermal** | varies | hours | Steady release; fentanyl patch, nicotine, scopolamine |
+| **Intranasal** | 0.3–0.5 | minutes | Highly vascular; naloxone, midazolam |
+
+**First-pass metabolism**: orally absorbed drugs traverse the portal system → liver → systemic circulation. The fraction destroyed in this first pass through gut wall + liver determines oral F. Drugs with high first-pass extraction (propranolol, morphine, lidocaine, nitroglycerin) require much larger oral than parenteral doses.
+
+### Factors that change absorption
+
+- **Gastric pH** - weak acids (aspirin) absorbed in stomach; weak bases (most drugs) absorbed in small intestine where pH is higher and surface area is larger.
+- **Food** - delays gastric emptying → slows but rarely reduces absorption (exceptions: tetracyclines + dairy chelation, levothyroxine + food).
+- **Splanchnic blood flow** - reduced in heart failure or shock → slower absorption.
+- **Drug formulation** - enteric coating (delays release), sustained-release (slow continuous), liposomal (targeted).
+
+## Distribution - where the drug goes
+
+The **volume of distribution (Vd)** is the apparent volume the drug appears to occupy:
+
+```
+Vd = total amount of drug in body / plasma concentration
+```
+
+| Vd | Compartment | Examples |
+|---|---|---|
+| ~4 L (small) | Plasma only | Heparin, warfarin |
+| ~14 L | Extracellular fluid | Aminoglycosides, mannitol |
+| ~42 L | Total body water | Ethanol, lithium |
+| Very large (>100 L) | Tissue-bound | Chloroquine, digoxin, TCAs, amiodarone |
+
+**Loading dose** depends on Vd: `LD = (target plasma concentration × Vd) / F`. **Maintenance dose** depends on clearance, not Vd.
+
+### Protein binding
+
+Most drugs bind reversibly to **albumin** (acidic drugs) or **α1-acid glycoprotein** (basic drugs). Only the free fraction is pharmacologically active and available for metabolism/excretion. Hypoalbuminemia (liver disease, nephrotic syndrome, malnutrition) → ↑ free drug for highly protein-bound agents (warfarin, phenytoin, valproate).
+
+**Drug interaction by displacement**: rare clinical significance for most drugs because increased free drug also increases clearance proportionally. Important exception: phenytoin (saturable metabolism) in hypoalbuminemia → high free fraction with apparently "normal" total levels.
+
+### Blood-brain barrier (BBB)
+
+Tight junctions + P-glycoprotein efflux keep most polar/charged drugs out of CNS. Crosses readily: lipophilic small molecules (general anesthetics, benzodiazepines, ethanol). Does not cross: aminoglycosides, vancomycin (without meningitis), most chemotherapy.
+
+## Metabolism - chemical modification
+
+The liver is the primary site, with smaller contributions from gut wall, kidney, lung. Two phases:
+
+- **Phase I** (introduces/exposes a polar group): oxidation, reduction, hydrolysis. Often **cytochrome P450** enzymes (CYPs).
+- **Phase II** (conjugation): addition of glucuronide, sulfate, acetate, glycine, glutathione, methyl. Always increases water solubility.
+
+Phase I metabolites may still be active or even more toxic; Phase II conjugates are almost always inactive and excreted.
+
+### Cytochrome P450 - the workhorse
+
+| CYP | Substrates (examples) | Inducers | Inhibitors |
+|---|---|---|---|
+| **3A4** | ~50% of drugs - statins (not pravastatin), CCBs, cyclosporine, macrolides, fentanyl | Rifampin, phenytoin, carbamazepine, St. John's wort | Azole antifungals, macrolides (erythromycin, clarithromycin), grapefruit juice, ritonavir |
+| **2D6** | β-blockers (metoprolol), SSRIs, TCAs, codeine→morphine, tamoxifen→endoxifen | (few inducers) | Fluoxetine, paroxetine, bupropion, quinidine |
+| **2C9** | Warfarin, phenytoin, sulfonylureas, NSAIDs | Rifampin, phenytoin | Amiodarone, fluconazole, metronidazole, TMP-SMX |
+| **2C19** | Clopidogrel (prodrug → active), PPIs, diazepam | Rifampin | Omeprazole, fluoxetine, fluvoxamine |
+| **1A2** | Theophylline, caffeine, R-warfarin, clozapine | Smoking, charcoal-grilled food | Ciprofloxacin, fluvoxamine |
+
+**Inducers** ↑ enzyme synthesis → ↓ substrate level (warfarin failure, OC failure with rifampin or anticonvulsants). Onset days–weeks.
+**Inhibitors** block enzyme directly → ↑ substrate level (statin toxicity with azoles). Onset hours–days.
+
+<Mnemonic>
+**Inducers** = "CRAP GPS": **C**arbamazepine, **R**ifampin, **A**lcohol (chronic), **P**henytoin, **G**riseofulvin, **P**henobarbital, **S**ulfonylureas, **S**moking, **S**t. John's wort.
+
+**Inhibitors** = "MAGIC RACKS": **M**acrolides, **A**miodarone, **G**rapefruit juice, **I**soniazid, **C**imetidine, **R**itonavir, **A**zoles, **C**iprofloxacin (and other quinolones), **K**etoconazole, **S**SRIs.
+</Mnemonic>
+
+### Pharmacogenomics
+
+CYP2D6 polymorphism: ~7% of Caucasians are "poor metabolizers" → can't convert codeine → morphine (no analgesia) but accumulate normal substrates. ~2% are "ultra-rapid metabolizers" → codeine → morphine surge (case reports of pediatric deaths). Tamoxifen also requires 2D6 activation.
+
+NAT2 polymorphism: "fast" vs "slow" acetylators affect isoniazid, hydralazine, procainamide. Slow acetylators → ↑ drug-induced lupus risk.
+
+## Excretion - getting it out
+
+Most drugs leave via **kidney**. Three processes:
+
+1. **Glomerular filtration** - passive; depends on Vd of free drug.
+2. **Tubular secretion** - active; OAT (organic anion transporter, e.g., penicillins, methotrexate) and OCT (organic cation transporter). **Probenecid** competes with OAT → can be used to raise penicillin levels (historic).
+3. **Tubular reabsorption** - lipid-soluble unionized drugs reabsorbed. **Trapping** by urine pH manipulation:
+   - Alkalinize urine (NaHCO₃) → traps weak acids (aspirin overdose, methotrexate, phenobarbital).
+   - Acidify urine → traps weak bases (rarely done clinically; historical for amphetamine).
+
+Biliary excretion: large MW drugs (>500 Da) → bile → feces; or **enterohepatic circulation** (conjugated → bile → gut → bacterial deconjugation → reabsorbed). Prolongs drug effect (oral contraceptives, NSAIDs, mycophenolate); broken by antibiotic-induced gut flora suppression (OC failure on broad-spectrum antibiotics is overstated except for rifampin-class inducers).
+
+## Half-life, clearance, and steady state
+
+For first-order elimination kinetics (most drugs at therapeutic doses):
+
+```
+t½ = (0.693 × Vd) / CL
+```
+
+After IV bolus, drug declines exponentially: each half-life cuts plasma level in half. Approaches zero by ~5 half-lives.
+
+**Steady state** on continuous dosing reached after **~5 half-lives** of regular dosing. To shorten time to steady state, give a **loading dose**. Time to steady state is independent of dose interval.
+
+**Loading dose** = `Cp,target × Vd / F`
+**Maintenance dose** = `Cp,target × CL × τ / F` (where τ = dosing interval)
+
+### Zero- vs first-order kinetics
+
+| | First-order | Zero-order |
+|---|---|---|
+| Rate | Proportional to [drug] | Constant (enzyme-saturated) |
+| t½ | Constant | Varies with concentration |
+| Examples | Most drugs | **PEA**: **P**henytoin, **E**thanol, **A**spirin (high dose); warfarin |
+
+Zero-order kinetics → linear decline on Cp vs time; large dose changes produce disproportionate level changes (dangerous for phenytoin).
+
+## Children, elderly, pregnancy
+
+- **Neonates**: ↓ Phase II conjugation → chloramphenicol → gray baby syndrome; ↓ glucuronidation in first months. ↑ Total body water → ↑ Vd of water-soluble drugs.
+- **Elderly**: ↓ GFR → dose-adjust renally cleared drugs (digoxin, gabapentin, aminoglycosides). ↓ albumin → ↑ free fraction. ↑ body fat → ↑ Vd of lipophilic drugs (benzodiazepines have prolonged effect).
+- **Pregnancy**: ↑ plasma volume + GFR + CYP3A4 → may need higher doses (lamotrigine, levetiracetam). ↓ albumin → ↑ free phenytoin/valproate.
+
+<Clinical>
+**Aminoglycoside dosing**: dose-dependent killing + post-antibiotic effect favor **once-daily** rather than divided dosing. Concentration peak (Cmax) drives efficacy; trough (Cmin) drives toxicity. Once-daily achieves high peak and undetectable trough → less nephrotoxicity than divided dosing.
+
+**Vancomycin dosing**: time-dependent killing → AUC/MIC > 400 is the target. Trough goal 15–20 mg/L for serious infections. Monitor + dose-adjust per nomogram.
+
+**Digoxin toxicity**: narrow therapeutic index. ↓ K⁺, ↓ Mg²⁺, hypercalcemia, hypothyroidism, renal failure all potentiate toxicity. Symptoms: GI upset, visual halos (yellow-green), arrhythmias (bidirectional VT pathognomonic). Antidote = **digoxin immune Fab** for severe.
+</Clinical>
+
+<HighYield variant="boards">
+- Bioavailability F = **AUC oral / AUC IV** for the same dose.
+- Drugs with low therapeutic index (TI = LD50/ED50): warfarin, digoxin, lithium, theophylline, phenytoin, levothyroxine, aminoglycosides.
+- "Drug that needs a loading dose" = drug with long half-life where steady-state delay is unacceptable: amiodarone, digoxin, phenytoin.
+- **Clearance** = volume of plasma cleared of drug per unit time. CL = (Vd × 0.693)/t½.
+- Drugs eliminated by zero-order kinetics: **PEA** (Phenytoin, Ethanol, Aspirin at high dose). And warfarin via saturable hepatic metabolism.
+- Grapefruit juice inhibits intestinal CYP3A4 → ↑ levels of statins, CCBs, cyclosporine, some BZDs. Effect lasts 24+ hours.
+- Rifampin is the **strongest CYP inducer** in clinical practice. Reduces effectiveness of OCs, warfarin, methadone, statins, many anticonvulsants. Patients counseled to use backup contraception.
+</HighYield>

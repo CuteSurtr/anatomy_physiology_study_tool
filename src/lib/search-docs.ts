@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { structures, processes, clinical } from "@/lib/content";
+import { structures, processes, clinical, pharmacology, terminology } from "@/lib/content";
 
 export type SearchDoc = {
   title: string;
@@ -49,5 +49,19 @@ export function getSearchDocs(): SearchDoc[] {
     href: x.href,
     body: readSourceText(x.path),
   }));
-  return [...a, ...p, ...c];
+  const ph = pharmacology.map((x) => ({
+    title: x.title,
+    system: "pharmacology",
+    type: "pharmacology",
+    href: x.href,
+    body: readSourceText(x.path),
+  }));
+  const tm = terminology.map((x) => ({
+    title: x.title,
+    system: "terminology",
+    type: "terminology",
+    href: x.href,
+    body: readSourceText(x.path),
+  }));
+  return [...a, ...p, ...c, ...ph, ...tm];
 }
