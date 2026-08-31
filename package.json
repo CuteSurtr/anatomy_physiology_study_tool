@@ -30,7 +30,7 @@
     "@vitest/coverage-v8": "^4.1.8",
     "dotenv": "^17.4.2",
     "drizzle-kit": "^0.31.10",
-    "eslint": "^9.39.4",
+    "eslint": "^10.9.1",
     "eslint-config-next": "^16.3.3",
     "rehype-slug": "^6.0.0",
     "tailwindcss": "^4",
