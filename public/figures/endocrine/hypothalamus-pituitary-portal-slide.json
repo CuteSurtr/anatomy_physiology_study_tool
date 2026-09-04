@@ -1,9 +1,10 @@
 {
   "src": "/figures/endocrine/hypothalamus-pituitary-portal-slide.jpg",
-  "alt": "Hypothalamus and pituitary complex with the hypophyseal portal system linking them.",
+  "alt": "Mid-sagittal section of the diencephalon with the thalamus, hypothalamus (teal), infundibulum (orange) and the anterior (green) and posterior (purple) lobes of the pituitary colour-coded. Anatomical relationships only - no blood vessels are shown.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "OpenStax College",
-    "url": "https://commons.wikimedia.org/wiki/File:1806_The_Hypothalamus-Pituitary_Complex.jpg"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:1806_The_Hypothalamus-Pituitary_Complex.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   }
 }

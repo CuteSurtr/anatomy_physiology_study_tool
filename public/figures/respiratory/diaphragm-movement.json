@@ -1,9 +1,10 @@
 {
   "src": "/figures/respiratory/diaphragm-movement.svg",
-  "alt": "Diaphragm movement during respiration - inspiration: diaphragm contracts + descends, external intercostals lift ribs \u2192 thoracic cavity expands \u2192 intrapleural pressure falls \u2192 air enters lungs. Expiration: relaxation + elastic recoil.",
+  "alt": "Anterior view of the thorax with the ribs, sternum, lungs (blue), heart (pink), diaphragm and the liver and stomach beneath it. The diaphragm is drawn as a solid line with two dashed outlines above and below it, showing how the dome rises on expiration and flattens downward on inspiration. Numbered leader lines 1-11 point to the structures but the drawing carries no key.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AMouvement_diaphragme_respiration.svg"
+    "type": "CC0",
+    "attribution": "Cdang / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Mouvement_diaphragme_respiration.svg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

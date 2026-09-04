@@ -1,6 +1,6 @@
 {
   "src": "/figures/endocrine/hpa-axis-combined.jpg",
-  "alt": "HPA axis - hypothalamus secretes CRH \u2192 anterior pituitary releases ACTH \u2192 adrenal cortex (zona fasciculata) makes cortisol \u2192 negative feedback at hypothalamus + pituitary.",
+  "alt": "Four side-by-side panels of the hypothalamic-pituitary-adrenal axis: hypothalamic CRH drives pituitary ACTH, which drives adrenal corticosteroid, and corticosteroid inhibits both the hypothalamus and the pituitary. Panel 1 is normal. Panel 2 is primary adrenal insufficiency (the adrenal cortex is the damaged organ, so CRH and ACTH rise while corticosteroid falls). Panel 3 is secondary (pituitary damaged, so ACTH and corticosteroid fall). Panel 4 is tertiary (hypothalamus damaged, so CRH, ACTH and corticosteroid all fall).",
   "license": {
     "type": "CC BY-SA 4.0",
     "attribution": "Wikimedia Commons",

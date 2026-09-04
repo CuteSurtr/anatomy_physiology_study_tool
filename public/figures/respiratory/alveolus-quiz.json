@@ -1,6 +1,6 @@
 {
   "src": "/figures/respiratory/alveolus.svg",
-  "alt": "Identify the structures of an alveolus.",
+  "alt": "Identify the structures at the end of the respiratory tree: alveolar sacs, the vessels supplying them, and the capillary network covering the alveoli.",
   "viewBox": [
     0,
     0,
@@ -14,47 +14,54 @@
   },
   "labels": [
     {
-      "id": "alveolus",
-      "x": 130,
-      "y": 127,
-      "label": "Alveolus"
-    },
-    {
-      "id": "capillary",
-      "x": 223,
-      "y": 169,
-      "label": "Capillary",
+      "id": "alveolar-sac",
+      "x": 175,
+      "y": 95,
+      "label": "Alveolar sac",
       "synonyms": [
-        "pulmonary capillary"
+        "alveolar sacs"
       ]
     },
     {
-      "id": "type1",
-      "x": 205,
-      "y": 84,
-      "label": "Type I pneumocyte",
+      "id": "pulmonary-artery",
+      "x": 210,
+      "y": 140,
+      "label": "Pulmonary artery",
       "synonyms": [
-        "type I cell",
-        "type 1 alveolar cell"
+        "pulmonary arteriole",
+        "pulmonary arteries"
       ]
     },
     {
-      "id": "type2",
-      "x": 112,
-      "y": 211,
-      "label": "Type II pneumocyte",
+      "id": "pulmonary-vein",
+      "x": 220,
+      "y": 172,
+      "label": "Pulmonary vein",
       "synonyms": [
-        "type II cell",
-        "surfactant cell"
+        "pulmonary venule",
+        "pulmonary veins"
       ]
     },
     {
-      "id": "macrophage",
-      "x": 74,
-      "y": 155,
-      "label": "Alveolar macrophage",
+      "id": "capillary-network",
+      "x": 262,
+      "y": 117,
+      "label": "Capillary network",
       "synonyms": [
-        "dust cell"
+        "capillary bed",
+        "capillary beds",
+        "pulmonary capillaries",
+        "capillaries",
+        "capillary"
+      ]
+    },
+    {
+      "id": "alveoli",
+      "x": 290,
+      "y": 170,
+      "label": "Alveoli",
+      "synonyms": [
+        "alveolus"
       ]
     }
   ]

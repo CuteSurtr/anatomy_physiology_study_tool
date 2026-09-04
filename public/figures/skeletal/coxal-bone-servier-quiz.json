@@ -4,8 +4,8 @@
   "viewBox": [
     0,
     0,
-    2123,
-    1110
+    1579,
+    1046
   ],
   "license": {
     "type": "CC BY 4.0",
@@ -15,32 +15,32 @@
   "labels": [
     {
       "id": "ilium",
-      "x": 1062,
-      "y": 222,
+      "x": 230,
+      "y": 260,
       "label": "Ilium"
     },
     {
       "id": "ischium",
-      "x": 1168,
-      "y": 866,
+      "x": 295,
+      "y": 845,
       "label": "Ischium"
     },
     {
       "id": "pubis",
-      "x": 637,
-      "y": 722,
+      "x": 595,
+      "y": 745,
       "label": "Pubis"
     },
     {
       "id": "acetabulum",
-      "x": 1168,
-      "y": 610,
+      "x": 375,
+      "y": 615,
       "label": "Acetabulum"
     },
     {
       "id": "obturator",
-      "x": 892,
-      "y": 832,
+      "x": 470,
+      "y": 790,
       "label": "Obturator foramen"
     }
   ]

@@ -1,17 +1,54 @@
 {
   "src": "/figures/urinary/urinary-overview.png",
-  "alt": "Urinary system for fill-in-blank practice",
-  "viewBox": [0, 0, 768, 1024],
+  "alt": "Anterior view of the urinary system in situ for fill-in-the-blank practice: adrenal glands capping both kidneys, kidneys, ureters descending to the bladder, and the urethra.",
+  "viewBox": [
+    0,
+    0,
+    768,
+    1024
+  ],
   "license": {
     "type": "CC BY-SA 4.0",
     "attribution": "Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:Urinary_System_(Female).png"
   },
   "labels": [
-    { "id": "adrenal", "x": 290, "y": 165, "label": "Adrenal gland", "synonyms": ["adrenal", "suprarenal"] },
-    { "id": "kidney", "x": 280, "y": 250, "label": "Kidney" },
-    { "id": "ureter", "x": 290, "y": 510, "label": "Ureter" },
-    { "id": "bladder", "x": 285, "y": 765, "label": "Urinary bladder", "synonyms": ["bladder"] },
-    { "id": "urethra", "x": 290, "y": 855, "label": "Urethra" }
+    {
+      "id": "adrenal",
+      "x": 348,
+      "y": 240,
+      "label": "Adrenal gland",
+      "synonyms": [
+        "adrenal",
+        "suprarenal"
+      ]
+    },
+    {
+      "id": "kidney",
+      "x": 300,
+      "y": 320,
+      "label": "Kidney"
+    },
+    {
+      "id": "ureter",
+      "x": 356,
+      "y": 505,
+      "label": "Ureter"
+    },
+    {
+      "id": "bladder",
+      "x": 370,
+      "y": 645,
+      "label": "Urinary bladder",
+      "synonyms": [
+        "bladder"
+      ]
+    },
+    {
+      "id": "urethra",
+      "x": 362,
+      "y": 708,
+      "label": "Urethra"
+    }
   ]
 }

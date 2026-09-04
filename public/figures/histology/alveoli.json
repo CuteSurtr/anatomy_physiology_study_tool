@@ -2,8 +2,9 @@
   "src": "/figures/histology/alveoli.png",
   "alt": "Alveoli histology - thin alveolar walls with type I + II pneumocytes and capillaries; site of gas exchange.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Alveoli_5.png"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Riveromonicadaniela / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Alveoli_5.png",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

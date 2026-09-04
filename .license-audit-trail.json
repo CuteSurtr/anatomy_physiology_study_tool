@@ -1,0 +1,1783 @@
+[
+  {
+    "slug": "digestive/bilirubin-metabolism",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ABilirubin_metabolism.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Michlwt / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Bilirubin_metabolism.jpg"
+    }
+  },
+  {
+    "slug": "digestive/gi-hormones-summary",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AGI_Hormones.png"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "No machine-readable author provided. Stephaniegreenwood assumed (based on copyright claims). / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:GI_Hormones.png"
+    }
+  },
+  {
+    "slug": "digestive/intestinal-crypts",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AGlandular_epithelium_of_small_intestine_%28crypts_of_Lieberk%C3%BChn%29.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Juan Carlos Fonseca Mata / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Glandular_epithelium_of_small_intestine_(crypts_of_Lieberkühn).jpg"
+    }
+  },
+  {
+    "slug": "digestive/liver-lobule",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "NIH BioArt #565",
+      "url": "https://commons.wikimedia.org/wiki/File%3ALiver_Lobule_%28NIH_BioArt_565%29.png"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "NIH NIAID / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Liver_Lobule_(NIH_BioArt_565).png"
+    }
+  },
+  {
+    "slug": "digestive/parietal-cell",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File%3AParietal_cell_of_the_stomach.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "MustafaSalahalden / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Parietal_cell_of_the_stomach.jpg"
+    }
+  },
+  {
+    "slug": "digestive/peristalsis",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Peristalsis.gif"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Auawise / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Peristalsis.gif"
+    }
+  },
+  {
+    "slug": "digestive/portal-hypertension-caput-medusae",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3APortalHypertension%28revascuofumbilicalvein%29Mark.png"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "James Heilman, MD / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:PortalHypertension(revascuofumbilicalvein)Mark.png"
+    }
+  },
+  {
+    "slug": "digestive/retroperitoneal-spaces",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ARetroperitoneal_spaces.png"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "Goran Mitreski and Tom Sutherland / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Retroperitoneal_spaces.png"
+    }
+  },
+  {
+    "slug": "digestive/small-intestine-surface",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ASmall_intestine_surface.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Tomáš Kebert & umimeto.org / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Small_intestine_surface.svg"
+    }
+  },
+  {
+    "slug": "digestive/villi-microvilli",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AVilli_%26_microvilli_of_small_intestine.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "BallenaBlanca / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Villi_&_microvilli_of_small_intestine.svg"
+    }
+  },
+  {
+    "slug": "endocrine/adrenal-cortex-medulla-slide",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Adrenal_Gland_detail_-_English.png"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Antinksčio sandara.png Author: EdgarasLe / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Adrenal_Gland_detail_-_English.png"
+    }
+  },
+  {
+    "slug": "endocrine/diabetes-t2dm",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AType_2_Diabetes_Mellitus.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Manu5 / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Type_2_Diabetes_Mellitus.jpg"
+    }
+  },
+  {
+    "slug": "endocrine/glucose-homeostasis-loop",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AHomeostasis_of_blood_sugar.png"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Christinelmiller / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Homeostasis_of_blood_sugar.png"
+    }
+  },
+  {
+    "slug": "endocrine/hypothalamus-pituitary-portal-slide",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File:1806_The_Hypothalamus-Pituitary_Complex.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1806_The_Hypothalamus-Pituitary_Complex.jpg"
+    }
+  },
+  {
+    "slug": "endocrine/incretin-mechanism",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AMechanism_of_Action_of_Semaglutide.png"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Myluckynumber7 / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mechanism_of_Action_of_Semaglutide.png"
+    }
+  },
+  {
+    "slug": "endocrine/parathyroid-glands-location",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AParathyroid_glands.png"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Fourman, Paul. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Parathyroid_glands.png"
+    }
+  },
+  {
+    "slug": "endocrine/pheochromocytoma-clinical",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AAdrenal_paraganglioma_clinical_Pheochromocytoma.jpg"
+    },
+    "after": {
+      "type": "CC BY 2.0",
+      "attribution": "Michael Feldman, MD, PhD University of Pennsylvania School of Medicine / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Adrenal_paraganglioma_clinical_Pheochromocytoma.jpg"
+    }
+  },
+  {
+    "slug": "endocrine/pineal-gland-slide",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Cancer Research UK / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_position_of_the_pineal_gland_in_the_brain_CRUK_416.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Cancer Research UK uploader / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_position_of_the_pineal_gland_in_the_brain_CRUK_416.svg"
+    }
+  },
+  {
+    "slug": "endocrine/pituitary-portal-histology-slide",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Histology_of_pars_distalis_of_the_anterior_pituitary_with_chromophobes,_basophils,_and_acidophils,_annotated.jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Mikael Häggström , M.D. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Histology_of_pars_distalis_of_the_anterior_pituitary_with_chromophobes,_basophils,_and_acidophils,_annotated.jpg"
+    }
+  },
+  {
+    "slug": "endocrine/steroidogenesis-detail",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ASteroidogenesis.svg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "David Richfield ( Slashme ) and Mikael Häggström . Derived from previous version by Hoffmeier and Settersr . I / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Steroidogenesis.svg"
+    }
+  },
+  {
+    "slug": "endocrine/steroidogenesis",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Steroidogenesis.svg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "David Richfield ( Slashme ) and Mikael Häggström . Derived from previous version by Hoffmeier and Settersr . I / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Steroidogenesis.svg"
+    }
+  },
+  {
+    "slug": "endocrine/thyroid-hormone-synthesis",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Thyroid_hormone_synthesis.png"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Mikael Häggström . When using this image in external works, it may be cited as: Häggström, Mikael (2014). \" Me / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Thyroid_hormone_synthesis.png"
+    }
+  },
+  {
+    "slug": "foundations/body-cavities-labeled",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ABody_Cavities_labeled.png"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Body_Cavities_labeled.png"
+    }
+  },
+  {
+    "slug": "foundations/body-cavities-lateral",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ABody_Cavities_Lateral_view_labeled.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Body_Cavities_Lateral_view_labeled.jpg"
+    }
+  },
+  {
+    "slug": "foundations/cell-cycle",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AThe_Cell_Cycle.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "George Weller / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Cell_Cycle.svg"
+    }
+  },
+  {
+    "slug": "foundations/cell-membrane",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "LadyofHats - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cell_membrane_detailed_diagram_4.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "derivative work: Dhatfield ( talk ) Cell_membrane_detailed_diagram_3.svg : *derivative work: Dhatfield ( talk / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cell_membrane_detailed_diagram_4.svg"
+    }
+  },
+  {
+    "slug": "foundations/connective-tissue-classification",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AClassification_of_the_different_types_of_connective_tissues.png"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "Nassari S, Duprez D and Fournier-Thibault C / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Classification_of_the_different_types_of_connective_tissues.png"
+    }
+  },
+  {
+    "slug": "foundations/directional-terms-openstax",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File%3AFigure_27_02_03.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "CNX OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_27_02_03.jpg"
+    }
+  },
+  {
+    "slug": "foundations/early-embryogenesis",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AEmbryogenesis1.jpg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "User:Antrocks / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Embryogenesis1.jpg"
+    }
+  },
+  {
+    "slug": "foundations/electron-transport-chain",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AElectron_transport_chain_simple.png"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Bradleyhintze / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Electron_transport_chain_simple.png"
+    }
+  },
+  {
+    "slug": "foundations/embryo-cleavage",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:HumanEmbryogenesis.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Zephyris / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:HumanEmbryogenesis.svg"
+    }
+  },
+  {
+    "slug": "foundations/gpcr-pathway",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3A202304_G_protein-coupled_receptor.svg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "DataBase Center for Life Science (DBCLS) / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:202304_G_protein-coupled_receptor.svg"
+    }
+  },
+  {
+    "slug": "foundations/michaelis-menten",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Thomas Shafee / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File%3AMichaelis-Menten_saturation_curve_of_an_enzyme_reaction.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "fullofstars / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Michaelis-Menten_saturation_curve_of_an_enzyme_reaction.svg"
+    }
+  },
+  {
+    "slug": "foundations/negative-feedback-loops",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File%3A105_Negative_Feedback_Loops.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:105_Negative_Feedback_Loops.jpg"
+    }
+  },
+  {
+    "slug": "foundations/signal-transduction",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ASignal_transduction_pathways.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "cybertory / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Signal_transduction_pathways.svg"
+    }
+  },
+  {
+    "slug": "foundations/transport",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "LadyofHats - Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Scheme_facilitated_diffusion_in_cell_membrane-en.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "LadyofHats Mariana Ruiz Villarreal / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Scheme_facilitated_diffusion_in_cell_membrane-en.svg"
+    }
+  },
+  {
+    "slug": "histology/adipose-ct",
+    "before": {
+      "type": "CC-BY",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Adipose_(41066512834).jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Adipose_(41066512834).jpg"
+    }
+  },
+  {
+    "slug": "histology/adipose-histo",
+    "before": {
+      "type": "Public Domain / CC-BY",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Adipose_tissue.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "Chalova.lina / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Adipose_tissue.jpg"
+    }
+  },
+  {
+    "slug": "histology/adipose-yellow",
+    "before": {
+      "type": "Public Domain / CC-BY",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Yellow_adipose_tissue_in_paraffin_section_-_lipids_washed_out.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Yellow_adipose_tissue_in_paraffin_section_-_lipids_washed_out.jpg"
+    }
+  },
+  {
+    "slug": "histology/alveoli",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Alveoli_5.png"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Riveromonicadaniela / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Alveoli_5.png"
+    }
+  },
+  {
+    "slug": "histology/cardiac-intercalated",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Berkshire Community College Bioscience / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscle_Tissue_Intercalated_Discs_in_Cardiac_Muscle_(41931906281).jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscle_Tissue_Intercalated_Discs_in_Cardiac_Muscle_(41931906281).jpg"
+    }
+  },
+  {
+    "slug": "histology/cardiac-muscle-histo",
+    "before": {
+      "type": "Public Domain / CC-BY",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cardiac_muscle.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "Nbnidhi / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cardiac_muscle.jpg"
+    }
+  },
+  {
+    "slug": "histology/cerebellum",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Berkshire Community College Bioscience / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Cerebellum_Cross_Section_Molecular_Layer_(42013391522).jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cerebellum_Cross_Section_Molecular_Layer_(42013391522).jpg"
+    }
+  },
+  {
+    "slug": "histology/compact-bone-histo",
+    "before": {
+      "type": "Public Domain / CC-BY",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Compact_bone_-_ground_cross_section.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Compact_bone_-_ground_cross_section.jpg"
+    }
+  },
+  {
+    "slug": "histology/duodenum",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Duodenum_histology.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Netha Hussain / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Duodenum_histology.jpg"
+    }
+  },
+  {
+    "slug": "histology/endometrium",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Proliferative_phase_endometrium_--_high_mag.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Nephron / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Proliferative_phase_endometrium_--_high_mag.jpg"
+    }
+  },
+  {
+    "slug": "histology/epidermis-layers",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:502_Layers_of_epidermis.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College : J. Gordon Betts, Peter Desaix, Eddie Johnson. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:502_Layers_of_epidermis.jpg"
+    }
+  },
+  {
+    "slug": "histology/epithelial-polarity-slide",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Simple_Columnar_Epithelium,_Non-Kerantinized_Stratified_Squamous_Epithelium.jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Tierayoung1 / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Simple_Columnar_Epithelium,_Non-Kerantinized_Stratified_Squamous_Epithelium.jpg"
+    }
+  },
+  {
+    "slug": "histology/hyaline-cartilage",
+    "before": {
+      "type": "Public Domain / CC-BY",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hyaline_cartilage.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hyaline_cartilage.jpg"
+    }
+  },
+  {
+    "slug": "histology/liver-lobule",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "NIH BioArt 565 / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Liver_Lobule_(NIH_BioArt_565).png"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "NIH NIAID / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Liver_Lobule_(NIH_BioArt_565).png"
+    }
+  },
+  {
+    "slug": "histology/loose-ct",
+    "before": {
+      "type": "CC-BY",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Loose_Aerolar_(41743648512).jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Loose_Aerolar_(41743648512).jpg"
+    }
+  },
+  {
+    "slug": "histology/nissl",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:NisslHippo2.jpg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:NisslHippo2.jpg"
+    }
+  },
+  {
+    "slug": "histology/ovarian-follicle",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Human_ovarian_follicle.jpg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Jpogi at English Wikipedia / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Human_ovarian_follicle.jpg"
+    }
+  },
+  {
+    "slug": "histology/pancreatic-islet",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mouse_pancreatic_islet.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Jakob Suckale / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mouse_pancreatic_islet.jpg"
+    }
+  },
+  {
+    "slug": "histology/pseudostratified",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Berkshire Community College Bioscience / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Epithelial_Tissues_Pseudostratified_Columnar_Epithelium_(41783111911).jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Epithelial_Tissues_Pseudostratified_Columnar_Epithelium_(41783111911).jpg"
+    }
+  },
+  {
+    "slug": "histology/seminiferous-tubule",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Seminiferous_tubule_and_sperm_low_mag.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Nephron / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Seminiferous_tubule_and_sperm_low_mag.jpg"
+    }
+  },
+  {
+    "slug": "histology/skeletal-muscle-histo",
+    "before": {
+      "type": "Public Domain / CC-BY",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Skeletal_muscle.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Skeletal_muscle.jpg"
+    }
+  },
+  {
+    "slug": "histology/smooth-muscle",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Histology_of_smooth_muscle.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Veeresh likhitha / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Histology_of_smooth_muscle.jpg"
+    }
+  },
+  {
+    "slug": "histology/spleen-pulp",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Pulp_and_White_Pulp_of_the_Spleen.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Senioritisisreal / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Pulp_and_White_Pulp_of_the_Spleen.jpg"
+    }
+  },
+  {
+    "slug": "histology/stomach",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Histology_of_Stomach.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Collectivedogs / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Histology_of_Stomach.svg"
+    }
+  },
+  {
+    "slug": "histology/thyroid-follicle",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Thyroid-histology.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Uwe Gille / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Thyroid-histology.jpg"
+    }
+  },
+  {
+    "slug": "histology/tonsil",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Human_tonsils_(26_2_05)_Cross-section%3B_embedded_in_Epon.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Doc. RNDr. Josef Reischig, CSc. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Human_tonsils_(26_2_05)_Cross-section;_embedded_in_Epon.jpg"
+    }
+  },
+  {
+    "slug": "histology/villi",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Villi_%26_microvilli_of_small_intestine.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "BallenaBlanca / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Villi_&_microvilli_of_small_intestine.svg"
+    }
+  },
+  {
+    "slug": "histology/white-pulp",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "NIH BioArt 575 / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:White_Pulp_(NIH_BioArt_575).png"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "NIH NIAID / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:White_Pulp_(NIH_BioArt_575).png"
+    }
+  },
+  {
+    "slug": "integumentary/skin-cross-section",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:501_Structure_of_the_skin.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College : J. Gordon Betts, Peter Desaix, Eddie Johnson. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:501_Structure_of_the_skin.jpg"
+    }
+  },
+  {
+    "slug": "integumentary/wound-healing-phases",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AWound_healing_phases.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Mikael Häggström / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Wound_healing_phases.svg"
+    }
+  },
+  {
+    "slug": "integumentary/wound-stages",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Wound_healing_phases.png"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Mikael Häggström . When using this image in external works, it may be cited as: Häggström, Mikael (2014). \" Me / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Wound_healing_phases.png"
+    }
+  },
+  {
+    "slug": "lymphatic/complement",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Complement_pathway.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "English text of 'Image:Complement pathway.png' by DO11.10 German translation of 'Image:Complement pathway.png' / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Complement_pathway.svg"
+    }
+  },
+  {
+    "slug": "lymphatic/immune-cells-slide",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Mikael Häggström / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Hematopoiesis_simple.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "A. Rad and Mikael Häggström , M.D. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hematopoiesis_simple.svg"
+    }
+  },
+  {
+    "slug": "lymphatic/lymph-node-fyi-slide",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:2207_Structure_and_Histology_of_a_Lymph_Node.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:2207_Structure_and_Histology_of_a_Lymph_Node.jpg"
+    }
+  },
+  {
+    "slug": "lymphatic/lymph-vessels-slide",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:2201_Anatomy_of_the_Lymphatic_System.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:2201_Anatomy_of_the_Lymphatic_System.jpg"
+    }
+  },
+  {
+    "slug": "lymphatic/stem-cell-differentiation",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ADifferentiation_of_hematopoietic_stem_cells.png"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "Kloc, M.; Subuddhi, A.; Uosef, A.; Kubiak, J.Z.; Ghobrial, R.M. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Differentiation_of_hematopoietic_stem_cells.png"
+    }
+  },
+  {
+    "slug": "lymphatic/thymus-lobule",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "NIH BioArt #576",
+      "url": "https://commons.wikimedia.org/wiki/File%3AThymus_Lobule_%28NIH_BioArt_576%29.png"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "NIH NIAID / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Thymus_Lobule_(NIH_BioArt_576).png"
+    }
+  },
+  {
+    "slug": "muscular/cross-bridge-cycle",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ACross-bridge-cycle.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Almut Hampl / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cross-bridge-cycle.svg"
+    }
+  },
+  {
+    "slug": "muscular/glycolysis",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Glycolysis2.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "JohnyAbb / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Glycolysis2.svg"
+    }
+  },
+  {
+    "slug": "muscular/motor-end-plate-openstax",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File%3A1009_Motor_End_Plate_and_Innervation.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1009_Motor_End_Plate_and_Innervation.jpg"
+    }
+  },
+  {
+    "slug": "muscular/sarcomere",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Sarcomere.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "David Richfield ( User:Slashme ) When using this image in external works, it may be cited as follows: Richfiel / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Sarcomere.svg"
+    }
+  },
+  {
+    "slug": "nervous/action-potential",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Action_potential.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Original by en:User:Chris 73 , updated by en:User:Diberri , converted to SVG by tiZom / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Action_potential.svg"
+    }
+  },
+  {
+    "slug": "nervous/auditory-ossicles",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AAuditory_ossicles_%28bovine%29.jpg"
+    },
+    "after": {
+      "type": "CC BY 2.5",
+      "attribution": "Hörmann, Till / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Auditory_ossicles_(bovine).jpg"
+    }
+  },
+  {
+    "slug": "nervous/autonomic-overview",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College - Anatomy & Physiology / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Autonomic_Nervous_System.jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Geo-Science-International / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Autonomic_Nervous_System.jpg"
+    }
+  },
+  {
+    "slug": "nervous/autonomic-quiz",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College - Anatomy & Physiology / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Autonomic_Nervous_System.jpg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Geo-Science-International / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Autonomic_Nervous_System.jpg"
+    }
+  },
+  {
+    "slug": "nervous/axon-propagation",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AAxon_Propagation.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Isaac Oster / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Axon_Propagation.svg"
+    }
+  },
+  {
+    "slug": "nervous/basal-ganglia",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ABasal_ganglia_and_related_structures_%282%29.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "File:BrainCaudatePutamen.svg : User:Leevanjackson Derivative work: User:SUM1 / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Basal_ganglia_and_related_structures_(2).svg"
+    }
+  },
+  {
+    "slug": "nervous/brain-lobes-detailed",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ALobes_of_the_brain_NL.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Henry Vandyke Carter / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Lobes_of_the_brain_NL.svg"
+    }
+  },
+  {
+    "slug": "nervous/circle-of-willis",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ACircle_of_Willis_en.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Rhcastilhos / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_of_Willis_en.svg"
+    }
+  },
+  {
+    "slug": "nervous/cord-tracts",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Spinal_cord_tracts_-_English.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Polarlys and Mikael Häggström / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Spinal_cord_tracts_-_English.svg"
+    }
+  },
+  {
+    "slug": "nervous/dendritic-ion-channels",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ADendritic_voltage-gated_ion_channels.png"
+    },
+    "after": {
+      "type": "CC BY-SA 2.5",
+      "attribution": "Lai HC, Jan LY., Migliore M, Shepherd GM. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Dendritic_voltage-gated_ion_channels.png"
+    }
+  },
+  {
+    "slug": "nervous/ear-anatomy-detailed",
+    "before": {
+      "type": "CC BY-SA 2.5",
+      "attribution": "Iain (Wikimedia Commons)",
+      "url": "https://commons.wikimedia.org/wiki/File%3AAnatomy_of_the_Human_Ear.svg"
+    },
+    "after": {
+      "type": "CC BY 2.5",
+      "attribution": "Lars Chittka; Axel Brockmann / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear.svg"
+    }
+  },
+  {
+    "slug": "nervous/eye-chambers",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AThree_Internal_chambers_of_the_Eye.png"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "Artwork by Holly Fischer / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Three_Internal_chambers_of_the_Eye.png"
+    }
+  },
+  {
+    "slug": "nervous/neuron",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Neuron.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "User:Dhp1080 / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Neuron.svg"
+    }
+  },
+  {
+    "slug": "nervous/patellar-reflex-arc",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3APatellar_tendon_reflex_arc.png"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Amiya Sarkar / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Patellar_tendon_reflex_arc.png"
+    }
+  },
+  {
+    "slug": "nervous/phototransduction",
+    "before": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3APhototransduction_and_ipRGCs_in_mammals.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wdewisp / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Phototransduction_and_ipRGCs_in_mammals.jpg"
+    }
+  },
+  {
+    "slug": "nervous/reflex-arc",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Reflex_arc.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Schemat_odruchu_1.png : User:Neuroscience Musculus_diagram.svg : * Skeletal_muscle.jpg : User:Deglr6328 deriva / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Reflex_arc.svg"
+    }
+  },
+  {
+    "slug": "nervous/spinal-cord-sectional",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ASpinal_Cord_Sectional_Anatomy.png"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "BruceBlaus / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Spinal_Cord_Sectional_Anatomy.png"
+    }
+  },
+  {
+    "slug": "nervous/trigeminal-gray778",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Henry Vandyke Carter - Gray's Anatomy (1918)",
+      "url": "https://commons.wikimedia.org/wiki/File:Gray778_Trigeminal.png"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "No machine-readable author provided. Lipothymia assumed (based on copyright claims). / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Gray778_Trigeminal.png"
+    }
+  },
+  {
+    "slug": "reproductive/breast-anatomy-scheme",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "NIH National Cancer Institute",
+      "url": "https://commons.wikimedia.org/wiki/File%3ABreast_anatomy_normal_scheme.png"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "Original author: Patrick J. Lynch. Reworked by Morgoth666 to add numbered legend arrows. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Breast_anatomy_normal_scheme.png"
+    }
+  },
+  {
+    "slug": "reproductive/breast-lobules-ducts",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ALobules_and_ducts_of_the_breast.jpg"
+    },
+    "after": {
+      "type": "CC BY 2.5",
+      "attribution": "Mikael Häggström , M.D. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Lobules_and_ducts_of_the_breast.jpg"
+    }
+  },
+  {
+    "slug": "reproductive/cervix-anatomy",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ACervix_and_nearby_organs.jpg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Don Bliss (Illustrator) / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cervix_and_nearby_organs.jpg"
+    }
+  },
+  {
+    "slug": "reproductive/female-reproductive-scheme",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AScheme_female_reproductive_system-en.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "CDC, Mysid / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Scheme_female_reproductive_system-en.svg"
+    }
+  },
+  {
+    "slug": "reproductive/internal-iliac-branches",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AInternal_iliac_branches.PNG"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Mikael Häggström . When using this image in external works, it may be cited as: Häggström, Mikael (2014). \" Me / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Internal_iliac_branches.PNG"
+    }
+  },
+  {
+    "slug": "reproductive/male-reproductive",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Male_genital_system_-_Sagittal_view.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "R. Dewaele (Bioscope, Unige), J. Abdulcadir (HUG), C. Brockmann (Bioscope, Unige), O. Fillod, S. Valera-Kummer / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Male_genital_system_-_Sagittal_view.svg"
+    }
+  },
+  {
+    "slug": "reproductive/menstrual-cycle",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MenstrualCycle2_en.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Isometrik / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MenstrualCycle2_en.svg"
+    }
+  },
+  {
+    "slug": "reproductive/pelvic-floor-openstax",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File%3A1115_Muscles_of_the_Pelvic_Floor.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1115_Muscles_of_the_Pelvic_Floor.jpg"
+    }
+  },
+  {
+    "slug": "reproductive/placenta-structure",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3APlacenta.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Gray38.png : User Magnus Manske on en.wikipedia derivative work: Amada44 talk to me / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Placenta.svg"
+    }
+  },
+  {
+    "slug": "reproductive/pudendal-nerve",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3APudendal_nerve.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Mikael Häggström . When using this image in external works, it may be cited as: Häggström, Mikael (2014). \" Me / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Pudendal_nerve.svg"
+    }
+  },
+  {
+    "slug": "reproductive/spermatogenesis-stages",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ASpermatogenesis_human%2C_mouse.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "Ruthig VA and Lamb DJ / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Spermatogenesis_human,_mouse.jpg"
+    }
+  },
+  {
+    "slug": "reproductive/testicle-quiz",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax Anatomy and Physiology, version 8.25 from the Textbook / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg"
+    }
+  },
+  {
+    "slug": "reproductive/testicle",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax Anatomy and Physiology, version 8.25 from the Textbook / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg"
+    }
+  },
+  {
+    "slug": "reproductive/testis-cell-types",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AIdentification_of_the_testis_cell_types.png"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Migrenne S, Moreau E, Pakarinen P, Dierich A, Merlet J, Habert R, et al. / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Identification_of_the_testis_cell_types.png"
+    }
+  },
+  {
+    "slug": "reproductive/uterine-wall-lining",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ALining_of_Uterine_Wall.jpg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "National Institute of Child Health and Human Development / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Lining_of_Uterine_Wall.jpg"
+    }
+  },
+  {
+    "slug": "reproductive/vulva-with-labels",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AVulva_with_Labels.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Cypressvine / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Vulva_with_Labels.jpg"
+    }
+  },
+  {
+    "slug": "respiratory/diaphragm-movement",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AMouvement_diaphragme_respiration.svg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Cdang / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mouvement_diaphragme_respiration.svg"
+    }
+  },
+  {
+    "slug": "respiratory/lung-volumes",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Lung_volumes.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "The Cheesedealer / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Lung_volumes.svg"
+    }
+  },
+  {
+    "slug": "respiratory/o2-co2-curve",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Oxyhaemoglobin_dissociation_curve.png"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "Ratznium at English Wikipedia Later versions were uploaded by Aaronsharpe at en.wikipedia . / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Oxyhaemoglobin_dissociation_curve.png"
+    }
+  },
+  {
+    "slug": "respiratory/spirometry-tracing",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ASpirometry.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Mrug / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Spirometry.svg"
+    }
+  },
+  {
+    "slug": "skeletal/axial-appendicular-slide",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File:701_Axial_Skeleton-01.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:701_Axial_Skeleton-01.jpg"
+    }
+  },
+  {
+    "slug": "skeletal/bone-cartilage-slide",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cartilage_hyaline1.jpg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Echinaceapallida / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cartilage_hyaline1.jpg"
+    }
+  },
+  {
+    "slug": "skeletal/foot-intrinsic-muscles-openstax",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File%3A1124_Intrinsic_Muscles_of_the_Foot.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1124_Intrinsic_Muscles_of_the_Foot.jpg"
+    }
+  },
+  {
+    "slug": "skeletal/gluteal-muscles-femur",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File%3A1122_Gluteal_Muscles_that_Move_the_Femur.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1122_Gluteal_Muscles_that_Move_the_Femur.jpg"
+    }
+  },
+  {
+    "slug": "skeletal/hand-of-benediction",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AHand_of_Benediction_sleeved.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hand_of_Benediction_sleeved.svg"
+    }
+  },
+  {
+    "slug": "skeletal/long-bone",
+    "before": {
+      "type": "Public Domain (Wikipedia)",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Structure_of_a_Long_Bone.png"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "BruceBlaus . When using this image in external sources it can be cited as: Blausen.com staff (2014). \" Medical / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Structure_of_a_Long_Bone.png"
+    }
+  },
+  {
+    "slug": "skeletal/lower-limb-ankle-slide",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Ankle_en.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "An svg version of image:Ankle.PNG by me ( Jak ). / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Ankle_en.svg"
+    }
+  },
+  {
+    "slug": "skeletal/lumbar-plexus",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ALumbar_plexus.svg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "Gray822_es.svg : * Gray822.png : Gray derivative work: Ninovolador ( talk ) derivative work: Mcstrother ( talk / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Lumbar_plexus.svg"
+    }
+  },
+  {
+    "slug": "skeletal/pth-feedback-loop",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AParathyroid_Hormone_Negative_Feedback.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Mkaram19 / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Parathyroid_Hormone_Negative_Feedback.svg"
+    }
+  },
+  {
+    "slug": "skeletal/radiographs-slide",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Human_skeleton_back_en.svg"
+    },
+    "after": {
+      "type": "Public Domain",
+      "attribution": "LadyofHats Mariana Ruiz Villarreal / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Human_skeleton_back_en.svg"
+    }
+  },
+  {
+    "slug": "skeletal/rotator-cuff-openstax",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File%3A1119_Muscles_that_Move_the_Humerus.jpg"
+    },
+    "after": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1119_Muscles_that_Move_the_Humerus.jpg"
+    }
+  },
+  {
+    "slug": "skeletal/sacral-plexus",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ASacral_plexus_schematic.svg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "Mcstrother / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacral_plexus_schematic.svg"
+    }
+  },
+  {
+    "slug": "skeletal/synovial-joint-slide",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College",
+      "url": "https://commons.wikimedia.org/wiki/File:907_Synovial_Joints.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:907_Synovial_Joints.jpg"
+    }
+  },
+  {
+    "slug": "skeletal/tmj-slide",
+    "before": {
+      "type": "CC BY-SA",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Temporomandibular_joint_number.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Temporomandibular_joint.png : Frank Gaillard derivative work: Michał Komorniczak ( talk ) This is a retouched / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Temporomandibular_joint_number.svg"
+    }
+  },
+  {
+    "slug": "skeletal/vertebra-parts",
+    "before": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College - Anatomy & Physiology / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:718_Vertebra-en.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Jmarchn / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:718_Vertebra-en.svg"
+    }
+  },
+  {
+    "slug": "urinary/anion-gap-mudpiles",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ACat_mudpiles_-_causes_of_high_anion-gap_metabolic_acidosis.svg"
+    },
+    "after": {
+      "type": "CC0",
+      "attribution": "Savvas Radevic / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cat_mudpiles_-_causes_of_high_anion-gap_metabolic_acidosis.svg"
+    }
+  },
+  {
+    "slug": "urinary/bladder-urethra-female-slide",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Female_and_Male_Urethra.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Female_and_Male_Urethra.jpg"
+    }
+  },
+  {
+    "slug": "urinary/nephron-physiology",
+    "before": {
+      "type": "Public Domain",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ANephron_basic_physiology.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Yosi I / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Nephron_basic_physiology.svg"
+    }
+  },
+  {
+    "slug": "urinary/nephron",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College - Anatomy & Physiology / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:2618_Nephron_Secretion_Reabsorption.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:2618_Nephron_Secretion_Reabsorption.jpg"
+    }
+  },
+  {
+    "slug": "urinary/renal-corpuscle",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3ARenal_corpuscle-en.svg"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "Shypoetess / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Renal_corpuscle-en.svg"
+    }
+  },
+  {
+    "slug": "urinary/urethra-slide",
+    "before": {
+      "type": "CC BY 4.0",
+      "attribution": "OpenStax College / Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/File:Female_and_Male_Urethra.jpg"
+    },
+    "after": {
+      "type": "CC BY 3.0",
+      "attribution": "OpenStax College / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Female_and_Male_Urethra.jpg"
+    }
+  },
+  {
+    "slug": "urinary/water-balance",
+    "before": {
+      "type": "CC BY-SA 3.0",
+      "attribution": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File%3AWater_balance.png"
+    },
+    "after": {
+      "type": "CC BY-SA 4.0",
+      "attribution": "David Walsh and Alan Sved / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Water_balance.png"
+    }
+  }
+]

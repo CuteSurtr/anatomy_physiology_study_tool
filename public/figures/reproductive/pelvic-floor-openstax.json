@@ -1,9 +1,10 @@
 {
   "src": "/figures/reproductive/pelvic-floor-openstax.jpg",
-  "alt": "Muscles of the pelvic floor (OpenStax). Pelvic diaphragm: levator ani (puborectalis, pubococcygeus, iliococcygeus) + coccygeus. Forms the muscular floor that supports pelvic organs and resists rises in intra-abdominal pressure.",
+  "alt": "Pelvic diaphragm from above (OpenStax) - pubococcygeus and iliococcygeus forming the levator ani, pierced by the urethral, vaginal and rectal canals, with the sacrum, iliacus and iliac crests for orientation.",
   "license": {
-    "type": "CC BY 3.0",
-    "attribution": "OpenStax College",
-    "url": "https://commons.wikimedia.org/wiki/File%3A1115_Muscles_of_the_Pelvic_Floor.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:1115_Muscles_of_the_Pelvic_Floor.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

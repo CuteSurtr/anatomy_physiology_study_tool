@@ -1,9 +1,10 @@
 {
   "src": "/figures/lymphatic/lymph-vessels-slide.jpg",
-  "alt": "Anatomy of the lymphatic system - vessels and major node groups.",
+  "alt": "Whole-body overview of the lymphatic system labelling the adenoid, tonsil, right lymphatic duct entering the vein, thymus, lymph nodes, spleen, bone marrow and lymph vessels, with insets of a lymph node and of lymphatic capillaries collecting interstitial fluid between blood capillaries and tissue cells.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "OpenStax College / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:2201_Anatomy_of_the_Lymphatic_System.jpg"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:2201_Anatomy_of_the_Lymphatic_System.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   }
 }

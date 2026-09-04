@@ -1,9 +1,10 @@
 {
   "src": "/figures/foundations/signal-transduction.svg",
-  "alt": "Signal transduction - GPCR (G protein \u2192 cAMP/PKA or PLC/IP3/DAG), receptor tyrosine kinase (insulin receptor \u2192 RAS/MAPK or PI3K/AKT), JAK-STAT, nuclear receptors (steroids \u2192 transcription). Many pathways converge on gene expression.",
+  "alt": "Signal transduction - GPCR (G protein → cAMP/PKA or PLC/IP3/DAG), receptor tyrosine kinase (insulin receptor → RAS/MAPK or PI3K/AKT), JAK-STAT, nuclear receptors (steroids → transcription). Many pathways converge on gene expression.",
   "license": {
-    "type": "CC BY-SA 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ASignal_transduction_pathways.svg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "cybertory / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Signal_transduction_pathways.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

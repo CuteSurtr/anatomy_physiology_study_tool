@@ -1,6 +1,6 @@
 {
   "src": "/figures/endocrine/parathyroid.jpg",
-  "alt": "Identify the parathyroid + thyroid (posterior view).",
+  "alt": "Posterior view of the thyroid gland - identify the thyroid, the superior and inferior parathyroid glands, and the trachea.",
   "viewBox": [
     0,
     0,
@@ -15,32 +15,37 @@
   "labels": [
     {
       "id": "thyroid",
-      "x": 558,
-      "y": 224,
-      "label": "Thyroid gland"
+      "x": 163,
+      "y": 200,
+      "label": "Thyroid gland",
+      "synonyms": [
+        "thyroid"
+      ]
     },
     {
       "id": "sup-para",
-      "x": 469,
-      "y": 122,
+      "x": 320,
+      "y": 237,
       "label": "Superior parathyroid",
       "synonyms": [
-        "superior parathyroid gland"
+        "superior parathyroid gland",
+        "superior parathyroid glands"
       ]
     },
     {
       "id": "inf-para",
-      "x": 469,
-      "y": 265,
+      "x": 320,
+      "y": 288,
       "label": "Inferior parathyroid",
       "synonyms": [
-        "inferior parathyroid gland"
+        "inferior parathyroid gland",
+        "inferior parathyroid glands"
       ]
     },
     {
       "id": "trachea",
-      "x": 558,
-      "y": 347,
+      "x": 255,
+      "y": 315,
       "label": "Trachea"
     }
   ]

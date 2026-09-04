@@ -2,8 +2,9 @@
   "src": "/figures/nervous/action-potential.svg",
   "alt": "Neuronal action potential phases.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Action_potential.svg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "Original by en:User:Chris 73 , updated by en:User:Diberri , converted to SVG by tiZom / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Action_potential.svg",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
   }
 }

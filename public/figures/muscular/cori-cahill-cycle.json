@@ -1,6 +1,6 @@
 {
   "src": "/figures/muscular/cori-cahill-cycle.png",
-  "alt": "Cori cycle (lactate) + Cahill cycle (alanine). Muscle generates lactate (glycolysis) or alanine (transamination) \u2192 liver \u2192 gluconeogenesis \u2192 glucose returned to muscle. Moves nitrogen + carbon between tissues.",
+  "alt": "Diagram of the Cahill (glucose-alanine) cycle with Spanish labels. In muscle (musculo) glycolysis (glucolisis) makes pyruvate (piruvato); transamination with glutamate (glutamato) forms alanine (alanina), which travels in the blood (sangre) to the liver (higado), where it is converted back to pyruvate and then to glucose by gluconeogenesis (gluconeogenesis), while its nitrogen enters the urea cycle (ciclo de la urea). The lactate limb of the Cori cycle is not shown.",
   "license": {
     "type": "CC BY-SA 3.0",
     "attribution": "Wikimedia Commons",

@@ -15,44 +15,47 @@
   "labels": [
     {
       "id": "esophagus",
-      "x": 421,
-      "y": 237,
+      "x": 460,
+      "y": 500,
       "label": "Esophagus"
     },
     {
       "id": "stomach",
-      "x": 281,
-      "y": 450,
+      "x": 520,
+      "y": 705,
       "label": "Stomach"
     },
     {
       "id": "liver",
-      "x": 580,
-      "y": 379,
+      "x": 340,
+      "y": 690,
       "label": "Liver"
     },
     {
       "id": "gallbladder",
-      "x": 562,
-      "y": 498,
+      "x": 373,
+      "y": 720,
       "label": "Gallbladder"
     },
     {
       "id": "pancreas",
-      "x": 468,
-      "y": 569,
+      "x": 473,
+      "y": 783,
       "label": "Pancreas"
     },
     {
       "id": "duodenum",
-      "x": 515,
-      "y": 652,
-      "label": "Duodenum"
+      "x": 397,
+      "y": 784,
+      "label": "Duodenum",
+      "synonyms": [
+        "duodenum (first part of small intestine)"
+      ]
     },
     {
       "id": "small-intestine",
-      "x": 468,
-      "y": 770,
+      "x": 440,
+      "y": 970,
       "label": "Small intestine",
       "synonyms": [
         "jejunum",
@@ -61,17 +64,18 @@
     },
     {
       "id": "large-intestine",
-      "x": 281,
-      "y": 830,
+      "x": 300,
+      "y": 905,
       "label": "Large intestine",
       "synonyms": [
-        "colon"
+        "colon",
+        "ascending colon"
       ]
     },
     {
       "id": "rectum",
-      "x": 468,
-      "y": 1090,
+      "x": 445,
+      "y": 1130,
       "label": "Rectum"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "src": "/figures/lymphatic/antibody-igg-structure.png",
-  "alt": "IgG antibody structure - 2 heavy + 2 light chains held by disulfide bonds. Fab (antigen-binding) + Fc (effector-function) regions. Hypervariable loops at antigen-binding tips.",
+  "alt": "Ribbon (cartoon) model of the crystal structure of an intact IgG1 antibody, showing the Y shape formed by two heavy and two light chains, each folded into immunoglobulin domains. The chains are distinguished only by colour; no regions are labelled in the image.",
   "license": {
     "type": "CC BY-SA 4.0",
     "attribution": "Wikimedia Commons",

@@ -1,9 +1,9 @@
 {
   "src": "/figures/digestive/gi-hormones-summary.png",
-  "alt": "GI hormones at a glance - gastrin (G cells, antrum \u2192 HCl), CCK (I cells, duodenum \u2192 gallbladder + pancreas), secretin (S cells, duodenum \u2192 HCO3-), GIP (K cells \u2192 insulin), motilin (M cells \u2192 MMC), VIP (intestinal smooth muscle relaxation).",
+  "alt": "Summary table of four GI hormones - gastrin, secretin, cholecystokinin (CCK) and gastric inhibitory peptide (GIP) - with the tissue that secretes each, its stimulus, target organ and response. Motilin, GLP-1, VIP, somatostatin and ghrelin are not included, and the table contains several typographic errors.",
   "license": {
-    "type": "CC BY-SA 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AGI_Hormones.png"
+    "type": "Public Domain",
+    "attribution": "No machine-readable author provided. Stephaniegreenwood assumed (based on copyright claims). / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:GI_Hormones.png"
   }
 }

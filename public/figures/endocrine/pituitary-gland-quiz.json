@@ -1,12 +1,7 @@
 {
   "src": "/figures/endocrine/pituitary-gland-v2.png",
-  "alt": "Identify the parts of the hypothalamic-pituitary axis.",
-  "viewBox": [
-    0,
-    0,
-    2109,
-    1110
-  ],
+  "alt": "Sectioned pituitary gland hanging from the hypothalamus - identify the hypothalamus, infundibulum, and the anterior and posterior lobes.",
+  "viewBox": [0, 0, 1601, 783],
   "license": {
     "type": "CC BY 3.0",
     "attribution": "Blausen Medical Communications / Wikimedia Commons",
@@ -15,35 +10,37 @@
   "labels": [
     {
       "id": "hypothalamus",
-      "x": 675,
-      "y": 355,
+      "x": 1020,
+      "y": 105,
       "label": "Hypothalamus"
     },
     {
+      "id": "infundibulum",
+      "x": 1200,
+      "y": 385,
+      "label": "Infundibulum",
+      "synonyms": [
+        "pituitary stalk",
+        "infundibular stalk"
+      ]
+    },
+    {
       "id": "ant-pit",
-      "x": 844,
-      "y": 610,
+      "x": 1130,
+      "y": 580,
       "label": "Anterior pituitary",
       "synonyms": [
-        "adenohypophysis"
+        "adenohypophysis",
+        "pars distalis"
       ]
     },
     {
       "id": "post-pit",
-      "x": 1054,
-      "y": 610,
+      "x": 1360,
+      "y": 570,
       "label": "Posterior pituitary",
       "synonyms": [
         "neurohypophysis"
-      ]
-    },
-    {
-      "id": "infundibulum",
-      "x": 886,
-      "y": 466,
-      "label": "Infundibulum",
-      "synonyms": [
-        "pituitary stalk"
       ]
     }
   ]

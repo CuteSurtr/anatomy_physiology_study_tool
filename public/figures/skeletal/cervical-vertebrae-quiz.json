@@ -15,8 +15,8 @@
   "labels": [
     {
       "id": "spinous-process",
-      "x": 310,
-      "y": 70,
+      "x": 425,
+      "y": 180,
       "label": "Spinous process (bifid)",
       "synonyms": [
         "bifid spinous process"
@@ -24,49 +24,49 @@
     },
     {
       "id": "vertebral-foramen",
-      "x": 305,
-      "y": 175,
+      "x": 427,
+      "y": 265,
       "label": "Vertebral foramen"
     },
     {
       "id": "lamina",
-      "x": 245,
-      "y": 145,
+      "x": 457,
+      "y": 235,
       "label": "Lamina"
     },
     {
       "id": "pedicle",
-      "x": 420,
-      "y": 165,
+      "x": 490,
+      "y": 292,
       "label": "Pedicle"
     },
     {
       "id": "transverse-process",
-      "x": 200,
-      "y": 235,
+      "x": 297,
+      "y": 331,
       "label": "Transverse process"
     },
     {
       "id": "transverse-foramen",
-      "x": 200,
-      "y": 290,
+      "x": 350,
+      "y": 317,
       "label": "Transverse foramen"
     },
     {
       "id": "body",
-      "x": 320,
-      "y": 295,
+      "x": 427,
+      "y": 332,
       "label": "Body"
     },
     {
       "id": "superior-articular-process",
-      "x": 195,
-      "y": 180,
+      "x": 335,
+      "y": 283,
       "label": "Superior articular process"
     },
     {
       "id": "atlas",
-      "x": 715,
+      "x": 805,
       "y": 110,
       "label": "Atlas (C1)",
       "synonyms": [
@@ -76,8 +76,8 @@
     },
     {
       "id": "axis",
-      "x": 715,
-      "y": 145,
+      "x": 835,
+      "y": 171,
       "label": "Axis (C2)",
       "synonyms": [
         "C2",
@@ -86,8 +86,8 @@
     },
     {
       "id": "dens",
-      "x": 740,
-      "y": 35,
+      "x": 865,
+      "y": 107,
       "label": "Dens of axis",
       "synonyms": [
         "dens",
@@ -96,8 +96,8 @@
     },
     {
       "id": "c7",
-      "x": 595,
-      "y": 340,
+      "x": 805,
+      "y": 350,
       "label": "C7 (vertebra prominens)",
       "synonyms": [
         "vertebra prominens",

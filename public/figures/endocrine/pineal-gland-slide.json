@@ -1,9 +1,10 @@
 {
   "src": "/figures/endocrine/pineal-gland-slide.svg",
-  "alt": "Pineal gland location in the brain - posterior to the thalamus, in the epithalamus.",
+  "alt": "Simple diagram of a head and shoulders with the brain shown in grey and the pineal gland highlighted in yellow at the midline of the brain. No other brain structures are labelled.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Cancer Research UK / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_position_of_the_pineal_gland_in_the_brain_CRUK_416.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Cancer Research UK uploader / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_position_of_the_pineal_gland_in_the_brain_CRUK_416.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

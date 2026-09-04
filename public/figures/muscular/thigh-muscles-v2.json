@@ -1,8 +1,8 @@
 {
   "src": "/figures/muscular/thigh-muscles-v2.png",
-  "alt": "Anterior thigh muscles labeled - iliopsoas (psoas major + iliacus), tensor fasciae latae, rectus femoris, vastus lateralis, vastus medialis, sartorius, adductor group (gracilis, adductor longus/magnus/brevis, pectineus).",
-  "caption": "Anterior thigh muscles (Gray's Anatomy) - quadriceps (rectus femoris + 3 vasti), adductor group (gracilis, adductor longus/magnus/brevis, pectineus), sartorius, iliopsoas. Extends knee; flexes/adducts hip.",
+  "alt": "Anterior view of the right hip and thigh labelling quadratus lumborum, psoas minor, iliopsoas (iliacus plus psoas major), tensor fasciae latae and the iliotibial tract, sartorius, the quadriceps femoris group (rectus femoris, vastus lateralis, vastus medialis), the hip adductors (pectineus, gracilis, adductor longus, adductor magnus), the quadriceps tendon and the patellar ligament. The posterior compartment is not shown.",
+  "caption": "Anterior thigh (Gray's Anatomy): iliopsoas, tensor fasciae latae, sartorius, the quadriceps femoris group and the hip adductors. Anterior and medial compartments only - the hamstrings are not shown.",
   "license": "CC BY-SA 3.0",
-  "credit": "Gray's Anatomy of the Human Body (1918) \u2014 Wikimedia",
+  "credit": "Gray's Anatomy of the Human Body (1918) — Wikimedia",
   "source": "https://commons.wikimedia.org/wiki/File:Gray430-en.svg"
 }

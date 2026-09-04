@@ -1,9 +1,10 @@
 {
   "src": "/figures/nervous/patellar-reflex-arc.png",
-  "alt": "Patellar tendon reflex arc - tap stretches the quadriceps tendon \u2192 muscle spindle (Ia afferent) \u2192 monosynaptic excitation of \u03b1-motor neuron in spinal cord \u2192 quadriceps contracts. Reciprocal inhibition relaxes hamstrings.",
+  "alt": "Patellar tendon reflex arc - tap stretches the quadriceps tendon → muscle spindle (Ia afferent) → monosynaptic excitation of α-motor neuron in spinal cord → quadriceps contracts. Reciprocal inhibition relaxes hamstrings.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3APatellar_tendon_reflex_arc.png"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Amiya Sarkar / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Patellar_tendon_reflex_arc.png",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

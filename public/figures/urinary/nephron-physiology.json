@@ -2,8 +2,9 @@
   "src": "/figures/urinary/nephron-physiology.svg",
   "alt": "Nephron basic physiology - glomerular filtration (PCT in), tubular reabsorption (mostly PCT + thick ascending limb + DCT), tubular secretion (PCT + DCT + collecting duct). Net urine output = filtration - reabsorption + secretion.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ANephron_basic_physiology.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Yosi I / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Nephron_basic_physiology.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

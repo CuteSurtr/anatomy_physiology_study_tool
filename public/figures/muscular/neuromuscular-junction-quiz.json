@@ -15,56 +15,76 @@
   "labels": [
     {
       "id": "axon",
-      "x": 459,
-      "y": 386,
+      "x": 400,
+      "y": 165,
       "label": "Motor axon",
       "synonyms": [
         "axon",
-        "motor neuron"
+        "motor neuron",
+        "motor neuron axon",
+        "myelinated axon",
+        "motor nerve"
       ]
     },
     {
       "id": "terminal",
-      "x": 766,
-      "y": 1159,
+      "x": 860,
+      "y": 1000,
       "label": "Axon terminal",
       "synonyms": [
         "synaptic terminal",
-        "presynaptic terminal"
+        "presynaptic terminal",
+        "synaptic end bulb",
+        "nerve terminal",
+        "presynaptic membrane"
       ]
     },
     {
       "id": "vesicles",
-      "x": 689,
-      "y": 1416,
+      "x": 731,
+      "y": 1142,
       "label": "Synaptic vesicles",
       "synonyms": [
-        "vesicles"
+        "vesicles",
+        "synaptic vesicle",
+        "ACh vesicle",
+        "acetylcholine vesicle"
       ]
     },
     {
       "id": "cleft",
-      "x": 766,
-      "y": 1674,
-      "label": "Synaptic cleft"
+      "x": 1120,
+      "y": 2170,
+      "label": "Synaptic cleft",
+      "synonyms": [
+        "cleft",
+        "synaptic gap",
+        "neuromuscular cleft"
+      ]
     },
     {
       "id": "endplate",
-      "x": 766,
-      "y": 2008,
+      "x": 1000,
+      "y": 2400,
       "label": "Motor end plate",
       "synonyms": [
-        "end plate"
+        "end plate",
+        "motor end-plate",
+        "postsynaptic membrane",
+        "junctional folds"
       ]
     },
     {
       "id": "muscle",
-      "x": 766,
-      "y": 2369,
+      "x": 420,
+      "y": 620,
       "label": "Muscle fiber",
       "synonyms": [
         "sarcolemma",
-        "myocyte"
+        "myocyte",
+        "muscle cell",
+        "skeletal muscle fiber",
+        "myofiber"
       ]
     }
   ]

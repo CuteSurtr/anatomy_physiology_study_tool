@@ -2,8 +2,9 @@
   "src": "/figures/respiratory/lung-volumes.svg",
   "alt": "Lung volumes + capacities - tidal volume, inspiratory + expiratory reserves, residual volume, vital capacity, total lung capacity",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Lung_volumes.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "The Cheesedealer / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Lung_volumes.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

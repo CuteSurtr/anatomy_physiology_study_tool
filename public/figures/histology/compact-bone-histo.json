@@ -2,8 +2,9 @@
   "src": "/figures/histology/compact-bone-histo.jpg",
   "alt": "Compact bone - ground cross-section showing concentric lamellae of osteons and Haversian canals",
   "license": {
-    "type": "Public Domain / CC-BY",
+    "type": "CC BY-SA 3.0",
     "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Compact_bone_-_ground_cross_section.jpg"
+    "url": "https://commons.wikimedia.org/wiki/File:Compact_bone_-_ground_cross_section.jpg",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
   }
 }

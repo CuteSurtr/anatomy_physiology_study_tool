@@ -2,8 +2,9 @@
   "src": "/figures/histology/tonsil.jpg",
   "alt": "Palatine tonsil histology - stratified squamous epithelium with deep crypts + underlying lymphoid follicles.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Human_tonsils_(26_2_05)_Cross-section%3B_embedded_in_Epon.jpg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "Doc. RNDr. Josef Reischig, CSc. / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Human_tonsils_(26_2_05)_Cross-section;_embedded_in_Epon.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

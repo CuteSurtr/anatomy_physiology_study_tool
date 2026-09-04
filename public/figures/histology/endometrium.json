@@ -2,8 +2,9 @@
   "src": "/figures/histology/endometrium.jpg",
   "alt": "Endometrium in proliferative phase - straight tubular glands and stromal mitoses driven by estrogen.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Proliferative_phase_endometrium_--_high_mag.jpg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "Nephron / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Proliferative_phase_endometrium_--_high_mag.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

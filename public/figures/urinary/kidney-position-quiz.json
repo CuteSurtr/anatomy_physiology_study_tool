@@ -1,6 +1,6 @@
 {
   "src": "/figures/urinary/kidney-position.jpg",
-  "alt": "Identify the urinary tract structures in the abdomen.",
+  "alt": "Posterior/anterior view of the kidneys in the abdomen against the vertebral column and 12th ribs, with the liver above the right kidney and the ureters descending from each renal pelvis. Identify each structure.",
   "viewBox": [
     0,
     0,
@@ -14,40 +14,37 @@
   },
   "labels": [
     {
-      "id": "adrenal",
-      "x": 489,
-      "y": 217,
-      "label": "Adrenal gland",
-      "synonyms": [
-        "suprarenal gland"
-      ]
-    },
-    {
       "id": "right-kidney",
-      "x": 522,
-      "y": 361,
+      "x": 480,
+      "y": 660,
       "label": "Right kidney",
       "synonyms": [
-        "kidney"
+        "kidney (right)"
       ]
     },
     {
       "id": "left-kidney",
-      "x": 1108,
-      "y": 361,
-      "label": "Left kidney"
+      "x": 1050,
+      "y": 690,
+      "label": "Left kidney",
+      "synonyms": [
+        "kidney (left)"
+      ]
     },
     {
       "id": "ureter",
-      "x": 815,
-      "y": 662,
+      "x": 690,
+      "y": 965,
       "label": "Ureter"
     },
     {
-      "id": "bladder",
-      "x": 815,
-      "y": 1023,
-      "label": "Urinary bladder"
+      "id": "liver",
+      "x": 1180,
+      "y": 230,
+      "label": "Liver",
+      "synonyms": [
+        "hepar"
+      ]
     }
   ]
 }

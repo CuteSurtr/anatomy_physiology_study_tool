@@ -1,6 +1,6 @@
 {
   "src": "/figures/endocrine/pancreas-endocrine.jpg",
-  "alt": "Identify the islet cell types and their hormones.",
+  "alt": "Identify the pancreas, its neighbours, and the endocrine islet embedded in the exocrine tissue.",
   "viewBox": [
     0,
     0,
@@ -14,39 +14,48 @@
   },
   "labels": [
     {
-      "id": "alpha",
-      "x": 328,
-      "y": 193,
-      "label": "Alpha cell",
+      "id": "pancreas",
+      "x": 450,
+      "y": 240,
+      "label": "Pancreas"
+    },
+    {
+      "id": "duodenum",
+      "x": 220,
+      "y": 330,
+      "label": "Duodenum",
       "synonyms": [
-        "\u03b1 cell"
+        "duodenum of small intestine"
       ]
     },
     {
-      "id": "beta",
-      "x": 546,
-      "y": 276,
-      "label": "Beta cell",
-      "synonyms": [
-        "\u03b2 cell"
-      ]
-    },
-    {
-      "id": "delta",
-      "x": 764,
-      "y": 276,
-      "label": "Delta cell",
-      "synonyms": [
-        "\u03b4 cell"
-      ]
+      "id": "spleen",
+      "x": 858,
+      "y": 120,
+      "label": "Spleen"
     },
     {
       "id": "islet",
-      "x": 546,
-      "y": 165,
+      "x": 800,
+      "y": 432,
       "label": "Islet of Langerhans",
       "synonyms": [
-        "pancreatic islet"
+        "pancreatic islet",
+        "islet",
+        "islets of Langerhans"
+      ]
+    },
+    {
+      "id": "acinus",
+      "x": 735,
+      "y": 520,
+      "label": "Exocrine acinus",
+      "synonyms": [
+        "acinus",
+        "acini",
+        "acinar cells",
+        "exocrine acinar tissue",
+        "exocrine pancreas"
       ]
     }
   ]

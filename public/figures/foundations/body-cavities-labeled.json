@@ -2,8 +2,9 @@
   "src": "/figures/foundations/body-cavities-labeled.png",
   "alt": "Body cavities labeled - dorsal cavity (cranial + spinal/vertebral) and ventral cavity (thoracic: pleural + mediastinal + pericardial; abdominopelvic: abdominal + pelvic). Separated by the diaphragm.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ABody_Cavities_labeled.png"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Body_Cavities_labeled.png",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   }
 }

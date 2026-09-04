@@ -4,8 +4,8 @@
   "viewBox": [
     0,
     0,
-    2179,
-    1110
+    1776,
+    1106
   ],
   "license": {
     "type": "CC BY 3.0",
@@ -14,27 +14,25 @@
   },
   "labels": [
     {
-      "id": "cardia",
-      "x": 697,
-      "y": 311,
-      "label": "Cardia"
-    },
-    {
       "id": "fundus",
-      "x": 872,
-      "y": 200,
+      "x": 650,
+      "y": 105,
       "label": "Fundus"
     },
     {
       "id": "body",
-      "x": 981,
-      "y": 500,
-      "label": "Body"
+      "x": 600,
+      "y": 280,
+      "label": "Body",
+      "synonyms": [
+        "corpus",
+        "body of stomach"
+      ]
     },
     {
       "id": "antrum",
-      "x": 1416,
-      "y": 722,
+      "x": 400,
+      "y": 505,
       "label": "Pyloric antrum",
       "synonyms": [
         "antrum"
@@ -42,24 +40,27 @@
     },
     {
       "id": "pylorus",
-      "x": 1700,
-      "y": 610,
+      "x": 330,
+      "y": 392,
       "label": "Pylorus",
       "synonyms": [
         "pyloric sphincter"
       ]
     },
     {
-      "id": "greater",
-      "x": 1090,
-      "y": 866,
-      "label": "Greater curvature"
+      "id": "duodenum",
+      "x": 427,
+      "y": 630,
+      "label": "Duodenum"
     },
     {
-      "id": "lesser",
-      "x": 1198,
-      "y": 388,
-      "label": "Lesser curvature"
+      "id": "esophagus",
+      "x": 443,
+      "y": 80,
+      "label": "Esophagus",
+      "synonyms": [
+        "oesophagus"
+      ]
     }
   ]
 }

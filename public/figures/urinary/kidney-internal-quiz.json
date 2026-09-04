@@ -1,6 +1,6 @@
 {
   "src": "/figures/urinary/kidney-internal.jpg",
-  "alt": "Kidney internal anatomy - identify each structure.",
+  "alt": "Coronal section of the kidney with the renal hilum, vessels and collecting system exposed. Identify each structure.",
   "viewBox": [
     0,
     0,
@@ -15,26 +15,17 @@
   "labels": [
     {
       "id": "cortex",
-      "x": 1500,
-      "y": 320,
+      "x": 1260,
+      "y": 900,
       "label": "Renal cortex",
       "synonyms": [
         "cortex"
       ]
     },
     {
-      "id": "medulla",
-      "x": 1450,
-      "y": 480,
-      "label": "Renal medulla",
-      "synonyms": [
-        "medulla"
-      ]
-    },
-    {
       "id": "pyramid",
-      "x": 1380,
-      "y": 580,
+      "x": 1400,
+      "y": 640,
       "label": "Renal pyramid",
       "synonyms": [
         "medullary pyramid",
@@ -43,47 +34,38 @@
     },
     {
       "id": "papilla",
-      "x": 1280,
-      "y": 620,
+      "x": 1200,
+      "y": 650,
       "label": "Renal papilla",
       "synonyms": [
         "papilla"
       ]
     },
     {
-      "id": "minor-calyx",
-      "x": 1150,
-      "y": 620,
-      "label": "Minor calyx"
-    },
-    {
-      "id": "major-calyx",
-      "x": 1050,
-      "y": 660,
-      "label": "Major calyx"
-    },
-    {
       "id": "renal-pelvis",
-      "x": 970,
-      "y": 770,
-      "label": "Renal pelvis"
+      "x": 1190,
+      "y": 500,
+      "label": "Renal pelvis",
+      "synonyms": [
+        "pelvis of the kidney"
+      ]
     },
     {
       "id": "ureter",
-      "x": 870,
-      "y": 920,
+      "x": 920,
+      "y": 880,
       "label": "Ureter"
     },
     {
       "id": "renal-artery",
-      "x": 800,
-      "y": 540,
+      "x": 1010,
+      "y": 645,
       "label": "Renal artery"
     },
     {
       "id": "renal-vein",
-      "x": 800,
-      "y": 700,
+      "x": 950,
+      "y": 430,
       "label": "Renal vein"
     }
   ]

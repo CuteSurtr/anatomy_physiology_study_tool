@@ -1,9 +1,10 @@
 {
   "src": "/figures/reproductive/breast-anatomy-scheme.png",
-  "alt": "Breast anatomy schematic - lobes, lobules, lactiferous ducts, nipple + areola, adipose + connective tissue, pectoral muscle, lymph nodes (NIH/NCI, PD).",
+  "alt": "Sagittal section of the breast with a numbered key: 1 chest wall, 2 pectoral muscles, 3 lobules, 4 nipple, 5 areola, 6 lactiferous (milk) duct, 7 fatty tissue, 8 skin.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "NIH National Cancer Institute",
-    "url": "https://commons.wikimedia.org/wiki/File%3ABreast_anatomy_normal_scheme.png"
+    "type": "CC BY 3.0",
+    "attribution": "Original author: Patrick J. Lynch. Reworked by Morgoth666 to add numbered legend arrows. / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Breast_anatomy_normal_scheme.png",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   }
 }

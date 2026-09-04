@@ -2,8 +2,9 @@
   "src": "/figures/endocrine/pituitary-portal-histology-slide.jpg",
   "alt": "Anterior pituitary histology - chromophobes, basophils, acidophils (annotated).",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Histology_of_pars_distalis_of_the_anterior_pituitary_with_chromophobes,_basophils,_and_acidophils,_annotated.jpg"
+    "type": "CC0",
+    "attribution": "Mikael Häggström , M.D. / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Histology_of_pars_distalis_of_the_anterior_pituitary_with_chromophobes,_basophils,_and_acidophils,_annotated.jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

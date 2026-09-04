@@ -1,9 +1,10 @@
 {
   "src": "/figures/digestive/small-intestine-surface.svg",
-  "alt": "Small intestine absorptive surface amplification - plicae circulares (\u00d73), villi (\u00d710), microvilli (\u00d720) = ~600\u00d7 total amplification \u2192 ~250 m\u00b2 absorptive area in 6 m of bowel.",
+  "alt": "Cross-section of the small-intestine wall: villi covered by absorptive enterocytes with microvilli (magnified inset), a capillary network and central lacteal inside each villus, crypts between the villi, the submucosal and myenteric nerve plexuses, and the inner circular and outer longitudinal muscle layers. Structures are marked 1-7 with no printed key.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ASmall_intestine_surface.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Tomáš Kebert & umimeto.org / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Small_intestine_surface.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

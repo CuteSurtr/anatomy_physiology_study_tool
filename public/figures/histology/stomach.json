@@ -2,8 +2,9 @@
   "src": "/figures/histology/stomach.svg",
   "alt": "Stomach mucosa histology - surface mucous cells, gastric pits, fundic glands with parietal + chief cells.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Histology_of_Stomach.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Collectivedogs / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Histology_of_Stomach.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

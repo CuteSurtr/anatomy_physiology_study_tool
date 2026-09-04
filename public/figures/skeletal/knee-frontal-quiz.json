@@ -4,8 +4,8 @@
   "viewBox": [
     0,
     0,
-    1943,
-    1110
+    1233,
+    1048
   ],
   "license": {
     "type": "CC BY 4.0",
@@ -15,8 +15,8 @@
   "labels": [
     {
       "id": "acl",
-      "x": 816,
-      "y": 500,
+      "x": 518,
+      "y": 472,
       "label": "Anterior cruciate ligament",
       "synonyms": [
         "ACL"
@@ -24,8 +24,8 @@
     },
     {
       "id": "pcl",
-      "x": 1127,
-      "y": 500,
+      "x": 715,
+      "y": 472,
       "label": "Posterior cruciate ligament",
       "synonyms": [
         "PCL"
@@ -33,8 +33,8 @@
     },
     {
       "id": "mcl",
-      "x": 583,
-      "y": 610,
+      "x": 370,
+      "y": 576,
       "label": "Medial collateral ligament",
       "synonyms": [
         "MCL",
@@ -43,8 +43,8 @@
     },
     {
       "id": "lcl",
-      "x": 1360,
-      "y": 610,
+      "x": 863,
+      "y": 576,
       "label": "Lateral collateral ligament",
       "synonyms": [
         "LCL",
@@ -53,14 +53,14 @@
     },
     {
       "id": "medial-meniscus",
-      "x": 777,
-      "y": 722,
+      "x": 493,
+      "y": 682,
       "label": "Medial meniscus"
     },
     {
       "id": "lateral-meniscus",
-      "x": 1166,
-      "y": 722,
+      "x": 740,
+      "y": 682,
       "label": "Lateral meniscus"
     }
   ]

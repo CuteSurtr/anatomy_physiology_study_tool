@@ -2,8 +2,9 @@
   "src": "/figures/histology/loose-ct.jpg",
   "alt": "Loose (areolar) connective tissue - fibroblasts in a meshwork of collagen + elastic fibers with open spaces",
   "license": {
-    "type": "CC-BY",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Loose_Aerolar_(41743648512).jpg"
+    "type": "CC0",
+    "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Loose_Aerolar_(41743648512).jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

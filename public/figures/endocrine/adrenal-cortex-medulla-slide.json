@@ -1,9 +1,10 @@
 {
   "src": "/figures/endocrine/adrenal-cortex-medulla-slide.png",
-  "alt": "Adrenal gland cross-section - cortex with three zones (glomerulosa, fasciculata, reticularis) around the medulla (chromaffin cells).",
+  "alt": "Adrenal gland in cross-section on top of the kidney, with a magnified wedge of the gland wall showing, from outside in: the connective tissue capsule, the zona glomerulosa (rounded nests), the zona fasciculata (long radial cords, the widest zone), the zona reticularis (branching network) and the medulla.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Adrenal_Gland_detail_-_English.png"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Antinksčio sandara.png Author: EdgarasLe / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Adrenal_Gland_detail_-_English.png",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

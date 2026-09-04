@@ -1,6 +1,6 @@
 {
   "src": "/figures/cardiovascular/cardiac-cycle-phases.jpg",
-  "alt": "Phases of the cardiac cycle. Atrial systole (atrial kick, ~20% of ventricular filling), isovolumetric contraction, ventricular ejection (rapid then reduced), isovolumetric relaxation, rapid ventricular filling, diastasis. Then atrial systole again.",
+  "alt": "The cardiac cycle drawn as a clockwise loop of five labelled steps, each with a small heart diagram showing which chambers are contracting and which way blood is moving: atrial contraction, isovolumic contraction, ventricular ejection, isovolumic relaxation, and ventricular filling. An inner ring marks which portion is atrial systole and which is atrial diastole; a shaded wedge marks ventricular systole. Three small ECG traces around the edge highlight the P wave, the QRS complex, and the T wave against the matching step.",
   "license": {
     "type": "CC BY 3.0",
     "attribution": "OpenStax College",

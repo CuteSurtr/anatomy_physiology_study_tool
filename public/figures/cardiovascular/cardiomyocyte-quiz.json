@@ -1,6 +1,6 @@
 {
   "src": "/figures/cardiovascular/cardiomyocyte-v2.png",
-  "alt": "Identify the major components of a cardiac muscle cell.",
+  "alt": "Identify the visible features of cardiac muscle cells: central nuclei, intercalated discs, and striations.",
   "viewBox": [
     0,
     0,
@@ -16,36 +16,35 @@
   "labels": [
     {
       "id": "nucleus",
-      "x": 613,
-      "y": 610,
-      "label": "Nucleus"
-    },
-    {
-      "id": "id",
-      "x": 1123,
-      "y": 555,
-      "label": "Intercalated disc",
+      "x": 605,
+      "y": 605,
+      "label": "Nucleus",
       "synonyms": [
-        "intercalated disk"
+        "nuclei",
+        "central nucleus"
       ]
     },
     {
-      "id": "myofibril",
+      "id": "id",
+      "x": 330,
+      "y": 230,
+      "label": "Intercalated disc",
+      "synonyms": [
+        "intercalated disk",
+        "intercalated discs"
+      ]
+    },
+    {
+      "id": "striations",
       "x": 817,
       "y": 333,
-      "label": "Myofibril"
-    },
-    {
-      "id": "mito",
-      "x": 1429,
-      "y": 722,
-      "label": "Mitochondrion"
-    },
-    {
-      "id": "sarcolemma",
-      "x": 408,
-      "y": 278,
-      "label": "Sarcolemma"
+      "label": "Striations",
+      "synonyms": [
+        "striation",
+        "myofibril",
+        "myofibrils",
+        "sarcomeres"
+      ]
     }
   ]
 }

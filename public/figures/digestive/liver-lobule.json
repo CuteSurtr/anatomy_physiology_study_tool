@@ -1,9 +1,10 @@
 {
   "src": "/figures/digestive/liver-lobule.png",
-  "alt": "Liver lobule - hexagonal functional unit. Central vein at the middle; portal triads at the corners (hepatic artery + portal vein + bile duct). Hepatocyte plates radiate outward; sinusoids carry blood from triads to central vein.",
+  "alt": "Liver lobule (NIH BioArt) - plates of hepatocytes radiating from the central vein, with two magnified insets. The portal-tract inset labels the arterial endothelium, bile-duct epithelium, portal fibroblasts and hepatic progenitor cells; the sinusoid inset labels hepatocytes, Kupffer cells, hepatic stellate cells and the fenestrated sinusoidal endothelium.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "NIH BioArt #565",
-    "url": "https://commons.wikimedia.org/wiki/File%3ALiver_Lobule_%28NIH_BioArt_565%29.png"
+    "type": "CC BY 4.0",
+    "attribution": "NIH NIAID / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Liver_Lobule_(NIH_BioArt_565).png",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

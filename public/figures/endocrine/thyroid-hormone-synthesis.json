@@ -1,9 +1,10 @@
 {
   "src": "/figures/endocrine/thyroid-hormone-synthesis.png",
-  "alt": "Thyroid hormone synthesis - iodide trapped via NIS, oxidized + iodinates tyrosines on thyroglobulin via TPO \u2192 MIT + DIT \u2192 coupling \u2192 T3 + T4 stored in colloid. TSH stimulates uptake + release.",
+  "alt": "Thyroid hormone synthesis in a follicular cell. The basolateral Na/I symporter pumps iodide in from blood; pendrin moves it across the apical membrane into the colloid; thyroid peroxidase oxidises iodide and iodinates tyrosines on thyroglobulin, then couples them; iodinated thyroglobulin is endocytosed and cleaved by lysosomes to free thyroxine and triiodothyronine, which leave through MCT transporters into the blood.",
   "license": {
-    "type": "CC BY-SA 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Thyroid_hormone_synthesis.png"
+    "type": "CC0",
+    "attribution": "Mikael Häggström . When using this image in external works, it may be cited as: Häggström, Mikael (2014). \" Me / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Thyroid_hormone_synthesis.png",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

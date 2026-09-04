@@ -1,6 +1,6 @@
 {
   "src": "/figures/urinary/nephron-blank.svg",
-  "alt": "Anatomically detailed diagram of a nephron without labels",
+  "alt": "Unlabelled diagram of a nephron: renal corpuscle (glomerular tuft inside Bowman's capsule) in the cortex, proximal convoluted tubule, a long hairpin loop of Henle descending into the medulla and ascending again, and the collecting duct running down to the papilla.",
   "viewBox": [0, 0, 356, 600],
   "license": {
     "type": "CC BY 3.0",
@@ -8,15 +8,12 @@
     "url": "https://commons.wikimedia.org/wiki/File:Nephron_blank.svg"
   },
   "labels": [
-    { "id": "bowman", "x": 75, "y": 90, "label": "Bowman's capsule", "synonyms": ["bowman capsule", "glomerular capsule", "renal corpuscle"] },
-    { "id": "glomerulus", "x": 90, "y": 110, "label": "Glomerulus" },
-    { "id": "afferent", "x": 50, "y": 75, "label": "Afferent arteriole" },
-    { "id": "efferent", "x": 145, "y": 130, "label": "Efferent arteriole" },
-    { "id": "pct", "x": 145, "y": 165, "label": "Proximal convoluted tubule", "synonyms": ["PCT", "proximal tubule"] },
-    { "id": "descending", "x": 175, "y": 300, "label": "Descending limb of loop of Henle", "synonyms": ["descending limb", "thin descending limb"] },
-    { "id": "loop", "x": 180, "y": 470, "label": "Loop of Henle", "synonyms": ["henle loop", "nephron loop"] },
-    { "id": "ascending", "x": 220, "y": 300, "label": "Ascending limb of loop of Henle", "synonyms": ["ascending limb", "thick ascending limb", "TAL"] },
-    { "id": "dct", "x": 270, "y": 175, "label": "Distal convoluted tubule", "synonyms": ["DCT", "distal tubule"] },
-    { "id": "collecting", "x": 295, "y": 400, "label": "Collecting duct" }
+    { "id": "glomerulus", "x": 170, "y": 116, "label": "Glomerulus", "synonyms": ["glomerular capillary tuft", "glomerular tuft"] },
+    { "id": "bowman", "x": 200, "y": 142, "label": "Bowman's capsule", "synonyms": ["bowman capsule", "bowmans capsule", "glomerular capsule"] },
+    { "id": "pct", "x": 72, "y": 100, "label": "Proximal convoluted tubule", "synonyms": ["PCT", "proximal tubule"] },
+    { "id": "descending", "x": 135, "y": 320, "label": "Descending limb of loop of Henle", "synonyms": ["descending limb", "thin descending limb", "descending limb of the loop of henle"] },
+    { "id": "loop", "x": 155, "y": 470, "label": "Loop of Henle", "synonyms": ["henle loop", "nephron loop", "hairpin of the loop of henle"] },
+    { "id": "ascending", "x": 184, "y": 320, "label": "Ascending limb of loop of Henle", "synonyms": ["ascending limb", "thick ascending limb", "TAL", "ascending limb of the loop of henle"] },
+    { "id": "collecting", "x": 244, "y": 400, "label": "Collecting duct", "synonyms": ["collecting tubule"] }
   ]
 }

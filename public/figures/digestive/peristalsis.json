@@ -1,9 +1,10 @@
 {
   "src": "/figures/digestive/peristalsis.gif",
-  "alt": "Peristaltic wave moving a bolus.",
+  "alt": "Animation of a peristaltic wave: circular muscle contracts behind the bolus and relaxes ahead of it, propelling the bolus along the tube.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Peristalsis.gif"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Auawise / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Peristalsis.gif",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

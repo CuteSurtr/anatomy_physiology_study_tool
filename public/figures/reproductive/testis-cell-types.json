@@ -1,9 +1,10 @@
 {
   "src": "/figures/reproductive/testis-cell-types.png",
-  "alt": "Cell types of the testis - Sertoli cells (support spermatogenesis, blood-testis barrier, secrete inhibin + ABP), Leydig cells (interstitial, testosterone production under LH), germ cell lineages (spermatogonia \u2192 spermatids).",
+  "alt": "Immunostained section of testis - a seminiferous tubule containing germ cells at several stages, surrounded by interstitial tissue. Arrows and arrowheads mark cells identified in the source publication; the figure carries no printed key.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AIdentification_of_the_testis_cell_types.png"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Migrenne S, Moreau E, Pakarinen P, Dierich A, Merlet J, Habert R, et al. / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Identification_of_the_testis_cell_types.png",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

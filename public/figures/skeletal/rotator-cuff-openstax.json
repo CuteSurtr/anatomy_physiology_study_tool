@@ -2,8 +2,9 @@
   "src": "/figures/skeletal/rotator-cuff-openstax.jpg",
   "alt": "Rotator cuff muscles that move the humerus - supraspinatus, infraspinatus, teres minor, subscapularis (SITS), plus deltoid and pectoralis major.",
   "license": {
-    "type": "CC BY 3.0",
-    "attribution": "OpenStax College",
-    "url": "https://commons.wikimedia.org/wiki/File%3A1119_Muscles_that_Move_the_Humerus.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:1119_Muscles_that_Move_the_Humerus.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

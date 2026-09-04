@@ -1,6 +1,6 @@
 {
   "src": "/figures/muscular/nicotinic-ach-receptor.png",
-  "alt": "Nicotinic acetylcholine receptor - pentameric ligand-gated cation channel (2\u03b1, \u03b2, \u03b4, \u03b5 in adult; 2\u03b1, \u03b2, \u03b3, \u03b4 in fetal). Two ACh bind \u03b1 subunits \u2192 channel opens \u2192 Na\u207a in / K\u207a out \u2192 end-plate depolarization.",
+  "alt": "Ribbon model of the nicotinic acetylcholine receptor from cryo-EM/X-ray coordinates, shown from the top (five subunits arranged around a central pore) and from the front (large extracellular ligand-binding domain above the membrane-spanning helices). Individual subunits are colour-coded but not named, and no ions, ligands or membrane are drawn.",
   "license": {
     "type": "Public Domain",
     "attribution": "Wikimedia Commons",

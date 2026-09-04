@@ -1,9 +1,9 @@
 {
   "src": "/figures/lymphatic/complement.svg",
-  "alt": "Complement cascade - classical, lectin, alternative pathways.",
+  "alt": "Complement diagram showing the classical pathway (antigen bound by IgG forming the C1 complex) and the alternative pathway (C3 hydrolysis) converging on C3, then C3b cleaving C5 into C5a and C5b, and C5b with C6, C7, C8 and C9 forming the cylindrical membrane attack complex that makes the target cell swell and burst. The lectin pathway is not shown.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
+    "type": "Public Domain",
+    "attribution": "English text of 'Image:Complement pathway.png' by DO11.10 German translation of 'Image:Complement pathway.png' / Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:Complement_pathway.svg"
   }
 }

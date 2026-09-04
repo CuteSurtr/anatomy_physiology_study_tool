@@ -15,26 +15,30 @@
   "labels": [
     {
       "id": "cardia",
-      "x": 420,
-      "y": 200,
+      "x": 540,
+      "y": 134,
       "label": "Cardia"
     },
     {
       "id": "fundus",
-      "x": 330,
-      "y": 130,
+      "x": 772,
+      "y": 82,
       "label": "Fundus"
     },
     {
       "id": "body",
-      "x": 380,
-      "y": 380,
-      "label": "Body"
+      "x": 740,
+      "y": 300,
+      "label": "Body",
+      "synonyms": [
+        "corpus",
+        "body of stomach"
+      ]
     },
     {
       "id": "pyloric-antrum",
-      "x": 580,
-      "y": 410,
+      "x": 532,
+      "y": 545,
       "label": "Pyloric antrum",
       "synonyms": [
         "antrum"
@@ -42,27 +46,36 @@
     },
     {
       "id": "pylorus",
-      "x": 680,
-      "y": 380,
-      "label": "Pylorus"
+      "x": 285,
+      "y": 505,
+      "label": "Pylorus",
+      "synonyms": [
+        "pyloric sphincter",
+        "pyloric canal"
+      ]
     },
     {
       "id": "lesser-curvature",
-      "x": 480,
-      "y": 285,
+      "x": 455,
+      "y": 400,
       "label": "Lesser curvature"
     },
     {
       "id": "greater-curvature",
-      "x": 300,
-      "y": 450,
+      "x": 600,
+      "y": 671,
       "label": "Greater curvature"
     },
     {
       "id": "rugae",
-      "x": 870,
-      "y": 380,
-      "label": "Rugae"
+      "x": 637,
+      "y": 467,
+      "label": "Rugae",
+      "synonyms": [
+        "gastric rugae",
+        "rugae of mucosa",
+        "gastric folds"
+      ]
     }
   ]
 }

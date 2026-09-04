@@ -2,8 +2,9 @@
   "src": "/figures/histology/epithelial-polarity-slide.jpg",
   "alt": "Simple columnar epithelium showing apical-basal cell polarity vs non-keratinized stratified squamous epithelium.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Simple_Columnar_Epithelium,_Non-Kerantinized_Stratified_Squamous_Epithelium.jpg"
+    "type": "CC0",
+    "attribution": "Tierayoung1 / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Simple_Columnar_Epithelium,_Non-Kerantinized_Stratified_Squamous_Epithelium.jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

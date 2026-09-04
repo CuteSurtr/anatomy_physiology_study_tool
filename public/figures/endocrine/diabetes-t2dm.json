@@ -1,9 +1,10 @@
 {
   "src": "/figures/endocrine/diabetes-t2dm.jpg",
-  "alt": "Type 2 diabetes - insulin resistance + relative \u03b2-cell dysfunction; chronic hyperglycemia \u2192 microvascular (retinopathy, nephropathy, neuropathy) + macrovascular (CAD, stroke, PAD) complications.",
+  "alt": "Rendering of a cell membrane with membrane transport proteins and glucose molecules, shown twice: on the left glucose passes into the cell, on the right glucose remains outside. Illustrates impaired cellular glucose uptake; no organs, islets or diabetic complications are depicted.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AType_2_Diabetes_Mellitus.jpg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Manu5 / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Type_2_Diabetes_Mellitus.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

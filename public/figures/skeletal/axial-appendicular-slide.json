@@ -2,8 +2,9 @@
   "src": "/figures/skeletal/axial-appendicular-slide.jpg",
   "alt": "Axial vs appendicular skeleton - axial in blue (skull, vertebral column, thorax) vs appendicular in tan (limbs + girdles).",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "OpenStax College",
-    "url": "https://commons.wikimedia.org/wiki/File:701_Axial_Skeleton-01.jpg"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:701_Axial_Skeleton-01.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   }
 }

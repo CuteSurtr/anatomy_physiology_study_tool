@@ -1,6 +1,6 @@
 {
   "src": "/figures/endocrine/adrenal-detail.jpg",
-  "alt": "Adrenal gland - identify each cortical zone and the medulla.",
+  "alt": "Adrenal cortex and medulla in section - identify the capsule, the three cortical zones and the medulla.",
   "viewBox": [
     0,
     0,
@@ -15,14 +15,18 @@
   "labels": [
     {
       "id": "capsule",
-      "x": 100,
-      "y": 95,
-      "label": "Capsule"
+      "x": 350,
+      "y": 31,
+      "label": "Connective tissue capsule",
+      "synonyms": [
+        "capsule",
+        "fibrous capsule"
+      ]
     },
     {
       "id": "glomerulosa",
-      "x": 150,
-      "y": 105,
+      "x": 520,
+      "y": 52,
       "label": "Zona glomerulosa",
       "synonyms": [
         "glomerulosa"
@@ -30,8 +34,8 @@
     },
     {
       "id": "fasciculata",
-      "x": 250,
-      "y": 130,
+      "x": 440,
+      "y": 105,
       "label": "Zona fasciculata",
       "synonyms": [
         "fasciculata"
@@ -39,8 +43,8 @@
     },
     {
       "id": "reticularis",
-      "x": 380,
-      "y": 165,
+      "x": 440,
+      "y": 195,
       "label": "Zona reticularis",
       "synonyms": [
         "reticularis"
@@ -48,11 +52,11 @@
     },
     {
       "id": "medulla",
-      "x": 600,
-      "y": 195,
-      "label": "Medulla",
+      "x": 440,
+      "y": 268,
+      "label": "Adrenal medulla",
       "synonyms": [
-        "adrenal medulla"
+        "medulla"
       ]
     }
   ]

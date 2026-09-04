@@ -1,9 +1,10 @@
 {
   "src": "/figures/lymphatic/lymph-node-fyi-slide.jpg",
-  "alt": "Structure of a lymph node - capsule, cortex (B-cell follicles), paracortex (T cells), medulla.",
+  "alt": "Lymph node structure: a light micrograph on the left and a cut-away drawing on the right, labelled connective tissue capsule, subcapsular sinus, cortex, germinal centres, trabeculae, and the afferent and efferent lymphatic vessels.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "OpenStax College / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:2207_Structure_and_Histology_of_a_Lymph_Node.jpg"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:2207_Structure_and_Histology_of_a_Lymph_Node.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "src": "/figures/lymphatic/mast-cell-degranulation.svg",
-  "alt": "Mast cell degranulation (Type I hypersensitivity) - allergen \u2192 IgE-Fc\u03b5RI cross-link on mast cell \u2192 Ca\u00b2\u207a influx \u2192 granule fusion \u2192 release of histamine, tryptase, leukotrienes \u2192 vasodilation + bronchoconstriction + edema.",
+  "alt": "Schematic of mast cell degranulation numbered 1-7 with no printed key: allergen molecules bound by Y-shaped IgE, IgE occupying receptors on the mast cell surface, cross-linking of those receptors, a Ca2+/cGMP signal inside the cell, cytoplasmic granules, and granule contents dispersing away from the cell surface.",
   "license": {
     "type": "CC BY-SA 3.0",
     "attribution": "Wikimedia Commons",

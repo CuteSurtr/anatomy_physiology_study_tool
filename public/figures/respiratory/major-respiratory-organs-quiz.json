@@ -15,54 +15,69 @@
   "labels": [
     {
       "id": "nose",
-      "x": 870,
-      "y": 130,
-      "label": "Nasal cavity"
+      "x": 670,
+      "y": 342,
+      "label": "Nasal cavity",
+      "synonyms": [
+        "nose",
+        "nasal cavities"
+      ]
     },
     {
       "id": "pharynx",
-      "x": 966,
-      "y": 244,
-      "label": "Pharynx"
+      "x": 889,
+      "y": 503,
+      "label": "Pharynx",
+      "synonyms": [
+        "throat"
+      ]
     },
     {
       "id": "larynx",
-      "x": 966,
-      "y": 358,
-      "label": "Larynx"
+      "x": 889,
+      "y": 670,
+      "label": "Larynx",
+      "synonyms": [
+        "voice box"
+      ]
     },
     {
       "id": "trachea",
-      "x": 966,
-      "y": 520,
-      "label": "Trachea"
+      "x": 918,
+      "y": 825,
+      "label": "Trachea",
+      "synonyms": [
+        "windpipe"
+      ]
     },
     {
       "id": "bronchi",
-      "x": 870,
-      "y": 731,
+      "x": 902,
+      "y": 1005,
       "label": "Main bronchi",
       "synonyms": [
         "primary bronchi",
-        "bronchus"
+        "bronchus",
+        "main bronchus",
+        "mainstem bronchi"
       ]
     },
     {
       "id": "right-lung",
-      "x": 580,
-      "y": 894,
+      "x": 773,
+      "y": 1095,
       "label": "Right lung"
     },
     {
       "id": "left-lung",
-      "x": 1353,
-      "y": 894,
+      "x": 1108,
+      "y": 1134,
       "label": "Left lung"
     },
     {
       "id": "diaphragm",
-      "x": 966,
-      "y": 1268,
+      "x": 1031,
+      "y": 1404,
       "label": "Diaphragm"
     }
   ]

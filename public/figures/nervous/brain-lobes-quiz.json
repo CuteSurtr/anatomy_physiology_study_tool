@@ -1,20 +1,87 @@
 {
   "src": "/figures/nervous/brain-lobes.svg",
   "alt": "Brain lobes lateral view for fill-in-blank practice",
-  "viewBox": [0, 0, 600, 450],
+  "viewBox": [
+    0,
+    0,
+    600,
+    450
+  ],
   "license": {
     "type": "Public Domain",
     "attribution": "Henry Vandyke Carter (Gray's Anatomy 1918), Mysid - Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:Lobes_of_the_brain_NL.svg"
   },
   "labels": [
-    { "id": "frontal", "x": 180, "y": 130, "label": "Frontal lobe", "synonyms": ["frontal"] },
-    { "id": "parietal", "x": 340, "y": 110, "label": "Parietal lobe", "synonyms": ["parietal"] },
-    { "id": "temporal", "x": 250, "y": 280, "label": "Temporal lobe", "synonyms": ["temporal"] },
-    { "id": "occipital", "x": 460, "y": 200, "label": "Occipital lobe", "synonyms": ["occipital"] },
-    { "id": "cerebellum", "x": 470, "y": 330, "label": "Cerebellum" },
-    { "id": "brainstem", "x": 380, "y": 380, "label": "Brainstem", "synonyms": ["brain stem"] },
-    { "id": "central-sulcus", "x": 270, "y": 80, "label": "Central sulcus", "synonyms": ["central sulcus of Rolando"] },
-    { "id": "lateral-sulcus", "x": 250, "y": 220, "label": "Lateral sulcus", "synonyms": ["Sylvian fissure", "lateral sulcus of Sylvius"] }
+    {
+      "id": "frontal",
+      "x": 180,
+      "y": 130,
+      "label": "Frontal lobe",
+      "synonyms": [
+        "frontal"
+      ]
+    },
+    {
+      "id": "parietal",
+      "x": 340,
+      "y": 110,
+      "label": "Parietal lobe",
+      "synonyms": [
+        "parietal"
+      ]
+    },
+    {
+      "id": "temporal",
+      "x": 250,
+      "y": 280,
+      "label": "Temporal lobe",
+      "synonyms": [
+        "temporal"
+      ]
+    },
+    {
+      "id": "occipital",
+      "x": 514,
+      "y": 235,
+      "label": "Occipital lobe",
+      "synonyms": [
+        "occipital"
+      ]
+    },
+    {
+      "id": "cerebellum",
+      "x": 470,
+      "y": 330,
+      "label": "Cerebellum"
+    },
+    {
+      "id": "brainstem",
+      "x": 348,
+      "y": 400,
+      "label": "Brainstem",
+      "synonyms": [
+        "brain stem"
+      ]
+    },
+    {
+      "id": "central-sulcus",
+      "x": 289,
+      "y": 81,
+      "label": "Central sulcus",
+      "synonyms": [
+        "central sulcus of Rolando"
+      ]
+    },
+    {
+      "id": "lateral-sulcus",
+      "x": 250,
+      "y": 226,
+      "label": "Lateral sulcus",
+      "synonyms": [
+        "Sylvian fissure",
+        "lateral sulcus of Sylvius"
+      ]
+    }
   ]
 }

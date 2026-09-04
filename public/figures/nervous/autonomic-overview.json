@@ -1,9 +1,10 @@
 {
   "src": "/figures/nervous/autonomic-overview.jpg",
-  "alt": "Autonomic nervous system - sympathetic (left) and parasympathetic (right) divisions with target organs and ganglia",
+  "alt": "Autonomic nervous system - parasympathetic division (green, left) and sympathetic division (orange, right) with their outflows from the CNS and the effect each has on target organs. Labels are printed on the figure.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "OpenStax College - Anatomy & Physiology / Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:The_Autonomic_Nervous_System.jpg"
+    "type": "CC0",
+    "attribution": "Geo-Science-International / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:The_Autonomic_Nervous_System.jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

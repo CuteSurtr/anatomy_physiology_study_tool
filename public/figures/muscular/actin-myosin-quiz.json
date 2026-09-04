@@ -4,8 +4,8 @@
   "viewBox": [
     0,
     0,
-    2223,
-    1110
+    1739,
+    1008
   ],
   "license": {
     "type": "CC BY 3.0",
@@ -15,17 +15,26 @@
   "labels": [
     {
       "id": "actin",
-      "x": 556,
-      "y": 388,
+      "x": 640,
+      "y": 105,
       "label": "Actin",
       "synonyms": [
         "thin filament"
       ]
     },
     {
+      "id": "troponin",
+      "x": 508,
+      "y": 47,
+      "label": "Troponin",
+      "synonyms": [
+        "troponin complex"
+      ]
+    },
+    {
       "id": "myosin",
-      "x": 1223,
-      "y": 610,
+      "x": 860,
+      "y": 221,
       "label": "Myosin",
       "synonyms": [
         "thick filament"
@@ -33,21 +42,14 @@
     },
     {
       "id": "head",
-      "x": 934,
-      "y": 466,
-      "label": "Myosin head"
-    },
-    {
-      "id": "troponin",
-      "x": 667,
-      "y": 222,
-      "label": "Troponin"
-    },
-    {
-      "id": "tropomyosin",
-      "x": 1223,
-      "y": 278,
-      "label": "Tropomyosin"
+      "x": 511,
+      "y": 351,
+      "label": "Myosin head",
+      "synonyms": [
+        "myosin heads",
+        "cross-bridge",
+        "head"
+      ]
     }
   ]
 }

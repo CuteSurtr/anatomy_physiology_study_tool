@@ -1,21 +1,18 @@
 {
   "src": "/figures/lymphatic/lymph-node.png",
-  "alt": "Lymph node microanatomy for fill-in-blank practice",
-  "viewBox": [0, 0, 600, 500],
+  "alt": "Cut-away drawing of a lymph node used for fill-in-the-blank practice: capsule, afferent lymphatic vessels entering the convex surface, a valve inside an afferent vessel, lymphoid nodules, a sinus, and efferent lymphatic vessels leaving at the hilum.",
+  "viewBox": [0, 0, 930, 530],
   "license": {
     "type": "Public Domain",
     "attribution": "US NCI SEER - Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:Illu_lymph_node_structure.png"
   },
   "labels": [
-    { "id": "capsule", "x": 100, "y": 110, "label": "Capsule" },
-    { "id": "afferent", "x": 60, "y": 230, "label": "Afferent lymphatic vessels", "synonyms": ["afferent vessels", "afferent"] },
-    { "id": "subcapsular", "x": 140, "y": 145, "label": "Subcapsular sinus" },
-    { "id": "cortex", "x": 200, "y": 165, "label": "Cortex" },
-    { "id": "follicle", "x": 220, "y": 195, "label": "Lymphoid follicle (B cells)", "synonyms": ["follicle", "lymphoid follicle", "germinal center"] },
-    { "id": "paracortex", "x": 290, "y": 240, "label": "Paracortex (T cells)", "synonyms": ["paracortex", "T cell zone"] },
-    { "id": "medulla", "x": 380, "y": 290, "label": "Medulla" },
-    { "id": "efferent", "x": 510, "y": 280, "label": "Efferent lymphatic vessel", "synonyms": ["efferent vessel", "efferent"] },
-    { "id": "hilum", "x": 480, "y": 280, "label": "Hilum" }
+    { "id": "capsule", "x": 276, "y": 256, "label": "Capsule", "synonyms": ["fibrous capsule", "connective tissue capsule"] },
+    { "id": "afferent", "x": 376, "y": 124, "label": "Afferent lymphatic vessel", "synonyms": ["afferent lymphatic", "afferent vessel", "afferent lymphatics", "afferent"] },
+    { "id": "valve", "x": 472, "y": 104, "label": "Valve", "synonyms": ["valve to prevent backflow", "lymphatic valve", "one-way valve"] },
+    { "id": "nodule", "x": 576, "y": 240, "label": "Lymphoid nodule", "synonyms": ["nodule", "lymphoid follicle", "follicle", "lymphatic nodule", "germinal center"] },
+    { "id": "sinus", "x": 316, "y": 344, "label": "Sinus", "synonyms": ["lymph sinus", "lymphatic sinus", "medullary sinus"] },
+    { "id": "efferent", "x": 384, "y": 406, "label": "Efferent lymphatic vessel", "synonyms": ["efferent lymphatic", "efferent vessel", "efferent"] }
   ]
 }

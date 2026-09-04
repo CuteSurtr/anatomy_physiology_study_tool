@@ -1,9 +1,10 @@
 {
   "src": "/figures/endocrine/pheochromocytoma-clinical.jpg",
-  "alt": "Pheochromocytoma - catecholamine-secreting chromaffin-cell tumor. Classic triad: paroxysmal headache + palpitations + diaphoresis; sustained or paroxysmal HTN; 10% rule (bilateral/malignant/extra-adrenal/familial/pediatric).",
+  "alt": "Gross pathology photograph of a resected adrenal gland cut in cross-section: a large pale-pink well-circumscribed pheochromocytoma fills the gland, with a rim of residual yellow-tan adrenal cortex at one edge.",
   "license": {
-    "type": "CC BY-SA 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AAdrenal_paraganglioma_clinical_Pheochromocytoma.jpg"
+    "type": "CC BY 2.0",
+    "attribution": "Michael Feldman, MD, PhD University of Pennsylvania School of Medicine / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Adrenal_paraganglioma_clinical_Pheochromocytoma.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
   }
 }

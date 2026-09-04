@@ -1,9 +1,10 @@
 {
   "src": "/figures/reproductive/vulva-with-labels.jpg",
-  "alt": "Vulva with detailed anatomical labels - mons pubis, anterior + posterior commissures, labia majora + minora, clitoral hood + glans, urethral meatus, vaginal vestibule, hymen, Bartholin gland openings.",
+  "alt": "Female external genitalia with labels for the mons pubis, clitoris, urethral orifice, labium minus, labium majus, vestibule, vaginal orifice and anus.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AVulva_with_Labels.jpg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Cypressvine / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Vulva_with_Labels.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

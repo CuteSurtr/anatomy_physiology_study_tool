@@ -1,20 +1,89 @@
 {
   "src": "/figures/nervous/autonomic-overview.jpg",
   "alt": "Autonomic nervous system quiz - label sympathetic vs. parasympathetic outflows + target organs",
-  "viewBox": [0, 0, 1013, 1015],
+  "viewBox": [
+    0,
+    0,
+    1013,
+    1015
+  ],
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "OpenStax College - Anatomy & Physiology / Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:The_Autonomic_Nervous_System.jpg"
+    "type": "CC0",
+    "attribution": "Geo-Science-International / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:The_Autonomic_Nervous_System.jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   "labels": [
-    { "id": "sympathetic-chain", "x": 320, "y": 470, "label": "Sympathetic chain ganglia", "synonyms": ["paravertebral ganglia", "sympathetic trunk"] },
-    { "id": "thoracolumbar", "x": 270, "y": 380, "label": "Thoracolumbar outflow (T1–L2)", "synonyms": ["thoracolumbar"] },
-    { "id": "craniosacral", "x": 720, "y": 200, "label": "Craniosacral outflow", "synonyms": ["parasympathetic outflow"] },
-    { "id": "vagus", "x": 720, "y": 350, "label": "Vagus nerve (CN X)", "synonyms": ["vagus", "CN X"] },
-    { "id": "ciliary-ganglion", "x": 700, "y": 130, "label": "Ciliary ganglion" },
-    { "id": "celiac", "x": 350, "y": 580, "label": "Celiac ganglion", "synonyms": ["celiac"] },
-    { "id": "sup-mesenteric", "x": 360, "y": 660, "label": "Superior mesenteric ganglion", "synonyms": ["SMA ganglion"] },
-    { "id": "adrenal", "x": 280, "y": 650, "label": "Adrenal medulla", "synonyms": ["chromaffin cells"] }
+    {
+      "id": "sympathetic-chain",
+      "x": 320,
+      "y": 470,
+      "label": "Sympathetic chain ganglia",
+      "synonyms": [
+        "paravertebral ganglia",
+        "sympathetic trunk"
+      ]
+    },
+    {
+      "id": "thoracolumbar",
+      "x": 270,
+      "y": 380,
+      "label": "Thoracolumbar outflow (T1–L2)",
+      "synonyms": [
+        "thoracolumbar"
+      ]
+    },
+    {
+      "id": "craniosacral",
+      "x": 720,
+      "y": 200,
+      "label": "Craniosacral outflow",
+      "synonyms": [
+        "parasympathetic outflow"
+      ]
+    },
+    {
+      "id": "vagus",
+      "x": 720,
+      "y": 350,
+      "label": "Vagus nerve (CN X)",
+      "synonyms": [
+        "vagus",
+        "CN X"
+      ]
+    },
+    {
+      "id": "ciliary-ganglion",
+      "x": 700,
+      "y": 130,
+      "label": "Ciliary ganglion"
+    },
+    {
+      "id": "celiac",
+      "x": 350,
+      "y": 580,
+      "label": "Celiac ganglion",
+      "synonyms": [
+        "celiac"
+      ]
+    },
+    {
+      "id": "sup-mesenteric",
+      "x": 360,
+      "y": 660,
+      "label": "Superior mesenteric ganglion",
+      "synonyms": [
+        "SMA ganglion"
+      ]
+    },
+    {
+      "id": "adrenal",
+      "x": 280,
+      "y": 650,
+      "label": "Adrenal medulla",
+      "synonyms": [
+        "chromaffin cells"
+      ]
+    }
   ]
 }

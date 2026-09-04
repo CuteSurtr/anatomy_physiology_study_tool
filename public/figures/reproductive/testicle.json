@@ -1,9 +1,10 @@
 {
   "src": "/figures/reproductive/testicle-openstax.jpg",
-  "alt": "Testis (anatomy of the testis and epididymis) - labeled cross-section. Spermatic cord, cremaster muscle, tunica vaginalis + tunica albuginea, seminiferous tubule lobules, septa, head + body + tail of epididymis, ductus deferens, efferent ductules, rete testis, straight tubule (OpenStax A&P 2e, Figure 28.1.3).",
+  "alt": "Testis and epididymis in section (OpenStax) with printed labels for the spermatic cord, cremaster muscle, tunica vaginalis and tunica albuginea, seminiferous tubule lobules, septa, head, body and tail of the epididymis, ductus deferens, efferent ductule, rete testis and straight tubule.",
   "license": {
-    "type": "CC BY 3.0",
-    "attribution": "OpenStax College / Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax Anatomy and Physiology, version 8.25 from the Textbook / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

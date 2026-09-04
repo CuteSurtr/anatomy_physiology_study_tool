@@ -2,8 +2,9 @@
   "src": "/figures/histology/skeletal-muscle-histo.jpg",
   "alt": "Skeletal muscle histology - H&E stain showing striations and peripheral nuclei",
   "license": {
-    "type": "Public Domain / CC-BY",
+    "type": "CC BY-SA 3.0",
     "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Skeletal_muscle.jpg"
+    "url": "https://commons.wikimedia.org/wiki/File:Skeletal_muscle.jpg",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
   }
 }

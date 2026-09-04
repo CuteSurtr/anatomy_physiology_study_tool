@@ -2,8 +2,9 @@
   "src": "/figures/histology/thyroid-follicle.jpg",
   "alt": "Thyroid follicles - colloid-filled spheres lined by cuboidal follicular cells.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Thyroid-histology.jpg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "Uwe Gille / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Thyroid-histology.jpg",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
   }
 }

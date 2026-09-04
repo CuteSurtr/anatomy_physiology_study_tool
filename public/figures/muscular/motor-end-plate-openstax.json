@@ -2,8 +2,9 @@
   "src": "/figures/muscular/motor-end-plate-openstax.jpg",
   "alt": "Motor end plate + innervation (OpenStax). Motor axon terminal with synaptic vesicles; junctional folds in postsynaptic sarcolemma packed with nicotinic ACh receptors; basal lamina with acetylcholinesterase in the cleft.",
   "license": {
-    "type": "CC BY 3.0",
-    "attribution": "OpenStax College",
-    "url": "https://commons.wikimedia.org/wiki/File%3A1009_Motor_End_Plate_and_Innervation.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:1009_Motor_End_Plate_and_Innervation.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

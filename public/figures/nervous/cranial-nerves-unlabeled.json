@@ -1,24 +1,163 @@
 {
   "src": "/figures/nervous/cranial-nerves-unlabeled.svg",
   "alt": "Inferior view of the human brain with 12 cranial nerves shown but unlabeled - for fill-in-blank practice",
-  "viewBox": [0, 0, 424, 505],
+  "viewBox": [
+    0,
+    0,
+    424,
+    505
+  ],
   "license": {
     "type": "CC BY 2.5",
     "attribution": "Patrick J. Lynch - Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:Brain_human_normal_inferior_view_without_label.svg"
   },
   "labels": [
-    { "id": "cn1", "x": 212, "y": 112, "label": "CN I - Olfactory nerve", "synonyms": ["olfactory", "CN I", "CN1", "I"] },
-    { "id": "cn2", "x": 210, "y": 168, "label": "CN II - Optic nerve", "synonyms": ["optic", "CN II", "CN2", "II"] },
-    { "id": "cn3", "x": 208, "y": 215, "label": "CN III - Oculomotor nerve", "synonyms": ["oculomotor", "CN III", "CN3", "III"] },
-    { "id": "cn4", "x": 245, "y": 235, "label": "CN IV - Trochlear nerve", "synonyms": ["trochlear", "CN IV", "CN4", "IV"] },
-    { "id": "cn5", "x": 170, "y": 268, "label": "CN V - Trigeminal nerve", "synonyms": ["trigeminal", "CN V", "CN5", "V"] },
-    { "id": "cn6", "x": 205, "y": 282, "label": "CN VI - Abducens nerve", "synonyms": ["abducens", "CN VI", "CN6", "VI"] },
-    { "id": "cn7", "x": 178, "y": 292, "label": "CN VII - Facial nerve", "synonyms": ["facial", "CN VII", "CN7", "VII"] },
-    { "id": "cn8", "x": 164, "y": 298, "label": "CN VIII - Vestibulocochlear nerve", "synonyms": ["vestibulocochlear", "auditory", "CN VIII", "CN8", "VIII"] },
-    { "id": "cn9", "x": 162, "y": 320, "label": "CN IX - Glossopharyngeal nerve", "synonyms": ["glossopharyngeal", "CN IX", "CN9", "IX"] },
-    { "id": "cn10", "x": 156, "y": 340, "label": "CN X - Vagus nerve", "synonyms": ["vagus", "CN X", "CN10", "X"] },
-    { "id": "cn11", "x": 148, "y": 372, "label": "CN XI - Accessory nerve", "synonyms": ["accessory", "spinal accessory", "CN XI", "CN11", "XI"] },
-    { "id": "cn12", "x": 195, "y": 330, "label": "CN XII - Hypoglossal nerve", "synonyms": ["hypoglossal", "CN XII", "CN12", "XII"] }
+    {
+      "id": "cn1",
+      "x": 192,
+      "y": 93,
+      "label": "CN I - Olfactory nerve",
+      "synonyms": [
+        "olfactory",
+        "CN I",
+        "CN1",
+        "I"
+      ]
+    },
+    {
+      "id": "cn2",
+      "x": 230,
+      "y": 196,
+      "label": "CN II - Optic nerve",
+      "synonyms": [
+        "optic",
+        "CN II",
+        "CN2",
+        "II"
+      ]
+    },
+    {
+      "id": "cn3",
+      "x": 182,
+      "y": 212,
+      "label": "CN III - Oculomotor nerve",
+      "synonyms": [
+        "oculomotor",
+        "CN III",
+        "CN3",
+        "III"
+      ]
+    },
+    {
+      "id": "cn4",
+      "x": 250,
+      "y": 232,
+      "label": "CN IV - Trochlear nerve",
+      "synonyms": [
+        "trochlear",
+        "CN IV",
+        "CN4",
+        "IV"
+      ]
+    },
+    {
+      "id": "cn5",
+      "x": 145,
+      "y": 229,
+      "label": "CN V - Trigeminal nerve",
+      "synonyms": [
+        "trigeminal",
+        "CN V",
+        "CN5",
+        "V"
+      ]
+    },
+    {
+      "id": "cn6",
+      "x": 243,
+      "y": 286,
+      "label": "CN VI - Abducens nerve",
+      "synonyms": [
+        "abducens",
+        "CN VI",
+        "CN6",
+        "VI"
+      ]
+    },
+    {
+      "id": "cn7",
+      "x": 147,
+      "y": 292,
+      "label": "CN VII - Facial nerve",
+      "synonyms": [
+        "facial",
+        "CN VII",
+        "CN7",
+        "VII"
+      ]
+    },
+    {
+      "id": "cn8",
+      "x": 279,
+      "y": 306,
+      "label": "CN VIII - Vestibulocochlear nerve",
+      "synonyms": [
+        "vestibulocochlear",
+        "auditory",
+        "CN VIII",
+        "CN8",
+        "VIII"
+      ]
+    },
+    {
+      "id": "cn9",
+      "x": 151,
+      "y": 323,
+      "label": "CN IX - Glossopharyngeal nerve",
+      "synonyms": [
+        "glossopharyngeal",
+        "CN IX",
+        "CN9",
+        "IX"
+      ]
+    },
+    {
+      "id": "cn10",
+      "x": 270,
+      "y": 335,
+      "label": "CN X - Vagus nerve",
+      "synonyms": [
+        "vagus",
+        "CN X",
+        "CN10",
+        "X"
+      ]
+    },
+    {
+      "id": "cn11",
+      "x": 158,
+      "y": 349,
+      "label": "CN XI - Accessory nerve",
+      "synonyms": [
+        "accessory",
+        "spinal accessory",
+        "CN XI",
+        "CN11",
+        "XI"
+      ]
+    },
+    {
+      "id": "cn12",
+      "x": 176,
+      "y": 332,
+      "label": "CN XII - Hypoglossal nerve",
+      "synonyms": [
+        "hypoglossal",
+        "CN XII",
+        "CN12",
+        "XII"
+      ]
+    }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "src": "/figures/reproductive/testicle-openstax.jpg",
-  "alt": "Identify the labeled structures of the testis and epididymis.",
+  "alt": "Testis and epididymis in section for fill-in-the-blank practice.",
   "viewBox": [
     0,
     0,
@@ -8,9 +8,10 @@
     686
   ],
   "license": {
-    "type": "CC BY 3.0",
-    "attribution": "OpenStax College / Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "OpenStax Anatomy and Physiology, version 8.25 from the Textbook / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "labels": [
     {

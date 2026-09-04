@@ -1,11 +1,11 @@
 {
   "src": "/figures/reproductive/uterus-v2.png",
-  "alt": "Identify the parts of the female reproductive tract.",
+  "alt": "Uterus, uterine tubes, ovaries, cervix and vagina for fill-in-the-blank practice.",
   "viewBox": [
     0,
     0,
-    1945,
-    1110
+    734,
+    555
   ],
   "license": {
     "type": "CC BY 3.0",
@@ -14,43 +14,68 @@
   },
   "labels": [
     {
-      "id": "uterus",
-      "x": 972,
-      "y": 500,
-      "label": "Uterus"
-    },
-    {
-      "id": "ovary",
-      "x": 389,
-      "y": 444,
-      "label": "Ovary"
-    },
-    {
-      "id": "tube",
-      "x": 584,
-      "y": 355,
-      "label": "Fallopian tube",
+      "id": "fundus",
+      "x": 366,
+      "y": 37,
+      "label": "Fundus",
       "synonyms": [
-        "uterine tube",
-        "oviduct"
+        "fundus of uterus",
+        "uterine fundus",
+        "fundus of the uterus"
       ]
     },
     {
-      "id": "fundus",
-      "x": 972,
-      "y": 278,
-      "label": "Fundus"
+      "id": "tube",
+      "x": 162,
+      "y": 108,
+      "label": "Fallopian tube",
+      "synonyms": [
+        "uterine tube",
+        "oviduct",
+        "salpinx"
+      ]
+    },
+    {
+      "id": "ovary",
+      "x": 108,
+      "y": 195,
+      "label": "Ovary"
+    },
+    {
+      "id": "endometrium",
+      "x": 360,
+      "y": 150,
+      "label": "Endometrium",
+      "synonyms": [
+        "endometrial lining",
+        "uterine lining"
+      ]
+    },
+    {
+      "id": "myometrium",
+      "x": 300,
+      "y": 228,
+      "label": "Myometrium",
+      "synonyms": [
+        "uterine muscle",
+        "muscular wall of the uterus",
+        "muscular wall"
+      ]
     },
     {
       "id": "cervix",
-      "x": 972,
-      "y": 799,
-      "label": "Cervix"
+      "x": 366,
+      "y": 331,
+      "label": "Cervix",
+      "synonyms": [
+        "uterine cervix",
+        "cervix uteri"
+      ]
     },
     {
       "id": "vagina",
-      "x": 972,
-      "y": 999,
+      "x": 366,
+      "y": 456,
       "label": "Vagina"
     }
   ]

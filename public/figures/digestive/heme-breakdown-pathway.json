@@ -1,6 +1,6 @@
 {
   "src": "/figures/digestive/heme-breakdown-pathway.svg",
-  "alt": "Heme breakdown pathway. RBC senescence in spleen \u2192 heme \u2192 biliverdin (heme oxygenase) \u2192 unconjugated bilirubin (biliverdin reductase) \u2192 liver: conjugation by UGT1A1 \u2192 bile \u2192 gut bacteria \u2192 urobilinogen \u2192 stercobilin (stool) + urobilin (urine).",
+  "alt": "Heme breakdown pathway, labelled in Galician. In the macrophage: heme to biliverdin (heme oxygenase) to bilirubin (biliverdin reductase); bilirubin passes down the bile duct to the intestine, where bacteria remove glucuronic acid to give urobilinogen (stercobilinogen) and then stercobilin, with part returning to the liver in the enterohepatic circulation.",
   "license": {
     "type": "CC BY-SA 3.0",
     "attribution": "Wikimedia Commons",

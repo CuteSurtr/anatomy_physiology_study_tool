@@ -2,8 +2,9 @@
   "src": "/figures/histology/adipose-ct.jpg",
   "alt": "Adipose connective tissue - high-magnification view of adipocytes",
   "license": {
-    "type": "CC-BY",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Adipose_(41066512834).jpg"
+    "type": "CC0",
+    "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Adipose_(41066512834).jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

@@ -1,20 +1,78 @@
 {
   "src": "/figures/nervous/eye-layers.png",
   "alt": "Eye anatomy quiz - label the three concentric layers and their components",
-  "viewBox": [0, 0, 765, 599],
+  "viewBox": [
+    0,
+    0,
+    765,
+    599
+  ],
   "license": {
     "type": "CC BY 3.0",
     "attribution": "Holly Fischer - Univ. of Michigan / Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:Three_Main_Layers_of_the_Eye.png"
   },
   "labels": [
-    { "id": "cornea", "x": 90, "y": 300, "label": "Cornea", "synonyms": ["transparent anterior fibrous layer"] },
-    { "id": "sclera", "x": 700, "y": 300, "label": "Sclera", "synonyms": ["white of the eye"] },
-    { "id": "iris", "x": 180, "y": 250, "label": "Iris" },
-    { "id": "ciliary-body", "x": 200, "y": 410, "label": "Ciliary body", "synonyms": ["ciliary muscle"] },
-    { "id": "choroid", "x": 580, "y": 130, "label": "Choroid" },
-    { "id": "retina", "x": 580, "y": 460, "label": "Retina" },
-    { "id": "lens", "x": 220, "y": 320, "label": "Lens" },
-    { "id": "optic-nerve", "x": 740, "y": 380, "label": "Optic nerve", "synonyms": ["CN II", "cranial nerve 2"] }
+    {
+      "id": "cornea",
+      "x": 120,
+      "y": 300,
+      "label": "Cornea",
+      "synonyms": [
+        "transparent anterior fibrous layer"
+      ]
+    },
+    {
+      "id": "sclera",
+      "x": 380,
+      "y": 68,
+      "label": "Sclera",
+      "synonyms": [
+        "white of the eye"
+      ]
+    },
+    {
+      "id": "iris",
+      "x": 180,
+      "y": 250,
+      "label": "Iris"
+    },
+    {
+      "id": "ciliary-body",
+      "x": 200,
+      "y": 410,
+      "label": "Ciliary body",
+      "synonyms": [
+        "ciliary muscle"
+      ]
+    },
+    {
+      "id": "choroid",
+      "x": 582,
+      "y": 230,
+      "label": "Choroid"
+    },
+    {
+      "id": "retina",
+      "x": 380,
+      "y": 506,
+      "label": "Retina"
+    },
+    {
+      "id": "lens",
+      "x": 220,
+      "y": 320,
+      "label": "Lens"
+    },
+    {
+      "id": "optic-nerve",
+      "x": 640,
+      "y": 390,
+      "label": "Optic nerve",
+      "synonyms": [
+        "CN II",
+        "cranial nerve 2"
+      ]
+    }
   ]
 }

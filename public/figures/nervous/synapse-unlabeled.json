@@ -1,20 +1,87 @@
 {
   "src": "/figures/nervous/synapse-unlabeled.svg",
   "alt": "Unlabeled chemical synapse diagram",
-  "viewBox": [0, 0, 973, 1064],
+  "viewBox": [
+    0,
+    0,
+    973,
+    1064
+  ],
   "license": {
     "type": "CC BY-SA 4.0",
     "attribution": "Thomas Splettstoesser - Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:SynapseSchematic_unlabeled.svg"
   },
   "labels": [
-    { "id": "presynaptic", "x": 480, "y": 220, "label": "Presynaptic terminal", "synonyms": ["presynaptic neuron", "axon terminal"] },
-    { "id": "vesicles", "x": 360, "y": 360, "label": "Synaptic vesicles", "synonyms": ["vesicle", "synaptic vesicle"] },
-    { "id": "mitochondria", "x": 620, "y": 320, "label": "Mitochondria", "synonyms": ["mitochondrion"] },
-    { "id": "ca-channel", "x": 480, "y": 540, "label": "Voltage-gated Ca²⁺ channel", "synonyms": ["calcium channel", "Ca2+ channel", "VGCC"] },
-    { "id": "cleft", "x": 480, "y": 620, "label": "Synaptic cleft", "synonyms": ["cleft"] },
-    { "id": "neurotransmitter", "x": 340, "y": 620, "label": "Neurotransmitter", "synonyms": ["NT", "transmitter"] },
-    { "id": "receptor", "x": 540, "y": 720, "label": "Postsynaptic receptor", "synonyms": ["receptor", "neurotransmitter receptor"] },
-    { "id": "postsynaptic", "x": 480, "y": 850, "label": "Postsynaptic terminal", "synonyms": ["postsynaptic neuron", "postsynaptic membrane"] }
+    {
+      "id": "presynaptic",
+      "x": 490,
+      "y": 120,
+      "label": "Presynaptic terminal",
+      "synonyms": [
+        "presynaptic neuron",
+        "axon terminal"
+      ]
+    },
+    {
+      "id": "vesicles",
+      "x": 325,
+      "y": 375,
+      "label": "Synaptic vesicles",
+      "synonyms": [
+        "vesicle",
+        "synaptic vesicle"
+      ]
+    },
+    {
+      "id": "ca-channel",
+      "x": 478,
+      "y": 725,
+      "label": "Voltage-gated Ca²⁺ channel",
+      "synonyms": [
+        "calcium channel",
+        "Ca2+ channel",
+        "VGCC"
+      ]
+    },
+    {
+      "id": "cleft",
+      "x": 360,
+      "y": 790,
+      "label": "Synaptic cleft",
+      "synonyms": [
+        "cleft"
+      ]
+    },
+    {
+      "id": "neurotransmitter",
+      "x": 600,
+      "y": 795,
+      "label": "Neurotransmitter",
+      "synonyms": [
+        "NT",
+        "transmitter"
+      ]
+    },
+    {
+      "id": "receptor",
+      "x": 400,
+      "y": 838,
+      "label": "Postsynaptic receptor",
+      "synonyms": [
+        "receptor",
+        "neurotransmitter receptor"
+      ]
+    },
+    {
+      "id": "postsynaptic",
+      "x": 480,
+      "y": 940,
+      "label": "Postsynaptic terminal",
+      "synonyms": [
+        "postsynaptic neuron",
+        "postsynaptic membrane"
+      ]
+    }
   ]
 }

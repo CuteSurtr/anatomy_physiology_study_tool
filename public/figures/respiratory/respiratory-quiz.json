@@ -1,21 +1,21 @@
 {
   "src": "/figures/respiratory/respiratory-overview.svg",
   "alt": "Respiratory system for fill-in-blank practice",
-  "viewBox": [0, 0, 700, 1000],
+  "viewBox": [0, 0, 907, 966],
   "license": {
     "type": "Public Domain",
     "attribution": "Mariana Ruiz Villarreal (LadyofHats) - Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg"
   },
   "labels": [
-    { "id": "nasal-cavity", "x": 340, "y": 80, "label": "Nasal cavity", "synonyms": ["nose", "nasal"] },
-    { "id": "pharynx", "x": 340, "y": 170, "label": "Pharynx", "synonyms": ["throat"] },
-    { "id": "larynx", "x": 340, "y": 240, "label": "Larynx", "synonyms": ["voice box"] },
-    { "id": "trachea", "x": 340, "y": 360, "label": "Trachea", "synonyms": ["windpipe"] },
-    { "id": "right-main-bronchus", "x": 250, "y": 470, "label": "Right main bronchus", "synonyms": ["right primary bronchus", "right bronchus"] },
-    { "id": "left-main-bronchus", "x": 430, "y": 470, "label": "Left main bronchus", "synonyms": ["left primary bronchus", "left bronchus"] },
-    { "id": "right-lung", "x": 180, "y": 600, "label": "Right lung" },
-    { "id": "left-lung", "x": 500, "y": 600, "label": "Left lung" },
-    { "id": "diaphragm", "x": 340, "y": 820, "label": "Diaphragm" }
+    { "id": "nasal-cavity", "x": 320, "y": 185, "label": "Nasal cavity", "synonyms": ["nose", "nasal", "nasal cavities"] },
+    { "id": "pharynx", "x": 400, "y": 300, "label": "Pharynx", "synonyms": ["throat"] },
+    { "id": "larynx", "x": 405, "y": 383, "label": "Larynx", "synonyms": ["voice box"] },
+    { "id": "trachea", "x": 433, "y": 470, "label": "Trachea", "synonyms": ["windpipe"] },
+    { "id": "right-main-bronchus", "x": 414, "y": 537, "label": "Right main bronchus", "synonyms": ["right primary bronchus", "right bronchus", "right mainstem bronchus"] },
+    { "id": "left-main-bronchus", "x": 466, "y": 539, "label": "Left main bronchus", "synonyms": ["left primary bronchus", "left bronchus", "left mainstem bronchus"] },
+    { "id": "right-lung", "x": 290, "y": 610, "label": "Right lung" },
+    { "id": "left-lung", "x": 600, "y": 620, "label": "Left lung" },
+    { "id": "diaphragm", "x": 300, "y": 800, "label": "Diaphragm" }
   ]
 }

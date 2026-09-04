@@ -15,14 +15,14 @@
   "labels": [
     {
       "id": "iliac-crest",
-      "x": 239,
-      "y": 45,
+      "x": 62,
+      "y": 90,
       "label": "Iliac crest"
     },
     {
       "id": "asis",
-      "x": 143,
-      "y": 90,
+      "x": 32,
+      "y": 152,
       "label": "Anterior superior iliac spine",
       "synonyms": [
         "ASIS"
@@ -30,20 +30,20 @@
     },
     {
       "id": "pubic-symph",
-      "x": 239,
-      "y": 349,
+      "x": 245,
+      "y": 337,
       "label": "Pubic symphysis"
     },
     {
       "id": "acetabulum",
-      "x": 172,
-      "y": 224,
+      "x": 103,
+      "y": 268,
       "label": "Acetabulum"
     },
     {
       "id": "sacrum",
-      "x": 478,
-      "y": 134,
+      "x": 245,
+      "y": 210,
       "label": "Sacrum"
     }
   ]

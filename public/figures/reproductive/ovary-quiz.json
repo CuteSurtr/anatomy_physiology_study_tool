@@ -1,11 +1,11 @@
 {
   "src": "/figures/reproductive/ovary-v2.png",
-  "alt": "Identify the structures of the ovary and follicle stages.",
+  "alt": "Ovary, uterine tube, uterus and follicle structures for fill-in-the-blank practice.",
   "viewBox": [
     0,
     0,
-    2259,
-    1110
+    740,
+    437
   ],
   "license": {
     "type": "CC BY 3.0",
@@ -14,44 +14,55 @@
   },
   "labels": [
     {
-      "id": "primordial",
-      "x": 452,
-      "y": 610,
-      "label": "Primordial follicle"
+      "id": "ovary",
+      "x": 90,
+      "y": 223,
+      "label": "Ovary"
     },
     {
-      "id": "primary",
-      "x": 723,
-      "y": 500,
-      "label": "Primary follicle"
-    },
-    {
-      "id": "secondary",
-      "x": 949,
-      "y": 500,
-      "label": "Secondary follicle"
-    },
-    {
-      "id": "graafian",
-      "x": 1242,
-      "y": 500,
-      "label": "Graafian follicle",
+      "id": "tube",
+      "x": 120,
+      "y": 150,
+      "label": "Fallopian tube",
       "synonyms": [
-        "mature follicle",
-        "tertiary follicle"
+        "uterine tube",
+        "oviduct",
+        "salpinx"
       ]
     },
     {
-      "id": "ovulation",
-      "x": 1581,
-      "y": 500,
-      "label": "Ovulation"
+      "id": "endometrium",
+      "x": 296,
+      "y": 140,
+      "label": "Endometrium",
+      "synonyms": [
+        "endometrial lining",
+        "uterine lining"
+      ]
+    },
+    {
+      "id": "graafian",
+      "x": 510,
+      "y": 60,
+      "label": "Graafian follicle",
+      "synonyms": [
+        "graafian",
+        "mature follicle",
+        "preovulatory follicle",
+        "pre-ovulatory follicle",
+        "dominant follicle",
+        "tertiary follicle",
+        "antral follicle"
+      ]
     },
     {
       "id": "cl",
-      "x": 1694,
-      "y": 722,
-      "label": "Corpus luteum"
+      "x": 442,
+      "y": 164,
+      "label": "Corpus luteum",
+      "synonyms": [
+        "yellow body"
+      ]
     }
   ]
 }

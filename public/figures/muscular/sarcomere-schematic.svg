@@ -3,13 +3,13 @@
 
   <!-- Background bands shading -->
   <!-- I band left -->
-  <rect x="80" y="80" width="120" height="240" fill="#fef3c7" opacity="0.5"/>
+  <rect x="80" y="80" width="170" height="240" fill="#fef3c7" opacity="0.5"/>
   <!-- A band -->
-  <rect x="200" y="80" width="600" height="240" fill="#fee2e2" opacity="0.45"/>
+  <rect x="250" y="80" width="500" height="240" fill="#fee2e2" opacity="0.45"/>
   <!-- I band right -->
-  <rect x="800" y="80" width="120" height="240" fill="#fef3c7" opacity="0.5"/>
+  <rect x="750" y="80" width="170" height="240" fill="#fef3c7" opacity="0.5"/>
   <!-- H zone (within A band) -->
-  <rect x="380" y="80" width="240" height="240" fill="#dbeafe" opacity="0.55"/>
+  <rect x="440" y="80" width="120" height="240" fill="#dbeafe" opacity="0.55"/>
 
   <!-- Z discs (vertical lines at the ends) -->
   <line x1="80" y1="60" x2="80" y2="340" stroke="#7f1d1d" stroke-width="8"/>
@@ -44,20 +44,20 @@
   <!-- Brackets/labels at top -->
   <g fill="none" stroke="#52525b" stroke-width="1.5">
     <!-- I band left bracket -->
-    <line x1="80" y1="55" x2="200" y2="55"/>
+    <line x1="80" y1="55" x2="250" y2="55"/>
     <line x1="80" y1="48" x2="80" y2="55"/>
-    <line x1="200" y1="48" x2="200" y2="55"/>
+    <line x1="250" y1="48" x2="250" y2="55"/>
     <!-- A band bracket -->
-    <line x1="200" y1="35" x2="800" y2="35"/>
-    <line x1="200" y1="28" x2="200" y2="35"/>
-    <line x1="800" y1="28" x2="800" y2="35"/>
+    <line x1="250" y1="35" x2="750" y2="35"/>
+    <line x1="250" y1="28" x2="250" y2="35"/>
+    <line x1="750" y1="28" x2="750" y2="35"/>
     <!-- I band right bracket -->
-    <line x1="800" y1="55" x2="920" y2="55"/>
-    <line x1="800" y1="48" x2="800" y2="55"/>
+    <line x1="750" y1="55" x2="920" y2="55"/>
+    <line x1="750" y1="48" x2="750" y2="55"/>
     <line x1="920" y1="48" x2="920" y2="55"/>
     <!-- H zone bracket bottom -->
-    <line x1="380" y1="345" x2="620" y2="345"/>
-    <line x1="380" y1="345" x2="380" y2="352"/>
-    <line x1="620" y1="345" x2="620" y2="352"/>
+    <line x1="440" y1="345" x2="560" y2="345"/>
+    <line x1="440" y1="345" x2="440" y2="352"/>
+    <line x1="560" y1="345" x2="560" y2="352"/>
   </g>
 </svg>

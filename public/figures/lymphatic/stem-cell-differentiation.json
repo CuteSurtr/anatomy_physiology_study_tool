@@ -1,9 +1,10 @@
 {
   "src": "/figures/lymphatic/stem-cell-differentiation.png",
-  "alt": "Hematopoietic stem cell differentiation - HSC \u2192 common myeloid + common lymphoid progenitor \u2192 lineage-specific commitment driven by cytokines (EPO, TPO, G-CSF, IL-7) and transcription factors (GATA, PAX5).",
+  "alt": "Hematopoietic stem cell differentiation: an unbiased HSC in the bone marrow giving rise to balanced and differentiation-biased HSCs (osteoid-, myeloid-, platelet- and lymphoid-biased), which in turn produce osteoclasts, megakaryocytes and platelets, monocytes, macrophages, dendritic cells, neutrophils, eosinophils, basophils, erythrocytes, and T, NK, B and plasma cells.",
   "license": {
-    "type": "CC BY-SA 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ADifferentiation_of_hematopoietic_stem_cells.png"
+    "type": "CC BY 4.0",
+    "attribution": "Kloc, M.; Subuddhi, A.; Uosef, A.; Kubiak, J.Z.; Ghobrial, R.M. / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Differentiation_of_hematopoietic_stem_cells.png",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

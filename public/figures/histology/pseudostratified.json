@@ -2,8 +2,9 @@
   "src": "/figures/histology/pseudostratified.jpg",
   "alt": "Pseudostratified ciliated columnar epithelium - lines the trachea + larger airways; all cells reach basement membrane but only some reach the lumen.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Berkshire Community College Bioscience / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:Epithelial_Tissues_Pseudostratified_Columnar_Epithelium_(41783111911).jpg"
+    "type": "CC0",
+    "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Epithelial_Tissues_Pseudostratified_Columnar_Epithelium_(41783111911).jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

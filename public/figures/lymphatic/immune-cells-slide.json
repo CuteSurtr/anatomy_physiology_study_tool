@@ -1,9 +1,10 @@
 {
   "src": "/figures/lymphatic/immune-cells-slide.svg",
-  "alt": "Hematopoiesis - all immune cell lineages branching from a single hematopoietic stem cell.",
+  "alt": "Hematopoiesis flow chart: a multipotential hematopoietic stem cell (hemocytoblast) dividing into a common myeloid progenitor - giving megakaryocyte and thrombocytes, erythrocyte, mast cell, and myeloblast leading to basophil, neutrophil, eosinophil and monocyte/macrophage - and a common lymphoid progenitor giving the natural killer cell and the small lymphocyte, which becomes the T lymphocyte or the B lymphocyte and then the plasma cell.",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Mikael Häggström / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:Hematopoiesis_simple.svg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "A. Rad and Mikael Häggström , M.D. / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Hematopoiesis_simple.svg",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
   }
 }

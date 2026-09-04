@@ -1,9 +1,10 @@
 {
   "src": "/figures/digestive/retroperitoneal-spaces.png",
-  "alt": "Retroperitoneal spaces. Primary retroperitoneal: kidneys, ureters, adrenal glands, aorta, IVC, suprarenal glands. Secondary retroperitoneal (initially intraperitoneal but became retro): ascending + descending colon, duodenum (parts 2-4), pancreas.",
+  "alt": "Axial diagram of the retroperitoneal compartments: anterior pararenal space (containing the ascending and descending colon and the pancreas), perirenal space (kidney, ureter, inside the renal fascia) and posterior pararenal space, with the aorta, IVC, psoas and peritoneal cavity marked.",
   "license": {
-    "type": "CC BY-SA 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ARetroperitoneal_spaces.png"
+    "type": "CC BY 4.0",
+    "attribution": "Goran Mitreski and Tom Sutherland / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Retroperitoneal_spaces.png",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

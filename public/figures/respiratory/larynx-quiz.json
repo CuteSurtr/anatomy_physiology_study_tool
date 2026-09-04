@@ -1,10 +1,10 @@
 {
   "src": "/figures/respiratory/larynx-v2.png",
-  "alt": "Identify the cartilages and folds of the larynx.",
+  "alt": "Identify the cartilages, membranes and folds of the larynx.",
   "viewBox": [
     0,
     0,
-    2133,
+    1578,
     1110
   ],
   "license": {
@@ -14,38 +14,68 @@
   },
   "labels": [
     {
-      "id": "epiglottis",
-      "x": 853,
-      "y": 166,
-      "label": "Epiglottis"
+      "id": "hyoid",
+      "x": 300,
+      "y": 130,
+      "label": "Hyoid bone",
+      "synonyms": [
+        "hyoid"
+      ]
     },
     {
       "id": "thyroid-cart",
-      "x": 1173,
-      "y": 555,
-      "label": "Thyroid cartilage"
+      "x": 270,
+      "y": 480,
+      "label": "Thyroid cartilage",
+      "synonyms": [
+        "thyroid",
+        "adams apple",
+        "adam's apple"
+      ]
+    },
+    {
+      "id": "cricothyroid-membrane",
+      "x": 285,
+      "y": 715,
+      "label": "Cricothyroid membrane",
+      "synonyms": [
+        "cricothyroid ligament",
+        "median cricothyroid ligament",
+        "cricothyroid membrane"
+      ]
     },
     {
       "id": "cricoid",
-      "x": 1173,
-      "y": 832,
-      "label": "Cricoid cartilage"
-    },
-    {
-      "id": "vocal",
-      "x": 853,
-      "y": 610,
-      "label": "Vocal cord",
+      "x": 285,
+      "y": 795,
+      "label": "Cricoid cartilage",
       "synonyms": [
-        "true vocal cord",
-        "vocal fold"
+        "cricoid"
       ]
     },
     {
       "id": "trachea",
-      "x": 1173,
-      "y": 1021,
-      "label": "Trachea"
+      "x": 290,
+      "y": 985,
+      "label": "Trachea",
+      "synonyms": [
+        "tracheal rings",
+        "tracheal cartilages",
+        "windpipe"
+      ]
+    },
+    {
+      "id": "vocal",
+      "x": 1205,
+      "y": 560,
+      "label": "Vocal fold",
+      "synonyms": [
+        "vocal cord",
+        "true vocal cord",
+        "true vocal fold",
+        "vocal folds",
+        "vocal cords"
+      ]
     }
   ]
 }

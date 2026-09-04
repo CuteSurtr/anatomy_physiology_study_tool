@@ -15,8 +15,8 @@
   "labels": [
     {
       "id": "z-line",
-      "x": 122,
-      "y": 180,
+      "x": 111,
+      "y": 136,
       "label": "Z line",
       "synonyms": [
         "Z disc",
@@ -25,8 +25,8 @@
     },
     {
       "id": "z-line-2",
-      "x": 688,
-      "y": 180,
+      "x": 700,
+      "y": 136,
       "label": "Z line",
       "synonyms": [
         "Z disc",
@@ -35,20 +35,20 @@
     },
     {
       "id": "a-band",
-      "x": 405,
-      "y": 72,
+      "x": 250,
+      "y": 332,
       "label": "A band"
     },
     {
       "id": "i-band",
-      "x": 202,
-      "y": 306,
+      "x": 672,
+      "y": 300,
       "label": "I band"
     },
     {
       "id": "h-zone",
-      "x": 405,
-      "y": 180,
+      "x": 320,
+      "y": 300,
       "label": "H zone",
       "synonyms": [
         "H band"
@@ -56,8 +56,8 @@
     },
     {
       "id": "m-line",
-      "x": 405,
-      "y": 288,
+      "x": 415,
+      "y": 200,
       "label": "M line"
     }
   ]

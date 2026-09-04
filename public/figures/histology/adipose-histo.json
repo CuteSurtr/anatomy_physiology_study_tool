@@ -2,8 +2,9 @@
   "src": "/figures/histology/adipose-histo.jpg",
   "alt": "Adipose tissue histology - large lipid-filled adipocytes with peripheral nuclei",
   "license": {
-    "type": "Public Domain / CC-BY",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Adipose_tissue.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "Chalova.lina / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Adipose_tissue.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

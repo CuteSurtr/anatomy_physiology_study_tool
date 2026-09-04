@@ -8,15 +8,93 @@
     "url": "https://commons.wikimedia.org/wiki/File:1801_The_Endocrine_System.jpg"
   },
   "labels": [
-    { "id": "pineal", "x": 555, "y": 65, "label": "Pineal gland", "synonyms": ["pineal"] },
-    { "id": "pituitary", "x": 600, "y": 135, "label": "Pituitary gland", "synonyms": ["pituitary", "hypophysis"] },
-    { "id": "thyroid", "x": 760, "y": 225, "label": "Thyroid gland", "synonyms": ["thyroid"] },
-    { "id": "parathyroid", "x": 815, "y": 290, "label": "Parathyroid glands", "synonyms": ["parathyroid"] },
-    { "id": "thymus", "x": 175, "y": 295, "label": "Thymus" },
-    { "id": "adrenal", "x": 385, "y": 480, "label": "Adrenal glands", "synonyms": ["adrenal", "suprarenal"] },
-    { "id": "pancreas", "x": 460, "y": 510, "label": "Pancreas" },
-    { "id": "uterus", "x": 415, "y": 600, "label": "Uterus" },
-    { "id": "ovary", "x": 365, "y": 620, "label": "Ovaries", "synonyms": ["ovary"] },
-    { "id": "testis", "x": 390, "y": 730, "label": "Testes", "synonyms": ["testis", "testicles"] }
+    {
+      "id": "pineal",
+      "x": 524,
+      "y": 82,
+      "label": "Pineal gland",
+      "synonyms": [
+        "pineal"
+      ]
+    },
+    {
+      "id": "pituitary",
+      "x": 583,
+      "y": 111,
+      "label": "Pituitary gland",
+      "synonyms": [
+        "pituitary",
+        "hypophysis"
+      ]
+    },
+    {
+      "id": "thyroid",
+      "x": 282,
+      "y": 258,
+      "label": "Thyroid gland",
+      "synonyms": [
+        "thyroid"
+      ]
+    },
+    {
+      "id": "parathyroid",
+      "x": 659,
+      "y": 312,
+      "label": "Parathyroid glands",
+      "synonyms": [
+        "parathyroid",
+        "parathyroid gland"
+      ]
+    },
+    {
+      "id": "thymus",
+      "x": 303,
+      "y": 320,
+      "label": "Thymus"
+    },
+    {
+      "id": "adrenal",
+      "x": 245,
+      "y": 490,
+      "label": "Adrenal glands",
+      "synonyms": [
+        "adrenal",
+        "adrenal gland",
+        "suprarenal",
+        "suprarenal glands"
+      ]
+    },
+    {
+      "id": "pancreas",
+      "x": 300,
+      "y": 540,
+      "label": "Pancreas"
+    },
+    {
+      "id": "uterus",
+      "x": 300,
+      "y": 648,
+      "label": "Uterus"
+    },
+    {
+      "id": "ovary",
+      "x": 258,
+      "y": 661,
+      "label": "Ovaries",
+      "synonyms": [
+        "ovary"
+      ]
+    },
+    {
+      "id": "testis",
+      "x": 297,
+      "y": 738,
+      "label": "Testes",
+      "synonyms": [
+        "testis",
+        "testicles",
+        "testicle"
+      ]
+    }
   ]
 }

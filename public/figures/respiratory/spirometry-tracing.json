@@ -1,9 +1,10 @@
 {
   "src": "/figures/respiratory/spirometry-tracing.svg",
-  "alt": "Spirometry tracing - volume vs time. Tidal volume (TV), inspiratory reserve volume (IRV), expiratory reserve volume (ERV), forced vital capacity (FVC), FEV1 (forced expiratory volume in 1 second).",
+  "alt": "Spirometry tracing (volume against time): quiet tidal breaths, then a maximal inspiration and a maximal expiration. Brackets on the right mark the four volumes - tidal volume (TV), inspiratory reserve volume (IRV), expiratory reserve volume (ERV), residual volume (RV) - and the capacities they sum into: inspiratory capacity (IC), functional residual capacity (FRC), vital capacity (VC) and total lung capacity (TLC). Axis words are in Polish: wdech = inspiration, wydech = expiration.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ASpirometry.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Mrug / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Spirometry.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

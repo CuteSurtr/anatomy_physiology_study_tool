@@ -15,44 +15,44 @@
   "labels": [
     {
       "id": "calcaneus",
-      "x": 839,
-      "y": 408,
+      "x": 215,
+      "y": 735,
       "label": "Calcaneus"
     },
     {
       "id": "talus",
-      "x": 671,
-      "y": 368,
+      "x": 155,
+      "y": 650,
       "label": "Talus"
     },
     {
       "id": "navicular",
-      "x": 504,
-      "y": 408,
+      "x": 150,
+      "y": 582,
       "label": "Navicular"
     },
     {
       "id": "cuboid",
-      "x": 615,
-      "y": 531,
+      "x": 245,
+      "y": 605,
       "label": "Cuboid"
     },
     {
       "id": "cuneiforms",
-      "x": 425,
-      "y": 449,
+      "x": 190,
+      "y": 535,
       "label": "Cuneiforms"
     },
     {
       "id": "metatarsals",
-      "x": 280,
-      "y": 449,
+      "x": 174,
+      "y": 463,
       "label": "Metatarsals"
     },
     {
       "id": "phalanges",
-      "x": 112,
-      "y": 449,
+      "x": 168,
+      "y": 330,
       "label": "Phalanges"
     }
   ]

@@ -2,8 +2,9 @@
   "src": "/figures/urinary/nephron.jpg",
   "alt": "Nephron with segment-by-segment transport - what is reabsorbed (purple, left arrows) and what is secreted (peach, right arrows) along PCT, loop of Henle, DCT, and collecting duct.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "OpenStax College - Anatomy & Physiology / Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:2618_Nephron_Secretion_Reabsorption.jpg"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:2618_Nephron_Secretion_Reabsorption.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   }
 }

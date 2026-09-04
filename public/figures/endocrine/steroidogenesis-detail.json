@@ -1,9 +1,10 @@
 {
   "src": "/figures/endocrine/steroidogenesis-detail.svg",
-  "alt": "Adrenal + gonadal steroidogenesis - cholesterol \u2192 pregnenolone (P450scc, rate-limiting). Diverges into mineralocorticoid (\u2192 aldosterone), glucocorticoid (\u2192 cortisol), and androgen (DHEA \u2192 testosterone/estradiol) pathways via cytochrome P450 enzymes.",
+  "alt": "Adrenal + gonadal steroidogenesis - cholesterol → pregnenolone (P450scc, rate-limiting). Diverges into mineralocorticoid (→ aldosterone), glucocorticoid (→ cortisol), and androgen (DHEA → testosterone/estradiol) pathways via cytochrome P450 enzymes.",
   "license": {
-    "type": "CC BY-SA 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ASteroidogenesis.svg"
+    "type": "CC0",
+    "attribution": "David Richfield ( Slashme ) and Mikael Häggström . Derived from previous version by Hoffmeier and Settersr . I / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Steroidogenesis.svg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

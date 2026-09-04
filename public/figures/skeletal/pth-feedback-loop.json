@@ -1,9 +1,10 @@
 {
   "src": "/figures/skeletal/pth-feedback-loop.svg",
-  "alt": "PTH negative feedback - low serum Ca\u00b2\u207a \u2192 PTH from parathyroid \u2192 \u2191 bone resorption + \u2191 renal Ca\u00b2\u207a reabsorption + \u2191 calcitriol \u2192 restored serum Ca\u00b2\u207a.",
+  "alt": "PTH negative feedback - low serum Ca²⁺ → PTH from parathyroid → ↑ bone resorption + ↑ renal Ca²⁺ reabsorption + ↑ calcitriol → restored serum Ca²⁺.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AParathyroid_Hormone_Negative_Feedback.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Mkaram19 / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Parathyroid_Hormone_Negative_Feedback.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

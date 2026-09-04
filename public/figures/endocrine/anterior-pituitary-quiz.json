@@ -1,6 +1,6 @@
 {
   "src": "/figures/endocrine/anterior-pituitary.jpg",
-  "alt": "Identify each anterior-pituitary cell type by its hormone target.",
+  "alt": "Identify the parts of the hypophyseal portal route from hypothalamus to anterior pituitary.",
   "viewBox": [
     0,
     0,
@@ -14,59 +14,58 @@
   },
   "labels": [
     {
-      "id": "soma",
-      "x": 288,
-      "y": 299,
-      "label": "Growth hormone",
+      "id": "hypothalamus",
+      "x": 450,
+      "y": 500,
+      "label": "Hypothalamus"
+    },
+    {
+      "id": "sup-hyp-artery",
+      "x": 445,
+      "y": 602,
+      "label": "Superior hypophyseal artery",
       "synonyms": [
-        "GH",
-        "somatotropin"
+        "superior hypophysial artery"
       ]
     },
     {
-      "id": "prl",
-      "x": 577,
-      "y": 299,
-      "label": "Prolactin",
+      "id": "primary-plexus",
+      "x": 600,
+      "y": 597,
+      "label": "Primary capillary plexus",
       "synonyms": [
-        "PRL"
+        "primary plexus",
+        "primary capillary plexus of the hypophyseal portal system"
       ]
     },
     {
-      "id": "tsh",
-      "x": 866,
-      "y": 299,
-      "label": "TSH",
+      "id": "portal-veins",
+      "x": 585,
+      "y": 675,
+      "label": "Hypophyseal portal veins",
       "synonyms": [
-        "thyroid-stimulating hormone",
-        "thyrotropin"
+        "hypophyseal portal vein",
+        "portal veins",
+        "hypophyseal portal system"
       ]
     },
     {
-      "id": "acth",
-      "x": 346,
-      "y": 697,
-      "label": "ACTH",
+      "id": "ant-pit",
+      "x": 405,
+      "y": 800,
+      "label": "Anterior pituitary",
       "synonyms": [
-        "corticotropin"
+        "adenohypophysis",
+        "pars distalis"
       ]
     },
     {
-      "id": "lh",
-      "x": 635,
-      "y": 697,
-      "label": "LH",
+      "id": "post-pit",
+      "x": 745,
+      "y": 790,
+      "label": "Posterior pituitary",
       "synonyms": [
-        "luteinizing hormone"
-      ]
-    },
-    {
-      "id": "fsh",
-      "x": 923,
-      "y": 697,
-      "label": "FSH",
-      "synonyms": [
-        "follicle-stimulating hormone"
+        "neurohypophysis"
       ]
     }
   ]

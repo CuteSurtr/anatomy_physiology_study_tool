@@ -2,8 +2,9 @@
   "src": "/figures/histology/cerebellum.jpg",
   "alt": "Cerebellum histology - molecular layer, Purkinje cell layer, and granular layer.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Berkshire Community College Bioscience / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:Cerebellum_Cross_Section_Molecular_Layer_(42013391522).jpg"
+    "type": "CC0",
+    "attribution": "Berkshire Community College Bioscience Image Library / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Cerebellum_Cross_Section_Molecular_Layer_(42013391522).jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   }
 }

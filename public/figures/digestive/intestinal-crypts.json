@@ -1,9 +1,10 @@
 {
   "src": "/figures/digestive/intestinal-crypts.jpg",
-  "alt": "Crypts of Lieberk\u00fchn - tubular invaginations between intestinal villi. Contain stem cells (regenerate villi every 3-5 days), Paneth cells (defensins), enteroendocrine cells, and immature absorptive cells.",
+  "alt": "Light micrograph (H&E) of intestinal glandular epithelium cut in section, showing tubular crypts of Lieberkuhn lined by pale mucus-filled cells and surrounded by lamina propria. Unlabelled; a dissecting needle lies across the field.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AGlandular_epithelium_of_small_intestine_%28crypts_of_Lieberk%C3%BChn%29.jpg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "Juan Carlos Fonseca Mata / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Glandular_epithelium_of_small_intestine_(crypts_of_Lieberkühn).jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

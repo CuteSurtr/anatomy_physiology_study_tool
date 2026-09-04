@@ -1,11 +1,11 @@
 {
   "src": "/figures/urinary/bladder-v2.png",
-  "alt": "Identify the parts of the urinary bladder and outlet.",
+  "alt": "Coronal section of the urinary bladder with the anterior wall removed: both ureters entering the upper posterolateral wall, rugae in the dome, the smooth trigone between the two ureteric orifices and the internal urethral orifice, and the urethra leaving below.",
   "viewBox": [
     0,
     0,
-    1677,
-    1110
+    685,
+    1082
   ],
   "license": {
     "type": "CC BY 3.0",
@@ -15,38 +15,40 @@
   "labels": [
     {
       "id": "ureter",
-      "x": 335,
-      "y": 333,
+      "x": 135,
+      "y": 190,
       "label": "Ureter"
     },
     {
       "id": "trigone",
-      "x": 838,
-      "y": 610,
+      "x": 342,
+      "y": 700,
       "label": "Trigone"
     },
     {
       "id": "detrusor",
-      "x": 537,
-      "y": 500,
+      "x": 55,
+      "y": 487,
       "label": "Detrusor muscle",
       "synonyms": [
-        "detrusor"
+        "detrusor",
+        "bladder wall"
       ]
     },
     {
       "id": "internal-sphincter",
-      "x": 838,
-      "y": 866,
+      "x": 342,
+      "y": 845,
       "label": "Internal urethral sphincter",
       "synonyms": [
-        "internal sphincter"
+        "internal sphincter",
+        "bladder neck"
       ]
     },
     {
       "id": "urethra",
-      "x": 838,
-      "y": 1021,
+      "x": 342,
+      "y": 995,
       "label": "Urethra"
     }
   ]

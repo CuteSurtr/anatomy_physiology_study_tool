@@ -1,9 +1,10 @@
 {
   "src": "/figures/reproductive/spermatogenesis-stages.jpg",
-  "alt": "Spermatogenesis stages - spermatogonia (2n) \u2192 primary spermatocytes (2n, meiosis I) \u2192 secondary spermatocytes (n, meiosis II) \u2192 spermatids (n) \u2192 spermatozoa (n, via spermiogenesis). 64-day process in seminiferous tubules with Sertoli cell support.",
+  "alt": "Research micrographs of the cell associations that define the stages of the seminiferous epithelium - stages I-XII in mouse (A) and I-VI in human (B), annotated with specialist abbreviations for spermatogonia, spermatocytes and spermatids.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ASpermatogenesis_human%2C_mouse.jpg"
+    "type": "CC BY 4.0",
+    "attribution": "Ruthig VA and Lamb DJ / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Spermatogenesis_human,_mouse.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }

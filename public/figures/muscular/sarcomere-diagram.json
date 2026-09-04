@@ -1,19 +1,87 @@
 {
   "src": "/figures/muscular/sarcomere-diagram.svg",
   "alt": "Anatomically detailed diagram of a sarcomere",
-  "viewBox": [0, 0, 810, 360],
+  "viewBox": [
+    0,
+    0,
+    810,
+    360
+  ],
   "license": {
     "type": "CC BY-SA 3.0",
     "attribution": "SlothMcCarty - Wikimedia Commons",
     "url": "https://commons.wikimedia.org/wiki/File:Sarcomere_diagram.svg"
   },
   "labels": [
-    { "id": "z-left", "x": 80, "y": 180, "label": "Z disc", "synonyms": ["Z line", "Z-disc", "Z-line"] },
-    { "id": "m-line", "x": 405, "y": 180, "label": "M line", "synonyms": ["M-line"] },
-    { "id": "thin", "x": 200, "y": 180, "label": "Thin filament (actin)", "synonyms": ["actin", "thin filament", "actin filament"] },
-    { "id": "thick", "x": 480, "y": 180, "label": "Thick filament (myosin)", "synonyms": ["myosin", "thick filament", "myosin filament"] },
-    { "id": "h-zone", "x": 380, "y": 280, "label": "H zone", "synonyms": ["H-zone", "H band"] },
-    { "id": "i-band", "x": 130, "y": 50, "label": "I band", "synonyms": ["I-band"] },
-    { "id": "a-band", "x": 405, "y": 50, "label": "A band", "synonyms": ["A-band"] }
+    {
+      "id": "z-left",
+      "x": 111,
+      "y": 136,
+      "label": "Z disc",
+      "synonyms": [
+        "Z line",
+        "Z-disc",
+        "Z-line"
+      ]
+    },
+    {
+      "id": "m-line",
+      "x": 415,
+      "y": 200,
+      "label": "M line",
+      "synonyms": [
+        "M-line"
+      ]
+    },
+    {
+      "id": "thin",
+      "x": 135,
+      "y": 78,
+      "label": "Thin filament (actin)",
+      "synonyms": [
+        "actin",
+        "thin filament",
+        "actin filament"
+      ]
+    },
+    {
+      "id": "thick",
+      "x": 480,
+      "y": 135,
+      "label": "Thick filament (myosin)",
+      "synonyms": [
+        "myosin",
+        "thick filament",
+        "myosin filament"
+      ]
+    },
+    {
+      "id": "h-zone",
+      "x": 320,
+      "y": 300,
+      "label": "H zone",
+      "synonyms": [
+        "H-zone",
+        "H band"
+      ]
+    },
+    {
+      "id": "i-band",
+      "x": 672,
+      "y": 300,
+      "label": "I band",
+      "synonyms": [
+        "I-band"
+      ]
+    },
+    {
+      "id": "a-band",
+      "x": 250,
+      "y": 332,
+      "label": "A band",
+      "synonyms": [
+        "A-band"
+      ]
+    }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "src": "/figures/endocrine/thyroid-detail.jpg",
-  "alt": "Thyroid gland - identify the major surrounding structures.",
+  "alt": "Anterior view of the thyroid gland - identify the laryngeal cartilage, the two lobes, the isthmus and the trachea.",
   "viewBox": [
     0,
     0,
@@ -15,38 +15,47 @@
   "labels": [
     {
       "id": "thyroid-cartilage",
-      "x": 370,
-      "y": 240,
-      "label": "Thyroid cartilage"
+      "x": 365,
+      "y": 130,
+      "label": "Thyroid cartilage",
+      "synonyms": [
+        "thyroid cartilage of the larynx"
+      ]
     },
     {
       "id": "right-lobe",
-      "x": 530,
-      "y": 510,
+      "x": 290,
+      "y": 240,
       "label": "Right lobe of thyroid",
       "synonyms": [
-        "right lobe"
+        "right lobe",
+        "right thyroid lobe"
       ]
     },
     {
       "id": "left-lobe",
-      "x": 210,
-      "y": 510,
+      "x": 415,
+      "y": 240,
       "label": "Left lobe of thyroid",
       "synonyms": [
-        "left lobe"
+        "left lobe",
+        "left thyroid lobe"
       ]
     },
     {
       "id": "isthmus",
-      "x": 370,
-      "y": 580,
-      "label": "Isthmus"
+      "x": 355,
+      "y": 244,
+      "label": "Isthmus",
+      "synonyms": [
+        "isthmus of the thyroid",
+        "thyroid isthmus"
+      ]
     },
     {
       "id": "trachea",
-      "x": 370,
-      "y": 850,
+      "x": 358,
+      "y": 330,
       "label": "Trachea"
     }
   ]

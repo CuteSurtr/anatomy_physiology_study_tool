@@ -2,8 +2,9 @@
   "src": "/figures/foundations/connective-tissue-classification.png",
   "alt": "Connective tissue classification - loose (areolar, adipose, reticular), dense (regular, irregular, elastic), specialized (cartilage hyaline/elastic/fibro, bone, blood). All derive from embryonic mesenchyme.",
   "license": {
-    "type": "CC BY-SA 4.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3AClassification_of_the_different_types_of_connective_tissues.png"
+    "type": "CC BY 4.0",
+    "attribution": "Nassari S, Duprez D and Fournier-Thibault C / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Classification_of_the_different_types_of_connective_tissues.png",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
 }
