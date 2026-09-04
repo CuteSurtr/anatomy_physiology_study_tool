@@ -1,9 +1,10 @@
 {
   "src": "/figures/cardiovascular/transferrin-cycle.png",
-  "alt": "Transferrin cycle - Fe\u00b3\u207a binds plasma transferrin \u2192 binds TfR1 on cells \u2192 endocytosis \u2192 endosome acidifies \u2192 Fe released \u2192 transporter (DMT1) moves Fe to cytoplasm \u2192 ferritin storage or use; apotransferrin recycled.",
+  "alt": "Transferrin cycle - Fe³⁺ binds plasma transferrin → binds TfR1 on cells → endocytosis → endosome acidifies → Fe released → transporter (DMT1) moves Fe to cytoplasm → ferritin storage or use; apotransferrin recycled.",
   "license": {
-    "type": "CC BY-SA 3.0",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ATransferrin_cycle.png"
+    "type": "CC BY 2.5",
+    "attribution": "Rouault TA / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Transferrin_cycle.png",
+    "license_url": "https://creativecommons.org/licenses/by/2.5"
   }
 }

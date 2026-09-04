@@ -2,8 +2,9 @@
   "src": "/figures/cardiovascular/blood-cells.svg",
   "alt": "Hematopoiesis - pluripotent stem cell → myeloid + lymphoid lineages with all mature blood cells",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons (Mikael Häggström)",
-    "url": "https://commons.wikimedia.org/wiki/File:Hematopoiesis_simple.svg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "A. Rad and Mikael Häggström / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Hematopoiesis_simple.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

@@ -2,8 +2,9 @@
   "src": "/figures/cardiovascular/artery-vein-layers.jpg",
   "alt": "Artery vs vein - thick media + narrow lumen vs thin wall + valves + wide lumen.",
   "license": {
-    "type": "CC BY 4.0",
-    "attribution": "OpenStax / Wikimedia",
-    "url": "https://commons.wikimedia.org/wiki/File:2102_Comparison_of_Artery_and_Vein.jpg"
+    "type": "CC BY 3.0",
+    "attribution": "OpenStax College / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:2102_Comparison_of_Artery_and_Vein.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
   }
 }

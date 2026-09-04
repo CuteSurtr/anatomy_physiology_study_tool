@@ -2,8 +2,9 @@
   "src": "/figures/cardiovascular/conduction.svg",
   "alt": "Cardiac conduction system: SA node → AV node → bundle of His → bundle branches → Purkinje fibers",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons (Madhero88)",
-    "url": "https://commons.wikimedia.org/wiki/File:Electrical_conduction_system_of_the_heart.svg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "Madhero88 / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Electrical_conduction_system_of_the_heart.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

@@ -2,8 +2,9 @@
   "src": "/figures/cardiovascular/wiggers.svg",
   "alt": "Wiggers diagram - pressure, volume, ECG, sounds across one cardiac cycle.",
   "license": {
-    "type": "CC BY-SA",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Wiggers_Diagram_2.svg"
+    "type": "CC BY-SA 4.0",
+    "attribution": "adh30 revised work by DanielChangMD who revised original work of DestinyQx; Redrawn as SVG / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Wiggers_Diagram_2.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

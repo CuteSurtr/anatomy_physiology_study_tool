@@ -1,9 +1,10 @@
 {
   "src": "/figures/cardiovascular/coagulation-simple.svg",
-  "alt": "Simplified coagulation cascade - extrinsic (tissue factor / VII), intrinsic (XII \u2192 XI \u2192 IX \u2192 VIII), and common pathway (X \u2192 II/thrombin \u2192 I/fibrinogen \u2192 fibrin clot).",
+  "alt": "Simplified coagulation cascade - extrinsic (tissue factor / VII), intrinsic (XII → XI → IX → VIII), and common pathway (X → II/thrombin → I/fibrinogen → fibrin clot).",
   "license": {
-    "type": "Public Domain",
-    "attribution": "Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File%3ACoagulation_simple.svg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "Joe D / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Coagulation_simple.svg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   }
 }

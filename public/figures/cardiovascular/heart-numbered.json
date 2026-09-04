@@ -1,26 +1,140 @@
 {
   "src": "/figures/cardiovascular/heart-numbered.svg",
   "alt": "Heart diagram with 13 numbered anatomical structures",
-  "viewBox": [0, 0, 496, 531],
+  "viewBox": [
+    0,
+    0,
+    496,
+    531
+  ],
   "imageHasNumbers": true,
   "license": {
-    "type": "CC BY-SA 3.0 / GFDL",
-    "attribution": "Wapcaplet, Stanisław Skowron - Wikimedia Commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Heart_numlabels.svg"
+    "type": "CC BY-SA 3.0",
+    "attribution": "Wapcaplet . / Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Heart_numlabels.svg",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   "labels": [
-    { "id": "n1", "x": 0, "y": 0, "label": "Right atrium", "synonyms": ["RA", "atrium dextra"] },
-    { "id": "n2", "x": 0, "y": 0, "label": "Left atrium", "synonyms": ["LA", "atrium sinistrum"] },
-    { "id": "n3", "x": 0, "y": 0, "label": "Superior vena cava", "synonyms": ["SVC"] },
-    { "id": "n4", "x": 0, "y": 0, "label": "Aorta", "synonyms": ["aortic arch"] },
-    { "id": "n5", "x": 0, "y": 0, "label": "Pulmonary artery", "synonyms": ["pulmonary trunk", "PA"] },
-    { "id": "n6", "x": 0, "y": 0, "label": "Pulmonary vein", "synonyms": ["pulmonary veins"] },
-    { "id": "n7", "x": 0, "y": 0, "label": "Mitral valve", "synonyms": ["bicuspid valve", "bicuspid"] },
-    { "id": "n8", "x": 0, "y": 0, "label": "Aortic valve", "synonyms": ["aortic"] },
-    { "id": "n9", "x": 0, "y": 0, "label": "Left ventricle", "synonyms": ["LV"] },
-    { "id": "n10", "x": 0, "y": 0, "label": "Right ventricle", "synonyms": ["RV"] },
-    { "id": "n11", "x": 0, "y": 0, "label": "Inferior vena cava", "synonyms": ["IVC"] },
-    { "id": "n12", "x": 0, "y": 0, "label": "Tricuspid valve", "synonyms": ["tricuspid"] },
-    { "id": "n13", "x": 0, "y": 0, "label": "Pulmonary valve", "synonyms": ["pulmonary semilunar valve"] }
+    {
+      "id": "n1",
+      "x": 0,
+      "y": 0,
+      "label": "Right atrium",
+      "synonyms": [
+        "RA",
+        "atrium dextra"
+      ]
+    },
+    {
+      "id": "n2",
+      "x": 0,
+      "y": 0,
+      "label": "Left atrium",
+      "synonyms": [
+        "LA",
+        "atrium sinistrum"
+      ]
+    },
+    {
+      "id": "n3",
+      "x": 0,
+      "y": 0,
+      "label": "Superior vena cava",
+      "synonyms": [
+        "SVC"
+      ]
+    },
+    {
+      "id": "n4",
+      "x": 0,
+      "y": 0,
+      "label": "Aorta",
+      "synonyms": [
+        "aortic arch"
+      ]
+    },
+    {
+      "id": "n5",
+      "x": 0,
+      "y": 0,
+      "label": "Pulmonary artery",
+      "synonyms": [
+        "pulmonary trunk",
+        "PA"
+      ]
+    },
+    {
+      "id": "n6",
+      "x": 0,
+      "y": 0,
+      "label": "Pulmonary vein",
+      "synonyms": [
+        "pulmonary veins"
+      ]
+    },
+    {
+      "id": "n7",
+      "x": 0,
+      "y": 0,
+      "label": "Mitral valve",
+      "synonyms": [
+        "bicuspid valve",
+        "bicuspid"
+      ]
+    },
+    {
+      "id": "n8",
+      "x": 0,
+      "y": 0,
+      "label": "Aortic valve",
+      "synonyms": [
+        "aortic"
+      ]
+    },
+    {
+      "id": "n9",
+      "x": 0,
+      "y": 0,
+      "label": "Left ventricle",
+      "synonyms": [
+        "LV"
+      ]
+    },
+    {
+      "id": "n10",
+      "x": 0,
+      "y": 0,
+      "label": "Right ventricle",
+      "synonyms": [
+        "RV"
+      ]
+    },
+    {
+      "id": "n11",
+      "x": 0,
+      "y": 0,
+      "label": "Inferior vena cava",
+      "synonyms": [
+        "IVC"
+      ]
+    },
+    {
+      "id": "n12",
+      "x": 0,
+      "y": 0,
+      "label": "Tricuspid valve",
+      "synonyms": [
+        "tricuspid"
+      ]
+    },
+    {
+      "id": "n13",
+      "x": 0,
+      "y": 0,
+      "label": "Pulmonary valve",
+      "synonyms": [
+        "pulmonary semilunar valve"
+      ]
+    }
   ]
 }
