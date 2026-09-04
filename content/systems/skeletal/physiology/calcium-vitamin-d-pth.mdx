@@ -12,7 +12,7 @@ sources:
 level: undergrad
 ---
 
-Plasma calcium is held within ~1% of its setpoint (~10 mg/dL ionized + total) by a three-hormone axis: **PTH** (immediate buffer, bone + kidney), **calcitriol** (slow, gut + bone), and **calcitonin** (minor in humans). Every step of bone remodeling, neuromuscular transmission, muscle contraction, and coagulation depends on this regulation.
+Plasma calcium is held within a few percent of its setpoint (total ~8.5-10.5 mg/dL, of which the **ionized** fraction, ~4.5-5.3 mg/dL, is the variable actually regulated) by a three-hormone axis: **PTH** (immediate buffer, bone + kidney), **calcitriol** (slow, gut + bone), and **calcitonin** (minor in humans). Every step of bone remodeling, neuromuscular transmission, muscle contraction, and coagulation depends on this regulation.
 
 <Figure name="endocrine/thyroid-parathyroid" caption="The thyroid and the posteriorly located parathyroid glands are the gross-anatomy anchors for calcitonin and PTH." />
 
@@ -48,7 +48,7 @@ Of plasma calcium (normal ~8.5-10.5 mg/dL total):
 - **Protein-bound (40%)** - mostly albumin
 - **Complexed (10%)** - citrate, phosphate, bicarbonate
 
-**Correction for albumin**: corrected Ca = measured + 0.8 × (4 - albumin). Or just measure ionized Ca².
+**Correction for albumin**: corrected Ca = measured + 0.8 × (4 - albumin). Or just measure ionized Ca²⁺ directly.
 
 **Alkalosis ↑ albumin binding** → ↓ ionized Ca → tetany even at "normal" total Ca (e.g., panic-attack hyperventilation).
 
@@ -63,7 +63,7 @@ Of plasma calcium (normal ~8.5-10.5 mg/dL total):
 
 | Target | Action |
 |---|---|
-| **Bone** | Stimulates osteoblasts → ↑ RANK-L → osteoclast activation → bone resorption → release Ca²⁺ + PO₄³⁻ + alkaline phosphatase to blood |
+| **Bone** | Stimulates osteoblasts → ↑ RANK-L → osteoclast activation → bone resorption → releases Ca²⁺ + PO₄³⁻ into blood (the accompanying rise in alkaline phosphatase comes from the stimulated osteoblasts, not from the mineral itself) |
 | **Kidney (distal tubule)** | ↑ Ca²⁺ reabsorption (TRPV5) |
 | **Kidney (proximal tubule)** | ↓ PO₄³⁻ reabsorption (phosphaturic - internalizes Na/Pi cotransporter) |
 | **Kidney** | ↑ 1α-hydroxylase → activates 25-OH vitamin D → calcitriol |
@@ -96,7 +96,7 @@ Cholecalciferol (vitamin D₃)
 | **Bone** | Synergizes with PTH on osteoclasts; also needed for proper osteoblast function + mineralization |
 | **Kidney** | ↑ Ca²⁺ + PO₄³⁻ reabsorption (minor compared to PTH) |
 | **Parathyroid** | Negative feedback on PTH transcription |
-| **Immune** | Modulates T-cell function; ↓ AS in MS, ↓ severity of some autoimmune diseases |
+| **Immune** | Modulates T-cell and macrophage function; VDR is expressed on immune cells. Clinical benefit in autoimmune disease is still under investigation, not established |
 
 Net: ↑ serum Ca²⁺ **AND** ↑ serum PO₄³⁻ (both go up - unlike PTH).
 
@@ -130,9 +130,6 @@ In humans, thyroidectomy doesn't cause hypercalcemia → calcitonin's physiologi
 | **↑ PO₄³⁻ (chronic, e.g., CKD)** | ↑ (secondary hyperPT) | ↓ (FGF23 suppresses) | Often falls | Stays high (kidney failure) |
 
 ## Pathologies of the axis
-
-<Figure name="skeletal/calcium-homeostasis-openstax" caption="" />
-
 
 | Disease | Mechanism | Ca | PO₄ | PTH | Vit D |
 |---|---|---|---|---|---|
@@ -186,10 +183,7 @@ In humans, thyroidectomy doesn't cause hypercalcemia → calcitonin's physiologi
 
 ## Why this matters
 
-<Figure name="skeletal/calcium-homeostasis-openstax" caption="" />
-
-
-<HighYield variant="boards">
+<HighYield exam="boards">
 - **Primary hyperparathyroidism** workup: ↑ Ca + ↑ PTH = adenoma (85%) > 4-gland hyperplasia (15%, often MEN1). Sestamibi scan + neck ultrasound localize. Minimally invasive parathyroidectomy.
 - **Hypercalcemia of malignancy** - PTHrP from squamous cell tumors (lung, head/neck, esophagus, cervix), breast, RCC. Cytokine-mediated in multiple myeloma. Treat: aggressive saline + furosemide + bisphosphonate (zoledronate) + calcitonin (acute) + steroids (lymphoma, granulomatous).
 - **CKD-MBD** (CKD mineral and bone disorder): ↓ Vit D activation → ↓ Ca absorption → secondary hyperPT → bone disease + vascular calcification. Treat: phosphate binders, calcitriol or analogs (paricalcitol), cinacalcet.
@@ -215,7 +209,7 @@ In humans, thyroidectomy doesn't cause hypercalcemia → calcitonin's physiologi
       "Primary hyperparathyroidism (parathyroid adenoma)",
       "Humoral hypercalcemia of malignancy",
       "Sarcoidosis"
-    ], explanation: "Hypercalcemia + inappropriately elevated PTH + low phosphate + hypercalciuria + osteoporosis = primary hyperparathyroidism. FHH has LOW urinary Ca (&lt;100 mg/24h, FECa &lt;1%) - that's the discriminator. Malignancy suppresses PTH (PTHrP doesn't cross-react). Sarcoidosis → ↓ PTH + ↑ active Vit D." },
+    ], explanation: "Hypercalcemia + inappropriately elevated PTH + low phosphate + hypercalciuria + osteoporosis = primary hyperparathyroidism. FHH has LOW urinary Ca (<100 mg/24h, FECa <1%) - that's the discriminator. Malignancy suppresses PTH (PTHrP doesn't cross-react). Sarcoidosis → ↓ PTH + ↑ active Vit D." },
     { q: "What is the role of the low Vitamin D level here?", a: "Common comorbid finding; should be repleted cautiously before parathyroidectomy", choices: [
       "It's the primary problem causing the hypercalcemia",
       "Common comorbid finding; should be repleted cautiously before parathyroidectomy",
@@ -227,7 +221,7 @@ In humans, thyroidectomy doesn't cause hypercalcemia → calcitonin's physiologi
       "Calcimimetic alone",
       "Bisphosphonate alone",
       "Parathyroidectomy - she meets multiple guidelines criteria"
-    ], explanation: "Criteria for parathyroidectomy: Ca >1 mg/dL above ULN, age &lt;50, T-score ≤-2.5 (osteoporosis), eGFR &lt;60, urinary Ca >400 mg/d or evidence of stones, vertebral fractures on imaging. She meets osteoporosis + age + hypercalciuria. Sestamibi + neck US localize. Minimally invasive parathyroidectomy is curative in 95%." }
+    ], explanation: "Criteria for parathyroidectomy: Ca >1 mg/dL above ULN, age <50, T-score ≤-2.5 (osteoporosis), eGFR <60, urinary Ca >400 mg/d or evidence of stones, vertebral fractures on imaging. She meets osteoporosis + age + hypercalciuria. Sestamibi + neck US localize. Minimally invasive parathyroidectomy is curative in 95%." }
   ]}
 />
 

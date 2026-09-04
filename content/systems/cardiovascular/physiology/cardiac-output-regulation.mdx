@@ -17,6 +17,17 @@ level: undergrad
 
 <Figure name="cardiovascular/cardiac-output-factors" caption="Factors regulating cardiac output. CO = HR × SV. HR is set by autonomic balance at the SA node (sympathetic ↑ via β1, parasympathetic ↓ via vagus). SV depends on preload (Frank-Starling), afterload (resistance to ejection), and contractility (intrinsic strength of contraction)." />
 
+## What cardiac output is *for*
+
+Cardiac output is not the end of the story - it is one of two terms in **oxygen delivery**:
+
+```
+DO₂ = CO × CaO₂        (~1,000 mL O₂/min at rest)
+CaO₂ = (1.34 × Hb × SaO₂) + (0.003 × PaO₂)
+```
+
+That is why the same "shock" picture can come from a pump problem (↓ CO), a carrying problem (↓ Hb in haemorrhage), or a loading problem (↓ SaO₂ in respiratory failure) - and why raising the heart rate cannot rescue a patient whose haemoglobin is 4 g/dL. Tissues can also compensate by extracting more of what arrives (O₂ extraction ratio rises from ~25% at rest to 80% in shock or heavy exercise). The oxygen-carrying half of the equation is covered in [blood gas & oxygen chemistry](/cardiovascular/physiology/blood-gas-and-oxygen-chemistry).
+
 ## The four levers - preload, afterload, contractility, heart rate
 
 <Figure name="cardiovascular/cardiac-cycle-phases" caption="Cardiac cycle phases. CO = HR × SV; SV depends on preload (Frank-Starling), afterload (resistance to ejection), contractility." />
@@ -33,7 +44,7 @@ Preload is the **stretch of the ventricle just before contraction** - approximat
 
 ### Afterload
 
-Afterload is the **load the ventricle must overcome to eject blood**. For the LV, ≈ aortic pressure / SVR. For the RV, ≈ pulmonary pressure / PVR. Determinants:
+Afterload is the **load the ventricle must overcome to eject blood**. For the LV it tracks aortic pressure (and therefore SVR); for the RV it tracks pulmonary artery pressure (and therefore PVR). Determinants:
 - Arterial blood pressure
 - Aortic stiffness (atherosclerosis, age)
 - Aortic valve disease (stenosis → ↑ afterload)
@@ -55,7 +66,7 @@ Set by SA node firing rate (autonomic balance):
 
 ## The Frank-Starling law
 
-<Figure name="cardiovascular/frank-starling-curve" caption="Frank-Starling curve - increased preload (EDV) stretches sarcomeres toward optimal length, increasing stroke volume. ↑ Contractility (sympathetic, dobutamine) shifts the curve UP and LEFT; HFrEF shifts it DOWN and RIGHT (Wikimedia, CC BY-SA)." />
+<Figure name="cardiovascular/frank-starling-curve" caption="Frank-Starling curves. The x-axis here is left ventricular end-diastolic pressure (LVEDP), the clinical stand-in for preload; the y-axis is stroke volume. ↑ Contractility (sympathetic drive, dobutamine) shifts the curve UP and LEFT; ↓ contractility (HFrEF) shifts it DOWN and RIGHT, so the same filling pressure buys less stroke volume." />
 
 **Increased EDV → increased SV (within limits).** Mechanistically: stretching the ventricle stretches sarcomeres toward optimal length (~2.0-2.2 μm) → more cross-bridge formation → more force. Plus stretch ↑ troponin C Ca²⁺ sensitivity.
 
@@ -69,7 +80,7 @@ The **Frank-Starling curve** plots SV (or CO) vs preload. Different curves corre
 
 ### Sympathetic outflow
 
-Originates in **rostral ventrolateral medulla (RVLM)** → preganglionic neurons in T1-T4 IML → postganglionic neurons in the **cervical and upper thoracic ganglia and stellate ganglia** → release NE onto:
+Originates in the **rostral ventrolateral medulla (RVLM)** → preganglionic neurons in the intermediolateral cell column of T1–T4/T5 → postganglionic neurons in the **cervical and upper thoracic ganglia and stellate ganglia** → release NE onto:
 - SA node, AV node (β₁) → ↑ HR, ↑ conduction velocity
 - Atrial + ventricular myocardium (β₁) → ↑ contractility
 - Vasculature (α₁) → vasoconstriction (skin, splanchnic); β₂ → vasodilation (skeletal muscle, coronaries)
@@ -122,9 +133,6 @@ Rising intracranial pressure → cerebral ischemia → sympathetic surge → sev
 
 ## Exercise - the integrated response
 
-<Figure name="cardiovascular/cardiac-output-factors" caption="" />
-
-
 Resting CO ~5 L/min. Heavy exercise: up to ~25 L/min (untrained) or 30+ L/min (athlete).
 
 | Variable | Resting | Heavy exercise | Mechanism |
@@ -144,7 +152,7 @@ Resting CO ~5 L/min. Heavy exercise: up to ~25 L/min (untrained) or 30+ L/min (a
 | Type | EF | Predominant problem |
 |---|---|---|
 | **HFrEF** | < 40% | Systolic - reduced contractility. CO low. Frank-Starling curve depressed and right-shifted |
-| **HFpEF** | > 50% | Diastolic - impaired filling. EF preserved but EDV low. Often HTN, LVH, restrictive disease |
+| **HFpEF** | > 50% | Diastolic - a stiff ventricle fills poorly, so EDV stays normal or low *only at the cost of a high filling pressure*. EF is preserved because both EDV and ESV are small. Often HTN, LVH, restrictive disease |
 | **High-output failure** | Normal-high | Heart works hard but demand outstrips it - hyperthyroidism, anemia, AV fistula, beriberi |
 
 In chronic HFrEF, sympathetic overdrive, RAAS activation, and ADH retention initially compensate but eventually drive **remodeling** (LV dilation, fibrosis). Modern therapy targets the maladaptive neurohormonal response:

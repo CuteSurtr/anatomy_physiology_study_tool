@@ -9,11 +9,27 @@ sources:
 level: undergrad
 ---
 
-A neuronal action potential is a **rapid, all-or-none reversal of membrane potential** propagating along an axon. Resting potential sits around **−70 mV** (K⁺ leak channels + Na⁺/K⁺ ATPase set the gradient).
+A neuronal action potential is a **rapid, all-or-none reversal of membrane potential** propagating along an axon. Before it can be described, the **resting membrane potential** it starts from has to be accounted for.
 
 <Figure name="nervous/neuron" caption="Multipolar neuron - dendrites receive, soma integrates, axon propagates the action potential to terminal." />
 
+## Resting membrane potential - where −70 mV comes from
+
+The inside of a resting neuron sits about **−70 mV** relative to the outside. Three facts produce that number:
+
+1. **Unequal ion distribution.** The **Na⁺/K⁺ ATPase** pumps **3 Na⁺ out for every 2 K⁺ in**, using ATP. At steady state K⁺ is high inside (~140 mM) and low outside (~5 mM); Na⁺ is high outside (~145 mM) and low inside (~12 mM). Large intracellular anions (proteins, phosphates) cannot cross the membrane at all.
+2. **At rest the membrane is far more permeable to K⁺ than to Na⁺**, because **K⁺ leak channels** are open while voltage-gated Na⁺ channels are shut. K⁺ leaves down its concentration gradient until the negative charge left behind pulls it back; that balance point - the **equilibrium potential for K⁺ (E_K)** - is about **−90 mV**.
+3. **A small steady Na⁺ leak inward** (E_Na ≈ +60 mV) holds the membrane slightly positive of E_K. The resting potential therefore settles near **−70 mV**, close to E_K because K⁺ permeability dominates.
+
+The pump's *direct* electrogenic contribution is only a few mV; its real job is maintaining the gradients that the leak channels convert into a voltage. Poisoning the pump does not abolish the resting potential instantly - it runs down over minutes as the gradients dissipate.
+
+<Note title="Vocabulary used from here on">
+**Depolarization** = the membrane potential becomes *less* negative (moves toward 0 mV). **Hyperpolarization** = it becomes *more* negative. **Graded potentials** are small, decremental voltage changes produced by ligand-gated channels on dendrites and soma; only if they sum to **threshold (~−55 mV)** at the axon hillock does an action potential fire.
+</Note>
+
 ## Phases
+
+<Figure name="nervous/action-potential" caption="The action potential plotted against time. Subthreshold stimuli produce failed initiations; once threshold (−55 mV) is crossed the membrane depolarizes to a positive peak, repolarizes, undershoots below rest, then returns to −70 mV." />
 
 1. **Resting** (−70 mV): voltage-gated Na⁺ and K⁺ channels closed; K⁺ leak dominates.
 2. **Depolarization to threshold** (~−55 mV): graded summation from dendrites at the axon hillock.
@@ -57,9 +73,6 @@ When the AP reaches the **presynaptic terminal**:
 
 ## Major neurotransmitters
 
-<Figure name="nervous/action-potential" caption="" />
-
-
 | NT | Type | Main role |
 |---|---|---|
 | Glutamate | Amino acid | #1 excitatory in CNS |
@@ -77,7 +90,7 @@ When the AP reaches the **presynaptic terminal**:
 
 ## Diagram quizzes
 
-<DiagramQuiz name="nervous/neuron-schematic-quiz" title="Identify the parts of a neuron" />
+<DiagramQuiz name="nervous/neuron-blank" title="Identify the parts of a myelinated neuron" />
 
 ## Quick check
 
@@ -178,10 +191,6 @@ When the AP reaches the **presynaptic terminal**:
 ### Chemical synapse - detailed view
 
 <Figure name="nervous/synapse" caption="Chemical synapse showing the presynaptic terminal (with vesicles + mitochondria + Ca²⁺ channels), the synaptic cleft, and the postsynaptic membrane (with neurotransmitter receptors)." />
-
-### Practice - synapse diagram quiz
-
-<DiagramQuiz name="nervous/synapse-unlabeled" title="Label the parts of a chemical synapse" />
 
 ## Clinical case
 

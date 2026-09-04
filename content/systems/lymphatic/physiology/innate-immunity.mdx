@@ -15,9 +15,20 @@ level: undergrad
 
 **Innate immunity** is the body's hardwired, fast (minutes–hours), non-specific first line of defense. It uses **germline-encoded receptors** - pattern recognition receptors (PRRs) - to detect conserved microbial structures (PAMPs) or damaged self (DAMPs). No memory. No specificity to individual pathogens. But it's the entire defense for the first 4–7 days while adaptive immunity ramps up - and it directs adaptive responses through cytokines.
 
-<Figure name="lymphatic/complement" caption="Complement cascade - major effector of innate humoral immunity." />
+<Figure name="lymphatic/immune-cells-slide" caption="Where the innate cells come from. Everything on the common myeloid branch - neutrophils, eosinophils, basophils, mast cells, monocytes and macrophages - is innate; on the lymphoid branch only the NK cell is." />
 
-<Figure name="lymphatic/immune-cells-slide" caption="Lecture slide tracing the innate immune cells back to their shared hematopoietic origins." />
+## Innate vs adaptive - the contrast to hold onto
+
+| | Innate | Adaptive |
+|---|---|---|
+| Speed | Minutes to hours | 5-10 days on first exposure |
+| Recognition | **Germline-encoded** PRRs recognising classes of molecule (PAMPs, DAMPs) shared by many microbes | **Somatically rearranged** receptors (TCR, BCR), each clone specific for one antigen |
+| Repertoire | Fixed, a few hundred receptors, identical in every person | Effectively unlimited, generated anew in each individual |
+| Memory | None - the second exposure looks like the first | Yes - faster, larger, higher-affinity on re-exposure |
+| Cells | Neutrophils, macrophages, dendritic cells, mast cells, eosinophils, basophils, NK cells | T cells, B cells |
+| Soluble arm | Complement, cytokines, acute-phase proteins, antimicrobial peptides | Antibodies |
+
+They are not two separate systems. Dendritic cells and macrophages carry antigen from the tissue into a lymph node and *start* the adaptive response; antibody, once made, redirects complement and phagocytes back onto the pathogen. Innate immunity chooses which adaptive response gets made - that is the point of the cytokines below.
 
 ## Three pillars of innate immunity
 
@@ -39,9 +50,9 @@ level: undergrad
 
 ## Cells of innate immunity
 
-<Figure name="lymphatic/stem-cell-differentiation" caption="Hematopoietic differentiation - HSC → common myeloid (innate cells: neutrophils, eosinophils, basophils, monocytes, mast cells, dendritic cells) + common lymphoid progenitor (NK cells contribute to innate; B + T are adaptive)." />
+<Figure name="lymphatic/stem-cell-differentiation" caption="A second view of hematopoiesis, drawn as lineage-biased stem cells rather than the classical myeloid/lymphoid split. Follow the Ly-Bi branch for T, NK, B and plasma cells; the My-Bi and Pl-Bi branches give the phagocytes, granulocytes, platelets and red cells." />
 
-<Figure name="lymphatic/mast-cell-degranulation" caption="Mast cell degranulation (Type I hypersensitivity). Allergen cross-links IgE on FcεRI receptors → Ca²⁺ influx → granule fusion → release of histamine, tryptase, leukotrienes → vasodilation, bronchoconstriction, edema." />
+<Figure name="lymphatic/mast-cell-degranulation" caption="Mast cell degranulation, the effector step of type I hypersensitivity. Reading the numbered steps: allergen (1) is caught by IgE (2) already sitting on FcεRI receptors, cross-linking them (3); the resulting Ca²⁺/cGMP signal (6) makes the cytoplasmic granules (5) fuse with the membrane and dump histamine, tryptase and leukotrienes into the tissue (4, 7). The figure prints the numbers without a key - the mapping here is the one described in the text." />
 
 ### Phagocytes
 | Cell | % WBC | Lifespan | Function |
@@ -62,9 +73,6 @@ level: undergrad
 
 ## Pattern recognition - how innate immunity "sees"
 
-<Figure name="lymphatic/mast-cell-degranulation" caption="" />
-
-
 | PRR | Location | Recognizes |
 |---|---|---|
 | **TLR2** | Cell surface | Lipopeptides + lipoteichoic acid (Gram+) |
@@ -83,7 +91,7 @@ PAMPs (pathogen-associated molecular patterns) trigger PRRs. DAMPs (damage-assoc
 
 ## Complement system - three pathways converge
 
-<Figure name="lymphatic/complement" caption="Complement cascade - classical (antibody-Ag), lectin (MBL), and alternative pathways converge at C3 convertase → MAC formation (C5b-9), opsonization, and anaphylatoxins (C3a, C5a)." />
+<Figure name="lymphatic/complement" caption="Two of the three activation routes: the classical pathway starting from antigen-bound IgG assembling the C1 complex, and the alternative pathway starting from spontaneous C3 hydrolysis. They converge on C3; C3b then cleaves C5, and C5b with C6-C9 builds the cylindrical membrane attack complex that makes the target swell and burst. The lectin pathway, described below, is not drawn." />
 
 
 Complement is a cascade of ~30 plasma proteins synthesized by the liver, normally inactive until cleaved.
@@ -98,7 +106,7 @@ All three converge at **C3 → C3a + C3b**, then **C5 → C5a + C5b → C6 + C7 
 
 ### Complement functions - "MAC OPI"
 - **M**embrane attack complex (C5b–9) - direct lysis
-- **A**naphylatoxins (C3a, C5a, C4a) - mast cell degranulation, chemotaxis
+- **A**naphylatoxins (**C3a** and **C5a**; C4a is much weaker and its status is disputed) - trigger mast cell degranulation
 - **C**hemotaxis (especially C5a - neutrophil magnet)
 - **O**psonization (C3b coats pathogens for phagocytosis)
 - **P**athogen recognition (initiation)
@@ -109,7 +117,7 @@ All three converge at **C3 → C3a + C3b**, then **C5 → C5a + C5b → C6 + C7 
 |---|---|
 | **Early (C1, C2, C4)** | Immune complex diseases (SLE) + pyogenic infections |
 | **C3** | Severe recurrent pyogenic infections (loss of opsonization) |
-| **Late (C5–C9 - MAC)** | **Neisseria meningitidis** + N. gonorrhoeae (encapsulated, MAC-dependent) |
+| **Late (C5b–C9 - MAC)** | **Neisseria meningitidis** + N. gonorrhoeae - thin-walled Gram-negatives that the body clears mainly by direct MAC lysis |
 | **C1 esterase inhibitor** | Hereditary angioedema - episodic facial/laryngeal swelling; bradykinin-mediated |
 | **DAF (CD55), CD59** | Paroxysmal nocturnal hemoglobinuria (PNH) - complement-mediated RBC lysis |
 
@@ -139,9 +147,6 @@ All three converge at **C3 → C3a + C3b**, then **C5 → C5a + C5b → C6 + C7 
 
 ## Cytokines - the chemical language
 
-<Figure name="lymphatic/stem-cell-differentiation" caption="" />
-
-
 | Cytokine | Source | Action |
 |---|---|---|
 | **IL-1** | Macrophages | Acute phase, fever, T cell costim |
@@ -153,18 +158,20 @@ All three converge at **C3 → C3a + C3b**, then **C5 → C5a + C5b → C6 + C7 
 | **IFN-γ** | Th1, NK | Activates macrophages; granuloma formation |
 | **TGF-β** | T regs, macrophages | Anti-inflammatory; tissue repair; fibrosis |
 
-### Hot vs cold cytokines mnemonic
-**"Hot T-Bone stEAk"** - **IL-1** fever, **TNF-α** wasting; **IL-2** stimulates T cells, **IL-3** stimulates Bone marrow, **IL-4** IgE class switch, **IL-5** stimulates Eosinophils + IgA.
+### Mnemonic for IL-1 to IL-5
+**"Hot T-Bone stEAk"**: **IL-1** = fever (*hot*), **IL-2** stimulates **T** cells, **IL-3** stimulates **Bone** marrow, **IL-4** drives Ig**E** class switching, **IL-5** drives Ig**A** and eosinophils. (**TNF-α** is the separate cause of cachexia/wasting.)
 
 ## Acute phase reactants (liver - IL-6 driven)
-
-<Figure name="cardiovascular/coagulation-simple" caption="Acute phase reactants - liver-produced under IL-6. Positive APRs (CRP, fibrinogen, ferritin, hepcidin, complement) rise; negative APRs (albumin, transferrin) fall." />
 
 | ↑ | ↓ |
 |---|---|
 | CRP, ESR, fibrinogen, ferritin, hepcidin, haptoglobin, serum amyloid A, complement | Albumin, transferrin |
 
 CRP rises within 6 h, peaks 48 h. ESR is non-specific. Ferritin and hepcidin explain **anemia of chronic disease** (iron sequestered).
+
+### Fever
+
+The same three cytokines are the **endogenous pyrogens**: **IL-1, IL-6 and TNF-α** released by activated macrophages reach the hypothalamus, where they raise **prostaglandin E₂** production and with it the thermoregulatory set point. The body then behaves as if it were cold - vasoconstriction, shivering, seeking warmth - until core temperature reaches the new set point. Antipyretics (aspirin, NSAIDs, acetaminophen) work by blocking the PGE₂ step, not by cooling the patient directly. Moderate fever is protective: it slows replication of many pathogens and speeds leukocyte activity.
 
 ## Function reference - every innate component
 
@@ -186,10 +193,7 @@ CRP rises within 6 h, peaks 48 h. ESR is non-specific. Ferritin and hepcidin exp
 
 ## Why this matters
 
-<Figure name="lymphatic/spleen-detail" caption="" />
-
-
-<HighYield variant="boards">
+<HighYield exam="boards">
 - **Chronic granulomatous disease (CGD)** - NADPH oxidase defect → can't kill catalase-positive organisms (S. aureus, Aspergillus, Burkholderia, Serratia, Nocardia - mnemonic "**Cats Need PLACESS**"). Diagnose with **DHR test** (failed fluorescence) or **NBT test**.
 - **Neisseria meningitidis** infection in a young adult with recurrent meningococcemia → screen complement C5–C9.
 - **Hereditary angioedema** - C1 esterase inhibitor deficiency. Episodic non-pruritic swelling. ACE inhibitors precipitate. Treat acute attacks with **C1 INH concentrate** or **icatibant** (bradykinin B2 antagonist). NOT epinephrine/steroid-responsive.
@@ -197,12 +201,8 @@ CRP rises within 6 h, peaks 48 h. ESR is non-specific. Ferritin and hepcidin exp
 - **Asplenia** - loss of marginal zone + opsonin synthesis → encapsulated organisms = the bacteria innate immunity barely catches without antibody help.
 - **Job syndrome (Hyper-IgE)**: STAT3 mutation → Th17 defect → recurrent **cold abscesses** + eczema + ↑ IgE + retained primary teeth + coarse facies. Limited inflammatory response = "cold."
 - **MPO deficiency**: usually asymptomatic but ↑ susceptibility to **Candida**.
-- **Anti-G6PD (gout-CGD)** - wait, that's wrong. Just remember: G6PD deficiency → ↓ NADPH → ↓ glutathione → hemolysis with oxidants. Different from CGD even though both use NADPH.
+- **G6PD deficiency vs CGD** - both involve NADPH, so they are easy to confuse. G6PD deficiency starves the red cell of NADPH → ↓ glutathione → **hemolysis on oxidant stress**. CGD starves the neutrophil's NADPH *oxidase* of function → no respiratory burst → **recurrent catalase-positive infection**. Different cell, different consequence.
 </HighYield>
-
-## Histology
-
-<Figure name="histology/tonsil" caption="Tonsil tissue - MALT site where innate cells (macrophages, neutrophils, NK) screen incoming pathogens." />
 
 ## Clinical case
 

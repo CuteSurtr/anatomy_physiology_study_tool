@@ -15,7 +15,7 @@ level: undergrad
 
 Blood pressure is the central regulated variable in cardiovascular physiology. The body monitors it second-by-second and adjusts cardiac output, vascular tone, and blood volume to keep it within a narrow window (~mean 90–95 mmHg in healthy adults). Three lines of defense - **baroreceptor reflex** (seconds), **RAAS + ADH** (minutes to hours), and **renal pressure natriuresis** (days) - govern long-term BP control.
 
-<Figure name="cardiovascular/circulation-overview" caption="Pulmonary and systemic circulation as one continuous loop. The heart generates flow, arterioles set resistance, and veins determine how much blood returns as preload." />
+<Figure name="cardiovascular/circulation-overview" caption="The named vessels of the systemic circulation (arteries red, veins blue). Everything on this map is one continuous loop: the heart generates flow, arterioles set resistance, and the veins hold the volume that returns as preload." />
 
 <Figure name="cardiovascular/raas" caption="RAAS - renin → angiotensin I → ACE → angiotensin II → aldosterone, with feedback loops." />
 
@@ -42,7 +42,7 @@ One useful way to organize the whole topic is: **the heart sets flow, arteries d
 
 ## Preload, contractility, afterload - the three SV levers
 
-<Figure name="cardiovascular/frank-starling-curve" caption="Frank-Starling curve - increased preload (EDV) stretches sarcomeres → ↑ stroke volume. Inotropes shift the curve up; HFrEF shifts it down." />
+<Figure name="cardiovascular/frank-starling-curve" caption="Frank-Starling curves: stroke volume plotted against left ventricular end-diastolic pressure (the clinical proxy for preload). Inotropes shift the whole curve up and left; HFrEF shifts it down and right." />
 
 | Lever | Definition | Determinants | What raises it | What lowers it |
 |---|---|---|---|---|
@@ -54,7 +54,7 @@ One useful way to organize the whole topic is: **the heart sets flow, arteries d
 Greater end-diastolic volume → greater stretch of cardiac myocytes → optimal actin-myosin overlap → **stronger contraction**. This is why both ventricles eject the same volume despite no central coordination - venous return = cardiac output at steady state.
 
 <Mnemonic>
-**"More in → more out"** - within physiological range. Beyond the peak (overstretched), force *falls* (descending limb), which is what happens in decompensated heart failure.
+**"More in → more out"** - within the physiological range. The gain is not unlimited: the curve flattens, so past a point extra filling buys almost no extra stroke volume and only raises filling pressures (which is how a failing ventricle produces pulmonary congestion). The steep *descending* limb drawn in some textbooks is largely a property of isolated muscle; the intact ventricle is held back from over-stretch by its stiff connective-tissue scaffold, so treat the plateau, not a fall-off, as the clinically useful picture.
 </Mnemonic>
 
 ## Poiseuille's law - why arterioles control TPR
@@ -68,8 +68,6 @@ The 4th-power dependence on **radius** is the key. Halve the radius → flow dro
 <Figure name="cardiovascular/artery-vein-layers" caption="Arteries invest in a thick muscular media because they handle pressure; veins invest in capacitance and one-way valves because they return volume." />
 
 ## Three timescales of BP regulation
-
-<Figure name="cardiovascular/raas" caption="BP regulation timescales - seconds (baroreceptor reflex via ANS), minutes (RAAS, vasopressin), days (kidney pressure-natriuresis, long-term setpoint)." />
 
 ### 1. Seconds - Baroreceptor reflex (neural)
 
@@ -145,16 +143,13 @@ MAP ≈ DBP + (1/3 × pulse pressure)
     = DBP + (1/3 × [SBP – DBP])
 ```
 
-**MAP > 60** required for organ perfusion. **MAP < 65** = shock. In sepsis resuscitation, MAP is the explicit target (>65 mmHg).
+A MAP of roughly **60–65 mmHg** is the floor for perfusing brain, heart, and kidney; below it, autoregulation runs out and organ flow starts to follow pressure directly. **MAP < 65 mmHg is a threshold for action, not a definition of shock** - shock is inadequate tissue perfusion, which can exist at a normal MAP (compensated haemorrhage, early sepsis) and is judged on lactate, urine output, mentation, and skin perfusion. In sepsis resuscitation MAP ≥ 65 mmHg is the explicit initial target.
 
 **Pulse pressure** (SBP – DBP):
 - ↑ in aortic regurgitation, aortic stiffening (aging), anemia, thyrotoxicosis, exercise
 - ↓ in aortic stenosis, cardiogenic shock, hemorrhage
 
 ## Shock states - when BP regulation fails
-
-<Figure name="cardiovascular/circulation-overview" caption="" />
-
 
 | Type | CO | TPR | PCWP / preload | Mechanism |
 |---|---|---|---|---|
@@ -163,7 +158,7 @@ MAP ≈ DBP + (1/3 × pulse pressure)
 | **Obstructive** | ↓ | ↑ | varies | Tamponade, tension pneumothorax, massive PE |
 | **Distributive - septic** | ↑ early, ↓ late | ↓↓ | ↓ or normal | Cytokine-mediated vasodilation |
 | **Distributive - anaphylactic** | ↑ early | ↓↓ | ↓ | Massive histamine release |
-| **Distributive - neurogenic** | normal | ↓↓ | ↓ | Loss of sympathetic tone (spinal cord injury T6+) |
+| **Distributive - neurogenic** | normal or ↓ | ↓↓ | ↓ | Loss of sympathetic outflow (cord injury at or above T6). **Bradycardia** despite hypotension - the one shock state without a compensatory tachycardia |
 
 <Mnemonic>
 **Warm shock vs cold shock**: distributive (septic, anaphylactic, neurogenic) → warm extremities (vasodilation). Hypovolemic + cardiogenic + obstructive → cold + clammy (vasoconstriction).
@@ -186,10 +181,7 @@ MAP ≈ DBP + (1/3 × pulse pressure)
 
 ## Why this matters
 
-<Figure name="cardiovascular/erythrocytes" caption="" />
-
-
-<HighYield variant="boards">
+<HighYield exam="boards">
 - **Essential hypertension** (90% of cases) = no single identifiable cause; mostly ↑ TPR + abnormal renal pressure natriuresis. First-line: thiazide, ACEi/ARB, CCB.
 - **Secondary HTN clues** - young patient, abrupt onset, refractory, hypokalemia (primary hyperaldosteronism, Cushing, renin-secreting tumor), episodic (pheochromocytoma), bruit (renal artery stenosis), coarctation (BP arm > leg).
 - **Pheochromocytoma**: episodic HTN + headache + sweating + tachycardia. Diagnosis: 24-h urine metanephrines. Treat: **α-blockade first, then β-blockade** (never β alone - unopposed α → hypertensive crisis).
@@ -224,10 +216,6 @@ MAP ≈ DBP + (1/3 × pulse pressure)
   ]}
 />
 
-
-## Diagram quizzes
-
-<DiagramQuiz name="cardiovascular/raas-quiz" title="Identify the organs of the RAAS axis" />
 
 ## Quick check
 

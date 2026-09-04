@@ -17,13 +17,13 @@ level: undergrad
 
 The adrenal glands sit on top of the kidneys like tricornered hats and contain **two completely separate organs in one capsule**: an outer **cortex** (steroid factory, mesodermal origin) and an inner **medulla** (sympathetic ganglion, neural crest origin). Each layer makes a different hormone, regulated by a different axis, with a different disease pattern.
 
-<Figure name="endocrine/adrenal-gland" caption="Adrenal cortex (3 zones: glomerulosa, fasciculata, reticularis) + medulla." />
+<Figure name="endocrine/adrenal-gland" caption="Adrenal gland capping the superior pole of the kidney (left) and in longitudinal section (right), showing the pale cortex wrapped around the darker medulla. The three cortical zones are resolved in the next figure, not this one." />
 
 <Figure name="endocrine/adrenal-detail" caption="Adrenal gland anatomy in detail (OpenStax). Sits atop each kidney. Cortex (yellow, mesoderm-derived) - outer zona glomerulosa makes mineralocorticoids (aldosterone), middle zona fasciculata makes glucocorticoids (cortisol), inner zona reticularis makes androgens (DHEA). Medulla (brown, neural-crest-derived) makes catecholamines (epi + NE)." />
 
-<Figure name="endocrine/adrenal-cortex-medulla-slide" caption="Lecture slide reinforcing the cortex-versus-medulla split: glandular cortex outside, chromaffin-cell medulla inside." />
+<Figure name="endocrine/adrenal-cortex-medulla-slide" caption="Magnified wedge of the gland wall, outside in: connective tissue capsule, zona glomerulosa (rounded nests), zona fasciculata (long radial cords, the widest zone), zona reticularis (branching network), then medulla." />
 
-<Figure name="endocrine/steroidogenesis" caption="Steroidogenesis pathway - cholesterol → mineralocorticoids, glucocorticoids, sex steroids." />
+<Figure name="endocrine/steroidogenesis" caption="Steroidogenesis. Cholesterol → pregnenolone (side-chain cleavage enzyme, the rate-limiting step), then three branches: mineralocorticoids (→ aldosterone), glucocorticoids (→ cortisol), and androgens/estrogens (DHEA → testosterone → estradiol). Enzyme names on the arrows are the ones that fail in congenital adrenal hyperplasia." />
 
 ## Gross anatomy
 
@@ -92,7 +92,7 @@ Pattern: any block sends **substrate above** the block **back up** the cascade �
 
 ## Medulla - modified sympathetic ganglion
 
-<Figure name="endocrine/pheochromocytoma-clinical" caption="Adrenal medulla - chromaffin cells = modified postganglionic sympathetic neurons. Secrete epinephrine (~80%) + norepinephrine (~20%) into blood. Pheochromocytoma = tumor of these cells." />
+<Figure name="endocrine/pheochromocytoma-clinical" caption="Resected adrenal gland cut across: a pale, well-circumscribed pheochromocytoma has replaced most of the gland, leaving only a rim of yellow-tan cortex. Pheochromocytomas arise from the chromaffin cells described below." />
 
 | Cell | Hormone | % |
 |---|---|---|
@@ -115,7 +115,7 @@ The β2 binding is what makes epi **so different from NE in clinical use** - epi
 
 ## Cortisol - actions everywhere
 
-<Figure name="endocrine/steroidogenesis-detail" caption="Cortisol synthesis (steroidogenesis) - cholesterol → pregnenolone (P450scc, ACTH-stimulated) → progesterone → 17-OH-progesterone → 11-deoxycortisol → cortisol via 11β-hydroxylase." />
+The cortisol branch of the figure above runs cholesterol → pregnenolone (P450scc, ACTH-stimulated) → progesterone → 17-OH-progesterone → 11-deoxycortisol → **cortisol** (11β-hydroxylase).
 
 | Action | Effect |
 |---|---|
@@ -170,13 +170,10 @@ Net: ↑ Na⁺ + water retention + ↑ blood volume + ↑ K⁺ loss + ↑ H⁺ l
 
 ## Why this matters
 
-<Figure name="endocrine/pheochromocytoma-clinical" caption="" />
-
-
-<HighYield variant="boards">
+<HighYield exam="boards">
 - **Cushing workup**: (1) screen with 24-h urine free cortisol or late-night salivary cortisol or low-dose DST. (2) Then ACTH: low = adrenal source; high = pituitary or ectopic. (3) High-dose DST: pituitary tumor still suppresses; ectopic doesn't.
 - **CRH-ACTH-cortisol negative feedback** is why long-term oral steroids cause adrenal atrophy + suppression. Taper slowly; sick-day stress doses needed.
-- **Sweat Cl⁻ in CAH** - not relevant. But aldosterone-driven Na⁺ retention via ENaC means **amiloride + spironolactone** block aldo effect → useful in Liddle, Conn.
+- **Blocking the aldosterone effect**: aldosterone works through ENaC in the collecting duct, so **spironolactone** (mineralocorticoid receptor antagonist) and **amiloride** (direct ENaC blocker) both undo it - spironolactone for Conn, amiloride for Liddle (where ENaC is constitutively open and the receptor is irrelevant).
 - **MEN syndromes** - MEN2A: medullary thyroid CA + pheochromocytoma + parathyroid hyperplasia. MEN2B: same minus parathyroid, plus mucosal neuromas + marfanoid habitus. Both: **RET proto-oncogene** mutation. Always check calcitonin + metanephrines.
 - **Cortisol's permissive role on catecholamines** → Addisonian crisis = shock unresponsive to pressors until you give **hydrocortisone**.
 - **Neuroblastoma**: childhood tumor from adrenal medulla / sympathetic chain. N-myc amplification. ↑ urine HVA + VMA. Distinguished from Wilms (renal) by age and HVA/VMA.
@@ -197,10 +194,10 @@ Net: ↑ Na⁺ + water retention + ↑ blood volume + ↑ K⁺ loss + ↑ H⁺ l
   vignette="A 38-year-old woman presents with episodic headaches, palpitations, sweating, and a 'sense of doom.' BP 220/130 during episodes, normal between. 24-h urinary metanephrines and normetanephrines are 8× upper limit. CT abdomen shows a 4 cm right adrenal mass."
   questions={[
     { q: "What is the diagnosis?", a: "Pheochromocytoma", choices: [
-      "Conn syndrome",
+      "Conn syndrome (primary aldosteronism)",
       "Pheochromocytoma",
       "Cushing syndrome",
-      "Primary aldosteronism"
+      "Renal artery stenosis"
     ], explanation: "Classic triad (headache, palpitations, sweating) + episodic HTN + elevated urinary metanephrines + adrenal mass = pheochromocytoma. Catecholamines fluctuate so plasma values vary, but metabolites (metanephrines) integrate over time - the best screen." },
     { q: "What is the most important PRE-operative pharmacologic step?", a: "α-blockade (phenoxybenzamine or prazosin) for ≥7 days before any β-blockade", choices: [
       "β-blockade (propranolol)",
@@ -213,7 +210,7 @@ Net: ↑ Na⁺ + water retention + ↑ blood volume + ↑ K⁺ loss + ↑ H⁺ l
       "Familial adenomatous polyposis",
       "MEN 2A and 2B (RET), von Hippel-Lindau (VHL), neurofibromatosis type 1",
       "Beckwith-Wiedemann"
-    ], explanation: "~25% of pheochromocytomas are familial. MEN2 (RET) → bilateral pheos + medullary thyroid CA + (2A: parathyroid; 2B: mucosal neuromas). VHL → renal cell + pheo + hemangioblastomas. NF1 → café-au-lait, neurofibromas, optic glioma + pheo. The 'Rule of 10s' is outdated - closer to 25% inherited." }
+    ], explanation: "Roughly 30-40% of pheochromocytomas carry a germline mutation. MEN2 (RET) → bilateral pheos + medullary thyroid CA + (2A: parathyroid; 2B: mucosal neuromas). VHL → renal cell + pheo + hemangioblastomas. NF1 → café-au-lait, neurofibromas, optic glioma + pheo. The old 'Rule of 10s' (10% familial) understates this badly." }
   ]}
 />
 
@@ -253,9 +250,9 @@ Net: ↑ Na⁺ + water retention + ↑ blood volume + ↑ K⁺ loss + ↑ H⁺ l
     "Pituitary ACTH-secreting adenoma",
     "Ectopic ACTH from small cell lung cancer"
   ]},
-  { q: "Conn syndrome electrolyte pattern =", a: "↑ Na, ↓ K, metabolic alkalosis", choices: [
+  { q: "Conn syndrome electrolyte pattern =", a: "Normal-to-slightly-high Na, ↓ K, metabolic alkalosis", choices: [
     "↓ Na, ↑ K, metabolic acidosis",
-    "↑ Na, ↓ K, metabolic alkalosis",
+    "Normal-to-slightly-high Na, ↓ K, metabolic alkalosis",
     "Normal Na, ↑ K",
     "↓ Na, ↓ K"
   ]},

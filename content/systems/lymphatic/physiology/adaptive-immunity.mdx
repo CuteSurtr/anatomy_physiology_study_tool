@@ -11,11 +11,11 @@ level: undergrad
 
 Adaptive immunity is **specific, slow on first exposure, fast on second**, and **remembered**. Two arms: **cell-mediated** (T cells, intracellular threats) and **humoral** (B cells → antibodies, extracellular threats).
 
-<Figure name="lymphatic/lymph-node-fyi-slide" caption="Lecture slide showing why lymph nodes are the classic meeting site for adaptive immunity: B-cell follicles outside, T-cell-rich cortex inside, and antigen arriving in afferent lymph." />
+<Figure name="lymphatic/lymph-node-fyi-slide" caption="Why the lymph node is where adaptive immunity happens: antigen arrives in afferent lymph, and the germinal centres visible in the cortex are the B-cell factories it switches on. (T cells sit deeper, in the paracortex, which this figure does not mark.)" />
 
 ## T cells
 
-<Figure name="lymphatic/t-cell" caption="T-cell lymphocyte (Blausen) - surface T-cell receptor (TCR) recognizes antigen presented on MHC. CD4+ helper T cells see MHC class II; CD8+ cytotoxic T cells see MHC class I. Mature in the thymus via positive + negative selection." />
+<Figure name="lymphatic/t-cell" caption="A T lymphocyte (Blausen). Small, almost all nucleus, with a microvillus-covered surface - morphologically indistinguishable from a B cell down a microscope. What separates them is invisible here: the receptors, which is why lymphocytes are classified by surface markers rather than by appearance." />
 
 Develop in the **thymus**. Two main types:
 
@@ -26,20 +26,49 @@ Develop in the **thymus**. Two main types:
 **Rule of 8s**: MHC I × CD8 = 8; MHC II × CD4 = 8. Helper sees II, killer sees I.
 </Mnemonic>
 
+## Antigen processing and presentation
+
+A T cell cannot see a free antigen. Its TCR only recognises a **short peptide held in the groove of an MHC molecule** on another cell's surface. Which class of MHC does the presenting depends entirely on **where the protein came from**.
+
+| | MHC class I | MHC class II |
+|---|---|---|
+| Found on | **All nucleated cells** (not mature RBCs) | **Professional APCs only**: dendritic cells, macrophages, B cells |
+| Peptide source | **Endogenous** - proteins made inside the cell (self, viral, tumour) | **Exogenous** - material taken in from outside by phagocytosis or endocytosis |
+| Processing route | Cytosolic protein tagged with ubiquitin → chopped by the **proteasome** → peptide pumped into the endoplasmic reticulum by **TAP** → loaded onto MHC I → surface | Vesicle fuses with a lysosome → protein digested by acid proteases → vesicle meets MHC II, whose groove is unblocked when the **invariant chain** is degraded → surface |
+| Peptide length | ~8-10 amino acids | ~13-25 amino acids |
+| Read by | **CD8⁺ cytotoxic T cells** | **CD4⁺ helper T cells** |
+| Message it sends | "Here is everything I am currently making - check it" | "Here is what I found outside - is it a threat?" |
+
+So an infected liver cell displays viral peptides on MHC I and is killed by a CD8⁺ cell, while a dendritic cell that ate the same virus in the tissue displays its peptides on MHC II and *recruits* CD4⁺ help. **Cross-presentation** - dendritic cells routing some engulfed material onto MHC I - is the exception that lets CD8⁺ responses start against viruses that never infected the dendritic cell itself.
+
+### The two signals a T cell needs
+
+Peptide-MHC alone is not enough, and a T cell that receives it alone becomes **anergic** (unresponsive) - a safeguard against attacking healthy tissue.
+
+1. **Signal 1 - specificity.** TCR binds peptide-MHC, with **CD4** gripping MHC II or **CD8** gripping MHC I as coreceptor.
+2. **Signal 2 - licence.** **B7** (CD80/86) on the APC binds **CD28** on the T cell. B7 appears only after the APC's own PRRs have detected a PAMP - so innate immunity is literally the gatekeeper for adaptive activation.
+3. **Signal 3 - direction.** Cytokines from the APC decide *which* helper subset the CD4 cell becomes (IL-12 → Th1, IL-4 → Th2, IL-6/TGF-β → Th17).
+
+**CTLA-4**, which outcompetes CD28 for B7, is the brake on this system; checkpoint-inhibitor drugs work by releasing it.
+
+### Clonal selection
+
+Each naive lymphocyte already carries one randomly generated receptor specificity, made *before* it ever met an antigen. Antigen does not instruct the cell - it simply **selects** the few clones that happen to fit, and those clones proliferate. This is why the first response is slow (rare clones must find their antigen and expand) and the second is fast (the expanded memory pool is already large).
+
 ## B cells
 
-<Figure name="lymphatic/b-cell" caption="B-cell lymphocyte (Blausen) - surface B-cell receptor (BCR, membrane-bound antibody) plus MHC class II for antigen presentation. When activated → plasma cells (antibody factories) or memory B cells." />
+<Figure name="lymphatic/b-cell" caption="A B lymphocyte (Blausen) - the same small round cell as the T cell opposite. Its distinguishing features are molecular: a membrane-bound antibody (the BCR) and MHC class II, neither of which is resolvable in an image like this." />
 
-Develop in **bone marrow**. Activation requires (1) antigen binding to BCR + (2) **CD4⁺ Th2** help (via CD40-CD40L + cytokines). Activated B cells become:
+Develop in **bone marrow**. Activation of a B cell against a **protein** antigen requires two signals: (1) antigen binding and cross-linking the BCR, and (2) help from a **CD4⁺ helper T cell** - specifically a **follicular helper (Tfh)** cell in the germinal centre - delivered through **CD40-CD40L** contact plus cytokines. (A few antigens, such as bacterial polysaccharide capsules, are **T-independent**: they cross-link enough BCRs on their own to make IgM, but with no class switching, no affinity maturation and poor memory. That is why plain polysaccharide vaccines work badly in children under 2 and why conjugating the polysaccharide to a protein carrier rescues them.) Activated B cells become:
 
 - **Plasma cells** - antibody factories (live days to months)
 - **Memory B cells** - long-lived, primed for rapid response on re-exposure
 
 ## Antibodies (immunoglobulins)
 
-<Figure name="lymphatic/antibody-igg-structure" caption="IgG antibody structure - 2 heavy + 2 light chains in a Y-shape. Fab tips with hypervariable loops bind antigen; Fc base mediates complement activation + Fc-receptor binding." />
+<Figure name="lymphatic/antibody-igg-structure" caption="Ribbon model of a real IgG molecule. Each colour is one polypeptide chain: two long heavy chains and two short light chains, folded into repeating immunoglobulin domains and assembled into the familiar Y. The two upper arms are the **Fab** regions that bind antigen; the stem is the **Fc** region that binds complement and Fc receptors. (Nothing is labelled on the structure itself.)" />
 
-<Figure name="lymphatic/immunoglobulins" caption="The five immunoglobulin classes. IgM is a serum pentamer (first responder, big agglutinator). IgG is the workhorse monomer. IgA is a dimer at mucosal surfaces. IgE binds mast cells (allergy + parasites). IgD is the naive B-cell surface receptor." />
+<Figure name="lymphatic/immunoglobulins" caption="The five classes, distinguished by their heavy chain. Only IgM is drawn in its polymeric form - the serum pentamer that makes it such a good agglutinator and complement activator. The other four are drawn as single monomers; note that **secreted IgA is normally a dimer** at mucosal surfaces, which this figure does not show." />
 
 | Class | Form | Role |
 |---|---|---|
@@ -47,14 +76,11 @@ Develop in **bone marrow**. Activation requires (1) antigen binding to BCR + (2)
 | **IgG** | Monomer | Most abundant; crosses placenta; opsonizes; neutralizes |
 | **IgA** | Dimer (secretions) | Mucosal immunity; in breast milk |
 | **IgE** | Monomer | Bound to mast cells → allergy + parasites |
-| **IgD** | Monomer | Naïve B-cell surface receptor; unclear secretory role |
+| **IgD** | Monomer | Co-expressed with IgM on the naïve B-cell surface; role of secreted IgD unclear |
 
 **Class switching** (IgM → IgG/A/E) requires CD40-CD40L signal + cytokines and happens in germinal centers.
 
 ## Primary vs. secondary response
-
-<Figure name="lymphatic/antibody-igg-structure" caption="" />
-
 
 | Feature | Primary | Secondary |
 |---|---|---|
@@ -65,15 +91,41 @@ Develop in **bone marrow**. Activation requires (1) antigen binding to BCR + (2)
 
 This is why **vaccines work** - they generate memory without disease.
 
+## Humoral vs cell-mediated - which arm handles what
+
+| | Humoral (antibody-mediated) | Cell-mediated |
+|---|---|---|
+| Effector | **Antibody** secreted by plasma cells | **T cells** acting directly (CD8⁺ killing; CD4⁺ Th1 activating macrophages) |
+| Works against | Threats **outside** cells: extracellular bacteria, toxins, free virus between cells, encapsulated organisms | Threats **inside** cells: viruses, intracellular bacteria (TB, Listeria), fungi, tumour cells, transplanted tissue |
+| How it acts | **Neutralisation** (blocks the toxin or the virus's entry protein), **opsonisation** (Fc tags the microbe for phagocytosis), **complement activation** via the classical pathway, **agglutination** | Perforin/granzyme killing of the infected cell; IFN-γ arming macrophages to destroy what they have already swallowed |
+| Transferable in serum? | **Yes** - this is what passive immunisation transfers | **No** - requires transfer of living cells |
+| Failure looks like | Recurrent pyogenic and encapsulated bacterial infection (Bruton agammaglobulinemia) | Disseminated viral, fungal and mycobacterial infection (DiGeorge, advanced HIV) |
+
+Both arms usually run at once, and both are started by the same CD4⁺ helper cell - which is exactly why losing CD4 cells in HIV disables the whole adaptive system rather than half of it.
+
+## Active vs passive immunity
+
+Two independent questions: **who made the antibody**, and **how it was acquired**.
+
+| | **Active** - your own lymphocytes respond | **Passive** - preformed antibody is handed to you |
+|---|---|---|
+| **Natural** | Recovering from the infection itself | Maternal IgG across the placenta; IgA in breast milk |
+| **Artificial** | **Vaccination** | **Immune globulin**: rabies, tetanus, hepatitis B, snake antivenom, RSV monoclonal |
+| Onset | Slow - days to weeks | Immediate |
+| Duration | Long, often lifelong; **memory cells are formed** | Short, weeks to months; **no memory** |
+
+Passive immunity is what you give someone who has *already* been exposed and has no time to mount a response. Active immunity is what you give in advance. Post-exposure rabies prophylaxis uses both at once for exactly that reason.
+
+### Vaccine types
+
+- **Live attenuated** (MMR, varicella, oral polio, intranasal influenza) - weakened organism; strongest, longest response including cell-mediated immunity; **contraindicated in pregnancy and in severe immunocompromise**.
+- **Inactivated / killed, subunit, toxoid, conjugate, mRNA** - cannot replicate; safe in immunocompromise, but usually need boosters. Toxoid vaccines (tetanus, diphtheria) raise antibody against the toxin rather than the organism.
+
 <Clinical>
 **HIV** infects CD4⁺ T cells → progressive depletion → susceptibility to opportunistic infections once CD4 < 200/µL (PCP, toxoplasmosis, CMV).
 
 **X-linked agammaglobulinemia** (Bruton): failure of B-cell maturation → no Ig of any class → recurrent encapsulated bacterial infections after maternal IgG wanes at ~6 months.
 </Clinical>
-
-## Histology
-
-<Figure name="histology/white-pulp" caption="Splenic white pulp - site of adaptive immune responses against blood-borne antigens." />
 
 ## Quick check
 
@@ -170,7 +222,7 @@ This is why **vaccines work** - they generate memory without disease.
 | **Lectin** | Mannose-binding lectin on microbial sugars | Innate, antibody-independent |
 | **Alternative** | Spontaneous C3 hydrolysis on microbial surfaces | Innate, antibody-independent |
 | Convergence: **C3 convertase** | All three converge here | Makes C3a (anaphylatoxin) + C3b (opsonin) |
-| **C5–C9 (MAC)** | Membrane attack complex | Lyses Gram-negative bacteria (N. meningitidis especially) |
+| **C5b–C9 (MAC)** | Membrane attack complex | Lyses Gram-negative bacteria (N. meningitidis especially) |
 
 ### Hypersensitivity types
 

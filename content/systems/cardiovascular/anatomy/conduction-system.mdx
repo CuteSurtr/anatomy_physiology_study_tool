@@ -16,15 +16,13 @@ level: undergrad
 
 The cardiac conduction system is a network of **specialized cardiomyocytes** (not nerves) that generate and propagate the electrical signal that triggers each heartbeat. Five components - SA node → AV node → bundle of His → bundle branches → Purkinje fibers - and a single rhythm command-line: **"go from the top, pause at AV, sweep the ventricles bottom-up."**
 
-<Figure name="cardiovascular/conduction" caption="The cardiac conduction system - SA node → internodal tracts → AV node → bundle of His → right + left bundle branches → Purkinje fibers." />
-
-<Figure name="cardiovascular/heart-conduction" caption="The conduction system overlaid on the heart in coronal section (left) and the activation wavefront propagating from atria to ventricles (right)." />
+<Figure name="cardiovascular/heart-conduction" caption="The conduction system overlaid on the heart in coronal section (left) and the activation wavefront propagating from atria to ventricles (right). Note that the tissue is entirely inside the heart wall - it is specialized muscle, not nerve." />
 
 <Figure name="cardiovascular/ecg-trace" caption="Normal sinus rhythm on ECG with labeled P, QRS, T waves and intervals." />
 
 ## The five components
 
-<Figure name="cardiovascular/conduction-system" caption="The five components of the cardiac conduction system - SA node (pacemaker), atrial internodal pathways, AV node, bundle of His, right + left bundle branches, Purkinje fibers." />
+<Figure name="cardiovascular/conduction-system" caption="The conduction pathway labelled: sinoatrial node (pacemaker) → Bachmann's bundle across to the left atrium → atrioventricular node → His bundle → right and left bundle branches → Purkinje fibers." />
 
 | Component | Location | Intrinsic rate | Function |
 |---|---|---|---|
@@ -50,9 +48,6 @@ The cardiac conduction system is a network of **specialized cardiomyocytes** (no
 
 ## Why the AV nodal delay?
 
-<Figure name="cardiovascular/conduction-system" caption="" />
-
-
 The 100 ms hesitation at the AV node is critical:
 - **Atria empty into ventricles** before ventricles contract → optimal preload.
 - **Filters atrial tachyarrhythmias**: in a-fib (350+ atrial impulses/min), the AV node blocks most of them. Ventricular rate stays survivable (~100–160).
@@ -68,7 +63,7 @@ The 100 ms hesitation at the AV node is critical:
 | **Upstroke (phase 0)** | **Ca²⁺** influx (slow, L-type) | **Na⁺** influx (fast) |
 | **Plateau** | None | Phase 2 - Ca²⁺ in / K⁺ out balance |
 | **Repolarization** | K⁺ efflux | K⁺ efflux |
-| **Conduction speed** | Slow (0.05 m/s at AV) | Fast (Purkinje 4 m/s) |
+| **Conduction speed** | Slow (~0.05 m/s at the AV node) | Ventricular myocardium ~0.3–1 m/s; the Purkinje network that feeds it is faster still (~2–4 m/s) |
 | **Refractory period** | Long, decremental | Long (prevents tetany) |
 
 The **funny current (I_f)** is a mixed Na⁺/K⁺ inward current activated at hyperpolarized voltages - paradoxically opens when the cell is "supposed" to rest. This is what makes pacemaker cells autorhythmic. **Ivabradine** blocks I_f → slows SA node → treats stable angina + heart failure without dropping contractility.
@@ -77,7 +72,7 @@ The **funny current (I_f)** is a mixed Na⁺/K⁺ inward current activated at hy
 
 | Branch | Receptor | Effect on SA/AV | Effect on contractility |
 |---|---|---|---|
-| **Sympathetic** (cardiac plexus, T1–T4) | β1 → Gs → ↑cAMP | ↑ rate (chronotropy +), ↑ AV conduction (dromotropy +) | ↑ force (inotropy +), ↑ relaxation (lusitropy +) |
+| **Sympathetic** (cardiac plexus, T1–T4/T5) | β1 → Gs → ↑cAMP | ↑ rate (chronotropy +), ↑ AV conduction (dromotropy +) | ↑ force (inotropy +), ↑ relaxation (lusitropy +) |
 | **Parasympathetic** (vagus, CN X) | M2 → Gi → ↓cAMP, ↑ K⁺ efflux | ↓ rate, ↓ AV conduction (right vagus mostly hits SA; left vagus mostly hits AV) | Minimal direct effect on ventricles |
 
 At rest, **parasympathetic tone dominates** - a denervated transplanted heart runs at ~100 bpm (intrinsic SA rate) instead of 70.
@@ -101,7 +96,7 @@ The **PR interval > 0.20 s = 1st-degree AV block**. **QRS > 0.12 s = bundle bran
 
 <Figure name="cardiovascular/coronary-arteries-labeled" caption="Blood supply to conduction tissue. RCA supplies SA node (60%) and AV node (90%) in right-dominant circulation → inferior MI can disrupt conduction. LAD perforators supply bundle branches." />
 
-| Structure | Artery (in 90% right-dominant hearts) |
+| Structure | Artery (in a right-dominant heart - about 85% of people) |
 |---|---|
 | **SA node** | Right coronary artery → SA nodal branch (60%) or left circumflex (40%) |
 | **AV node** | Right coronary artery → AV nodal branch (90%) - "right-dominant" |
@@ -132,10 +127,7 @@ The **PR interval > 0.20 s = 1st-degree AV block**. **QRS > 0.12 s = bundle bran
 
 ## Why this matters
 
-<Figure name="cardiovascular/ecg-sinus" caption="" />
-
-
-<HighYield variant="boards">
+<HighYield exam="boards">
 - **Adenosine** = transient AV nodal block (5–10 s asystole). Used to break AVNRT and to diagnose a-flutter (slows ventricular rate so the sawtooth pattern becomes visible).
 - **Atropine** (M2 antagonist) → ↑ SA + AV conduction. First-line for symptomatic bradycardia.
 - **β1-blockers, non-dihydropyridine CCBs (verapamil, diltiazem), digoxin** = AV-nodal blockers. Used for **rate control** in atrial fibrillation.
@@ -158,7 +150,7 @@ The **PR interval > 0.20 s = 1st-degree AV block**. **QRS > 0.12 s = bundle bran
       "Sinus bradycardia",
       "3rd-degree (complete) AV block with ventricular escape",
       "2nd-degree Mobitz I (Wenckebach)"
-    ], explanation: "AV dissociation (P waves and QRS marching independently) + wide-complex escape rhythm at ~30 = complete heart block with a ventricular (Purkinje) escape. Junctional escapes are usually narrow (~40–60 bpm). The wide, slow rate signals the AV node has failed and only the Purkinje system is firing." },
+    ], explanation: "AV dissociation (P waves and QRS marching independently) + wide-complex escape rhythm at ~30 = complete heart block with a ventricular (Purkinje) escape. Junctional escapes are usually narrow (~40–60 bpm). A wide, slow escape means the block is below the AV node, in the His-Purkinje system, and only a distal ventricular focus is firing." },
     { q: "What is the most appropriate immediate management?", a: "Transcutaneous pacing → transvenous pacemaker; atropine likely won't help below the AV node", choices: [
       "IV adenosine",
       "Synchronized cardioversion",
